@@ -176,7 +176,7 @@ It maintains its own:
 The combined repository contains both projects.
 
 ```text
-Updated-ly-project/
+ly-legal-research-platform/
 │
 ├── README.md
 ├── .gitignore
@@ -305,19 +305,19 @@ python --version
 Clone the combined repository:
 
 ```powershell
-git clone https://github.com/manasalganti3005/Updated-ly-project.git
+git clone https://github.com/kritika-d5/ly-legal-research-platform.git
 ```
 
 Enter the project:
 
 ```powershell
-cd Updated-ly-project
+cd ly-legal-research-platform
 ```
 
 The expected structure is:
 
 ```text
-Updated-ly-project/
+ly-legal-research-platform/
 └── ly-project/
     ├── server/
     ├── web/
@@ -472,7 +472,7 @@ Do not put those credentials into Git.
 From:
 
 ```text
-Updated-ly-project/ly-project/fir-service
+ly-legal-research-platform/ly-project/fir-service
 ```
 
 create a virtual environment:
@@ -502,7 +502,7 @@ Open a new terminal.
 Navigate to:
 
 ```powershell
-cd C:\path\to\Updated-ly-project\ly-project\server
+cd C:\path\to\ly-legal-research-platform\ly-project\server
 ```
 
 Install dependencies:
@@ -520,7 +520,7 @@ Open another terminal.
 Navigate to:
 
 ```powershell
-cd C:\path\to\Updated-ly-project\ly-project\web
+cd C:\path\to\ly-legal-research-platform\ly-project\web
 ```
 
 Install dependencies:
@@ -544,7 +544,7 @@ Start them in the following order.
 Navigate to:
 
 ```powershell
-cd C:\path\to\Updated-ly-project\ly-project\fir-service
+cd C:\path\to\ly-legal-research-platform\ly-project\fir-service
 ```
 
 Activate the Python environment:
@@ -576,7 +576,7 @@ Open a second PowerShell terminal.
 Navigate to:
 
 ```powershell
-cd C:\path\to\Updated-ly-project\ly-project\server
+cd C:\path\to\ly-legal-research-platform\ly-project\server
 ```
 
 Start the Express server:
@@ -602,7 +602,7 @@ Open a third PowerShell terminal.
 Navigate to:
 
 ```powershell
-cd C:\path\to\Updated-ly-project\ly-project\web
+cd C:\path\to\ly-legal-research-platform\ly-project\web
 ```
 
 Start the frontend:
