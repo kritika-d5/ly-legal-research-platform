@@ -25,6 +25,30 @@ export interface Passage {
   chunkKind: 'body' | 'headnote';
   score: number;
   via: ('vector' | 'text')[];
+  /** cosine similarity 0–1; null when only keyword search found it */
+  semanticScore?: number | null;
+  /** BM25 relative to this query's best keyword hit, 0–1; null when only vector search found it */
+  keywordScore?: number | null;
+  /** where query words occur in `text` */
+  highlights?: Span[];
+}
+
+/** Half-open character range [start, end) into a passage's text. */
+export interface Span {
+  start: number;
+  end: number;
+}
+
+export type MatchStrength = 'strong' | 'partial' | 'weak';
+
+export interface Explanation {
+  id: string;
+  /** null when the LLM was unavailable and a keyword-based reason is shown instead */
+  match: MatchStrength | null;
+  why: string;
+  /** the sentence behind the match, verified verbatim in the passage */
+  keySpan: Span | null;
+  source: 'llm' | 'fallback';
 }
 
 export interface CaseResult {
@@ -90,6 +114,134 @@ export interface CaseText {
   }[];
 }
 
+/* ------------------------------------------------------------------------ *
+ * Counter Engine (CounterEngine.md). v0: `stance` and `outcome` are never
+ * set by the server — the `arguments` collection they'd come from does not
+ * exist yet. `stanceUndetermined: true` is the honest substitute; the UI
+ * must render that, never a guessed side (CounterEngine.md §11).
+ * `speakerUncertain: true` is the same for speaker: two rounds retrieved the
+ * passage under different speakers, so the UI must say so, never show either.
+ * ------------------------------------------------------------------------ */
+
+export type OffenceCategory =
+  | 'ordinary' | 'economic' | 'ndps' | 'pmla' | 'uapa' | 'other_special';
+
+export type Side = 'pro_bail' | 'anti_bail';
+
+export interface Classification {
+  inScope: boolean;
+  topics: string[];
+  offenceCategory: OffenceCategory;
+  offenceInferred: boolean;
+  /** true when scope was never actually verified (no Groq key, or the LLM
+   *  call errored) — drives the "couldn't verify" banner, never silent. */
+  classificationFailed: boolean;
+}
+
+export type Speaker = 'THE COURT' | 'COUNSEL' | 'STATUTE' | 'HEADNOTE';
+
+export interface BecauseOf {
+  tid: number;
+  title: string;
+  polarity: 'neg' | 'mixed';
+}
+
+export interface CounterItem {
+  id: string;
+  kind: 'court_holding' | 'argument' | 'statute';
+  text: string;
+  speaker: Speaker;
+  stance?: Side;
+  outcome?: 'accepted' | 'rejected' | 'not_addressed' | 'unclear';
+  stanceUndetermined?: boolean;
+  speakerUncertain?: boolean;
+  tid: number;
+  caseTitle: string;
+  year: number;
+  courtTier: CourtTier;
+  locator: string | null;
+  paraIds: string[];
+  authorities?: { tid: number; title: string }[];
+  viaGraph?: boolean;
+  becauseOf?: BecauseOf[];
+  /** Round 4 (rebuttals) — never populated in v0, needs ARGUMENTS.md Stage C.
+   *  Declared now so ArgumentCard's nested-response rendering does not need
+   *  to change shape when that round is built. */
+  responses?: CounterResponseItem[];
+}
+
+export interface CounterResponseItem {
+  kind: 'argument_failed' | 'authority_doubted';
+  text: string;
+  tid: number;
+  caseTitle: string;
+  locator: string | null;
+  polarity?: 'neg' | 'mixed';
+}
+
+export interface RoundResult {
+  round: 'supporting' | 'opposing' | 'statutes';
+  items: CounterItem[];
+  empty: boolean;
+}
+
+/** `evidence` holds 1-based passage numbers: N is `sourceIds[N - 1]`. */
+export interface SummaryPoint {
+  point: string;
+  detail: string;
+  evidence: number[];
+}
+
+export interface CounterSummary {
+  premises: string[];
+  /** `number` is 1-based into `premises` */
+  weakestPremise: { number: number; why: string; evidence: number[] } | null;
+  yourCase: SummaryPoint[];
+  otherSide: SummaryPoint[];
+  otherSideNote: string;
+  statutes: SummaryPoint[];
+  gaps: string[];
+}
+
+export interface CounterResponse {
+  classification: Classification;
+  rounds: RoundResult[];
+  /** Stage F — synthesised research summary, markdown. Empty when out of
+   *  scope or when `generationFailed` is true. */
+  answer: string;
+  /** The same summary as fixed fields — what the page renders. Null when out
+   *  of scope, when nothing was retrieved, or when generation failed. */
+  summary: CounterSummary | null;
+  /** Passage [N] in `summary` is the round item with id `sourceIds[N - 1]`. */
+  sourceIds: string[];
+  generationFailed: boolean;
+  /** Non-empty means the model cited a passage number that was not in the
+   *  retrieved set — a hallucinated citation. Surfaced so the UI can flag
+   *  it rather than silently trust every bracket number in `answer`. */
+  invalidCitations: number[];
+  tookMs: number;
+}
+
+export interface CounterRequestBody {
+  position: string;
+  side: Side;
+  offenceCategory?: OffenceCategory;
+}
+
+/** POST /api/counter — plain JSON for now; the SSE version is a later step. */
+export async function runCounter(body: CounterRequestBody): Promise<CounterResponse> {
+  const res = await fetch('/api/counter', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(err.error ?? `counter failed (${res.status})`);
+  }
+  return res.json() as Promise<CounterResponse>;
+}
+
 async function get<T>(path: string): Promise<T> {
   const res = await fetch(path);
   if (!res.ok) {
@@ -110,6 +262,20 @@ export function searchCases({ q, courtTier, contentTypes }: SearchParams) {
   if (courtTier) params.set('courtTier', courtTier);
   if (contentTypes?.length) params.set('contentTypes', contentTypes.join(','));
   return get<SearchResponse>(`/api/search?${params}`);
+}
+
+/** Server caps this at 10 ids per call. */
+export async function explainPassages(q: string, ids: string[]) {
+  const res = await fetch('/api/search/explain', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ q, ids }),
+  });
+  if (!res.ok) {
+    const body = await res.json().catch(() => ({}));
+    throw new Error(body.error ?? `explain failed (${res.status})`);
+  }
+  return res.json() as Promise<{ query: string; tookMs: number; explanations: Explanation[] }>;
 }
 
 export interface GraphNode {

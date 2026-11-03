@@ -1,0 +1,364 @@
+[
+  {
+    "id": "sw01",
+    "group": "should_work",
+    "query": "Anticipatory bail was granted to my client by the Sessions Court without any time limit. The prosecution now wants the High Court to restrict it to a fixed number of days and direct him to surrender and apply for regular bail after that period expires. Is there settled law against imposing a time limit on anticipatory bail like this?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "anticipatory_bail",
+        "section_438",
+        "time_limit",
+        "bail_conditions"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "roundsEmpty": {
+      "supporting": false,
+      "opposing": false,
+      "statutes": true
+    },
+    "answer": "**## Your Position**  \n1. *Premise A*: The Sessions Court correctly granted anticipatory bail **without any time limit**.  \n2. *Premise B*: There is **settled law** that a court **may not** impose a fixed‑term limitation on anticipatory bail and must allow it to continue until the trial concludes or the order is otherwise cancelled.  \n3. *Premise C*: The prosecution’s request to force the accused to surrender after a set number of days is therefore contrary to established jurisprudence.  \n\n*Weakest premise*: **Premise B** – the assertion that the law is settled against any time‑limit is the most vulnerable, because several Supreme Court and High Court passages acknowledge that the discretion to **limit** the duration of anticipatory bail is expressly available to the court.  \n\n---\n\n**## Your Case**  \n\n| Point | Authority & Citation |\n|-------|----------------------|\n| The **discretionary power** to **limit** the period of anticipatory bail is recognised by the Constitution Bench in *Gurbaksh Singh Sibbia*; the court can “limit the period of anticipatory bail” for justifiable reasons【1†para 7】. |\n| The **normal rule** is *not* to limit the duration, but the court *may* do so after considering the “peculiar facts and circumstances” of the case【1†para 6.2】. |\n| *Bhadresh Sheth* holds that, **ordinarily**, anticipatory bail should continue till trial, yet the court is **entitled to impose conditions**, including time‑limits, and may modify or cancel the order if misuse is shown【4†(vi)‑(viii)】. |\n| *Siddharam Satlingappa Mhetre* observes that once the accused is released on anticipatory bail, it would be “unreasonable to compel the accused to surrender … and again apply for regular bail”【2†para 110‑111】, supporting the view that a blanket, indefinite order is permissible. |\n| *K.L. Verma* notes that a High Court, while granting interim anticipatory bail, **imposed the condition** that the accused move for regular bail before the court seised of the case【6†para 3】 – an example of a time‑limit being lawfully attached. |\n| *Balchand Jain* (1976) explains that Section 438 confers an **extraordinary remedy** and does **not** prescribe a fixed duration; the power to cancel or modify remains with the granting court【5†p. 62】. |\n| *Bharat Chaudhary* (2003) states that “the duration of anticipatory bail should be normally limited till the trial court has the necessary material …” and rejects the view that the statute **denudes** the court of power to set a limit【8】. |\n\nCollectively, these passages show that while the **default** is to allow the bail to continue, the law **does not forbid** a court from imposing a time‑limit where justified. Hence, the prosecution’s request is **not per se barred** by settled law.  \n\n---\n\n**## The Other Side**  \n\n*Opposing‑flavoured submissions (side not determined)*  \n\n- In *Sushila Aggarwal* the learned counsel argued that “as a normal rule, it is not required to limit the duration of anticipatory bail” and that the “life of anticipatory bail would not end on filing of charge‑sheet”【13†para 6.2‑6.3】.  \n- The same case records a submission that “once bail is granted in anticipation of arrest, there is no reason to limit the same till the summon is issued”【12】.  \n\n*Potential counter‑arguments inferred from the authority graph*  \n\n- The Constitution Bench in *Sibbia* expressly **allows** courts to **limit** the period of anticipatory bail, contradicting any claim of an absolute prohibition on time‑limits【1†para 7】.  \n- *Bhadresh Sheth* and *K.L. Verma* illustrate that courts have **exercised** the power to set conditions, including requiring the accused to apply for regular bail within a prescribed timeframe【4†(vi)‑(viii)】【6†para 3】.  \n- *Bharat Chaudhary* stresses that a blanket, indefinite order would defeat the object of Section 438, and therefore a **restriction** on duration is a legitimate safeguard【8】.  \n\nThus, the corpus contains material that **supports** the view that imposing a time‑limit is within judicial discretion and not prohibited.  \n\n---\n\n**## Restrictive Statutes**  \n*No statutory text passages were supplied.*  \n\n---\n\n**## What This Corpus Does Not Show**  \n\n- The **outcome** of any argument that a time‑limit *must* be imposed (i.e., whether a higher court has ever *rejected* such a limitation) is **absent**; the retrieved material records submissions and reasoning but does **not** contain a definitive holding on the propriety of the prosecution’s specific request.  \n- Consequently, the corpus does not indicate whether a court has **actually struck down** a time‑limit imposed by a lower court in a comparable factual scenario.  \n\n---\n\n**## Sources**  \n\n| # | Case / Document | Locator |\n|---|----------------|---------|\n| 1 | *Sushila Aggarwal* v. State (NCT of Delhi) (2020) | para 7; para 6.2‑6.3 |\n| 2 | *Siddharam Satlingappa Mhetre* v. State of Maharashtra (2010) | paras 109‑111 |\n| 3 | *Gurbaksh Singh Sibbia* v. State of Punjab (1980) | p. 419 |\n| 4 | *Bhadresh Sheth* v. State of Gujarat (2015) | (vi)‑(viii) |\n| 5 | *Balchand Jain* v. State of Madhya Pradesh (1976) | p. 62 |\n| 6 | *K.L. Verma* v. State & Anr. (1996) | para 3 |\n| 8 | *Bharat Chaudhary* & Anr. v. State of Bihar (2003) | (full passage) |\n| 12 | Submission, side not determined – *Sushila Aggarwal* (2020) | p. 4 |\n| 13 | Submission, side not determined – *Sushila Aggarwal* (2020) | para 7 |\n| 15 | Submission, side not determined – *Sushila Aggarwal* (2020) | paras 29‑30 |\n| 16 | Submission, side not determined – *Sushila Aggarwal* (2020) | p. 77‑78 |",
+    "generationFailed": false,
+    "serverInvalidCitations": [],
+    "suppliedCount": 16,
+    "items": [
+      {
+        "n": 1,
+        "round": "supporting",
+        "chunkId": "123660783_c025",
+        "paraIds": [
+          "123660783_c025"
+        ],
+        "tid": 123660783,
+        "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+        "year": 2020,
+        "courtTier": "SC",
+        "locator": "para 7",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "6.2 It is further submitted by the learned Counsel appearing on behalf of respondent no.2 that as a normal rule, it is not required to limit the duration of anticipatory bail. It is submitted that however, court while granting anticipatory bail may, keeping in view the peculiar facts and circumstances of the case, limit the duration of anticipatory bail. It is submitted that the life of anticipatory bail would not end on filing of charge sheet.\n\n6.3 It is further submitted by the learned counsel appearing on behalf of respondent no.2 that both the questions of law framed for consideration by the larger Bench does not arise for consideration. It is submitted that considering the elaborate reasons given by the Constitution Bench in not putting any fetters or limitations on the discretionary power of a court to grant anticipatory bail and as there is no ambiguity in the judgment of the Constitution Bench, this Court may reiterate the judgment of the Constitution Bench in Gurbaksh Singh Sibbia (supra).\n\n7. We have heard the learned counsel for the respective parties at length.\n\nIn the light of the conflicting views of the different Benches of varying strength, the following questions are referred for consideration by a larger Bench:\n\n“(1) Whether the protection granted to a person under Section 438 Cr.P.C. should be limited to a fixed period so as to enable the person to surrender before the Trial Court and seek regular bail."
+      },
+      {
+        "n": 2,
+        "round": "supporting",
+        "chunkId": "1108032_c068",
+        "paraIds": [
+          "1108032_c068"
+        ],
+        "tid": 1108032,
+        "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+        "year": 2010,
+        "courtTier": "SC",
+        "locator": "paras 109-111",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "109. The court does not use the expression `anticipatory bail' but it provides for issuance of direction for the release on bail by the High Court or the Court of Sessions in the event of arrest. According to the aforesaid judgment of Salauddin's case, the accused has to surrender before the trial court and only thereafter he/she can make prayer for grant of bail by the trial court. The trial court would release the accused only after he has surrendered.\n\n110. In pursuance to the order of the Court of Sessions or the High Court, once the accused is released on bail by the trial court, then it would be unreasonable to compel the accused to surrender before the trial court and again apply for regular bail.\n\n111. The court must bear in mind that at times the applicant would approach the court for grant of anticipatory bail on mere apprehension of being arrested on accusation of having committed a non-bailable offence. In fact, the investigating or concerned agency may not otherwise arrest that applicant who has applied for anticipatory bail but just because he makes an application before the court and gets the relief from the court for a limited period and thereafter he has to surrender before the trial court and only thereafter his bail application can be considered and life of anticipatory bail comes to an end. This may lead to disastrous and unfortunate consequences. The applicant who may not have otherwise lost his liberty loses it because he chose to file application of anticipatory bail on mere apprehension of being arrested on accusation of having committed a non-bailable offence. No arrest should be made because it is lawful for the police officer to do so. The existence of power to arrest is one thing and the justification for the exercise of it is quite another. The police officer must be able to justify the arrest apart from his power to do so. This finding of the said judgment (supra) is contrary to the legislative intention and law which has been declared by a Constitution Bench of this court in Sibbia's case (supra)."
+      },
+      {
+        "n": 3,
+        "round": "supporting",
+        "chunkId": "1308768_c077",
+        "paraIds": [
+          "1308768_c077"
+        ],
+        "tid": 1308768,
+        "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+        "year": 1980,
+        "courtTier": "SC",
+        "locator": "p. 419",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "A blanket order of anticipatory bail is bound to cause serious interference with both the right and the duty of the police in the matter of investigation because, regardless of what kind of offence is alleged to have been committed by the applicant and when, an order of bail which comprehends allegedly unlawful activity of any description whatsoever, will prevent the police from arresting the applicant even if he commits, say, a murder in the presence of the public. Such an order can then become a charter of lawlessness and a weapon to stifle prompt investigation into offences which could not possibly be predicated when the order was passed. Therefore, the court which grants anticipatory bail must take care to specify the offence or offences in respect of which alone the order will be effective. The power should not be exercised in a vacuum.\n\nThere was some discussion before us on certain minor modalities regarding the passing of bail orders under Section 438(1). Can an order of bail be passed under that section without notice to the public prosecutor? It can be. But notice should issue to the public prosecutor or the Government Advocate forthwith and the question of bail should be re-examined in the light of the respective contentions of the parties. The ad-interim order too must conform to the requirements of the section and suitable conditions should be imposed on the applicant even at that stage. Should the operation of an order passed under Section 438(1) be limited in point of time? Not necessarily. The Court may, if there are reasons for doing so, limit the operation of the order to a short period until after the filing of an F.I.R. in respect of the matter covered by the order. The applicant may in such cases be directed to obtain an order of bail under Section 437 or 439 of the Code within a reasonably short period after the filing of the F.I.R. as aforesaid. But this need not be followed as an invariable rule. The normal role should be not to limit the operation of the order in relation to a period of time.\n\nDuring the last couple of years this Court, while dealing with appeals against orders passed by various High Courts, has granted anticipatory bail to many a person by imposing conditions set out in Section 438(2)(i), (ii) and"
+      },
+      {
+        "n": 4,
+        "round": "supporting",
+        "chunkId": "180463386_c022",
+        "paraIds": [
+          "180463386_c022"
+        ],
+        "tid": 180463386,
+        "caseTitle": "Bhadresh Bipinbhai Sheth vs State Of Gujarat & Anr on 1 September, 2015",
+        "year": 2015,
+        "courtTier": "SC",
+        "locator": null,
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "After hearing the Public Prosecutor the court may either reject the anticipatory bail application or confirm the initial order of granting bail. The court would certainly be entitled to impose conditions for the grant of anticipatory bail. The Public Prosecutor or the complainant would be at liberty to move the same court for cancellation or modifying the conditions of anticipatory bail at any time if liberty granted by the court is misused. The anticipatory bail granted by the court should ordinarily be continued till the trial of the case.\n\n(vi) It is a settled legal position that the court which grants the bail also has the power to cancel it. The discretion of grant or cancellation of bail can be exercised either at the instance of the accused, the Public Prosecutor or the complainant, on finding new material or circumstances at any point of time.\n\n(vii) In pursuance of the order of the Court of Session or the High Court, once the accused is released on anticipatory bail by the trial court, then it would be unreasonable to compel the accused to surrender before the trial court and again apply for regular bail.\n\n(viii) Discretion vested in the court in all matters should be exercised with care and circumspection depending upon the facts and circumstances justifying its exercise. Similarly, the discretion vested with the court under Section 438 CrPC should also be exercised with caution and prudence. It is unnecessary to travel beyond it and subject the wide power and discretion conferred by the legislature to a rigorous code of self-imposed limitations.\n\n(ix) No inflexible guidelines or straitjacket formula can be provided for grant or refusal of anticipatory bail because all circumstances and situations of future cannot be clearly visualised for the grant or refusal of anticipatory bail. In consonance with legislative intention, the grant or refusal of anticipatory bail should necessarily depend on the facts and circumstances of each case.\n\n(x) We shall also reproduce para 112 of the judgment wherein the Court delineated the following factors and parameters that need to be taken into consideration while dealing with anticipatory bail:"
+      },
+      {
+        "n": 5,
+        "round": "supporting",
+        "chunkId": "1868823_c031",
+        "paraIds": [
+          "1868823_c031"
+        ],
+        "tid": 1868823,
+        "caseTitle": "Balchand Jain vs State Of Madhya Pradesh on 5 November, 1976",
+        "year": 1976,
+        "courtTier": "SC",
+        "locator": "p. 62",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "To begin with s. 438 of the Code applies only to non-bailable offences. Secondly, the only authorities which are empowered under this section to grant bail are the Court of Session or the High Court. In view of the fact that an order for anticipatory bail is an extraordinary remedy available in special cases, this power has been conferred on the higher echelons of judicial service, namely, the Court of Session or the High Court. Another important consideration which flows from the interpretation of s. 438 of the Code is that this section does not contain any guidelines for passing an order of anticipatory bail. We might, however, mention here that the term 'anticipatory bail is really a misnomer, because what the section contemplates is not anticipatory bail, but merely an order releasing an accused on bail in the event of his arrest. It is manifest that there can be no question of bail, unless a person is under detention or custody. In these circumstances, therefore, there can be no question of a person being released on bail if he has not been arrested or placed in police custody. Section 438 of the Code expressly prescribes that any order passed under that section would be effective only after the accused has been arrested. The object which is sought to be achieved by s. 438 of the Code is that the moment a person is arrested, if he has already obtained an order from the Sessions Judge or the High Court, he would be released immediately without having to undergo the rigours of jail even for a few days which would necessarily be taken up if he has to apply for bail after arrest. Before, however, we dwell on the real concept of s. 438 of the Code, we would like to indicate the circumstances in which this section was added to the new Code of Criminal Procedure, 1973. Prior to the new Code there was no provision for an order of anticipator), bail in the Code, and there appeared to be a serious divergence of judicial opinion on the question whether or not a Court had the power to pass an order for anticipatory bail. Some of the High Courts held that the Courts did possess the power, while the other High Courts held that the Court did not. It is not necessary for us now to decide as to which view is correct. The controversy that existed before has now been set at rest by enacting s. 438 in the new Code of Criminal Procedure. While the Bill in the Lok Sabha, Shri Ram Niwas Mirdha the concerned Minister detailed the various objects of the amendments and one of the observations made by him was that by virtue of the new amendment there was liberalisation of bail provisions. The relevant part in paragraph-2 of the Statement of Objects and Reasons published in the Gazette of India Extraordinary Part II-Section 2 dated December 10, 1970 at p. 1309 runs thus:"
+      },
+      {
+        "n": 6,
+        "round": "supporting",
+        "chunkId": "89063_c002",
+        "paraIds": [
+          "89063_c002"
+        ],
+        "tid": 89063,
+        "caseTitle": "K.L. Verma vs State And Anr. on 13 October, 1996",
+        "year": 1996,
+        "courtTier": "SC",
+        "locator": "para 3",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "3. We have carefully examined both the orders of 9-10-1996 and 11-10-1996 and have also heard counsel for the accused as well as counsel for the CBI and we are of the opinion that the proper course for the High Court was to decide on the question of the requirement of sanction and if the High Court could not do so, to have stayed further proceedings till that vital question was answered. On the other question emanating from the order dated 9-10-1996, we find that the High Court placed reliance on this Court's decision in Salauddin Abdulsamad Shaikh v. State of Maharashtra, which was a case in which the High Court, while granting interim anticipatory bail, imposed certain conditions, one of which was that the accused should move for regular bail before the Court which was in seisin of the case pending against him. The High Court also observed that the application should be disposed of uninfluenced by the observations made in the earlier order. The special leave petition was directed against that order of the High Court. While dealing with that order, this Court observed that under Section 438 of the Code, when any person has reason to believe that he may be arrested on an accusation of having committed a non-bailable offence, the High Court or the Court of Session may, if it thinks fit, direct that in the event of such arrest, he shall be released on bail and in passing that order, it may include such conditions as it may deem appropriate. This Court further observed that anticipatory bail is granted in anticipation of arrest in non-bailable cases, but that does not mean that the regular court, which is to try the offender, is sought to be bypassed. It was, therefore, pointed out that it was necessary that such anticipatory bail orders should be of a limited duration only and ordinarily on the expiry of that duration or extended duration the court granting anticipatory bail should leave it to the regular court to deal with the matter on an appreciation of evidence placed before it after the investigation has made progress or the charge-sheet is submitted. By this, what the Court desired to convey was that an order of anticipatory bail does not enure till the end of trial but it must be of limited duration as the regular court cannot be bypassed. The limited duration must be determined having regard to the facts of the case and the need to give the accused sufficient time to move the regular court for bail and to give the regular court sufficient time to determine the bail application. In other words, till the bail application is disposed of one way or the other the court may allow the accused to remain on anticipatory bail. To put it differently, anticipatory bail may be granted for a duration which may extend to the date on which the bail application is disposed of or even a few days thereafter to enable the accused persons to move the higher court, if they so desire. This decision was not intended to convey that as soon as the accused persons are produced before the regular court the anticipatory bail ends even if the court is yet to decide the question of bail on merits. The decision in Salauddin Case (Supra) has to be so understood."
+      },
+      {
+        "n": 7,
+        "round": "supporting",
+        "chunkId": "862701_c010",
+        "paraIds": [
+          "862701_c010"
+        ],
+        "tid": 862701,
+        "caseTitle": "Aslam Babalal Desai vs State Of Maharashtra on 15 September, 1992",
+        "year": 1992,
+        "courtTier": "SC",
+        "locator": "para 6",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "If the investigation cannot be completed within the said period of 24 hours, the Magistrate before whom the accused person is produced, whether he has or has not jurisdiction to try the case, can authorise his further detention in custody from time to time for a period not exceeding 15 days in the whole. If he has no jurisdiction to try the case or commit for trial and considers his further detention unnecessary, he must forward the accused to the Magistrate having jurisdiction. Such Magistrate may authorise the further detention of the accused person otherwise than in the custody of the police, beyond the period of 15 days if he is satisfied that adequate grounds exist for so doing. But even he cannot authorise the detention of the accused person in custody for a period exceeding 90 days, if the investigation relates to an offence punishable with death, imprisonment for life or imprisonment for a term of not less than 10 years, or 60 days where the investigation relates to any other offence, if the accused person is prepared to furnish bail. In other words if on the expiry of the aforesaid period of 90/60 days, the accused person offers to furnish bail, the Magistrate is bound to release him on bail and such released shall be deemed to be under Chapter XXXIII of the Code. As pointed out earlier Chapter XXXIII which includes Sections 437 and 439 relevant for our purpose empowers the court to release an accused person on bail and at the same time also provides for cancellation of bail in certain eventualities. The legislative history of Section 167 shows that under the Code of 1898 the detention of an accused person in custody was not permitted for a term exceeding 15 days in the whole. This provision was breached by the convenient practice, albeit of doubtful legality, of filing a 'preliminary' charge-sheet and then seeking remand under Section 344 (Section 309 under the Code) which really did not come into play during investigation. But it was at the same time realised that in genuine and complex cases the investigation may not be completed within the short period of 15 days even if the investigating agency proceeds with the utmost sense of urgency. The Law Commission had recommended that the period be increased to 60 days but it was apprehended that while this increase would become a rule, yet the practice of doubtful legality of filing a preliminary charge-sheet and seeking remand may not be curbed. "
+      },
+      {
+        "n": 8,
+        "round": "supporting",
+        "chunkId": "257280_c006",
+        "paraIds": [
+          "257280_c006"
+        ],
+        "tid": 257280,
+        "caseTitle": "Bharat Chaudhary & Anr vs State Of Bihar & Anr on 8 October, 2003",
+        "year": 2003,
+        "courtTier": "SC",
+        "locator": null,
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "From the above observations, we are unable to read any restriction on the power of the courts empowered to grant anticipatory bail under Section 438 of the Crl. P.C. We respectfully agree with the observations of this Court in the said case that the duration of anticipatory bail should be normally limited till the trial court has the necessary material before it to pass such orders and it thinks fit on the material available before it. That is only a restriction in regard to blanket anticipatory bail for an unspecified period. This judgment in our opinion does not support the extreme argument addressed on behalf of the learned counsel for the respondent-State that the courts specified in Section 438 of the Crl.P.C. are denuded of their power under the said Section where either the cognizance is taken by the concerned court or charge sheet is filed before the appropriate Court. As stated above this would only amount to defeat the very object for which Section 438 was introduced in the Crl.P.C. in the year 1973. As observed above and having heard the learned counsel for the parties, we are of the considered opinion that the appellants in this case should be released on bail, in the event of their being arrested, on their furnishing a self bond each for a sum of Rs.5,000/- and a surety to the like sum. The appellants shall abide by the conditions enumerated in Section 438 of the Code."
+      },
+      {
+        "n": 9,
+        "round": "opposing",
+        "chunkId": "attack_1308768_1868823",
+        "paraIds": [
+          "1308768_p_63"
+        ],
+        "tid": 1308768,
+        "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+        "year": 1980,
+        "courtTier": "SC",
+        "locator": "p. 413",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": true,
+        "text": "We hold the decision in Balchand Jain (supra) in great respect but it is necessary to remember that the question as regards the interpretation of Section 438 did not at all arise in that case. Fazal Ali, J. has stated in paragraph 3 of his judgment that \"the only point\" which arose for consideration before the Court was whether the provisions of Section 438 relating to anticipatory bail stand overruled and repealed by virtue of Rule 184 of the Defence and Internal Security of India Rules, 1971 or whether both the provisions can, by the rule of harmonious interpretation, exist side by side. Bhagwati, J. has also stated in his judgment, after adverting to Section 438 that Rule 184 is what the Court was concerned with in the appeal. The observations made in Balchand Jain (supra) regarding the nature of the power conferred by Section 438 and regarding the question whether the conditions mentioned in Section 437 should be read into Section 438 cannot therefore be treated as concluding the points which arise directly for our consideration. We agree, with respect, that the power conferred by Section 438 is of an extraordinary character in the sense indicated above, namely, that it is not ordinarily resorted to like the power conferred by Sections 437 and"
+      },
+      {
+        "n": 10,
+        "round": "opposing",
+        "chunkId": "attack_123660783_1108032",
+        "paraIds": [
+          "123660783_p_16"
+        ],
+        "tid": 123660783,
+        "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+        "year": 2020,
+        "courtTier": "SC",
+        "locator": "p. 8",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": true,
+        "text": "It is submitted by Shri Raval that however, the judgment rendered in Siddharam Satlingappa Mhetre (supra) particularly in paragraphs 95, 108, 122 and 123 does not take into consideration the observations of the Constitution Bench in Gurbaksh Singh Sibbia (supra) in paragraphs 42 & 43, which clearly cull out that the discretion of the Sessions Court or a High Court is wide enough to limit as well as specify the duration of the anticipatory bail taking into account all relevant factors which may persuade the discretion of the Court. It is submitted that Siddharam Satlingappa Mhetre (supra) proceeded to hold that the anticipatory bail shall subsists during the entire currency of the trial and specifically rejected the notion that anticipatory bail could be for a limited time as well, on the expiry of which the accused must surrender and apply for a regular bail. It is submitted that in view of the conflicting approach, the decision rendered in the case of Siddharam Satlingappa Mhetre (supra) particularly the observations made in paragraphs 95, 108, 122 & 123 need to be revisited."
+      },
+      {
+        "n": 11,
+        "round": "opposing",
+        "chunkId": "attack_123660783_1308768",
+        "paraIds": [
+          "123660783_p_30"
+        ],
+        "tid": 123660783,
+        "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+        "year": 2020,
+        "courtTier": "SC",
+        "locator": "para 4",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": true,
+        "text": "4. Shri Tushar Mehta, learned Solicitor General of India has heavily relied upon paras 42 and 43 of Gurbaksh Singh Sibbia (supra) and has submitted that as observed and held by the Constitution Bench of this Court that the Court can in a given case and for justifiable reasons limit the period of anticipatory bail. It is submitted that this Court in the case of Siddharam Satlingappa Mhetre (supra) has misread the judgment in Gurbaksh Singh Sibbia (supra) to a limited extent. It is submitted that to the extent Siddharam Satlingappa Mhetre (supra) states that “in view of the clear declaration of the law by the Constitution Bench, the life of the order under Section 438 Cr.P.C. granting bail cannot be curtailed”, may not be correct law in light of the observations made in para 42 by the Constitution Bench in Gurbaksh Singh Sibbia (supra). It is submitted that the Constitution Bench in Gurbaksh Singh Sibbia (supra) has not categorically barred anticipatory bail order for limited time period, and at the same time, merely stated that “normal rule” should be not to limit the time period. It is submitted that at the same time, the decision of this Court in the case of Salauddin Abdulsamad Shaikh (supra), to the extent it states that the order of the anticipatory bail has to be necessarily limited in time frame is against the decision of the Constitution Bench in Gurbaksh Singh Sibbia (supra), which specifically states that the “normal rule” to not limit the order of anticipatory bail. It is submitted that therefore the extreme views on both side in Siddharam Satlingappa Mhetre (supra) and Salauddin Abdulsamad Shaikh (supra), to that limited extent, do not consider the observations in Gurbaksh Singh Sibbia (supra), in the correct light. It is submitted that in a case, with justifiable reasons, to be recorded in writing, indicating reasons to deviate from the “normal rule”, the anticipatory bail can be granted for a limited time period, the life of which, would extinguish accordingly."
+      },
+      {
+        "n": 12,
+        "round": "opposing",
+        "chunkId": "123660783_c004",
+        "paraIds": [
+          "123660783_p_10",
+          "123660783_p_11"
+        ],
+        "tid": 123660783,
+        "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+        "year": 2020,
+        "courtTier": "SC",
+        "locator": "p. 4",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "It is submitted that after exercising the discretion judiciously, the High Court or the Sessions Court grants “anticipatory bail” and that too after hearing the Public Prosecutor. It is submitted that therefore once the bail is granted in anticipation of the arrest, there is no reason to limit the same till the summon is issued by the Court and/or there is no reason to limit the period of bail in anticipation granted.\n\n2.3 Shri Harin P. Raval, learned Senior Advocate appearing as Amicus Curiae has further submitted that in the case of Gurbaksh Singh Sibbia (supra), a Constitution Bench of this Court has observed and held that the facility which Section 438, Cr."
+      },
+      {
+        "n": 13,
+        "round": "opposing",
+        "chunkId": "123660783_c025",
+        "paraIds": [
+          "123660783_p_37",
+          "123660783_p_38",
+          "123660783_p_39",
+          "123660783_p_40",
+          "123660783_p_41"
+        ],
+        "tid": 123660783,
+        "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+        "year": 2020,
+        "courtTier": "SC",
+        "locator": "para 7",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "6.2 It is further submitted by the learned Counsel appearing on behalf of respondent no.2 that as a normal rule, it is not required to limit the duration of anticipatory bail. It is submitted that however, court while granting anticipatory bail may, keeping in view the peculiar facts and circumstances of the case, limit the duration of anticipatory bail. It is submitted that the life of anticipatory bail would not end on filing of charge sheet.\n\n6.3 It is further submitted by the learned counsel appearing on behalf of respondent no.2 that both the questions of law framed for consideration by the larger Bench does not arise for consideration. It is submitted that considering the elaborate reasons given by the Constitution Bench in not putting any fetters or limitations on the discretionary power of a court to grant anticipatory bail and as there is no ambiguity in the judgment of the Constitution Bench, this Court may reiterate the judgment of the Constitution Bench in Gurbaksh Singh Sibbia (supra).\n\n7. We have heard the learned counsel for the respective parties at length.\n\nIn the light of the conflicting views of the different Benches of varying strength, the following questions are referred for consideration by a larger Bench:\n\n“(1) Whether the protection granted to a person under Section 438 Cr.P.C. should be limited to a fixed period so as to enable the person to surrender before the Trial Court and seek regular bail."
+      },
+      {
+        "n": 14,
+        "round": "opposing",
+        "chunkId": "123660783_c109",
+        "paraIds": [
+          "123660783_p_165"
+        ],
+        "tid": 123660783,
+        "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+        "year": 2020,
+        "courtTier": "SC",
+        "locator": "p. 78",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "18. Counsel submitted that the provision in Section 438 read with Section 439 (2) of the Code, contain clear guidelines and limitations. It was highlighted that the discretion to impose (or not impose) condition is left to the concerned court and the Code therefore cannot be interpreted to cut short its duration either till filing of charge-sheet or unearthing of alleged fresh materials during investigation. It is submitted that the power to curtail or to diminish, the duration of anticipatory bail, in a suitable case, is governed by Section 439(2) of the Code in the same manner which is enumerated in Section 437 of the Code (which is applicable to a Court other than High Court or Court of Session). The counsel urged that there have been instances of courts passing orders, including in some of the orders/judgments of this Court, of law and to entrust him to the custody of his sureties who are bound to produce him to appear at his trial at a specified time and place. The sureties may seize their principal at any time and may discharge themselves by handing him over to the custody of law and he will then be imprisoned.” wherein denial of anticipatory bail is followed by direction to accused to surrender and seek regular bail. This, counsel highlighted, is not based on any sound rationale."
+      },
+      {
+        "n": 15,
+        "round": "opposing",
+        "chunkId": "123660783_c122",
+        "paraIds": [
+          "123660783_p_179",
+          "123660783_p_180"
+        ],
+        "tid": 123660783,
+        "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+        "year": 2020,
+        "courtTier": "SC",
+        "locator": "paras 29-30",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "29. Elaborating on his submissions, the amicus submitted that whether to impose any conditions or limit the order of anticipatory bail in point of time undoubtedly falls within the discretion of the court seized of the application. He however submitted that this discretion should be exercised with caution and circumspection. Counsel submitted that there could be three situations when anticipatory bail applications are to be considered: one, when the application is filed in anticipation of arrest, before filing FIR; two, after filing FIR, but before the filing of the charge sheet; and three, after filing charge sheet. It was submitted that as a matter of prudence and for good reasons, articulated in Salauddin, K.L. Verma, Adri Dharan Das and decisions adopting their reasoning, it would be salutary and in public interest for courts to impose time limits for the life of orders of anticipatory bail. Counsel submitted that if anticipatory bail is sought before filing of an FIR the courts should grant relief, limited till the point in time, when the FIR is filed. In the second situation, i.e. after the FIR is filed, the court may limit the grant of anticipatory bail till the point of time when a charge sheet is filed; in the third situation, if the application is made after filing the charge sheet, it is up to the court, to grant or refuse it altogether, looking at the nature of the charge. Likewise, if arrest is apprehended, the court should consider the matter in an entirely discretionary manner, and impose such conditions as may be deemed appropriate.\n\n30. Mr. Raval submitted that in every contingency, the court is not powerless after the grant of an order of anticipatory bail; it retains the discretion to revisit the matter if new material relevant to the issue, is discovered and placed on record before it. He highlighted Section 439(2) and argued that that provision exemplified the power of the court to modify its previous approach and even revoke altogether an earlier order granting anticipatory bail. It was submitted that the bar under Section 362 of the Code (against review of an order by a criminal court) is inapplicable to matters of anticipatory bail, given the nature and content of the power under Section 439(2)."
+      },
+      {
+        "n": 16,
+        "round": "opposing",
+        "chunkId": "123660783_c108",
+        "paraIds": [
+          "123660783_p_164",
+          "123660783_p_165"
+        ],
+        "tid": 123660783,
+        "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+        "year": 2020,
+        "courtTier": "SC",
+        "locator": "p. 77",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "17. Counsel highlighted that anticipatory bail is panacea for apprehension of arrest in false case. Anticipatory bail protects from trauma and stigma of arrest of an innocent (in most of the cases, full of various responsibilities and even being sole bread earner of her/his family members), consequently prohibiting in creating reverse victims by way of dependent upon the said accused. An elementary postulate of criminal jurisprudence is the presumption of innocence, meaning thereby that a person is believed to be innocent until found guilty. However, there are instances in our criminal law where a reverse onus is placed on an accused with regard to some specific offences but that is another matter and does not detract from the fundamental postulate in respect of other offences. Yet another important facet of our criminal jurisprudence is that the grant of bail is the general rule and putting a person in jail or in a prison or in a correction home (whichever expression one may wish to use) is an exception. Counsel relied on Dataram Singh v. State of U.P (2018) 3 SCC 22).\n\n18. Counsel submitted that the provision in Section 438 read with Section 439 (2) of the Code, contain clear guidelines and limitations. It was highlighted that the discretion to impose (or not impose) condition is left to the concerned court and the Code therefore cannot be interpreted to cut short its duration either till filing of charge-sheet or unearthing of alleged fresh materials during investigation. It is submitted that the power to curtail or to diminish, the duration of anticipatory bail, in a suitable case, is governed by Section 439(2) of the Code in the same manner which is enumerated in Section 437 of the Code (which is applicable to a Court other than High Court or Court of Session). The counsel urged that there have been instances of courts passing orders, including in some of the orders/judgments of this Court, of law and to entrust him to the custody of his sureties who are bound to produce him to appear at his trial at a specified time and place. The sureties may seize their principal at any time and may discharge themselves by handing him over to the custody of law and he will then be imprisoned.” wherein denial of anticipatory bail is followed by direction to accused to surrender and seek regular bail. This, counsel highlighted, is not based on any sound rationale."
+      },
+      {
+        "n": null,
+        "round": "opposing",
+        "chunkId": "123660783_c022",
+        "paraIds": [
+          "123660783_p_31",
+          "123660783_p_32"
+        ],
+        "tid": 123660783,
+        "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+        "year": 2020,
+        "courtTier": "SC",
+        "locator": "para 5",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "4.1 It is further submitted by Shri Tushar Mehta, learned Solicitor General of India that so far as the second reference, namely, whether the life of an anticipatory bail should end at the time and stage when the accused is summoned by the court is concerned, it is submitted that there cannot be a straightjacket formula. It is submitted that in a case wherein the anticipatory bail is granted for a limited time period, the life would extinguish accordingly. It is submitted that in a case wherein the anticipatory bail is granted without conditions, the life may terminate upon the circumstances warranting cancellation of such bail or such interference. It is submitted that the statute does not contemplate an automatic cancellation upon filing of charge sheet and therefore the judgment of this Court in the case of HDFC Bank Limited (supra), to that extent, may not lay down the correct law. It is submitted that, at the same time, the Hon’ble Courts have deprecated the practice of blanket orders of bail/anticipatory bail. It is submitted that there are eventualities arising in every case may be different and therefore are required to be dealt with accordingly, in the facts and circumstances of each case. It is submitted that even while granting the anticipatory bail, the right of the investigating agency to seek custodial interrogation cannot be hampered mechanically.\n\n5. Relying upon the decisions of this Court in the cases of HDFC Bank Ltd. (supra) and Satpal Singh (supra), it is submitted by Shri Vikramjit Banerjee, learned Additional Solicitor General of India that as held by this Court in the aforesaid decisions, the purpose of Section 438 is providing protection only during the process of investigation and the accused should seek regular bail upon submission of the charge sheet against him from the court where entire material is placed. It is submitted that in any case grant of the pre­arrest bail under Section 438 Cr.P.C. shall not affect the right of the investigating agency to seek custodial interrogation and in conducting further investigation."
+      },
+      {
+        "n": null,
+        "round": "opposing",
+        "chunkId": "1308768_c029",
+        "paraIds": [
+          "1308768_p_32"
+        ],
+        "tid": 1308768,
+        "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+        "year": 1980,
+        "courtTier": "SC",
+        "locator": "p. 399",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "Are we right in saying that the power conferred by section 438 to grant anticipatory bail is \"not limited to these contingencies\"? In fact that is one of the main points of controversy between the parties. Whereas it is argued by Shri M. C. Bhandare, Shri O. P. Sharma and the other learned counsel who appear for the appellants that the power to grant anticipatory bail ought to be left to the discretion of the court concerned, depending on the facts and circumstances of each particular case, it is argued by the learned Additional Solicitor General on behalf of the State Government that the grant of anticipatory bail should at least be conditional upon the applicant showing that he is likely to be arrested for an ulterior motive, that is to say, that the proposed charge or charges are evidently baseless and are actuated by mala fides. It is argued that anticipatory bail is an extra-ordinary remedy and therefore, whenever it appears that the proposed accusations are prima facie plausible, the applicant should be left to the ordinary remedy of applying for bail under Section 437 or Section 439, Criminal Procedure Code, after he is arrested."
+      },
+      {
+        "n": null,
+        "round": "opposing",
+        "chunkId": "1650581_c002",
+        "paraIds": [
+          "1650581_p_3",
+          "1650581_p_4",
+          "1650581_p_5"
+        ],
+        "tid": 1650581,
+        "caseTitle": "Dolat Ram & Ors vs The State Of Haryana on 11 November, 1994",
+        "year": 1994,
+        "courtTier": "SC",
+        "locator": "paras 3-4",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "The appellants are aggrieved of the cancellation of the anticipatory bail, granted to them. Hence this appeal.\n\n3. It appears to us that whereas the learned Additional Sessions Judge was not justified in observing in the last paragraph of his order while granting anticipatory bail \"it appears that possibly these accused applicants have been roped in falsely\", at that initial stage, when possibly the investigation was not even completed let alone, any evidence had been led at the trial, the High Court also fell in error in cancelling the anticipatory bail granted to the appellants for the reasons, which have been extracted by us above. The learned Additional Sessions Judge had noticed that even according to the statement in the FIR, the appellants were living separately from the deceased and her husband and that the factum of separate residence was also supported by the ration card. These considerations were relevant considerations for dealing with an application for grant of anticipatory bail.\n\n4. Rejection of bail in a non-bailable case at the initial stage and the cancellation of bail so granted, have to be considered and dealt with on different basis, Very cogent and overwhelming circumstances are necessary for an order directing the cancellation of the bail, already granted. Generally speaking, the grounds for cancellation of bail, broadly (illustrative and not exhaustive) are:"
+      }
+    ],
+    "tookMs": 24399
+  }
+]

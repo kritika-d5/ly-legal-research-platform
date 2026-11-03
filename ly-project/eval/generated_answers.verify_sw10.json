@@ -1,0 +1,616 @@
+[
+  {
+    "id": "sw10",
+    "generatedAt": "2026-11-02T15:04:58.749Z",
+    "group": "should_work",
+    "query": "My client applied for statutory bail under Section 167(2) the day after the prescribed investigation period expired, but before the magistrate could pass orders on that application, the prosecution filed the chargesheet the very next day. Does he still have an indefeasible right to be released on default bail because his application was made before the chargesheet came in, even though the chargesheet arrived before the court acted?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "section_167_2",
+        "default_bail",
+        "chargesheet",
+        "investigation_period",
+        "statutory_bail"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "roundsEmpty": {
+      "supporting": false,
+      "opposing": false,
+      "statutes": true
+    },
+    "answer": "## Your Position  \n**Premise 1:** The accused filed an application for statutory bail under **Section 167(2)** of the CrPC **before** the charge‑sheet was filed.  \n**Premise 2:** The charge‑sheet was filed **after** the application was lodged but **before** the magistrate could dispose of the application.  \n**Premise 3:** Because the application was made before the charge‑sheet, the accused retains an **indefeasible right** to be released on default bail, despite the later filing of the charge‑sheet.  \n\n*Weakest premise:* Premise 3 – the contention that the right survives the filing of the charge‑sheet is the most contested. Several submissions in the corpus argue that the right is extinguished once a charge‑sheet is filed, and the Supreme Court has not uniformly ruled on this precise scenario.\n\n---\n\n## Your Case  \n1. **The right is not frustrated by a later charge‑sheet.**  \n   - The Court explained that “if the charge‑sheet is filed subsequent to the availing of the indefeasible right … that right would not stand frustrated or extinguished” [2].  \n\n2. **The indefeasible right arises the moment the statutory period expires and the accused offers bail, regardless of subsequent filing.**  \n   - “The framers of the Code … after expiry of the statutory period … the accused … shall be released on bail if he is prepared to … furnish bail.” [4]  \n\n3. **The right cannot be taken away by a subsequent extension application.**  \n   – “The right … commenced and could not be extinguished by a subsequent application for extension of the period of custody.” [5]  \n\n4. **Courts may not defeat the right by delaying consideration of the application until after a charge‑sheet is filed.**  \n   – “Any such act … cannot be approved. … the statutory right should not be defeated by keeping the applications pending till the charge‑sheet is submitted.” [6]  \n\n5. **The requirement of an application is satisfied; the timing of the charge‑sheet does not negate the right.**  \n   – The judgment in *Hitendra Vishnu Thakur* stresses that the accused must make an application, which in the present facts was done before the charge‑sheet, thereby invoking the default‑bail provision. [3]  \n\n---\n\n## The Other Side  \n1. **Submission that the right ends once a charge‑sheet is filed.**  \n   – A party argued that “as of today, a charge sheet having been filed … he is not entitled to ‘default bail’ but must apply for regular bail” [8].  \n\n2. **Submission that the indefeasible right is enforceable only up to the filing of a charge‑sheet or challan and does not survive thereafter.**  \n   – The same submission cites the *Sanjay Dutt* decision to the effect that the right “does not survive aft[er]” filing of the charge‑sheet [10].  \n\n3. **Submission that after a charge‑sheet is filed, the default‑bail provision is no longer applicable.**  \n   – A party contended that “the right cannot be exercised after the charge‑sheet has been submitted and cognizance has been taken” [12].  \n\n4. **Doubt cast on the authority of *Sayed Mohd. Ahmed Kazmi* (which supports the right).**  \n   – The Court noted that its earlier reliance on *Kazmi* was “disagreed with” in a later judgment [7].  \n\nThese passages represent the principal opposing viewpoints that could be raised against your position. The corpus does not contain a definitive holding that resolves the clash between these views.\n\n---\n\n## What This Corpus Does Not Show  \n* No rebuttal or appellate decision is recorded that directly answers whether the indefeasible right survives the filing of a charge‑sheet **after** an application under Section 167(2) has been made but before the magistrate has ruled.  \n* Consequently, the corpus provides no clear precedent establishing the outcome of the exact factual matrix you describe.\n\n---\n\n## Sources  \n- [2] *U.O.I. Thr. Cbi v. Nirala Yadav* (30 June 2014) – Court’s reasoning on “if the charge‑sheet is filed subsequent to the availing of the indefeasible right …”.  \n- [4] *Uday Mohanlal Acharya v. State of Maharashtra* (29 Mar 2001) – Explanation of the statutory right after expiry of the period.  \n- [5] *Sayed Mohd. Ahmed Kazmi v. State, GNCT & Ors* (19 Oct 2012) – Right cannot be extinguished by a later extension application.  \n- [6] *Mohamed Iqbal Madar Sheiri & Ors v. State of Maharashtra* (8 Jan 1996) – Courts must not defeat the right by delaying consideration.  \n- [3] *Hitendra Vishnu Thakur & Others v. State of Maharashtra* (12 July 1994) – Requirement of an application for default bail.  \n- [8] *Rakesh Kumar Paul v. State of Assam* (16 Aug 2017), paras 46‑47 – Submission that charge‑sheet extinguishes the right.  \n- [9] *Mohamed Iqbal Madar Sheiri & Ors v. State of Maharashtra* (1996) – Submission opposing the right after charge‑sheet.  \n- [10] *Rakesh Kumar Paul v. State of Assam* (2017), paras 33‑35 – Submission invoking *Sanjay Dutt* that the right does not survive filing of charge‑sheet.  \n- [12] *Rakesh Kumar Paul v. State of Assam* (2017), p. 53 – Submission that the right cannot be exercised after charge‑sheet.  \n- [7] *U.O.I. Thr. Cbi v. Nirala Yadav* (2014) – Note that the authority in *Kazmi* was doubted.",
+    "generationFailed": false,
+    "generationError": null,
+    "serverInvalidCitations": [],
+    "suppliedCount": 11,
+    "items": [
+      {
+        "n": 1,
+        "round": "supporting",
+        "chunkId": "194334432_c074",
+        "paraIds": [
+          "194334432_c074"
+        ],
+        "tid": 194334432,
+        "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+        "year": 2017,
+        "courtTier": "SC",
+        "locator": "p. 51",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "21. The second issue which requires to be addressed is whether the appellant is entitled to statutory bail under Section 167(2) of the Code though he has not made any application under Section 167(2) of the Code before the Magistrate (or Special Judge) prior to the filing of the charge sheet. The record of the case reveals that the appellant was arrested on 4.11.2016 and produced before the Magistrate on 5.11.2016 and he was remanded to custody for the first time. The period of sixty days for filing charge sheet expired on 04.01.2017. The charge sheet came to be filed on 24.1.2017. Initially the appellant had applied for regular bail before the Sessions Court which came to be rejected on 20.12.2016. Thereafter he moved bail application No. 23/2017 for bail under Section 439 of the Code before the High Court of Guwahati. This bail application was disposed on 11.01.2017 which was after sixty days of arrest, but prior to filing of charge sheet. A perusal of this bail application shows that this bail application was moved under Section 439 of the Code for regular bail on merits and not as a bail claiming the statutory right under Section 167 of the Code. In none of the grounds taken in the bail application, the appellant has pleaded for default bail as a result of non filing of the charge sheet. All the grounds urged are on merits. The prayer is also for regular bail. It appears that, prior to the time of hearing, the counsel for the appellant has realised that the accused was entitled for default bail under Section 167(2) and has taken the plea in the oral arguments in the High Court that since sixty days for filing charge sheet has expired, he is entitled to bail as matter of right under Section 167(2) of the Code. The question thus arises, whether such application on merits can be equated to be an application seeking enforcement of statutory right under Section 167(2) of the Code and whether such practice of taking such oral arguments directly before the High Court in a pending regular bail application without having taken such grounds in the application or having approached the Magistrate (or Special Court) should be entertained."
+      },
+      {
+        "n": 2,
+        "round": "supporting",
+        "chunkId": "8215697_c021",
+        "paraIds": [
+          "8215697_c021"
+        ],
+        "tid": 8215697,
+        "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+        "year": 2014,
+        "courtTier": "SC",
+        "locator": null,
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "[pic]6. The expression “if not already availed of” used by this Court in Sanjay Dutt case3 must be understood to mean when the accused files an application and is prepared to offer bail on being directed. In other words, on expiry of the period specified in para (a) of the proviso to sub-section (2) of Section 167 if the accused files an application for bail and offers also to furnish the bail on being directed, then it has to be held that the accused has availed of his indefeasible right even though the court has not considered the said application and has not indicated the terms and conditions of bail, and the accused has not furnished the same.” Elaborating further, the Court held that if the charge-sheet is filed subsequent to the availing of the indefeasible right by the accused then that right would not stand frustrated or extinguished and, therefore, if an accused is entitled to be released on bail by application of the proviso to sub-section (2) of Section 167 CrPC, makes the application before the Magistrate, but the Magistrate erroneously refuses the same and rejects the application and then the accused moves the higher forum and while the matter remains pending before the higher forum for consideration a chargesheet is filed, the so-called indefeasible right of the accused would not stand extinguished thereby, and on the other hand, the accused has to be released on bail. The Court further proceeded to say that such an accused, thus is entitled to be released on bail in enforcement of his indefeasible right will, however, have to be produced before the Magistrate on a chargesheet being filed in accordance with Section 209 and the Magistrate must deal with him in the matter of remand to custody subject to the provisions of the Code relating to bail and subject to the provisions of cancellation of bail, already granted in accordance with the law laid down by the Court in the case of Mohd. Iqbal (supra)."
+      },
+      {
+        "n": 3,
+        "round": "supporting",
+        "chunkId": "41993725_c031",
+        "paraIds": [
+          "41993725_c031"
+        ],
+        "tid": 41993725,
+        "caseTitle": "Hitendra Vishnu Thakur And Others Etc. ... vs State Of Maharashtra And Others on 12 July, 1994",
+        "year": 1994,
+        "courtTier": "SC",
+        "locator": "para 20",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "20. Thus, we find that once the period for filing the charge-sheet has expired and either no extension under Clause (bb) has been granted by the Designated Court or the period of extension has also expired, the accused person would be entitled to move an application for being admitted to bail under Sub-section (4) of Section 20 TADA read with Section 167 of the Code and the Designated Court shall release him on bail, if the accused seeks to be so released and furnishes the requisite bail. We are not impressed with the argument of the learned Counsel for the appellant that on the expiry of the period during which investigation is required to be completed under Section 20(4) TADA read with Section 167 of the Code, the Court must release the accused on bail on its own motion even without any application from an accused person, on his offering to furnish bail. In our opinion an accused is required to make an application if he wishes to be released on bail on account of the 'default' of the investigating/prosecuting agency and once such an application is made, the Court should issue a notice to the public prosecutor, who may either show that the prosecution has obtained the order for extension for completion of investigation from the court under Clause (bb) or that the challan has been filed in the Designated Court before the expiry of the prescribed period or even that the prescribed period has actually not expired and, thus resist the grant of bail on the alleged ground of 'default'. The issuance of notice would avoid the possibility of an accused obtaining an order of bail under the 'default' clause by either deliberately or inadvertently concealing certain facts and would avoid multiplicity of proceedings. It would, therefore, serve the ends of justice if both sides are heard on a petition for grant of bail on account of the prosecution's 'default'. Similarly, when a report is submitted by the public prosecutor to the Designated Court for grant of extension under Clause (bb), its notice should be issued to the accused before granting such an extension so that an accused may have an opportunity to oppose the extension on all legitimate and legal grounds available to him. "
+      },
+      {
+        "n": 4,
+        "round": "supporting",
+        "chunkId": "1747003_c006",
+        "paraIds": [
+          "1747003_c006"
+        ],
+        "tid": 1747003,
+        "caseTitle": "Uday Mohanlal Acharya vs State Of Maharashtra on 29 March, 2001",
+        "year": 2001,
+        "courtTier": "SC",
+        "locator": null,
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "Explanation I.- For the avoidance of doubts, it is hereby declared that, notwithstanding the expiry of the period specified in paragraph (a), the accused shall be detained in custody so long as he does not furnish bail.\n\nExplanation II.- If any question arises whether an accused person was produced before the Magistrate as required under paragraph (b), the production of the accused person may be proved by his signature on the order authorising detention.\n\n[Emphasis added] It is settled by series of judgments of this Court in the last 25 years that framers of the Code conceived and desired that after expiry of the period prescribed in proviso to Section 167(2) of the Code, an accused has to be released on bail if no challan is filed because after the expiry of the statutory period prescribed therein, there is no power in Magistrate to remand for further custody, but the same proviso prescribes in clause (a)(ii) that `the accused person shall be released on bail if he is prepared to and does furnish bail. To be released on bail because of the default of submission of challan within the statutory period is a valuable right of the accused, but the framers of the Code have prescribed a condition in that very proviso referred to above that this right to be released on bail can be exercised only on furnishing of bail. Clause (a)(ii) of proviso to Section 167(2) of the Code not only says that the accused `is prepared to, but also says that the `accused does furnish bail and Explanation I to Section 167(2) of the Code clearly mandates that notwithstanding the expiry of the period specified in paragraph (a), the accused shall be detained in custody so long as he does not furnish bail\". Just to test the scheme of the said provision, can it be conceived that if the accused is prepared to furnish bail but does not furnish the same, even in that eventuality the court concerned shall direct his release from custody only on the ground that the statutory period of filing the challan has expired? Therefore, in my view, for release from custody both the conditions aforesaid, read with the Explanation referred to above, must be fulfilled."
+      },
+      {
+        "n": 5,
+        "round": "supporting",
+        "chunkId": "136480811_c007",
+        "paraIds": [
+          "136480811_c007"
+        ],
+        "tid": 136480811,
+        "caseTitle": "Sayed Mohd. Ahmed Kazmi vs State, Gnctd & Ors on 19 October, 2012",
+        "year": 2012,
+        "courtTier": "SC",
+        "locator": "para 16",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "(a)(i) of the proviso to Subsection (2) of Section 167 Cr.P.C., came to an end, the right of a person arrested in connection with the commission of an offence to be released on statutory bail commenced and could not be extinguished by a subsequent application for extension of the period of custody. Mr. Pracha submitted that on 17th July, 2012, the Appellant’s custody was held to be illegal by the Additional Sessions Judge in CR No.86 of 2012 and on the same day, the Appellant’s application under Section 167(2) Cr.P.C. was pending hearing before the learned Chief Metropolitan Magistrate, who, however, did not hear the application and renotified the hearing for 18th July, 2012. The fact that the application stood renotified for the next day, did not take away the fact that the application was pending on 17th July, 2012, when the period of custody of the Appellant had not only ended, but had been declared to be illegal. Mr. Pracha submitted that the application of 18th July, 2012, filed on behalf of the prosecution for extension of the period of custody, which was allowed by the learned Chief Metropolitan Magistrate on 20th July, 2012, without considering the Appellant’s application under Section 167(2) Cr.P.C. and the subsequent extension of time of investigation and custody of the Appellant with retrospective effect from 2nd June, 2012, did not improve the matter to any extent, as far as the prosecution is concerned, since on the expiry of the first period of custody beyond 90 days, there was no application pending for extension of the period of custody, as contemplated under the amended provisions of Section 167(2) Cr.P.C.\n\n16. At this juncture, it may be useful to indicate that the provisions of Section 167(2) of the Code were modified by virtue of Section 43D of the Unlawful Activities (Prevention) Act, 1967. The modification of the provisions of Section 167(2) Cr.P.C. by virtue of Section 43D of the aforesaid Act is extracted hereinbelow :-"
+      },
+      {
+        "n": 9,
+        "round": "supporting",
+        "chunkId": "1376808_c014",
+        "paraIds": [
+          "1376808_c014"
+        ],
+        "tid": 1376808,
+        "caseTitle": "Mohamed Iqbal Madar Sheiri And Ors vs The State Of Maharashtra on 8 January, 1996",
+        "year": 1996,
+        "courtTier": "SC",
+        "locator": null,
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "As such now it is not open to the appellants to claim bail under proviso\n\n(a) to Section 167(2) of the Code, Admittedly charge-sheet has been submitted against the appellants, and they are in custody on the basis of orders of remand passed under other provisions of the Code and at this stage proviso (a) to Section 167(2) shall not be applicable.\n\nDuring hearing of the appeal, it was pointed out by the counsel appearing on behalf of the appellants that some courts in order to defeat the right of the accused to be released on bail under proviso (a) to Section 167(2) after expiry of the statutory period for completion of the investigation, keep the applications for bail pending for some days so that in the meantime, charge-sheets are submitted. Any such act on the part of any court cannot be approved. If an accused charged with any kind of offence, becomes entitled to be released on bail under proviso (a) lo Section 167(2) that statutory right should not be defeated by keeping the applications pending till she charge-sheets are submitted, so that the right which had accrued is extinguished and defeated. So far the present case is concerned, we are informed by the counsel for the appellants that a petition for grant of bail on merit had been filed which was rejected on 22.3.1993, But admittedly no petition for grant of bail after the expiry of the, statutory period for the submission of the charge-sheet had been filed. There is no statement that any application for grant of bail had been filed on behalf of the appellants under proviso (a) to Section 167(2) after the expiry of the statutory period which application was kept pending till 30th August 1993. Now the appellants have forfeited their right to be released on bail under proviso (a) to section 167(2) as they are in custody on basis of orders for remand passed under other provisions of the Code. In such a situation, we are left with no option, but to dismiss these appeals. However, we directed that the trial of the appellants be expedited."
+      },
+      {
+        "n": null,
+        "round": "supporting",
+        "chunkId": "123660783_c184",
+        "paraIds": [
+          "123660783_c184"
+        ],
+        "tid": 123660783,
+        "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+        "year": 2020,
+        "courtTier": "SC",
+        "locator": "para 70",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "70. The question here is whether there is anything in the law which per se requires that upon filing of the charge-sheet, or the summoning of the accused, by the court – (or even the addition of an offence in the charge-sheet, of which an applicant on bail is accused of freshly), his liberty ought to be forfeited and that he should be asked to surrender and apply for regular bail. The observations about the width and amplitude of the power under Section 438, made in answer to the first question, are equally relevant here too. In the present context, further, the judgment and observations of this Court in its interpretation of Section 167(2) are telling. It was held in Gursharan Singh (supra), the release by grant of bail of an accused under Section 167(2) amounts to “deemed bail”. This is borne out by Section 167(2) which states that anyone released on bail under its provision “shall be deemed to be so released under the provisions of Chapter XXXIII for the purposes of that Chapter.” The judgment in Aslam Babalal Desai (supra) has clarified that when an accused is released by operation of Section 167(2) and subsequently, a charge-sheet is filed, there is no question of the cancellation of his bail. In these circumstances, the mere fact that an accused is given relief under Section 438 at one stage, per se does not mean that upon the filing of a charge-sheet, he is necessarily to surrender or/and apply for regular bail. The analogy to ‘deemed bail’ under Section 167(2) with anticipatory bail leads this court to conclude that the mere subsequent event of the filing of a charge-sheet cannot compel the accused to surrender and seek regular bail. As a matter of fact, interestingly, if indeed, if a charge-sheet is filed where the accused is on anticipatory bail, the normal implication would be that there was no occasion for the investigating agency or the police to require his custody, because there would have been nothing in his behavior requiring such a step. In other words, an accused, who is granted anticipatory bail would continue to be at liberty when the charge sheet is filed, the natural implication is that there is no occasion for a direction by the Court that he be arrested and further that he had cooperated with the investigation. At the same time, however, at any time during the investigation were any occasion to arise calling for intervention of the court for infraction of any of the conditions imposed under Section 437(3) read with Section 438(2) or the violation of any other condition imposed in the given facts of a case, recourse can always be had under Section 439(2)."
+      },
+      {
+        "n": null,
+        "round": "supporting",
+        "chunkId": "3764_c013",
+        "paraIds": [
+          "3764_c013"
+        ],
+        "tid": 3764,
+        "caseTitle": "Union Of India vs Hassan Ali Khan And Anr on 30 September, 2011",
+        "year": 2011,
+        "courtTier": "SC",
+        "locator": "paras 17-18",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "17. In support of his submissions, the learned counsel referred to the Constitution Bench decision of this Court in Sanjay Dutt Vs. State through CBI, Bombay (II) [(1994) 5 SCC 410], wherein it was held that the indefeasible right of an accused to be released on bail by virtue of Section 20(4)(bb) of the Terrorist and Disruptive Activities (Prevention) Act, 1987, was enforceable only prior to the filing of the challan and it did not survive or remain enforceable on the challan being filed, if not already availed of. Their Lordships held further that if the right to grant of statutory bail had not been enforced till the filing of the challan, then there was no question of its enforcement thereafter, since it stood extinguished the moment the challan was filed because Section 167(2) Cr.P.C. ceased to have any application.\n\nReference was also made to the decision of a Three Judge Bench of this Court in Uday Mohanlal Acharya Vs. State of Maharashtra [(2001) 5 SCC 453], wherein the scope of Section 167(2) Cr.P.C. and the proviso thereto fell for consideration and it was the majority view that an accused had an indefeasible right to be released on bail when investigation is not completed within the specified period and that for availing of such right the accused was only required to file an application before the Magistrate seeking release on bail alleging that no challan had been filed within the period prescribed and if he was prepared to offer bail on being directed by the Magistrate, the Magistrate was under an obligation to dispose of the said application and even if in the meantime a charge-sheet had been filed, the right to statutory bail would not be affected. It was, however, clarified that if despite the direction to furnish bail, the accused failed to do so, his right to be released on bail would stand extinguished.\n\n18. It was, therefore, submitted that the Bombay High Court had granted bail to the Respondent No.1 on an incorrect interpretation of the law and the said order granting bail was, therefore, liable to be set aside."
+      },
+      {
+        "n": 7,
+        "round": "opposing",
+        "chunkId": "attack_8215697_136480811",
+        "paraIds": [
+          "8215697_p_28"
+        ],
+        "tid": 8215697,
+        "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+        "year": 2014,
+        "courtTier": "SC",
+        "locator": null,
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": true,
+        "text": "We may presently refer to a recent three-Judge Bench decision in Sayed Mohd. Ahmad Kazmi v. State (Government of NCT of Delhi) and others[19]. In the said case, the accused had filed an application for grant of bail on 2.6.2012 since his ninety days’ period of custody was to expire on 3.6.2012 and further custody was sought for by the prosecution. The learned Magistrate, by his order dated 2.6.2012, extended the period of investigation and the custody of the appellant by another ninety days. The said order was assailed by the appellant in a revision which came for consideration before the learned Additional Sessions Judge, who, on 8.6.2012, held that it was only the Sessions Court and not the Chief Metropolitan Magistrate which had the competence to extend the judicial custody of the accused and to entertain cases of such nature. On 22.6.2012, the accused-appellant was produced before the learned Chief Judicial Magistrate for extension of his custody. On 17.7.2012 an application was filed under Section 167(2) CrPC seeking default bail as no charge-sheet had been filed within ninety days period of the appellant’s custody. The said application was dismissed by the learned Magistrate. Thereafter, the matter was referred by the learned Chief Metropolitan Magistrate to the learned District and Sessions Judge, who directed that judicial custody of the accused-appellant be extended. The aforesaid order of the learned Sessions Judge was assailed before the High Court under Section 482 CrPC and the High Court stayed the operation of the order passed by the learned Additional Sessions Judge dated 28.6.2012 and, therefore, the application for grant of statutory bail could not be taken up by the learned Additional Sessions Judge till the High Court vacated the order of stay on 13.7.2012. As has been stated earlier, the accused moved an application for grant of bail under Section 167(4) and the same was listed for consideration on 17.7.2012. In the meantime, revision petition came before the learned Additional and Sessions Judge, who allowed the application and opined that the custody of the accused was illegal. In view of the order passed by the learned Additional Sessions Judge declaring the custody of the accused to be illegal, on the same day an application under Section 167(2) CrPC was filed before the learned Chief Metropolitan Magistrate, but he, instead of hearing the application on the sad date, notified the hearing for 18.7.2012. On the adjourned date, i.e., 18.7.2012 the State filed a fresh application seeking further extension of appellant’s custody and the investigation period. The learned Chief Metropolitan Magistrate directed a copy of the said application to be served on the counsel for the accused and notified the matter for hearing on 20.7.2012. On that day he took up the matter for extension of custody and, instead of considering the application, extended the time of interrogation and custody of the appellant for ninety days with retrospective effect from 2.6.2012. The aforesaid order was challenged before the learned Sessions Judge who adjourned the matter to 12.10.2012 and on 31.7.2013 the prosecution filed the charge-sheet. When the matter travelled to this Court, a question arose with regard to getting the benefit of the default bail. Be it stated, the Court was considering the provisions contained in Section 43-D of Unlawful Activities (Prevention) Act, 1967 and Section 167(2) CrPC. In that context, it observed thus: -"
+      },
+      {
+        "n": 8,
+        "round": "opposing",
+        "chunkId": "194334432_c049",
+        "paraIds": [
+          "194334432_p_88",
+          "194334432_p_90"
+        ],
+        "tid": 194334432,
+        "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+        "year": 2017,
+        "courtTier": "SC",
+        "locator": "paras 46-47",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "46. It was submitted that as of today, a charge sheet having been filed against the petitioner, he is not entitled to ‘default bail’ but must apply for regular bail – the ‘default bail’ chapter being now closed. We cannot agree for the simple reason that we are concerned with the interregnum between 4th January, 2017 and 24th January, 2017 when no charge sheet had been filed, during which period he had availed of his indefeasible right of ‘default bail’. It would have been another matter altogether if the petitioner had not applied for ‘default bail’ for whatever reason during this interregnum. There could be a situation (however rare) where an accused is not prepared to be bailed out perhaps for his personal security since he or she might be facing some threat outside the correction home or for any other reason. But then in such an event, the accused voluntarily gives up the indefeasible right for default bail and having forfeited that right the accused cannot, after the charge sheet or challan has been filed, claim a resuscitation of the indefeasible right. But that is not the case insofar as the petitioner is concerned, since he did not give up his indefeasible right for ‘default bail’ during the interregnum between 4th January, 2017 and 24th January, 2017 as is evident from the decision of the High Court rendered on 11th January, 2017. On the contrary, he had availed of his right to ‘default bail’ which could not have been defeated on 11th January, 2017 and which we are today compelled to acknowledge and enforce.\n\n47. Consequently, we are of opinion that the petitioner had satisfied all the requirements of obtaining ‘default bail’ which is that on 11 th January, 2017 he had put in more than 60 days in custody pending investigations into an alleged offence not punishable with imprisonment for a minimum period of 10 years, no charge sheet had been filed against him and he was prepared to furnish bail for his release, as such, he ought to have been released by the High Court on reasonable terms and conditions of bail."
+      },
+      {
+        "n": 9,
+        "round": "opposing",
+        "chunkId": "1376808_c014",
+        "paraIds": [
+          "1376808_p_22",
+          "1376808_p_23",
+          "1376808_p_24"
+        ],
+        "tid": 1376808,
+        "caseTitle": "Mohamed Iqbal Madar Sheiri And Ors vs The State Of Maharashtra on 8 January, 1996",
+        "year": 1996,
+        "courtTier": "SC",
+        "locator": null,
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "As such now it is not open to the appellants to claim bail under proviso\n\n(a) to Section 167(2) of the Code, Admittedly charge-sheet has been submitted against the appellants, and they are in custody on the basis of orders of remand passed under other provisions of the Code and at this stage proviso (a) to Section 167(2) shall not be applicable.\n\nDuring hearing of the appeal, it was pointed out by the counsel appearing on behalf of the appellants that some courts in order to defeat the right of the accused to be released on bail under proviso (a) to Section 167(2) after expiry of the statutory period for completion of the investigation, keep the applications for bail pending for some days so that in the meantime, charge-sheets are submitted. Any such act on the part of any court cannot be approved. If an accused charged with any kind of offence, becomes entitled to be released on bail under proviso (a) lo Section 167(2) that statutory right should not be defeated by keeping the applications pending till she charge-sheets are submitted, so that the right which had accrued is extinguished and defeated. So far the present case is concerned, we are informed by the counsel for the appellants that a petition for grant of bail on merit had been filed which was rejected on 22.3.1993, But admittedly no petition for grant of bail after the expiry of the, statutory period for the submission of the charge-sheet had been filed. There is no statement that any application for grant of bail had been filed on behalf of the appellants under proviso (a) to Section 167(2) after the expiry of the statutory period which application was kept pending till 30th August 1993. Now the appellants have forfeited their right to be released on bail under proviso (a) to section 167(2) as they are in custody on basis of orders for remand passed under other provisions of the Code. In such a situation, we are left with no option, but to dismiss these appeals. However, we directed that the trial of the appellants be expedited."
+      },
+      {
+        "n": 10,
+        "round": "opposing",
+        "chunkId": "194334432_c035",
+        "paraIds": [
+          "194334432_p_67",
+          "194334432_p_69",
+          "194334432_p_70"
+        ],
+        "tid": 194334432,
+        "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+        "year": 2017,
+        "courtTier": "SC",
+        "locator": "paras 33-35",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "33. It was submitted by learned counsel for the State that the charge sheet having been filed against the petitioner on 24th January, 2017 the indefeasible right of the petitioner to be now released on ‘default bail’ gets extinguished and the petitioner must apply for regular bail.\n\n34. What is forgotten is that the indefeasible right for ‘default bail’ accrued to the petitioner when the period of 60 days for completing the investigation and filing a charge sheet came to an end on 3rd or 4th January, 2017 and that the indefeasible right continued till 24th January, 2017. The question is whether during this interregnum the petitioner was entitled to ‘default bail’ or not? Ordinarily, the answer would be “yes” but in the present case, the petitioner was not granted bail and a charge sheet was filed against him on 24 th January, 2017. Was his indefeasible right completely taken away?\n\n35. Our attention was drawn to the decision of the Constitution Bench in Sanjay Dutt v. State.8 In paragraph 46 of the Report it was conceded by learned counsel appearing for the accused that the indefeasible right is enforceable only up to the filing of a charge sheet or challan and does not survive after the charge sheet or challan is filed in the court against him. This submission was not refuted by but agreed to by the learned Additional Solicitor General appearing for the State. The submission made by both the learned counsels was based on an interpretation of the decision of this Court in Hitendra Vishnu Thakur v. State of Maharashtra9 which was a case under the Terrorist and Disruptive Activities (Prevention) Act, 1987."
+      },
+      {
+        "n": 11,
+        "round": "opposing",
+        "chunkId": "8215697_c046",
+        "paraIds": [
+          "8215697_p_36",
+          "8215697_p_37"
+        ],
+        "tid": 8215697,
+        "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+        "year": 2014,
+        "courtTier": "SC",
+        "locator": null,
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "Coming to the facts of the instant case, we find that prior to the date of expiry of 90 days which is the initial period for filing the charge-sheet, the prosecution neither had filed the charge-sheet nor had it filed an application for extension. Had an application for extension been filed, then the matter would have been totally different. After the accused respondent filed the application, the prosecution submitted an application seeking extension of time for filing of the charge-sheet. Mr. P.K. Dey, learned counsel for the appellant would submit that the same is permissible in view of the decision in Bipin Shantilal Panchal (supra) but on a studied scrutiny of the same we find the said decision only dealt with whether extension could be sought from time to time till the completion of period as provided in the Statute i.e., 180 days. It did not address the issue what could be the effect of not filing an application for extension prior to expiry of the period because in the factual matrix it was not necessary to do so. In the instant case, the day the accused filed the application for benefit of the default provision as engrafted under proviso to sub- Section (2) of Section 167 CrPC the Court required the accused to file a rejoinder affidavit by the time the initial period provided under the statute had expired. There was no question of any contest as if the application for extension had been filed prior to the expiry of time. The adjournment by the learned Magistrate was misconceived. He was obliged on that day to deal with the application filed by the accused as required under Section 167(2) CrPC. We have no hesitation in saying that such procrastination frustrates the legislative mandate. A Court cannot act to extinguish the right of an accused if the law so confers on him. Law has to prevail. The prosecution cannot avail such subterfuges to frustrate or destroy the legal right of the accused. Such an act is not permissible. If we permit ourselves to say so, the prosecution exhibited sheer negligence in not filing the application within the time which it was entitled to do so in law but made all adroit attempts to redeem the cause by its conduct.\n\nIn view of our aforesaid premised reasons we do not find any error in the order of the High Court in overturning the order refusing bail and extending the benefit to the respondent and, accordingly, the appeal fails and is hereby dismissed."
+      },
+      {
+        "n": 12,
+        "round": "opposing",
+        "chunkId": "194334432_c081",
+        "paraIds": [
+          "194334432_p_125",
+          "194334432_p_126"
+        ],
+        "tid": 194334432,
+        "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+        "year": 2017,
+        "courtTier": "SC",
+        "locator": "p. 53",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "But it is an admitted position that no application for bail on the said ground was made on behalf of the appellants. Unless applications had been made on behalf of the appellants, there was no question of their being released on ground of default in completion of the investigation within the statutory period. It is now settled that this right cannot be exercised after the charge-sheet has been submitted and cognizance has been taken, because in that event the remand of the accused concerned including one who is alleged to have committed an offence under TADA, is not under Section 167(2) but under other provisions of the Code.” [Emphasis supplied]\n\n25. In the case of Hitendra Vishnu Thakur and Others etc. etc. vs. State of Maharashtra and Others34, it was held in para 30 that:"
+      },
+      {
+        "n": null,
+        "round": "opposing",
+        "chunkId": "123660783_c184",
+        "paraIds": [
+          "123660783_p_252"
+        ],
+        "tid": 123660783,
+        "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+        "year": 2020,
+        "courtTier": "SC",
+        "locator": "para 70",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "70. The question here is whether there is anything in the law which per se requires that upon filing of the charge-sheet, or the summoning of the accused, by the court – (or even the addition of an offence in the charge-sheet, of which an applicant on bail is accused of freshly), his liberty ought to be forfeited and that he should be asked to surrender and apply for regular bail. The observations about the width and amplitude of the power under Section 438, made in answer to the first question, are equally relevant here too. In the present context, further, the judgment and observations of this Court in its interpretation of Section 167(2) are telling. It was held in Gursharan Singh (supra), the release by grant of bail of an accused under Section 167(2) amounts to “deemed bail”. This is borne out by Section 167(2) which states that anyone released on bail under its provision “shall be deemed to be so released under the provisions of Chapter XXXIII for the purposes of that Chapter.” The judgment in Aslam Babalal Desai (supra) has clarified that when an accused is released by operation of Section 167(2) and subsequently, a charge-sheet is filed, there is no question of the cancellation of his bail. In these circumstances, the mere fact that an accused is given relief under Section 438 at one stage, per se does not mean that upon the filing of a charge-sheet, he is necessarily to surrender or/and apply for regular bail. The analogy to ‘deemed bail’ under Section 167(2) with anticipatory bail leads this court to conclude that the mere subsequent event of the filing of a charge-sheet cannot compel the accused to surrender and seek regular bail. As a matter of fact, interestingly, if indeed, if a charge-sheet is filed where the accused is on anticipatory bail, the normal implication would be that there was no occasion for the investigating agency or the police to require his custody, because there would have been nothing in his behavior requiring such a step. In other words, an accused, who is granted anticipatory bail would continue to be at liberty when the charge sheet is filed, the natural implication is that there is no occasion for a direction by the Court that he be arrested and further that he had cooperated with the investigation. At the same time, however, at any time during the investigation were any occasion to arise calling for intervention of the court for infraction of any of the conditions imposed under Section 437(3) read with Section 438(2) or the violation of any other condition imposed in the given facts of a case, recourse can always be had under Section 439(2)."
+      },
+      {
+        "n": null,
+        "round": "opposing",
+        "chunkId": "1376808_c012",
+        "paraIds": [
+          "1376808_p_21"
+        ],
+        "tid": 1376808,
+        "caseTitle": "Mohamed Iqbal Madar Sheiri And Ors vs The State Of Maharashtra on 8 January, 1996",
+        "year": 1996,
+        "courtTier": "SC",
+        "locator": null,
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "So far the facts of the present case are concerned, the appellant Nos. 1 to 6 were taken into custody on 16.1.1993. The charge sheet was submitted on 30.8.1993; obviously beyond the statutory period under Section 20(4)(b). There is nothing on record lo show that provisions of Section 20(4)(bb) were applied in respect of appellants. They had become entitled to he released on bail under proviso (a) to Section 167(2) of the Code read with Section 20(4)(b) of the TADA. But it is an admitted position that no application for bail on the said ground was made on behalf of the appellants. Unless applications had been made on behalf of the appellants, there was no question of their being released on ground of default in completion of the investigation within the statutory period, It is now settled that this right cannot be exercised after the charge-sheet has been submitted and eognizance has been taken, because in that event the remand of the accused concerned including one who is alleged to have committed an offence under TADA, is not under Section 167(2) but under other provisions of the Code. This has been specifically considered by a Constitution Bench of this Court in the case of Sanjay Dutt v. Stale through C.B.I. Bombay (II), [1994] 5 SCC 410. It was said :"
+      },
+      {
+        "n": null,
+        "round": "opposing",
+        "chunkId": "194334432_c111",
+        "paraIds": [
+          "194334432_p_180",
+          "194334432_p_182",
+          "194334432_p_184",
+          "194334432_p_186"
+        ],
+        "tid": 194334432,
+        "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+        "year": 2017,
+        "courtTier": "SC",
+        "locator": "p. 74",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "23. The second issue which arises is whether the petitioner had applied for ‘default bail’ or not. Admittedly, there is no such plea in the bail application, but it is also not disputed that this was the main argument at the time of hearing and this issue was specifically dealt with in the impugned order. In my opinion, once the High Court permitted the counsel for the petitioner to argue the petition on the ground of grant of ‘default bail’ and no objection was raised by the counsel for the State then at this stage it cannot be urged that the petitioner never applied for ‘default bail’ and is not entitled to ‘default bail’. If this objection had been raised at that stage, either by the Court or by the State, the accused could have either filed a fresh application for grant of ‘default bail’ or could have prayed for ‘default bail’ by adding an additional ground in the existing application much before 24.01.2017 when the charge-sheet was filed.\n\n24. It has also been urged on behalf of the State that since the charge-sheet has now been filed, the petitioner is not entitled to grant of ‘default bail’. Both my learned brothers have referred to the case of Sanjay Dutt v. State through C.B.I., Bombay (II), (1994) 5 SCC 410. Reference has also been made to Uday Mohanlal Acharya v. State of Maharashtra, (2001) 5 SCC 453.\n\n25. It is not necessary to multiply citations because in Union of India v. Nirala Yadav, (2014) 9 SCC 457, this Court has considered the entire law on the subject and followed the law laid down in Uday Mohanlal Acharya’s case (supra) as well as in Mohamed Iqbal Madar Sheikh & Ors. v. State of Maharashtra, (1996) 1 SCC 722, wherein this Court deprecated the practice followed by some courts of adjourning applications for grant of ‘default bail’ till the prosecution filed the charge-sheet and held that the statutory right should not be defeated by keeping the applications pending till the charge-sheet is filed.\n\n26. In Uday Mohanlal Acharya’s case (supra) the Court culled out six guidelines, which are as follows:"
+      }
+    ],
+    "rounds": [
+      {
+        "round": "supporting",
+        "items": [
+          {
+            "id": "194334432_c074",
+            "kind": "court_holding",
+            "text": "21. The second issue which requires to be addressed is whether the appellant is entitled to statutory bail under Section 167(2) of the Code though he has not made any application under Section 167(2) of the Code before the Magistrate (or Special Judge) prior to the filing of the charge sheet. The record of the case reveals that the appellant was arrested on 4.11.2016 and produced before the Magistrate on 5.11.2016 and he was remanded to custody for the first time. The period of sixty days for filing charge sheet expired on 04.01.2017. The charge sheet came to be filed on 24.1.2017. Initially the appellant had applied for regular bail before the Sessions Court which came to be rejected on 20.12.2016. Thereafter he moved bail application No. 23/2017 for bail under Section 439 of the Code before the High Court of Guwahati. This bail application was disposed on 11.01.2017 which was after sixty days of arrest, but prior to filing of charge sheet. A perusal of this bail application shows that this bail application was moved under Section 439 of the Code for regular bail on merits and not as a bail claiming the statutory right under Section 167 of the Code. In none of the grounds taken in the bail application, the appellant has pleaded for default bail as a result of non filing of the charge sheet. All the grounds urged are on merits. The prayer is also for regular bail. It appears that, prior to the time of hearing, the counsel for the appellant has realised that the accused was entitled for default bail under Section 167(2) and has taken the plea in the oral arguments in the High Court that since sixty days for filing charge sheet has expired, he is entitled to bail as matter of right under Section 167(2) of the Code. The question thus arises, whether such application on merits can be equated to be an application seeking enforcement of statutory right under Section 167(2) of the Code and whether such practice of taking such oral arguments directly before the High Court in a pending regular bail application without having taken such grounds in the application or having approached the Magistrate (or Special Court) should be entertained.",
+            "speaker": "THE COURT",
+            "tid": 194334432,
+            "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+            "year": 2017,
+            "courtTier": "SC",
+            "locator": "p. 51",
+            "paraIds": [
+              "194334432_c074"
+            ]
+          },
+          {
+            "id": "8215697_c021",
+            "kind": "court_holding",
+            "text": "[pic]6. The expression “if not already availed of” used by this Court in Sanjay Dutt case3 must be understood to mean when the accused files an application and is prepared to offer bail on being directed. In other words, on expiry of the period specified in para (a) of the proviso to sub-section (2) of Section 167 if the accused files an application for bail and offers also to furnish the bail on being directed, then it has to be held that the accused has availed of his indefeasible right even though the court has not considered the said application and has not indicated the terms and conditions of bail, and the accused has not furnished the same.” Elaborating further, the Court held that if the charge-sheet is filed subsequent to the availing of the indefeasible right by the accused then that right would not stand frustrated or extinguished and, therefore, if an accused is entitled to be released on bail by application of the proviso to sub-section (2) of Section 167 CrPC, makes the application before the Magistrate, but the Magistrate erroneously refuses the same and rejects the application and then the accused moves the higher forum and while the matter remains pending before the higher forum for consideration a chargesheet is filed, the so-called indefeasible right of the accused would not stand extinguished thereby, and on the other hand, the accused has to be released on bail. The Court further proceeded to say that such an accused, thus is entitled to be released on bail in enforcement of his indefeasible right will, however, have to be produced before the Magistrate on a chargesheet being filed in accordance with Section 209 and the Magistrate must deal with him in the matter of remand to custody subject to the provisions of the Code relating to bail and subject to the provisions of cancellation of bail, already granted in accordance with the law laid down by the Court in the case of Mohd. Iqbal (supra).",
+            "speaker": "THE COURT",
+            "tid": 8215697,
+            "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+            "year": 2014,
+            "courtTier": "SC",
+            "locator": null,
+            "paraIds": [
+              "8215697_c021"
+            ]
+          },
+          {
+            "id": "41993725_c031",
+            "kind": "court_holding",
+            "text": "20. Thus, we find that once the period for filing the charge-sheet has expired and either no extension under Clause (bb) has been granted by the Designated Court or the period of extension has also expired, the accused person would be entitled to move an application for being admitted to bail under Sub-section (4) of Section 20 TADA read with Section 167 of the Code and the Designated Court shall release him on bail, if the accused seeks to be so released and furnishes the requisite bail. We are not impressed with the argument of the learned Counsel for the appellant that on the expiry of the period during which investigation is required to be completed under Section 20(4) TADA read with Section 167 of the Code, the Court must release the accused on bail on its own motion even without any application from an accused person, on his offering to furnish bail. In our opinion an accused is required to make an application if he wishes to be released on bail on account of the 'default' of the investigating/prosecuting agency and once such an application is made, the Court should issue a notice to the public prosecutor, who may either show that the prosecution has obtained the order for extension for completion of investigation from the court under Clause (bb) or that the challan has been filed in the Designated Court before the expiry of the prescribed period or even that the prescribed period has actually not expired and, thus resist the grant of bail on the alleged ground of 'default'. The issuance of notice would avoid the possibility of an accused obtaining an order of bail under the 'default' clause by either deliberately or inadvertently concealing certain facts and would avoid multiplicity of proceedings. It would, therefore, serve the ends of justice if both sides are heard on a petition for grant of bail on account of the prosecution's 'default'. Similarly, when a report is submitted by the public prosecutor to the Designated Court for grant of extension under Clause (bb), its notice should be issued to the accused before granting such an extension so that an accused may have an opportunity to oppose the extension on all legitimate and legal grounds available to him. ",
+            "speaker": "THE COURT",
+            "tid": 41993725,
+            "caseTitle": "Hitendra Vishnu Thakur And Others Etc. ... vs State Of Maharashtra And Others on 12 July, 1994",
+            "year": 1994,
+            "courtTier": "SC",
+            "locator": "para 20",
+            "paraIds": [
+              "41993725_c031"
+            ]
+          },
+          {
+            "id": "1747003_c006",
+            "kind": "court_holding",
+            "text": "Explanation I.- For the avoidance of doubts, it is hereby declared that, notwithstanding the expiry of the period specified in paragraph (a), the accused shall be detained in custody so long as he does not furnish bail.\n\nExplanation II.- If any question arises whether an accused person was produced before the Magistrate as required under paragraph (b), the production of the accused person may be proved by his signature on the order authorising detention.\n\n[Emphasis added] It is settled by series of judgments of this Court in the last 25 years that framers of the Code conceived and desired that after expiry of the period prescribed in proviso to Section 167(2) of the Code, an accused has to be released on bail if no challan is filed because after the expiry of the statutory period prescribed therein, there is no power in Magistrate to remand for further custody, but the same proviso prescribes in clause (a)(ii) that `the accused person shall be released on bail if he is prepared to and does furnish bail. To be released on bail because of the default of submission of challan within the statutory period is a valuable right of the accused, but the framers of the Code have prescribed a condition in that very proviso referred to above that this right to be released on bail can be exercised only on furnishing of bail. Clause (a)(ii) of proviso to Section 167(2) of the Code not only says that the accused `is prepared to, but also says that the `accused does furnish bail and Explanation I to Section 167(2) of the Code clearly mandates that notwithstanding the expiry of the period specified in paragraph (a), the accused shall be detained in custody so long as he does not furnish bail\". Just to test the scheme of the said provision, can it be conceived that if the accused is prepared to furnish bail but does not furnish the same, even in that eventuality the court concerned shall direct his release from custody only on the ground that the statutory period of filing the challan has expired? Therefore, in my view, for release from custody both the conditions aforesaid, read with the Explanation referred to above, must be fulfilled.",
+            "speaker": "THE COURT",
+            "tid": 1747003,
+            "caseTitle": "Uday Mohanlal Acharya vs State Of Maharashtra on 29 March, 2001",
+            "year": 2001,
+            "courtTier": "SC",
+            "locator": null,
+            "paraIds": [
+              "1747003_c006"
+            ]
+          },
+          {
+            "id": "136480811_c007",
+            "kind": "court_holding",
+            "text": "(a)(i) of the proviso to Subsection (2) of Section 167 Cr.P.C., came to an end, the right of a person arrested in connection with the commission of an offence to be released on statutory bail commenced and could not be extinguished by a subsequent application for extension of the period of custody. Mr. Pracha submitted that on 17th July, 2012, the Appellant’s custody was held to be illegal by the Additional Sessions Judge in CR No.86 of 2012 and on the same day, the Appellant’s application under Section 167(2) Cr.P.C. was pending hearing before the learned Chief Metropolitan Magistrate, who, however, did not hear the application and renotified the hearing for 18th July, 2012. The fact that the application stood renotified for the next day, did not take away the fact that the application was pending on 17th July, 2012, when the period of custody of the Appellant had not only ended, but had been declared to be illegal. Mr. Pracha submitted that the application of 18th July, 2012, filed on behalf of the prosecution for extension of the period of custody, which was allowed by the learned Chief Metropolitan Magistrate on 20th July, 2012, without considering the Appellant’s application under Section 167(2) Cr.P.C. and the subsequent extension of time of investigation and custody of the Appellant with retrospective effect from 2nd June, 2012, did not improve the matter to any extent, as far as the prosecution is concerned, since on the expiry of the first period of custody beyond 90 days, there was no application pending for extension of the period of custody, as contemplated under the amended provisions of Section 167(2) Cr.P.C.\n\n16. At this juncture, it may be useful to indicate that the provisions of Section 167(2) of the Code were modified by virtue of Section 43D of the Unlawful Activities (Prevention) Act, 1967. The modification of the provisions of Section 167(2) Cr.P.C. by virtue of Section 43D of the aforesaid Act is extracted hereinbelow :-",
+            "speaker": "THE COURT",
+            "tid": 136480811,
+            "caseTitle": "Sayed Mohd. Ahmed Kazmi vs State, Gnctd & Ors on 19 October, 2012",
+            "year": 2012,
+            "courtTier": "SC",
+            "locator": "para 16",
+            "paraIds": [
+              "136480811_c007"
+            ]
+          },
+          {
+            "id": "1376808_c014",
+            "kind": "court_holding",
+            "text": "As such now it is not open to the appellants to claim bail under proviso\n\n(a) to Section 167(2) of the Code, Admittedly charge-sheet has been submitted against the appellants, and they are in custody on the basis of orders of remand passed under other provisions of the Code and at this stage proviso (a) to Section 167(2) shall not be applicable.\n\nDuring hearing of the appeal, it was pointed out by the counsel appearing on behalf of the appellants that some courts in order to defeat the right of the accused to be released on bail under proviso (a) to Section 167(2) after expiry of the statutory period for completion of the investigation, keep the applications for bail pending for some days so that in the meantime, charge-sheets are submitted. Any such act on the part of any court cannot be approved. If an accused charged with any kind of offence, becomes entitled to be released on bail under proviso (a) lo Section 167(2) that statutory right should not be defeated by keeping the applications pending till she charge-sheets are submitted, so that the right which had accrued is extinguished and defeated. So far the present case is concerned, we are informed by the counsel for the appellants that a petition for grant of bail on merit had been filed which was rejected on 22.3.1993, But admittedly no petition for grant of bail after the expiry of the, statutory period for the submission of the charge-sheet had been filed. There is no statement that any application for grant of bail had been filed on behalf of the appellants under proviso (a) to Section 167(2) after the expiry of the statutory period which application was kept pending till 30th August 1993. Now the appellants have forfeited their right to be released on bail under proviso (a) to section 167(2) as they are in custody on basis of orders for remand passed under other provisions of the Code. In such a situation, we are left with no option, but to dismiss these appeals. However, we directed that the trial of the appellants be expedited.",
+            "speaker": "THE COURT",
+            "tid": 1376808,
+            "caseTitle": "Mohamed Iqbal Madar Sheiri And Ors vs The State Of Maharashtra on 8 January, 1996",
+            "year": 1996,
+            "courtTier": "SC",
+            "locator": null,
+            "paraIds": [
+              "1376808_c014"
+            ]
+          },
+          {
+            "id": "123660783_c184",
+            "kind": "court_holding",
+            "text": "70. The question here is whether there is anything in the law which per se requires that upon filing of the charge-sheet, or the summoning of the accused, by the court – (or even the addition of an offence in the charge-sheet, of which an applicant on bail is accused of freshly), his liberty ought to be forfeited and that he should be asked to surrender and apply for regular bail. The observations about the width and amplitude of the power under Section 438, made in answer to the first question, are equally relevant here too. In the present context, further, the judgment and observations of this Court in its interpretation of Section 167(2) are telling. It was held in Gursharan Singh (supra), the release by grant of bail of an accused under Section 167(2) amounts to “deemed bail”. This is borne out by Section 167(2) which states that anyone released on bail under its provision “shall be deemed to be so released under the provisions of Chapter XXXIII for the purposes of that Chapter.” The judgment in Aslam Babalal Desai (supra) has clarified that when an accused is released by operation of Section 167(2) and subsequently, a charge-sheet is filed, there is no question of the cancellation of his bail. In these circumstances, the mere fact that an accused is given relief under Section 438 at one stage, per se does not mean that upon the filing of a charge-sheet, he is necessarily to surrender or/and apply for regular bail. The analogy to ‘deemed bail’ under Section 167(2) with anticipatory bail leads this court to conclude that the mere subsequent event of the filing of a charge-sheet cannot compel the accused to surrender and seek regular bail. As a matter of fact, interestingly, if indeed, if a charge-sheet is filed where the accused is on anticipatory bail, the normal implication would be that there was no occasion for the investigating agency or the police to require his custody, because there would have been nothing in his behavior requiring such a step. In other words, an accused, who is granted anticipatory bail would continue to be at liberty when the charge sheet is filed, the natural implication is that there is no occasion for a direction by the Court that he be arrested and further that he had cooperated with the investigation. At the same time, however, at any time during the investigation were any occasion to arise calling for intervention of the court for infraction of any of the conditions imposed under Section 437(3) read with Section 438(2) or the violation of any other condition imposed in the given facts of a case, recourse can always be had under Section 439(2).",
+            "speaker": "THE COURT",
+            "tid": 123660783,
+            "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+            "year": 2020,
+            "courtTier": "SC",
+            "locator": "para 70",
+            "paraIds": [
+              "123660783_c184"
+            ]
+          },
+          {
+            "id": "3764_c013",
+            "kind": "court_holding",
+            "text": "17. In support of his submissions, the learned counsel referred to the Constitution Bench decision of this Court in Sanjay Dutt Vs. State through CBI, Bombay (II) [(1994) 5 SCC 410], wherein it was held that the indefeasible right of an accused to be released on bail by virtue of Section 20(4)(bb) of the Terrorist and Disruptive Activities (Prevention) Act, 1987, was enforceable only prior to the filing of the challan and it did not survive or remain enforceable on the challan being filed, if not already availed of. Their Lordships held further that if the right to grant of statutory bail had not been enforced till the filing of the challan, then there was no question of its enforcement thereafter, since it stood extinguished the moment the challan was filed because Section 167(2) Cr.P.C. ceased to have any application.\n\nReference was also made to the decision of a Three Judge Bench of this Court in Uday Mohanlal Acharya Vs. State of Maharashtra [(2001) 5 SCC 453], wherein the scope of Section 167(2) Cr.P.C. and the proviso thereto fell for consideration and it was the majority view that an accused had an indefeasible right to be released on bail when investigation is not completed within the specified period and that for availing of such right the accused was only required to file an application before the Magistrate seeking release on bail alleging that no challan had been filed within the period prescribed and if he was prepared to offer bail on being directed by the Magistrate, the Magistrate was under an obligation to dispose of the said application and even if in the meantime a charge-sheet had been filed, the right to statutory bail would not be affected. It was, however, clarified that if despite the direction to furnish bail, the accused failed to do so, his right to be released on bail would stand extinguished.\n\n18. It was, therefore, submitted that the Bombay High Court had granted bail to the Respondent No.1 on an incorrect interpretation of the law and the said order granting bail was, therefore, liable to be set aside.",
+            "speaker": "THE COURT",
+            "tid": 3764,
+            "caseTitle": "Union Of India vs Hassan Ali Khan And Anr on 30 September, 2011",
+            "year": 2011,
+            "courtTier": "SC",
+            "locator": "paras 17-18",
+            "paraIds": [
+              "3764_c013"
+            ]
+          }
+        ],
+        "empty": false
+      },
+      {
+        "round": "opposing",
+        "items": [
+          {
+            "id": "attack_8215697_136480811",
+            "kind": "court_holding",
+            "text": "We may presently refer to a recent three-Judge Bench decision in Sayed Mohd. Ahmad Kazmi v. State (Government of NCT of Delhi) and others[19]. In the said case, the accused had filed an application for grant of bail on 2.6.2012 since his ninety days’ period of custody was to expire on 3.6.2012 and further custody was sought for by the prosecution. The learned Magistrate, by his order dated 2.6.2012, extended the period of investigation and the custody of the appellant by another ninety days. The said order was assailed by the appellant in a revision which came for consideration before the learned Additional Sessions Judge, who, on 8.6.2012, held that it was only the Sessions Court and not the Chief Metropolitan Magistrate which had the competence to extend the judicial custody of the accused and to entertain cases of such nature. On 22.6.2012, the accused-appellant was produced before the learned Chief Judicial Magistrate for extension of his custody. On 17.7.2012 an application was filed under Section 167(2) CrPC seeking default bail as no charge-sheet had been filed within ninety days period of the appellant’s custody. The said application was dismissed by the learned Magistrate. Thereafter, the matter was referred by the learned Chief Metropolitan Magistrate to the learned District and Sessions Judge, who directed that judicial custody of the accused-appellant be extended. The aforesaid order of the learned Sessions Judge was assailed before the High Court under Section 482 CrPC and the High Court stayed the operation of the order passed by the learned Additional Sessions Judge dated 28.6.2012 and, therefore, the application for grant of statutory bail could not be taken up by the learned Additional Sessions Judge till the High Court vacated the order of stay on 13.7.2012. As has been stated earlier, the accused moved an application for grant of bail under Section 167(4) and the same was listed for consideration on 17.7.2012. In the meantime, revision petition came before the learned Additional and Sessions Judge, who allowed the application and opined that the custody of the accused was illegal. In view of the order passed by the learned Additional Sessions Judge declaring the custody of the accused to be illegal, on the same day an application under Section 167(2) CrPC was filed before the learned Chief Metropolitan Magistrate, but he, instead of hearing the application on the sad date, notified the hearing for 18.7.2012. On the adjourned date, i.e., 18.7.2012 the State filed a fresh application seeking further extension of appellant’s custody and the investigation period. The learned Chief Metropolitan Magistrate directed a copy of the said application to be served on the counsel for the accused and notified the matter for hearing on 20.7.2012. On that day he took up the matter for extension of custody and, instead of considering the application, extended the time of interrogation and custody of the appellant for ninety days with retrospective effect from 2.6.2012. The aforesaid order was challenged before the learned Sessions Judge who adjourned the matter to 12.10.2012 and on 31.7.2013 the prosecution filed the charge-sheet. When the matter travelled to this Court, a question arose with regard to getting the benefit of the default bail. Be it stated, the Court was considering the provisions contained in Section 43-D of Unlawful Activities (Prevention) Act, 1967 and Section 167(2) CrPC. In that context, it observed thus: -",
+            "speaker": "THE COURT",
+            "tid": 8215697,
+            "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+            "year": 2014,
+            "courtTier": "SC",
+            "locator": null,
+            "paraIds": [
+              "8215697_p_28"
+            ],
+            "viaGraph": true,
+            "becauseOf": [
+              {
+                "tid": 136480811,
+                "title": "Sayed Mohd. Ahmed Kazmi vs State, Gnctd & Ors on 19 October, 2012",
+                "polarity": "neg"
+              }
+            ]
+          },
+          {
+            "id": "194334432_c049",
+            "kind": "argument",
+            "text": "46. It was submitted that as of today, a charge sheet having been filed against the petitioner, he is not entitled to ‘default bail’ but must apply for regular bail – the ‘default bail’ chapter being now closed. We cannot agree for the simple reason that we are concerned with the interregnum between 4th January, 2017 and 24th January, 2017 when no charge sheet had been filed, during which period he had availed of his indefeasible right of ‘default bail’. It would have been another matter altogether if the petitioner had not applied for ‘default bail’ for whatever reason during this interregnum. There could be a situation (however rare) where an accused is not prepared to be bailed out perhaps for his personal security since he or she might be facing some threat outside the correction home or for any other reason. But then in such an event, the accused voluntarily gives up the indefeasible right for default bail and having forfeited that right the accused cannot, after the charge sheet or challan has been filed, claim a resuscitation of the indefeasible right. But that is not the case insofar as the petitioner is concerned, since he did not give up his indefeasible right for ‘default bail’ during the interregnum between 4th January, 2017 and 24th January, 2017 as is evident from the decision of the High Court rendered on 11th January, 2017. On the contrary, he had availed of his right to ‘default bail’ which could not have been defeated on 11th January, 2017 and which we are today compelled to acknowledge and enforce.\n\n47. Consequently, we are of opinion that the petitioner had satisfied all the requirements of obtaining ‘default bail’ which is that on 11 th January, 2017 he had put in more than 60 days in custody pending investigations into an alleged offence not punishable with imprisonment for a minimum period of 10 years, no charge sheet had been filed against him and he was prepared to furnish bail for his release, as such, he ought to have been released by the High Court on reasonable terms and conditions of bail.",
+            "speaker": "COUNSEL",
+            "stanceUndetermined": true,
+            "tid": 194334432,
+            "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+            "year": 2017,
+            "courtTier": "SC",
+            "locator": "paras 46-47",
+            "paraIds": [
+              "194334432_p_88",
+              "194334432_p_90"
+            ]
+          },
+          {
+            "id": "1376808_c014",
+            "kind": "argument",
+            "text": "As such now it is not open to the appellants to claim bail under proviso\n\n(a) to Section 167(2) of the Code, Admittedly charge-sheet has been submitted against the appellants, and they are in custody on the basis of orders of remand passed under other provisions of the Code and at this stage proviso (a) to Section 167(2) shall not be applicable.\n\nDuring hearing of the appeal, it was pointed out by the counsel appearing on behalf of the appellants that some courts in order to defeat the right of the accused to be released on bail under proviso (a) to Section 167(2) after expiry of the statutory period for completion of the investigation, keep the applications for bail pending for some days so that in the meantime, charge-sheets are submitted. Any such act on the part of any court cannot be approved. If an accused charged with any kind of offence, becomes entitled to be released on bail under proviso (a) lo Section 167(2) that statutory right should not be defeated by keeping the applications pending till she charge-sheets are submitted, so that the right which had accrued is extinguished and defeated. So far the present case is concerned, we are informed by the counsel for the appellants that a petition for grant of bail on merit had been filed which was rejected on 22.3.1993, But admittedly no petition for grant of bail after the expiry of the, statutory period for the submission of the charge-sheet had been filed. There is no statement that any application for grant of bail had been filed on behalf of the appellants under proviso (a) to Section 167(2) after the expiry of the statutory period which application was kept pending till 30th August 1993. Now the appellants have forfeited their right to be released on bail under proviso (a) to section 167(2) as they are in custody on basis of orders for remand passed under other provisions of the Code. In such a situation, we are left with no option, but to dismiss these appeals. However, we directed that the trial of the appellants be expedited.",
+            "speaker": "COUNSEL",
+            "stanceUndetermined": true,
+            "tid": 1376808,
+            "caseTitle": "Mohamed Iqbal Madar Sheiri And Ors vs The State Of Maharashtra on 8 January, 1996",
+            "year": 1996,
+            "courtTier": "SC",
+            "locator": null,
+            "paraIds": [
+              "1376808_p_22",
+              "1376808_p_23",
+              "1376808_p_24"
+            ]
+          },
+          {
+            "id": "194334432_c035",
+            "kind": "argument",
+            "text": "33. It was submitted by learned counsel for the State that the charge sheet having been filed against the petitioner on 24th January, 2017 the indefeasible right of the petitioner to be now released on ‘default bail’ gets extinguished and the petitioner must apply for regular bail.\n\n34. What is forgotten is that the indefeasible right for ‘default bail’ accrued to the petitioner when the period of 60 days for completing the investigation and filing a charge sheet came to an end on 3rd or 4th January, 2017 and that the indefeasible right continued till 24th January, 2017. The question is whether during this interregnum the petitioner was entitled to ‘default bail’ or not? Ordinarily, the answer would be “yes” but in the present case, the petitioner was not granted bail and a charge sheet was filed against him on 24 th January, 2017. Was his indefeasible right completely taken away?\n\n35. Our attention was drawn to the decision of the Constitution Bench in Sanjay Dutt v. State.8 In paragraph 46 of the Report it was conceded by learned counsel appearing for the accused that the indefeasible right is enforceable only up to the filing of a charge sheet or challan and does not survive after the charge sheet or challan is filed in the court against him. This submission was not refuted by but agreed to by the learned Additional Solicitor General appearing for the State. The submission made by both the learned counsels was based on an interpretation of the decision of this Court in Hitendra Vishnu Thakur v. State of Maharashtra9 which was a case under the Terrorist and Disruptive Activities (Prevention) Act, 1987.",
+            "speaker": "COUNSEL",
+            "stanceUndetermined": true,
+            "tid": 194334432,
+            "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+            "year": 2017,
+            "courtTier": "SC",
+            "locator": "paras 33-35",
+            "paraIds": [
+              "194334432_p_67",
+              "194334432_p_69",
+              "194334432_p_70"
+            ]
+          },
+          {
+            "id": "8215697_c046",
+            "kind": "argument",
+            "text": "Coming to the facts of the instant case, we find that prior to the date of expiry of 90 days which is the initial period for filing the charge-sheet, the prosecution neither had filed the charge-sheet nor had it filed an application for extension. Had an application for extension been filed, then the matter would have been totally different. After the accused respondent filed the application, the prosecution submitted an application seeking extension of time for filing of the charge-sheet. Mr. P.K. Dey, learned counsel for the appellant would submit that the same is permissible in view of the decision in Bipin Shantilal Panchal (supra) but on a studied scrutiny of the same we find the said decision only dealt with whether extension could be sought from time to time till the completion of period as provided in the Statute i.e., 180 days. It did not address the issue what could be the effect of not filing an application for extension prior to expiry of the period because in the factual matrix it was not necessary to do so. In the instant case, the day the accused filed the application for benefit of the default provision as engrafted under proviso to sub- Section (2) of Section 167 CrPC the Court required the accused to file a rejoinder affidavit by the time the initial period provided under the statute had expired. There was no question of any contest as if the application for extension had been filed prior to the expiry of time. The adjournment by the learned Magistrate was misconceived. He was obliged on that day to deal with the application filed by the accused as required under Section 167(2) CrPC. We have no hesitation in saying that such procrastination frustrates the legislative mandate. A Court cannot act to extinguish the right of an accused if the law so confers on him. Law has to prevail. The prosecution cannot avail such subterfuges to frustrate or destroy the legal right of the accused. Such an act is not permissible. If we permit ourselves to say so, the prosecution exhibited sheer negligence in not filing the application within the time which it was entitled to do so in law but made all adroit attempts to redeem the cause by its conduct.\n\nIn view of our aforesaid premised reasons we do not find any error in the order of the High Court in overturning the order refusing bail and extending the benefit to the respondent and, accordingly, the appeal fails and is hereby dismissed.",
+            "speaker": "COUNSEL",
+            "stanceUndetermined": true,
+            "tid": 8215697,
+            "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+            "year": 2014,
+            "courtTier": "SC",
+            "locator": null,
+            "paraIds": [
+              "8215697_p_36",
+              "8215697_p_37"
+            ]
+          },
+          {
+            "id": "194334432_c081",
+            "kind": "argument",
+            "text": "But it is an admitted position that no application for bail on the said ground was made on behalf of the appellants. Unless applications had been made on behalf of the appellants, there was no question of their being released on ground of default in completion of the investigation within the statutory period. It is now settled that this right cannot be exercised after the charge-sheet has been submitted and cognizance has been taken, because in that event the remand of the accused concerned including one who is alleged to have committed an offence under TADA, is not under Section 167(2) but under other provisions of the Code.” [Emphasis supplied]\n\n25. In the case of Hitendra Vishnu Thakur and Others etc. etc. vs. State of Maharashtra and Others34, it was held in para 30 that:",
+            "speaker": "COUNSEL",
+            "stanceUndetermined": true,
+            "tid": 194334432,
+            "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+            "year": 2017,
+            "courtTier": "SC",
+            "locator": "p. 53",
+            "paraIds": [
+              "194334432_p_125",
+              "194334432_p_126"
+            ]
+          },
+          {
+            "id": "123660783_c184",
+            "kind": "argument",
+            "text": "70. The question here is whether there is anything in the law which per se requires that upon filing of the charge-sheet, or the summoning of the accused, by the court – (or even the addition of an offence in the charge-sheet, of which an applicant on bail is accused of freshly), his liberty ought to be forfeited and that he should be asked to surrender and apply for regular bail. The observations about the width and amplitude of the power under Section 438, made in answer to the first question, are equally relevant here too. In the present context, further, the judgment and observations of this Court in its interpretation of Section 167(2) are telling. It was held in Gursharan Singh (supra), the release by grant of bail of an accused under Section 167(2) amounts to “deemed bail”. This is borne out by Section 167(2) which states that anyone released on bail under its provision “shall be deemed to be so released under the provisions of Chapter XXXIII for the purposes of that Chapter.” The judgment in Aslam Babalal Desai (supra) has clarified that when an accused is released by operation of Section 167(2) and subsequently, a charge-sheet is filed, there is no question of the cancellation of his bail. In these circumstances, the mere fact that an accused is given relief under Section 438 at one stage, per se does not mean that upon the filing of a charge-sheet, he is necessarily to surrender or/and apply for regular bail. The analogy to ‘deemed bail’ under Section 167(2) with anticipatory bail leads this court to conclude that the mere subsequent event of the filing of a charge-sheet cannot compel the accused to surrender and seek regular bail. As a matter of fact, interestingly, if indeed, if a charge-sheet is filed where the accused is on anticipatory bail, the normal implication would be that there was no occasion for the investigating agency or the police to require his custody, because there would have been nothing in his behavior requiring such a step. In other words, an accused, who is granted anticipatory bail would continue to be at liberty when the charge sheet is filed, the natural implication is that there is no occasion for a direction by the Court that he be arrested and further that he had cooperated with the investigation. At the same time, however, at any time during the investigation were any occasion to arise calling for intervention of the court for infraction of any of the conditions imposed under Section 437(3) read with Section 438(2) or the violation of any other condition imposed in the given facts of a case, recourse can always be had under Section 439(2).",
+            "speaker": "COUNSEL",
+            "stanceUndetermined": true,
+            "tid": 123660783,
+            "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+            "year": 2020,
+            "courtTier": "SC",
+            "locator": "para 70",
+            "paraIds": [
+              "123660783_p_252"
+            ]
+          },
+          {
+            "id": "1376808_c012",
+            "kind": "argument",
+            "text": "So far the facts of the present case are concerned, the appellant Nos. 1 to 6 were taken into custody on 16.1.1993. The charge sheet was submitted on 30.8.1993; obviously beyond the statutory period under Section 20(4)(b). There is nothing on record lo show that provisions of Section 20(4)(bb) were applied in respect of appellants. They had become entitled to he released on bail under proviso (a) to Section 167(2) of the Code read with Section 20(4)(b) of the TADA. But it is an admitted position that no application for bail on the said ground was made on behalf of the appellants. Unless applications had been made on behalf of the appellants, there was no question of their being released on ground of default in completion of the investigation within the statutory period, It is now settled that this right cannot be exercised after the charge-sheet has been submitted and eognizance has been taken, because in that event the remand of the accused concerned including one who is alleged to have committed an offence under TADA, is not under Section 167(2) but under other provisions of the Code. This has been specifically considered by a Constitution Bench of this Court in the case of Sanjay Dutt v. Stale through C.B.I. Bombay (II), [1994] 5 SCC 410. It was said :",
+            "speaker": "COUNSEL",
+            "stanceUndetermined": true,
+            "tid": 1376808,
+            "caseTitle": "Mohamed Iqbal Madar Sheiri And Ors vs The State Of Maharashtra on 8 January, 1996",
+            "year": 1996,
+            "courtTier": "SC",
+            "locator": null,
+            "paraIds": [
+              "1376808_p_21"
+            ]
+          },
+          {
+            "id": "194334432_c111",
+            "kind": "argument",
+            "text": "23. The second issue which arises is whether the petitioner had applied for ‘default bail’ or not. Admittedly, there is no such plea in the bail application, but it is also not disputed that this was the main argument at the time of hearing and this issue was specifically dealt with in the impugned order. In my opinion, once the High Court permitted the counsel for the petitioner to argue the petition on the ground of grant of ‘default bail’ and no objection was raised by the counsel for the State then at this stage it cannot be urged that the petitioner never applied for ‘default bail’ and is not entitled to ‘default bail’. If this objection had been raised at that stage, either by the Court or by the State, the accused could have either filed a fresh application for grant of ‘default bail’ or could have prayed for ‘default bail’ by adding an additional ground in the existing application much before 24.01.2017 when the charge-sheet was filed.\n\n24. It has also been urged on behalf of the State that since the charge-sheet has now been filed, the petitioner is not entitled to grant of ‘default bail’. Both my learned brothers have referred to the case of Sanjay Dutt v. State through C.B.I., Bombay (II), (1994) 5 SCC 410. Reference has also been made to Uday Mohanlal Acharya v. State of Maharashtra, (2001) 5 SCC 453.\n\n25. It is not necessary to multiply citations because in Union of India v. Nirala Yadav, (2014) 9 SCC 457, this Court has considered the entire law on the subject and followed the law laid down in Uday Mohanlal Acharya’s case (supra) as well as in Mohamed Iqbal Madar Sheikh & Ors. v. State of Maharashtra, (1996) 1 SCC 722, wherein this Court deprecated the practice followed by some courts of adjourning applications for grant of ‘default bail’ till the prosecution filed the charge-sheet and held that the statutory right should not be defeated by keeping the applications pending till the charge-sheet is filed.\n\n26. In Uday Mohanlal Acharya’s case (supra) the Court culled out six guidelines, which are as follows:",
+            "speaker": "COUNSEL",
+            "stanceUndetermined": true,
+            "tid": 194334432,
+            "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+            "year": 2017,
+            "courtTier": "SC",
+            "locator": "p. 74",
+            "paraIds": [
+              "194334432_p_180",
+              "194334432_p_182",
+              "194334432_p_184",
+              "194334432_p_186"
+            ]
+          }
+        ],
+        "empty": false
+      },
+      {
+        "round": "statutes",
+        "items": [],
+        "empty": true
+      }
+    ],
+    "tookMs": 28874
+  }
+]

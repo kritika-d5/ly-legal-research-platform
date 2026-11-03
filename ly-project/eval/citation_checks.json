@@ -1,0 +1,466 @@
+{
+  "input": "generated_answers.json",
+  "summary": {
+    "answers": 6,
+    "generationFailed": [],
+    "totalCitations": 50,
+    "resolving": 50,
+    "outOfRangeBody": 0,
+    "outOfRangeSourcesRows": 0,
+    "formatViolations": 24,
+    "markerStyles": {
+      "fullwidth+locator": 10,
+      "fullwidth": 10,
+      "ascii": 26,
+      "ascii+¶locator": 4
+    },
+    "citationsWithLocatorInMarker": 14,
+    "locatorResults": {
+      "match": 10,
+      "in passage text, not stored locator": 4
+    },
+    "locatorMismatch": 0,
+    "bodyVsSources": 2,
+    "sourcesRowsNeverCitedInBody": 4,
+    "serverInvalidCitationsReported": 0,
+    "sampled": {
+      "total": 30,
+      "should_work": 30,
+      "should_fail": 0
+    }
+  },
+  "perQuery": [
+    {
+      "id": "sw01",
+      "group": "should_work",
+      "supplied": 16,
+      "citations": 13,
+      "resolving": 13,
+      "outOfRange": 0,
+      "formatViolations": 13,
+      "locatorMismatch": 0,
+      "bodyVsSources": 2,
+      "serverReported": []
+    },
+    {
+      "id": "sw02",
+      "group": "should_work",
+      "supplied": 8,
+      "citations": 9,
+      "resolving": 9,
+      "outOfRange": 0,
+      "formatViolations": 0,
+      "locatorMismatch": 0,
+      "bodyVsSources": 0,
+      "serverReported": []
+    },
+    {
+      "id": "sw03",
+      "group": "should_work",
+      "supplied": 8,
+      "citations": 7,
+      "resolving": 7,
+      "outOfRange": 0,
+      "formatViolations": 7,
+      "locatorMismatch": 0,
+      "bodyVsSources": 0,
+      "serverReported": []
+    },
+    {
+      "id": "sw04",
+      "group": "should_work",
+      "supplied": 12,
+      "citations": 12,
+      "resolving": 12,
+      "outOfRange": 0,
+      "formatViolations": 4,
+      "locatorMismatch": 0,
+      "bodyVsSources": 0,
+      "serverReported": []
+    },
+    {
+      "id": "sw05",
+      "group": "should_work",
+      "supplied": 0,
+      "citations": 0,
+      "resolving": 0,
+      "outOfRange": 0,
+      "formatViolations": 0,
+      "locatorMismatch": 0,
+      "bodyVsSources": 0,
+      "serverReported": []
+    },
+    {
+      "id": "sw10",
+      "group": "should_work",
+      "supplied": 12,
+      "citations": 9,
+      "resolving": 9,
+      "outOfRange": 0,
+      "formatViolations": 0,
+      "locatorMismatch": 0,
+      "bodyVsSources": 0,
+      "serverReported": []
+    }
+  ],
+  "instances": {
+    "outOfRange": [],
+    "formatViolations": [
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "【1†para 7】",
+        "n": 1,
+        "claim": "| The **discretionary power** to **limit** the period of anticipatory bail is recognised by the Constitution Bench in *Gurbaksh Singh Sibbia*; the court can “limit the period of anticipatory bail” for justifiable reasons【1†para 7】. |",
+        "line": "| The **discretionary power** to **limit** the period of anticipatory bail is recognised by the Constitution Bench in *Gurbaksh Singh Sibbia*; the court can “limit the period of anticipatory bail” for justifiable reasons【1†para 7】. |",
+        "style": "fullwidth+locator"
+      },
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "【1†para 6.2】",
+        "n": 1,
+        "claim": "| The **normal rule** is *not* to limit the duration, but the court *may* do so after considering the “peculiar facts and circumstances” of the case【1†para 6.2】. |",
+        "line": "| The **normal rule** is *not* to limit the duration, but the court *may* do so after considering the “peculiar facts and circumstances” of the case【1†para 6.2】. |",
+        "style": "fullwidth+locator"
+      },
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "【4†(vi)‑(viii)】",
+        "n": 4,
+        "claim": "| *Bhadresh Sheth* holds that, **ordinarily**, anticipatory bail should continue till trial, yet the court is **entitled to impose conditions**, including time‑limits, and may modify or cancel the order if misuse is shown【4†(vi)‑(viii)】. |",
+        "line": "| *Bhadresh Sheth* holds that, **ordinarily**, anticipatory bail should continue till trial, yet the court is **entitled to impose conditions**, including time‑limits, and may modify or cancel the order if misuse is shown【4†(vi)‑(viii)】. |",
+        "style": "fullwidth+locator"
+      },
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "【2†para 110‑111】",
+        "n": 2,
+        "claim": "| *Siddharam Satlingappa Mhetre* observes that once the accused is released on anticipatory bail, it would be “unreasonable to compel the accused to surrender … and again apply for regular bail”【2†para 110‑111】, supporting the view that a blanket, indefinite order is permissible. |",
+        "line": "| *Siddharam Satlingappa Mhetre* observes that once the accused is released on anticipatory bail, it would be “unreasonable to compel the accused to surrender … and again apply for regular bail”【2†para 110‑111】, supporting the view that a blanket, indefinite order is permissible. |",
+        "style": "fullwidth+locator"
+      },
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "【6†para 3】",
+        "n": 6,
+        "claim": "| *K.L. Verma* notes that a High Court, while granting interim anticipatory bail, **imposed the condition** that the accused move for regular bail before the court seised of the case【6†para 3】 – an example of a time‑limit being lawfully attached. |",
+        "line": "| *K.L. Verma* notes that a High Court, while granting interim anticipatory bail, **imposed the condition** that the accused move for regular bail before the court seised of the case【6†para 3】 – an example of a time‑limit being lawfully attached. |",
+        "style": "fullwidth+locator"
+      },
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "【5†p. 62】",
+        "n": 5,
+        "claim": "| *Balchand Jain* (1976) explains that Section 438 confers an **extraordinary remedy** and does **not** prescribe a fixed duration; the power to cancel or modify remains with the granting court【5†p. 62】. |",
+        "line": "| *Balchand Jain* (1976) explains that Section 438 confers an **extraordinary remedy** and does **not** prescribe a fixed duration; the power to cancel or modify remains with the granting court【5†p. 62】. |",
+        "style": "fullwidth+locator"
+      },
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "【8】",
+        "n": 8,
+        "claim": "| *Bharat Chaudhary* (2003) states that “the duration of anticipatory bail should be normally limited till the trial court has the necessary material …” and rejects the view that the statute **denudes** the court of power to set a limit【8】. |",
+        "line": "| *Bharat Chaudhary* (2003) states that “the duration of anticipatory bail should be normally limited till the trial court has the necessary material …” and rejects the view that the statute **denudes** the court of power to set a limit【8】. |",
+        "style": "fullwidth"
+      },
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "The Other Side",
+        "marker": "【13†para 6.2‑6.3】",
+        "n": 13,
+        "claim": "- In *Sushila Aggarwal* the learned counsel argued that “as a normal rule, it is not required to limit the duration of anticipatory bail” and that the “life of anticipatory bail would not end on filing of charge‑sheet”【13†para 6.2‑6.3】.",
+        "line": "- In *Sushila Aggarwal* the learned counsel argued that “as a normal rule, it is not required to limit the duration of anticipatory bail” and that the “life of anticipatory bail would not end on filing of charge‑sheet”【13†para 6.2‑6.3】.",
+        "style": "fullwidth+locator"
+      },
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "The Other Side",
+        "marker": "【12】",
+        "n": 12,
+        "claim": "- The same case records a submission that “once bail is granted in anticipation of arrest, there is no reason to limit the same till the summon is issued”【12】.",
+        "line": "- The same case records a submission that “once bail is granted in anticipation of arrest, there is no reason to limit the same till the summon is issued”【12】.",
+        "style": "fullwidth"
+      },
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "The Other Side",
+        "marker": "【1†para 7】",
+        "n": 1,
+        "claim": "- The Constitution Bench in *Sibbia* expressly **allows** courts to **limit** the period of anticipatory bail, contradicting any claim of an absolute prohibition on time‑limits【1†para 7】.",
+        "line": "- The Constitution Bench in *Sibbia* expressly **allows** courts to **limit** the period of anticipatory bail, contradicting any claim of an absolute prohibition on time‑limits【1†para 7】.",
+        "style": "fullwidth+locator"
+      },
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "The Other Side",
+        "marker": "【4†(vi)‑(viii)】",
+        "n": 4,
+        "claim": "- *Bhadresh Sheth* and *K.L. Verma* illustrate that courts have **exercised** the power to set conditions, including requiring the accused to apply for regular bail within a prescribed timeframe【4†(vi)‑(viii)】【6†para 3】.",
+        "line": "- *Bhadresh Sheth* and *K.L. Verma* illustrate that courts have **exercised** the power to set conditions, including requiring the accused to apply for regular bail within a prescribed timeframe【4†(vi)‑(viii)】【6†para 3】.",
+        "style": "fullwidth+locator"
+      },
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "The Other Side",
+        "marker": "【6†para 3】",
+        "n": 6,
+        "claim": "- *Bhadresh Sheth* and *K.L. Verma* illustrate that courts have **exercised** the power to set conditions, including requiring the accused to apply for regular bail within a prescribed timeframe【4†(vi)‑(viii)】【6†para 3】.",
+        "line": "- *Bhadresh Sheth* and *K.L. Verma* illustrate that courts have **exercised** the power to set conditions, including requiring the accused to apply for regular bail within a prescribed timeframe【4†(vi)‑(viii)】【6†para 3】.",
+        "style": "fullwidth+locator"
+      },
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "The Other Side",
+        "marker": "【8】",
+        "n": 8,
+        "claim": "- *Bharat Chaudhary* stresses that a blanket, indefinite order would defeat the object of Section 438, and therefore a **restriction** on duration is a legitimate safeguard【8】.",
+        "line": "- *Bharat Chaudhary* stresses that a blanket, indefinite order would defeat the object of Section 438, and therefore a **restriction** on duration is a legitimate safeguard【8】.",
+        "style": "fullwidth"
+      },
+      {
+        "query": "sw03",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "【4】",
+        "n": 4,
+        "claim": "**Absence of a custodial‑interrogation requirement** – The court in *Satender Kumar Antil v. CBI* observed that when the investigating agency has completed its investigation and the charge‑sheet is already filed, the accused’s presence in custody “may not be necessary for further investigation” and bail should therefore not be denied on that basis alone【4】.",
+        "line": "1. **Absence of a custodial‑interrogation requirement** – The court in *Satender Kumar Antil v. CBI* observed that when the investigating agency has completed its investigation and the charge‑sheet is already filed, the accused’s presence in custody “may not be necessary for further investigation” and bail should therefore not be denied on that basis alone【4】.",
+        "style": "fullwidth"
+      },
+      {
+        "query": "sw03",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "【4】",
+        "n": 4,
+        "claim": "**Bail should not be denied merely because the offence is of “huge magnitude.”** – The same passage notes that while the court is “conscious of the fact that the accused are charged with economic offences of huge magnitude,” it still stresses the need to look at the facts of each case and not deny bail solely on that ground【4】.",
+        "line": "2. **Bail should not be denied merely because the offence is of “huge magnitude.”** – The same passage notes that while the court is “conscious of the fact that the accused are charged with economic offences of huge magnitude,” it still stresses the need to look at the facts of each case and not deny bail solely on that ground【4】.",
+        "style": "fullwidth"
+      },
+      {
+        "query": "sw03",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "【6】",
+        "n": 6,
+        "claim": "**Seriousness of the charge is not a sole ground for refusal.** – *Sanjay Chandra v. CBI* states that “the seriousness of the charge” cannot by itself justify bail refusal; bail may be denied only in “the most extraordinary circumstances”【6】.",
+        "line": "3. **Seriousness of the charge is not a sole ground for refusal.** – *Sanjay Chandra v. CBI* states that “the seriousness of the charge” cannot by itself justify bail refusal; bail may be denied only in “the most extraordinary circumstances”【6】.",
+        "style": "fullwidth"
+      },
+      {
+        "query": "sw03",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "【4】",
+        "n": 4,
+        "claim": "**The right to bail is not to be denied on community sentiment or the mere fact of an economic offence.** – *Satender Kumar Antil* also reminds that bail is a constitutional right and should not be denied merely because “the offences alleged… may jeopardise the economy of the country” without a concrete custodial‑interrogation need【4】.",
+        "line": "4. **The right to bail is not to be denied on community sentiment or the mere fact of an economic offence.** – *Satender Kumar Antil* also reminds that bail is a constitutional right and should not be denied merely because “the offences alleged… may jeopardise the economy of the country” without a concrete custodial‑interrogation need【4】.",
+        "style": "fullwidth"
+      },
+      {
+        "query": "sw03",
+        "group": "should_work",
+        "section": "The Other Side",
+        "marker": "【1】",
+        "n": 1,
+        "claim": "**Economic offences may require a different approach.** – *Sushila Aggarwal v. State (NCT of Delhi)* notes that “some decisions have also stressed that economic offences need a different approach and therefore, anticipatory bail should not be granted readily”【1】.",
+        "line": "1. **Economic offences may require a different approach.** – *Sushila Aggarwal v. State (NCT of Delhi)* notes that “some decisions have also stressed that economic offences need a different approach and therefore, anticipatory bail should not be granted readily”【1】. This can be used to argue that the magnitude of the fraud justifies a more cautious bail stance.",
+        "style": "fullwidth"
+      },
+      {
+        "query": "sw03",
+        "group": "should_work",
+        "section": "The Other Side",
+        "marker": "【3】",
+        "n": 3,
+        "claim": "**Potential for obstruction of investigation.** – The older judgment in *State of U.P. v. Deoman Upadhyaya* (1960) observes that an accused who is not in custody, especially if influential, may “retard and obstruct the progress of investigation”【3】.",
+        "line": "2. **Potential for obstruction of investigation.** – The older judgment in *State of U.P. v. Deoman Upadhyaya* (1960) observes that an accused who is not in custody, especially if influential, may “retard and obstruct the progress of investigation”【3】. Although pre‑1950, it is persuasive authority that may be cited to suggest that large‑scale economic offenders could still pose a risk to the investigation.",
+        "style": "fullwidth"
+      },
+      {
+        "query": "sw03",
+        "group": "should_work",
+        "section": "The Other Side",
+        "marker": "【5】",
+        "n": 5,
+        "claim": "**Bail under Section 439 requires the accused to be in custody.** – *Niranjan Singh & Anr v. Prabhakar Rajaram Kharote* emphasizes that “judicial jurisdiction arises only when persons are already in custody and seek the process of the court to be enlarged”【5】.",
+        "line": "3. **Bail under Section 439 requires the accused to be in custody.** – *Niranjan Singh & Anr v. Prabhakar Rajaram Kharote* emphasizes that “judicial jurisdiction arises only when persons are already in custody and seek the process of the court to be enlarged”【5】. If the accused is not presently in custody, this could be raised to question the applicability of bail under the ordinary provisions.",
+        "style": "fullwidth"
+      },
+      {
+        "query": "sw04",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "[3]¶2",
+        "n": 3,
+        "claim": "- The proviso to Section 167(2) expressly provides a **60‑day** period for investigations of offences “other than” those punishable with death, life imprisonment or a term of **not less than ten years** [3]¶2.",
+        "line": "- The proviso to Section 167(2) expressly provides a **60‑day** period for investigations of offences “other than” those punishable with death, life imprisonment or a term of **not less than ten years** [3]¶2.",
+        "style": "ascii+¶locator"
+      },
+      {
+        "query": "sw04",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "[3]¶3‑4",
+        "n": 3,
+        "claim": "- Upon expiry of that period, “an indefeasible right accrues in favour of the accused for being released on bail on account of default by the investigating agency” [3]¶3‑4.",
+        "line": "- Upon expiry of that period, “an indefeasible right accrues in favour of the accused for being released on bail on account of default by the investigating agency” [3]¶3‑4.",
+        "style": "ascii+¶locator"
+      },
+      {
+        "query": "sw04",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "[4]¶20",
+        "n": 4,
+        "claim": "- The right to invoke default bail arises **independently of any later filing of a charge‑sheet**; the accused need only apply for bail during the interregnum [4]¶20 (recognising the need for an application but confirming the right once the period has expired).",
+        "line": "- The right to invoke default bail arises **independently of any later filing of a charge‑sheet**; the accused need only apply for bail during the interregnum [4]¶20 (recognising the need for an application but confirming the right once the period has expired).",
+        "style": "ascii+¶locator"
+      },
+      {
+        "query": "sw04",
+        "group": "should_work",
+        "section": "The Other Side",
+        "marker": "[6]¶3‑5",
+        "n": 6,
+        "claim": "- **Questioning the 60‑day rule for offences with a 7‑year minimum**: *Sunil Kumar v. State of Jharkhand* raised the issue whether, for offences like Section 304B IPC (minimum 7 years, possible life), the charge‑sheet must be filed within **60 days** and whether default bail accrues [6]¶3‑5.",
+        "line": "- **Questioning the 60‑day rule for offences with a 7‑year minimum**: *Sunil Kumar v. State of Jharkhand* raised the issue whether, for offences like Section 304B IPC (minimum 7 years, possible life), the charge‑sheet must be filed within **60 days** and whether default bail accrues [6]¶3‑5.",
+        "style": "ascii+¶locator"
+      }
+    ],
+    "locatorMismatch": [],
+    "locatorInText": [
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "【1†para 6.2】",
+        "n": 1,
+        "claim": "| The **normal rule** is *not* to limit the duration, but the court *may* do so after considering the “peculiar facts and circumstances” of the case【1†para 6.2】. |",
+        "line": "| The **normal rule** is *not* to limit the duration, but the court *may* do so after considering the “peculiar facts and circumstances” of the case【1†para 6.2】. |",
+        "writtenLocator": "para 6.2",
+        "storedLocator": "para 7",
+        "result": "in passage text, not stored locator",
+        "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020"
+      },
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "【4†(vi)‑(viii)】",
+        "n": 4,
+        "claim": "| *Bhadresh Sheth* holds that, **ordinarily**, anticipatory bail should continue till trial, yet the court is **entitled to impose conditions**, including time‑limits, and may modify or cancel the order if misuse is shown【4†(vi)‑(viii)】. |",
+        "line": "| *Bhadresh Sheth* holds that, **ordinarily**, anticipatory bail should continue till trial, yet the court is **entitled to impose conditions**, including time‑limits, and may modify or cancel the order if misuse is shown【4†(vi)‑(viii)】. |",
+        "writtenLocator": "(vi)‑(viii)",
+        "storedLocator": null,
+        "result": "in passage text, not stored locator",
+        "caseTitle": "Bhadresh Bipinbhai Sheth vs State Of Gujarat & Anr on 1 September, 2015"
+      },
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "The Other Side",
+        "marker": "【13†para 6.2‑6.3】",
+        "n": 13,
+        "claim": "- In *Sushila Aggarwal* the learned counsel argued that “as a normal rule, it is not required to limit the duration of anticipatory bail” and that the “life of anticipatory bail would not end on filing of charge‑sheet”【13†para 6.2‑6.3】.",
+        "line": "- In *Sushila Aggarwal* the learned counsel argued that “as a normal rule, it is not required to limit the duration of anticipatory bail” and that the “life of anticipatory bail would not end on filing of charge‑sheet”【13†para 6.2‑6.3】.",
+        "writtenLocator": "para 6.2‑6.3",
+        "storedLocator": "para 7",
+        "result": "in passage text, not stored locator",
+        "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020"
+      },
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "The Other Side",
+        "marker": "【4†(vi)‑(viii)】",
+        "n": 4,
+        "claim": "- *Bhadresh Sheth* and *K.L. Verma* illustrate that courts have **exercised** the power to set conditions, including requiring the accused to apply for regular bail within a prescribed timeframe【4†(vi)‑(viii)】【6†para 3】.",
+        "line": "- *Bhadresh Sheth* and *K.L. Verma* illustrate that courts have **exercised** the power to set conditions, including requiring the accused to apply for regular bail within a prescribed timeframe【4†(vi)‑(viii)】【6†para 3】.",
+        "writtenLocator": "(vi)‑(viii)",
+        "storedLocator": null,
+        "result": "in passage text, not stored locator",
+        "caseTitle": "Bhadresh Bipinbhai Sheth vs State Of Gujarat & Anr on 1 September, 2015"
+      }
+    ],
+    "bodyVsSources": [
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "Your Case",
+        "marker": "【1†para 7】",
+        "n": 1,
+        "claim": "| The **discretionary power** to **limit** the period of anticipatory bail is recognised by the Constitution Bench in *Gurbaksh Singh Sibbia*; the court can “limit the period of anticipatory bail” for justifiable reasons【1†para 7】. |",
+        "line": "| The **discretionary power** to **limit** the period of anticipatory bail is recognised by the Constitution Bench in *Gurbaksh Singh Sibbia*; the court can “limit the period of anticipatory bail” for justifiable reasons【1†para 7】. |",
+        "passageCase": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+        "passageLocator": "para 7",
+        "sourcesEntry": "*Sushila Aggarwal* v. State (NCT of Delhi) (2020) | para 7; para 6.2‑6.3",
+        "problems": [
+          "body names Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980 but [1] is Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020"
+        ]
+      },
+      {
+        "query": "sw01",
+        "group": "should_work",
+        "section": "The Other Side",
+        "marker": "【1†para 7】",
+        "n": 1,
+        "claim": "- The Constitution Bench in *Sibbia* expressly **allows** courts to **limit** the period of anticipatory bail, contradicting any claim of an absolute prohibition on time‑limits【1†para 7】.",
+        "line": "- The Constitution Bench in *Sibbia* expressly **allows** courts to **limit** the period of anticipatory bail, contradicting any claim of an absolute prohibition on time‑limits【1†para 7】.",
+        "passageCase": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+        "passageLocator": "para 7",
+        "sourcesEntry": "*Sushila Aggarwal* v. State (NCT of Delhi) (2020) | para 7; para 6.2‑6.3",
+        "problems": [
+          "body names Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980 but [1] is Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020"
+        ]
+      }
+    ],
+    "sourcesOnly": [
+      {
+        "query": "sw01",
+        "n": 3,
+        "entry": "*Gurbaksh Singh Sibbia* v. State of Punjab (1980) | p. 419",
+        "inRange": true
+      },
+      {
+        "query": "sw01",
+        "n": 15,
+        "entry": "Submission, side not determined – *Sushila Aggarwal* (2020) | paras 29‑30",
+        "inRange": true
+      },
+      {
+        "query": "sw01",
+        "n": 16,
+        "entry": "Submission, side not determined – *Sushila Aggarwal* (2020) | p. 77‑78",
+        "inRange": true
+      },
+      {
+        "query": "sw10",
+        "n": 9,
+        "entry": "*Mohamed Iqbal Madar Sheiri & Ors v. State of Maharashtra* (1996) – Submission opposing the right after charge‑sheet.",
+        "inRange": true
+      }
+    ],
+    "nonCitationBrackets": [],
+    "generationFailed": []
+  }
+}

@@ -21,6 +21,7 @@
 import { chunks, edges, nodes, TEXT_INDEX, VECTOR_INDEX } from '../config.js';
 import type { ContentType, CourtTier, Passage } from '../types.js';
 import { embedQuery } from './embed.js';
+import { findHighlights, queryTerms } from './highlight.js';
 
 const RRF_K = 60;            // standard RRF damping constant
 const CANDIDATES_PER_ARM = 50;
@@ -76,7 +77,7 @@ export async function searchPassages(
             filter: vectorFilter,
           },
         },
-        { $project: projection },
+        { $project: { ...projection, rawScore: { $meta: 'vectorSearchScore' } } },
       ]).toArray(),
     ),
     chunks.aggregate([
@@ -84,18 +85,31 @@ export async function searchPassages(
       { $limit: CANDIDATES_PER_ARM * 3 }, // over-fetch: the filter below is post-hoc
       { $match: postFilter },
       { $limit: CANDIDATES_PER_ARM },
-      { $project: projection },
+      { $project: { ...projection, rawScore: { $meta: 'searchScore' } } },
     ]).toArray(),
   ]);
 
-  return fuse(vectorHits, textHits).slice(0, limit);
+  const terms = queryTerms(query);
+  return fuse(vectorHits, textHits)
+    .slice(0, limit)
+    .map((p) => ({ ...p, highlights: findHighlights(p.text, terms) }));
 }
 
 /** Reciprocal Rank Fusion: score = Σ 1/(k + rank). Rank-based rather than
  *  score-based, because a cosine similarity and a BM25 score are not on
- *  comparable scales and normalising them is guesswork. */
+ *  comparable scales and normalising them is guesswork.
+ *
+ *  The raw per-arm scores are still carried through for DISPLAY: cosine as-is
+ *  (it already means the same thing across queries), BM25 divided by this
+ *  query's best BM25 hit (raw BM25 grows with query length and is not). */
 function fuse(vectorHits: any[], textHits: any[]): Passage[] {
   const scores = new Map<string, { doc: any; score: number; via: Set<'vector' | 'text'> }>();
+  // Atlas reports a cosine index's vectorSearchScore as (1 + cos) / 2; undo that.
+  const semantic = new Map<string, number>(vectorHits.map((d) => [d._id, 2 * d.rawScore - 1]));
+  const bestBm25 = Math.max(0, ...textHits.map((d) => d.rawScore ?? 0));
+  const keyword = new Map<string, number>(
+    textHits.map((d) => [d._id, bestBm25 > 0 ? d.rawScore / bestBm25 : 0]),
+  );
 
   const add = (hits: any[], via: 'vector' | 'text') => {
     hits.forEach((doc, i) => {
@@ -124,6 +138,8 @@ function fuse(vectorHits: any[], textHits: any[]): Passage[] {
       chunkKind: doc.chunk_kind,
       score,
       via: [...via],
+      semanticScore: semantic.get(doc._id) ?? null,
+      keywordScore: keyword.get(doc._id) ?? null,
     }));
 }
 

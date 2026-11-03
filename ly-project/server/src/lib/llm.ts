@@ -40,6 +40,32 @@ export const ATTRIBUTION: Record<ContentType, string> = {
   editorial: 'an SCR HEADNOTE — a summary written by law reporters, not by the court',
 };
 
+/**
+ * Counter Engine additions (CounterEngine.md §6) — extends ATTRIBUTION rather
+ * than duplicating it, so the two documents cannot drift apart. Not yet
+ * consumed by a prompt (generate.ts, the LLM answer-synthesis step, is a
+ * later build step); v0 only surfaces retrieval rounds as JSON. Written now
+ * so it exists in exactly one place once that step is built.
+ *
+ * `COUNSEL` here is what Counter Engine calls a submissions-type passage
+ * (CounterEngine.md §4.4 `speaker`) — distinct from ATTRIBUTION's
+ * `quoted_case`/`quoted_other`, which describe text the court reproduced
+ * verbatim from elsewhere. A counsel submission is neither: it is this
+ * court's own record of what a party argued, not a holding and not a quote.
+ */
+export const COUNTER_ATTRIBUTION_RULES = `${Object.entries(ATTRIBUTION)
+  .map(([type, desc]) => `- ${type}: ${desc}`)
+  .join('\n')}
+- an argument/submission (speaker COUNSEL): this court's own record of what a party's counsel argued — NOT the court's holding, and not a quotation from elsewhere
+
+Additional rules for adversarial (Counter Engine) output:
+1. COUNSEL is not the court. Never write "the Supreme Court held" when the source is an argument.
+2. Never present outcome: rejected material as support. It appears only as "this was argued and rejected in ...".
+3. Cite only the supplied passages, each by its locator. Any case name not in the supplied set is a failure.
+4. HC and pre-1950 sources are persuasive, not binding — say so when relying on them.
+5. Decompose the user's position into premises and target the weakest.
+6. If a round is empty, say so for that round. Do not fill the gap.`;
+
 export function formatPassages(passages: Passage[]): string {
   return passages
     .map((p, i) => {

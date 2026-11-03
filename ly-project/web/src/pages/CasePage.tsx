@@ -11,9 +11,10 @@ import PdfViewer from '../components/PdfViewer';
 import SummaryPanel from '../components/SummaryPanel';
 import Icon, { type IconName } from '../components/Icon';
 import TextViewer from '../components/TextViewer';
+import TreatmentTimeline from '../components/TreatmentTimeline';
 import { shortCaseTitle, useDocumentTitle } from '../useDocumentTitle';
 
-type Tab = 'document' | 'text' | 'bail' | 'citations' | 'summary' | 'chat';
+type Tab = 'document' | 'text' | 'bail' | 'citations' | 'timeline' | 'summary' | 'chat';
 
 export default function CasePage() {
   const { tid: tidParam } = useParams();
@@ -55,6 +56,7 @@ export default function CasePage() {
     ['text', 'Text', 'text'],
     ['bail', 'Bail outcome', 'gavel'],
     ['citations', 'Citation graph', 'network'],
+    ['timeline', 'Timeline', 'calendar'],
     ['summary', 'Summary', 'summary'],
     ['chat', 'Ask this case', 'chat'],
   ];
@@ -131,6 +133,9 @@ export default function CasePage() {
           {effectiveTab === 'text' && <TextViewer tid={tid} />}
           {effectiveTab === 'bail' && <BailAnalysisPanel tid={tid} />}
           {effectiveTab === 'citations' && <EgoGraph tid={tid} />}
+          {effectiveTab === 'timeline' && (
+            <TreatmentTimeline citedBy={data.citations.citedBy} caseYear={data.year} caseTitle={data.title} />
+          )}
           {effectiveTab === 'summary' && <SummaryPanel tid={tid} />}
           {effectiveTab === 'chat' && <ChatPanel tid={tid} title={data.title} />}
         </div>

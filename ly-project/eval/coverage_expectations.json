@@ -1,0 +1,211 @@
+{
+  "generated": "2026-09-11",
+  "method": "Phase 1 of CounterEngine.md §12 item 1 (coverage probe). Should-work areas were derived by ranking corpus nodes by citation-graph degree (edges src+dst), then counting chunks (content_type=court_text, section_primary=submissions) in each node's 1-hop neighborhood (itself + everything it cites + everything that cites it within the 198-judgment corpus). The 10 highest-material areas were kept, after dropping one candidate (a labor-law case, L.K. Verma, pulled into the graph by citation drift with no bail content) and one topically-unclean candidate (Jai Prakash Singh, whose top chunks are forensic/autopsy narrative, not bail doctrine). Should-fail topics were NOT assumed: each of the 9 candidates the brief named, plus PMLA s.45, was checked against the live `chunks` collection with a regex targeted at that doctrine's actual vocabulary, counting matches in content_type=court_text and section_primary=submissions. Every non-zero result was read in full (not just counted) to rule out false-positive keyword matches. One candidate (cancellation of bail) was DISPROVEN this way -- Puran v Rambilas (tid 1012138) is a real, well-covered landmark on cancellation grounds (106 court_text + 11 submissions chunks in its neighborhood) -- so it was dropped from should-fail and promoted to should-work instead. A replacement gap (cheque-dishonour/NI-Act bail) was found and verified to reach 10.",
+  "queries": [
+    {
+      "id": "sw01",
+      "group": "should_work",
+      "query": "Anticipatory bail was granted to my client by the Sessions Court without any time limit. The prosecution now wants the High Court to restrict it to a fixed number of days and direct him to surrender and apply for regular bail after that period expires. Is there settled law against imposing a time limit on anticipatory bail like this?",
+      "area": "anticipatory bail -- conditions, duration, restriction",
+      "expected": [
+        {
+          "tid": 1108032,
+          "title": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors",
+          "reason": "Landmark on anticipatory bail conditions and duration; highest citation-graph degree in the corpus (25) and the most material of any node measured (1,252 court_text + 70 submissions chunks in its 1-hop neighborhood)."
+        }
+      ]
+    },
+    {
+      "id": "sw02",
+      "group": "should_work",
+      "query": "My client has been held as an undertrial prisoner for over three years and the trial has still not begun, though he has no serious criminal record. Can prolonged pre-trial detention by itself, without more, support a bail plea under Article 21's guarantee of a speedy trial?",
+      "area": "undertrial delay / Article 21 speedy trial",
+      "expected": [
+        {
+          "tid": 1321773,
+          "title": "S.C. Legal Aid Committee Representing Undertrial Prisoners vs Union Of India",
+          "reason": "Direct undertrial-delay/Article 21 authority; 786 court_text + 25 submissions chunks in its neighborhood, second-highest material of any candidate measured."
+        },
+        {
+          "tid": 1007347,
+          "title": "Hussainara Khatoon & Ors vs Home Secretary, State Of Bihar",
+          "reason": "The founding speedy-trial/Article 21 case this doctrine traces to; closely related node (774 chunks in neighborhood), an acceptable alternate top hit."
+        }
+      ]
+    },
+    {
+      "id": "sw03",
+      "group": "should_work",
+      "query": "My client is an accused in a corporate/economic-offence case. The chargesheet has already been filed and all the relevant documents have been seized by the investigating agency, so there is nothing left for custodial interrogation to achieve. The prosecution argues bail should still be refused only because the offence involves a large sum of money. Should the scale of the alleged fraud, by itself, override the fact that no further custody is needed?",
+      "area": "economic offences -- no further custodial need",
+      "expected": [
+        {
+          "tid": 1563495,
+          "title": "Sanjay Chandra vs CBI",
+          "reason": "The 2G-scam bail case establishing that the gravity/scale of an economic offence does not by itself justify refusing bail once investigation is complete; 698 court_text + 43 submissions chunks in its neighborhood."
+        }
+      ]
+    },
+    {
+      "id": "sw04",
+      "group": "should_work",
+      "query": "The police did not file the chargesheet within the 60-day period prescribed under Section 167(2) Cr.P.C. for an offence punishable with up to seven years' imprisonment, even though my client has remained in custody throughout. Is he entitled to default/statutory bail because the chargesheet was filed late?",
+      "area": "default/statutory bail, s.167(2) CrPC",
+      "expected": [
+        {
+          "tid": 194334432,
+          "title": "Rakesh Kumar Paul vs State Of Assam",
+          "reason": "The corpus's core default-bail/167(2) precedent; a seed case, second-highest citation degree (20) and 580 court_text + 60 submissions chunks in neighborhood."
+        }
+      ]
+    },
+    {
+      "id": "sw05",
+      "group": "should_work",
+      "query": "The Sessions Court granted my client anticipatory bail but limited it to operate only until the chargesheet is filed, after which he would need to separately apply for regular bail. Is there Constitution Bench authority holding that anticipatory bail need not be time-bound and can continue to protect the accused through the trial absent special circumstances?",
+      "area": "anticipatory bail -- unlimited duration (Constitution Bench)",
+      "expected": [
+        {
+          "tid": 123660783,
+          "title": "Sushila Aggarwal vs State (NCT of Delhi)",
+          "reason": "The Constitution Bench decision holding anticipatory bail need not be time-limited; seed case, 527 court_text + 40 submissions chunks in neighborhood."
+        }
+      ]
+    },
+    {
+      "id": "sw06",
+      "group": "should_work",
+      "query": "My client was arrested for an offence punishable with less than seven years' imprisonment, and the police did not first issue him a notice of appearance under Section 41A Cr.P.C. before arresting him. Is there authority classifying offences into categories to decide whether arrest and continued custody are even necessary, and holding an arrest like this, without prior notice, improper?",
+      "area": "bail reform -- offence categories, s.41A notice before arrest",
+      "expected": [
+        {
+          "tid": 7148380,
+          "title": "Satender Kumar Antil vs CBI",
+          "reason": "The modern bail-reform judgment setting out offence categories (A/B/C/D) and the s.41A notice requirement; seed case (the corpus's centerpiece), 436 court_text + 14 submissions chunks in neighborhood."
+        }
+      ]
+    },
+    {
+      "id": "sw07",
+      "group": "should_work",
+      "query": "My client is being prosecuted under a special statute that allows the investigation period to be extended up to 180 days, and that extended period has now lapsed without a chargesheet being filed. Is he entitled to be released on bail simply because the extended statutory period for completing the investigation has expired?",
+      "area": "special-statute default bail (extended investigation period)",
+      "expected": [
+        {
+          "tid": 8215697,
+          "title": "U.O.I. Thr. CBI vs Nirala Yadav @ Raja Ram Yadav @ Deepak",
+          "reason": "Directly addresses the accused's right to be released on bail on expiry of the 180-day (or extended) investigation period under a special statute; 387 court_text + 55 submissions chunks in neighborhood."
+        }
+      ]
+    },
+    {
+      "id": "sw08",
+      "group": "should_work",
+      "query": "Bail was granted to the accused by the Sessions Court, and the complainant is now seeking to have it cancelled solely on the ground that the bail order does not give very detailed reasons -- there is no allegation that the accused has misused his liberty since release. Can bail be cancelled merely for being sparsely reasoned, without any supervening circumstance?",
+      "area": "cancellation of bail -- grounds required",
+      "expected": [
+        {
+          "tid": 1012138,
+          "title": "Puran, Shekhar And Anr vs Rambilas & Anr., State Of Maharashtra",
+          "reason": "Landmark on cancellation-of-bail grounds; confirmed by direct text read that it holds an insufficiently-reasoned bail order, without more, is not itself a ground for cancellation. 199 court_text + 20 submissions chunks in neighborhood. Originally listed as a should-fail candidate; DISPROVEN by direct verification and moved here -- see 'method' note above."
+        }
+      ]
+    },
+    {
+      "id": "sw09",
+      "group": "should_work",
+      "query": "The accused is charged under a special statute that requires the court to be satisfied there are reasonable grounds to believe he is not guilty and is not likely to commit another offence before bail can be granted, on top of the ordinary bail considerations. Is this twin-condition threshold constitutionally valid, and how has the Constitution Bench dealt with it?",
+      "area": "special-statute twin-condition bail rigour (TADA-type)",
+      "expected": [
+        {
+          "tid": 1813801,
+          "title": "Kartar Singh vs State Of Punjab",
+          "reason": "Constitution Bench ruling on the vires of TADA's special bail provisions, including the twin-condition test; 601 court_text + 25 submissions chunks in neighborhood."
+        }
+      ]
+    },
+    {
+      "id": "sw10",
+      "group": "should_work",
+      "query": "My client applied for statutory bail under Section 167(2) the day after the prescribed investigation period expired, but before the magistrate could pass orders on that application, the prosecution filed the chargesheet the very next day. Does he still have an indefeasible right to be released on default bail because his application was made before the chargesheet came in, even though the chargesheet arrived before the court acted?",
+      "area": "indefeasible right to default bail (timing of chargesheet vs application)",
+      "expected": [
+        {
+          "tid": 1747003,
+          "title": "Uday Mohanlal Acharya vs State Of Maharashtra",
+          "reason": "The leading authority on when the right to default bail becomes indefeasible relative to the timing of the chargesheet and the accused's application; 283 court_text + 50 submissions chunks in neighborhood."
+        }
+      ]
+    },
+    {
+      "id": "sf01",
+      "group": "should_fail",
+      "query": "My client has been arrested under the Prevention of Money Laundering Act. What is the standard for bail under Section 45 PMLA -- specifically the requirement that the court be satisfied there are reasonable grounds to believe he is not guilty and not likely to commit any offence while on bail?",
+      "area": "PMLA s.45 twin-condition bail standard",
+      "evidence": "7 chunks mention 'PMLA' or 'Prevention of Money Laundering' at all (tid 7148380 Antil -- 'PMLA' only as a bare acronym in a bail-category bullet list, never the provision text; tid 3764 Union of India v Hassan Ali Khan -- 'PMLA' only as the name of the Special Court, in facts/submissions narrative). Read all 7 in full: none quotes or paraphrases the s.45 twin-condition text itself. 0 chunks in quoted_statute content_type mention PMLA at all."
+    },
+    {
+      "id": "sf02",
+      "group": "should_fail",
+      "query": "My client, a juvenile aged 16, has been apprehended in a criminal case. What is the standard for granting him bail under the Juvenile Justice Act, and can bail be refused to a child in conflict with law on the same grounds as an adult?",
+      "area": "Juvenile Justice Act bail",
+      "evidence": "0 chunks anywhere in the corpus (content_type=court_text, submissions, or quoted_statute) contain 'Juvenile Justice Act', 'juvenile in conflict with law', 'Child in Conflict with Law', or 'JJ Act'. Total absence, not near-zero."
+    },
+    {
+      "id": "sf03",
+      "group": "should_fail",
+      "query": "My client's wife has filed a complaint under Section 498A IPC and the Dowry Prohibition Act alleging cruelty. What special considerations apply to bail in matrimonial-cruelty cases like this, given the risk of the provision being misused to rope in the whole family?",
+      "area": "matrimonial/498A-specific bail doctrine",
+      "evidence": "11 court_text + 1 submissions chunk mention Section 498A or the Dowry Prohibition Act, but all are from a single case, Arnesh Kumar v State of Bihar (tid 2982624), where the 498A matrimonial complaint is only the FACT PATTERN triggering a ruling about general arrest safeguards under s.41A -- not developed matrimonial-bail-specific doctrine (e.g. misuse-of-498A principles, family-member-specific considerations). No other case in the corpus engages the topic."
+    },
+    {
+      "id": "sf04",
+      "group": "should_fail",
+      "query": "My client has been arrested for possessing a commercial quantity of a narcotic substance under the NDPS Act. Beyond the general twin conditions under Section 37, are there specific principles that apply to bail when the quantity involved is 'commercial' rather than 'small' or 'intermediate'?",
+      "area": "NDPS commercial-quantity-specific bail principles",
+      "evidence": "Only 1 court_text chunk in the entire corpus contains the phrase 'commercial quantity'; 0 in submissions. The corpus has real NDPS s.37 twin-condition coverage generally (already pinned as the statutes-round content for offenceCategory=ndps), but material specific to the commercial-vs-small-vs-intermediate quantity distinction is essentially absent."
+    },
+    {
+      "id": "sf05",
+      "group": "should_fail",
+      "query": "My client is a foreign national with no fixed address in India, arrested on a criminal charge. Do Indian courts apply different or additional bail conditions -- such as surrendering travel documents or furnishing local sureties -- specifically because the accused is a foreign national?",
+      "area": "bail for foreign nationals",
+      "evidence": "Only 1 court_text chunk in the entire corpus matches 'foreign national' or 'foreigner ... bail'; 0 in submissions. No developed doctrine on this topic exists in the corpus."
+    },
+    {
+      "id": "sf06",
+      "group": "should_fail",
+      "query": "My client's counsel has applied for interim bail on medical grounds, citing a serious ongoing health condition that cannot be adequately treated in custody. What is the standard Indian courts apply when deciding whether to grant interim or medical bail?",
+      "area": "interim / medical bail",
+      "evidence": "7 court_text chunks match 'interim bail', 'medical bail', or 'bail on medical grounds'; 0 in submissions. Read all 7: they are false-positive regex matches, not medical-bail doctrine -- e.g. tid 7148380 (Antil) matches only because a bail-category bullet list happens to end '...POSCO etc.' near the word 'bail'; tid 123660783 (Sushila Aggarwal) matches an unrelated sentence about the presumption of innocence. No chunk anywhere discusses medical or interim bail as a distinct standard."
+    },
+    {
+      "id": "sf07",
+      "group": "should_fail",
+      "query": "As a condition of bail, the court directed my client to surrender his passport and not leave the country without permission. Is there settled principle on when courts impose a passport-surrender condition as part of bail, and can it be challenged as disproportionate?",
+      "area": "bail condition -- passport surrender",
+      "evidence": "6 court_text chunks match a 'surrender ... passport' / 'passport ... surrender' pattern; 0 in submissions. All 6 read in full: every one is from Maneka Gandhi v Union of India (tid 1766147), a case about the government IMPOUNDING a passport under the Passports Act and Article 21 procedural-fairness doctrine generally -- present in the corpus only via citation drift (Article 21 doctrine), and has nothing to do with bail conditions. No genuine bail-condition-passport-surrender material exists."
+    },
+    {
+      "id": "sf08",
+      "group": "should_fail",
+      "query": "My client is charged with an offence under the POCSO Act involving a child victim. Are there special, more stringent bail considerations that apply under POCSO compared to ordinary criminal offences?",
+      "area": "POCSO-specific bail rigour",
+      "evidence": "Only 3 court_text chunks in the corpus mention 'POCSO' or 'Protection of Children from Sexual Offences'; 0 in submissions. One of the 3 is the same Antil bail-category bullet list that also produced the false-positive medical-bail match (sf06) -- 'POSCO' appears there only as one item in a list of special statutes, not as developed doctrine."
+    },
+    {
+      "id": "sf09",
+      "group": "should_fail",
+      "query": "My client was convicted at trial and has filed an appeal against the conviction. Pending disposal of that appeal, what is the standard for suspending the sentence and releasing him on bail under Section 389 Cr.P.C.?",
+      "area": "bail pending appeal / suspension of sentence, s.389 CrPC",
+      "evidence": "3 court_text + 3 quoted_statute chunks match 'suspension of sentence' / 'bail pending appeal' / 'pending disposal of appeal ... bail'. Read all 6: false-positive matches -- e.g. tid 7148380 (Antil) matches only because it defines 'trial' broadly to include post-conviction stages, not s.389 doctrine; tid 123660783 (Sushila Aggarwal) matches an unrelated sentence about informant presence at hearings; tid 1912056 (Moti Ram) matches on sureties/bonds generally, not suspension of sentence specifically. No chunk develops s.389 suspension-of-sentence doctrine."
+    },
+    {
+      "id": "sf10",
+      "group": "should_fail",
+      "query": "My client has been arrested on a complaint under Section 138 of the Negotiable Instruments Act for a dishonoured cheque. Given that this is a bailable-adjacent, compoundable commercial offence, what bail considerations specifically apply in cheque-dishonour cases?",
+      "area": "cheque-dishonour (NI Act s.138) bail",
+      "evidence": "Only 3 court_text chunks match 'Negotiable Instruments Act', 'cheque ... dishonour', or 'Section 138'; 0 in submissions. Read all 3: false-positive matches -- tid 477313 (Central Inland Water, a labor/contract-law case present via citation drift) and tid 188951670 (Vinod Kumar, an unrelated 'Section' reference in an NDPS raid narrative). No chunk in the corpus discusses NI Act s.138 bail at all. NOTE: 'cancellation of bail' was the original 6th should-fail candidate named in the brief but was DISPROVEN on verification (see sw08) and replaced with this topic."
+    }
+  ]
+}

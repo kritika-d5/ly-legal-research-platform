@@ -9,7 +9,7 @@
 import 'dotenv/config';
 import dns from 'node:dns';
 import { MongoClient } from 'mongodb';
-import type { ChunkDoc, EdgeDoc, NodeDoc } from './types.js';
+import type { ChunkDoc, EdgeDoc, NodeDoc, ParagraphDoc } from './types.js';
 
 /**
  * `mongodb+srv://` needs an SRV lookup, and on this machine Node resolves the
@@ -50,6 +50,10 @@ const db = client.db('bail_rag');
 export const nodes = db.collection<NodeDoc>('nodes');
 export const edges = db.collection<EdgeDoc>('edges');
 export const chunks = db.collection<ChunkDoc>('chunks');
+/** The finer-grained intermediate `chunks` was built from. Counter Engine's
+ *  v0 fallback (CounterEngine.md §11) reads `kanoon_structure` and `citations`
+ *  off this collection — neither field lives on `chunks`. */
+export const paragraphs = db.collection<ParagraphDoc>('paragraphs');
 
 /** Atlas Search index names, created by the data repo's create_search_indexes.py. */
 export const VECTOR_INDEX = 'chunks_vector_index';

@@ -29,7 +29,8 @@ export type IconName =
   | 'chevronLeft'
   | 'chevronRight'
   | 'external'
-  | 'alert';
+  | 'alert'
+  | 'scales';
 
 const PATHS: Record<IconName, React.ReactNode> = {
   search: (
@@ -118,6 +119,16 @@ const PATHS: Record<IconName, React.ReactNode> = {
     <>
       <path d="M12 3.5 22 20H2z" />
       <path d="M12 9.5v4.5M12 17h.01" />
+    </>
+  ),
+  // Scales of justice — Counter Engine's mark. Two pans in balance, which is
+  // also the visual argument for why the feature is symmetric by side.
+  scales: (
+    <>
+      <path d="M12 3v16M8 21h8" />
+      <path d="M4 7h6M14 7h6" />
+      <path d="M4 7 1.5 12.5a2.5 2.5 0 0 0 5 0z" />
+      <path d="M20 7l-2.5 5.5a2.5 2.5 0 0 0 5 0z" />
     </>
   ),
 };

@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import { z } from 'zod';
+import { explainPassages, MAX_EXPLAINED } from '../lib/explain.js';
 import { searchCases, searchPassages } from '../lib/search.js';
 
 export const searchRouter = Router();
@@ -43,6 +44,27 @@ searchRouter.get('/search', async (req, res, next) => {
     const t0 = Date.now();
     const results = await searchCases(parsed.data.q, parseOptions(parsed.data));
     res.json({ query: parsed.data.q, tookMs: Date.now() - t0, count: results.length, results });
+  } catch (err) {
+    next(err);
+  }
+});
+
+const explainSchema = z.object({
+  q: z.string().min(2, 'query too short'),
+  ids: z.array(z.string()).min(1).max(MAX_EXPLAINED),
+});
+
+/** POST /api/search/explain {q, ids}  why each result was returned. Separate
+ *  from /search so the ranking renders before the LLM call finishes. */
+searchRouter.post('/search/explain', async (req, res, next) => {
+  try {
+    const parsed = explainSchema.safeParse(req.body);
+    if (!parsed.success) {
+      return res.status(400).json({ error: parsed.error.issues[0].message });
+    }
+    const t0 = Date.now();
+    const explanations = await explainPassages(parsed.data.q, parsed.data.ids);
+    res.json({ query: parsed.data.q, tookMs: Date.now() - t0, explanations });
   } catch (err) {
     next(err);
   }

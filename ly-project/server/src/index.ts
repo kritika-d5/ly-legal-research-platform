@@ -13,6 +13,7 @@ import { casesRouter } from './routes/cases.js';
 import { bailRouter } from './routes/bail.js';
 import { chatRouter } from './routes/chat.js';
 import { firProxyRouter } from './routes/fir.js';
+import { counterRouter } from './routes/counter.js';
 import { graphRouter } from './routes/graph.js';
 import { searchRouter } from './routes/search.js';
 
@@ -35,6 +36,7 @@ app.use('/api', chatRouter);
 app.use('/api', bailRouter);
 app.use('/api', graphRouter);
 app.use('/api/fir', firProxyRouter);
+app.use('/api', counterRouter);
 
 app.use((err: any, _req: express.Request, res: express.Response, _next: express.NextFunction) => {
   console.error('[error]', err);

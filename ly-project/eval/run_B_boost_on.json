@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "sw01",
+    "supporting": {
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c195",
+          "score": 0.09362094922213832
+        },
+        {
+          "tid": 1108032,
+          "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+          "id": "1108032_c068",
+          "score": 0.06881141201153872
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c077",
+          "score": 0.06014247950078113
+        },
+        {
+          "tid": 1868823,
+          "caseTitle": "Balchand Jain vs State Of Madhya Pradesh on 5 November, 1976",
+          "id": "1868823_c031",
+          "score": 0.05447689131288769
+        },
+        {
+          "tid": 180463386,
+          "caseTitle": "Bhadresh Bipinbhai Sheth vs State Of Gujarat & Anr on 1 September, 2015",
+          "id": "180463386_c022",
+          "score": 0.0527070707070707
+        },
+        {
+          "tid": 89063,
+          "caseTitle": "K.L. Verma vs State And Anr. on 13 October, 1996",
+          "id": "89063_c002",
+          "score": 0.028749999999999998
+        },
+        {
+          "tid": 257280,
+          "caseTitle": "Bharat Chaudhary & Anr vs State Of Bihar & Anr on 8 October, 2003",
+          "id": "257280_c006",
+          "score": 0.0256061355764473
+        },
+        {
+          "tid": 772627,
+          "caseTitle": "Salauddin Abdulsamad Shaikh vs The State Of Maharashtra on 11 December, 1995",
+          "id": "772627_c000",
+          "score": 0.025137362637362638
+        }
+      ]
+    }
+  },
+  {
+    "id": "sw02",
+    "supporting": {
+      "items": [
+        {
+          "tid": 1007347,
+          "caseTitle": "Hussainara Khatoon & Ors vs Home Secretary, State Of Bihar, Govt. Of ... on 12 February, 1979",
+          "id": "1007347_c019",
+          "score": 0.09495518721919598
+        },
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c128",
+          "score": 0.07592609149686774
+        },
+        {
+          "tid": 1813801,
+          "caseTitle": "Kartar Singh vs State Of Punjab on 11 March, 1994",
+          "id": "1813801_c073",
+          "score": 0.05729926246592913
+        },
+        {
+          "tid": 1563495,
+          "caseTitle": "Sanjay Chandra vs Cbi on 23 November, 2011",
+          "id": "1563495_c051",
+          "score": 0.05656832633658476
+        },
+        {
+          "tid": 18346623,
+          "caseTitle": "Union Of India vs K.A. Najeeb on 1 February, 2021",
+          "id": "18346623_c017",
+          "score": 0.05604801671315432
+        },
+        {
+          "tid": 1857950,
+          "caseTitle": "A.K. Gopalan vs The State Of Madras.Union Of India: ... on 19 May, 1950",
+          "id": "1857950_c235",
+          "score": 0.055539036671050354
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c195",
+          "score": 0.04521905805038335
+        },
+        {
+          "tid": 1353689,
+          "caseTitle": "A.R. Antulay vs R.S. Nayak & Anr on 29 April, 1988",
+          "id": "1353689_c291",
+          "score": 0.04276042849572261
+        }
+      ]
+    }
+  },
+  {
+    "id": "sw03",
+    "supporting": {
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c154",
+          "score": 0.08612728544444567
+        },
+        {
+          "tid": 96230971,
+          "caseTitle": "Siddharth vs The State Of Uttar Pradesh on 16 August, 2021",
+          "id": "96230971_c008",
+          "score": 0.06658215037657159
+        },
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c175",
+          "score": 0.05826123118018455
+        },
+        {
+          "tid": 1920437,
+          "caseTitle": "Niranjan Singh & Anr vs Prabhakar Rajaram Kharote & Ors on 10 March, 1980",
+          "id": "1920437_c011",
+          "score": 0.05711355630026171
+        },
+        {
+          "tid": 481284,
+          "caseTitle": "State Of U. P vs Deoman Upadhyaya on 6 May, 1960",
+          "id": "481284_c046",
+          "score": 0.05559407148674435
+        },
+        {
+          "tid": 1563495,
+          "caseTitle": "Sanjay Chandra vs Cbi on 23 November, 2011",
+          "id": "1563495_c021",
+          "score": 0.04982503607503607
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c047",
+          "score": 0.03988916312445724
+        },
+        {
+          "tid": 1515744,
+          "caseTitle": "Babu Singh And Ors vs The State Of U.P on 31 January, 1978",
+          "id": "1515744_c015",
+          "score": 0.03879012345679012
+        }
+      ]
+    }
+  },
+  {
+    "id": "sw04",
+    "supporting": {
+      "items": [
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c055",
+          "score": 0.10007621495160006
+        },
+        {
+          "tid": 35562,
+          "caseTitle": "Keshav Dev And Ors. vs The State Of Rajasthan on 19 May, 2005",
+          "id": "35562_c012",
+          "score": 0.0818126946153262
+        },
+        {
+          "tid": 8215697,
+          "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+          "id": "8215697_c019",
+          "score": 0.06307840790488527
+        },
+        {
+          "tid": 41993725,
+          "caseTitle": "Hitendra Vishnu Thakur And Others Etc. ... vs State Of Maharashtra And Others on 12 July, 1994",
+          "id": "41993725_c031",
+          "score": 0.04374116380695328
+        },
+        {
+          "tid": 1747003,
+          "caseTitle": "Uday Mohanlal Acharya vs State Of Maharashtra on 29 March, 2001",
+          "id": "1747003_c007",
+          "score": 0.03587298028221712
+        },
+        {
+          "tid": 136480811,
+          "caseTitle": "Sayed Mohd. Ahmed Kazmi vs State, Gnctd & Ors on 19 October, 2012",
+          "id": "136480811_c010",
+          "score": 0.0322211496270294
+        },
+        {
+          "tid": 753092,
+          "caseTitle": "Sunil Kumar vs State Of Jharkhand And Ors. on 21 February, 2002",
+          "id": "753092_c001",
+          "score": 0.03135756755321972
+        },
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c066",
+          "score": 0.026776770001353728
+        }
+      ]
+    }
+  },
+  {
+    "id": "sw05",
+    "supporting": {
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c092",
+          "score": 0.09602058186498996
+        },
+        {
+          "tid": 1108032,
+          "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+          "id": "1108032_c068",
+          "score": 0.09259024179428182
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c077",
+          "score": 0.058292548672873215
+        },
+        {
+          "tid": 257280,
+          "caseTitle": "Bharat Chaudhary & Anr vs State Of Bihar & Anr on 8 October, 2003",
+          "id": "257280_c002",
+          "score": 0.055818269330136006
+        },
+        {
+          "tid": 1868823,
+          "caseTitle": "Balchand Jain vs State Of Madhya Pradesh on 5 November, 1976",
+          "id": "1868823_c031",
+          "score": 0.0490151713718806
+        },
+        {
+          "tid": 180463386,
+          "caseTitle": "Bhadresh Bipinbhai Sheth vs State Of Gujarat & Anr on 1 September, 2015",
+          "id": "180463386_c022",
+          "score": 0.03204334365325077
+        },
+        {
+          "tid": 1712895,
+          "caseTitle": "State Of M.P. & Anr vs Ram Krishna Balothia & Anr on 6 February, 1995",
+          "id": "1712895_c009",
+          "score": 0.018548387096774192
+        },
+        {
+          "tid": 89063,
+          "caseTitle": "K.L. Verma vs State And Anr. on 13 October, 1996",
+          "id": "89063_c002",
+          "score": 0.016428571428571428
+        }
+      ]
+    }
+  },
+  {
+    "id": "sw06",
+    "supporting": {
+      "items": [
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c034",
+          "score": 0.08085601002939713
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c096",
+          "score": 0.07183912133256777
+        },
+        {
+          "tid": 244622,
+          "caseTitle": "Central Bureau Of Investigation, ... vs Anupam J. Kulkarni on 8 May, 1992",
+          "id": "244622_c024",
+          "score": 0.062279143027134984
+        },
+        {
+          "tid": 1067439,
+          "caseTitle": "Prahlad Singh Bhati vs N.C.T., Delhi & Anr on 23 March, 2001",
+          "id": "1067439_c003",
+          "score": 0.05725396944949554
+        },
+        {
+          "tid": 862701,
+          "caseTitle": "Aslam Babalal Desai vs State Of Maharashtra on 15 September, 1992",
+          "id": "862701_c009",
+          "score": 0.05689358723757024
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c076",
+          "score": 0.05127073906485671
+        },
+        {
+          "tid": 2982624,
+          "caseTitle": "Arnesh Kumar vs State Of Bihar & Anr on 2 July, 2014",
+          "id": "2982624_c009",
+          "score": 0.04429398965594388
+        },
+        {
+          "tid": 534034,
+          "caseTitle": "Gurcharan Singh & Ors vs State (Delhi Administration) on 6 December, 1977",
+          "id": "534034_c019",
+          "score": 0.03864052614052614
+        }
+      ]
+    }
+  },
+  {
+    "id": "sw07",
+    "supporting": {
+      "items": [
+        {
+          "tid": 41993725,
+          "caseTitle": "Hitendra Vishnu Thakur And Others Etc. ... vs State Of Maharashtra And Others on 12 July, 1994",
+          "id": "41993725_c060",
+          "score": 0.0933697581210129
+        },
+        {
+          "tid": 8215697,
+          "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+          "id": "8215697_c011",
+          "score": 0.09275536981434401
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c021",
+          "score": 0.07666412914276582
+        },
+        {
+          "tid": 1655328,
+          "caseTitle": "Sanjay Dutt vs State Through C.B.I. Bombay on 9 September, 1994",
+          "id": "1655328_c068",
+          "score": 0.06785449028096087
+        },
+        {
+          "tid": 1133007,
+          "caseTitle": "Ateef Nasir Mulla vs State Of Maharashtra on 24 August, 2005",
+          "id": "1133007_c008",
+          "score": 0.06532406363932977
+        },
+        {
+          "tid": 136480811,
+          "caseTitle": "Sayed Mohd. Ahmed Kazmi vs State, Gnctd & Ors on 19 October, 2012",
+          "id": "136480811_c010",
+          "score": 0.0641988386179007
+        },
+        {
+          "tid": 862701,
+          "caseTitle": "Aslam Babalal Desai vs State Of Maharashtra on 15 September, 1992",
+          "id": "862701_c010",
+          "score": 0.04253014011078527
+        },
+        {
+          "tid": 35562,
+          "caseTitle": "Keshav Dev And Ors. vs The State Of Rajasthan on 19 May, 2005",
+          "id": "35562_c022",
+          "score": 0.03868480263250411
+        }
+      ]
+    }
+  },
+  {
+    "id": "sw08",
+    "supporting": {
+      "items": [
+        {
+          "tid": 1012138,
+          "caseTitle": "Puran, Shekhar And Anr vs Rambilas & Anr., State Of Maharashtra & ... on 3 May, 2001",
+          "id": "1012138_c006",
+          "score": 0.08374404021558872
+        },
+        {
+          "tid": 1342616,
+          "caseTitle": "Kalyan Chandra Sarkar vs Rajesh Ranjan Alias Pappu Yadav & Anr on 12 March, 2004",
+          "id": "1342616_c017",
+          "score": 0.08222620043235407
+        },
+        {
+          "tid": 862701,
+          "caseTitle": "Aslam Babalal Desai vs State Of Maharashtra on 15 September, 1992",
+          "id": "862701_c024",
+          "score": 0.07485238397824905
+        },
+        {
+          "tid": 193411084,
+          "caseTitle": "State Of Bihar vs Rajballav Prasad @ Rajballav Pd. Yadav @ ... on 24 November, 2016",
+          "id": "193411084_c012",
+          "score": 0.07124678906483307
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c191",
+          "score": 0.0584093868105496
+        },
+        {
+          "tid": 1067439,
+          "caseTitle": "Prahlad Singh Bhati vs N.C.T., Delhi & Anr on 23 March, 2001",
+          "id": "1067439_c008",
+          "score": 0.038780273277695954
+        },
+        {
+          "tid": 1920437,
+          "caseTitle": "Niranjan Singh & Anr vs Prabhakar Rajaram Kharote & Ors on 10 March, 1980",
+          "id": "1920437_c011",
+          "score": 0.03812690593478771
+        },
+        {
+          "tid": 1108032,
+          "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+          "id": "1108032_c064",
+          "score": 0.0375029540352121
+        }
+      ]
+    }
+  },
+  {
+    "id": "sw09",
+    "supporting": {
+      "items": [
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c073",
+          "score": 0.08474088771818976
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c076",
+          "score": 0.07018092393013425
+        },
+        {
+          "tid": 534034,
+          "caseTitle": "Gurcharan Singh & Ors vs State (Delhi Administration) on 6 December, 1977",
+          "id": "534034_c017",
+          "score": 0.069711499097817
+        },
+        {
+          "tid": 812586,
+          "caseTitle": "Jamini Mullick vs Emperor on 1 October, 1908",
+          "id": "812586_c002",
+          "score": 0.061188071311693085
+        },
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c014",
+          "score": 0.05742496471048123
+        },
+        {
+          "tid": 1563495,
+          "caseTitle": "Sanjay Chandra vs Cbi on 23 November, 2011",
+          "id": "1563495_c023",
+          "score": 0.0470815177923021
+        },
+        {
+          "tid": 1515744,
+          "caseTitle": "Babu Singh And Ors vs The State Of U.P on 31 January, 1978",
+          "id": "1515744_c015",
+          "score": 0.04128672235023041
+        },
+        {
+          "tid": 18346623,
+          "caseTitle": "Union Of India vs K.A. Najeeb on 1 February, 2021",
+          "id": "18346623_c019",
+          "score": 0.039157506587936756
+        }
+      ]
+    }
+  },
+  {
+    "id": "sw10",
+    "supporting": {
+      "items": [
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c042",
+          "score": 0.09456381042557643
+        },
+        {
+          "tid": 8215697,
+          "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+          "id": "8215697_c021",
+          "score": 0.09291974127328502
+        },
+        {
+          "tid": 41993725,
+          "caseTitle": "Hitendra Vishnu Thakur And Others Etc. ... vs State Of Maharashtra And Others on 12 July, 1994",
+          "id": "41993725_c031",
+          "score": 0.08540835129376795
+        },
+        {
+          "tid": 1747003,
+          "caseTitle": "Uday Mohanlal Acharya vs State Of Maharashtra on 29 March, 2001",
+          "id": "1747003_c006",
+          "score": 0.06972577523279894
+        },
+        {
+          "tid": 136480811,
+          "caseTitle": "Sayed Mohd. Ahmed Kazmi vs State, Gnctd & Ors on 19 October, 2012",
+          "id": "136480811_c016",
+          "score": 0.056838904737600615
+        },
+        {
+          "tid": 1376808,
+          "caseTitle": "Mohamed Iqbal Madar Sheiri And Ors vs The State Of Maharashtra on 8 January, 1996",
+          "id": "1376808_c014",
+          "score": 0.04744373181431173
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c076",
+          "score": 0.035107563387917734
+        },
+        {
+          "tid": 3764,
+          "caseTitle": "Union Of India vs Hassan Ali Khan And Anr on 30 September, 2011",
+          "id": "3764_c013",
+          "score": 0.0251651893634166
+        }
+      ]
+    }
+  },
+  {
+    "id": "sf01",
+    "supporting": {
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c076",
+          "score": 0.08972074059938137
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c048",
+          "score": 0.08059588441669363
+        },
+        {
+          "tid": 1067439,
+          "caseTitle": "Prahlad Singh Bhati vs N.C.T., Delhi & Anr on 23 March, 2001",
+          "id": "1067439_c003",
+          "score": 0.07144602552767329
+        },
+        {
+          "tid": 3764,
+          "caseTitle": "Union Of India vs Hassan Ali Khan And Anr on 30 September, 2011",
+          "id": "3764_c008",
+          "score": 0.07078840402429111
+        },
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c014",
+          "score": 0.059675252658793115
+        },
+        {
+          "tid": 912700,
+          "caseTitle": "Usmanbhai Dawoodbhai Menon & Ors. Etc vs State Of Gujarat on 14 March, 1988",
+          "id": "912700_c038",
+          "score": 0.05152826642379012
+        },
+        {
+          "tid": 812586,
+          "caseTitle": "Jamini Mullick vs Emperor on 1 October, 1908",
+          "id": "812586_c001",
+          "score": 0.04896900839121167
+        },
+        {
+          "tid": 41993725,
+          "caseTitle": "Hitendra Vishnu Thakur And Others Etc. ... vs State Of Maharashtra And Others on 12 July, 1994",
+          "id": "41993725_c034",
+          "score": 0.04464285714285714
+        }
+      ]
+    }
+  },
+  {
+    "id": "sf02",
+    "supporting": {
+      "items": [
+        {
+          "tid": 234105,
+          "caseTitle": "Vaman Narain Ghiya vs State Of Rajasthan on 12 December, 2008",
+          "id": "234105_c014",
+          "score": 0.06915829855109373
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c101",
+          "score": 0.05453787878787878
+        },
+        {
+          "tid": 1067439,
+          "caseTitle": "Prahlad Singh Bhati vs N.C.T., Delhi & Anr on 23 March, 2001",
+          "id": "1067439_c004",
+          "score": 0.05424545144063586
+        },
+        {
+          "tid": 1563495,
+          "caseTitle": "Sanjay Chandra vs Cbi on 23 November, 2011",
+          "id": "1563495_c023",
+          "score": 0.052727667775880754
+        },
+        {
+          "tid": 1653828,
+          "caseTitle": "State Of Maharashtra vs Anand Chintaman Dighe on 16 January, 1990",
+          "id": "1653828_c007",
+          "score": 0.049312558356676
+        },
+        {
+          "tid": 1868823,
+          "caseTitle": "Balchand Jain vs State Of Madhya Pradesh on 5 November, 1976",
+          "id": "1868823_c015",
+          "score": 0.046656206064859
+        },
+        {
+          "tid": 862701,
+          "caseTitle": "Aslam Babalal Desai vs State Of Maharashtra on 15 September, 1992",
+          "id": "862701_c026",
+          "score": 0.04533456323073809
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c073",
+          "score": 0.04180369405146024
+        }
+      ]
+    }
+  },
+  {
+    "id": "sf03",
+    "supporting": {
+      "items": [
+        {
+          "tid": 2982624,
+          "caseTitle": "Arnesh Kumar vs State Of Bihar & Anr on 2 July, 2014",
+          "id": "2982624_c001",
+          "score": 0.0992260973646484
+        },
+        {
+          "tid": 35562,
+          "caseTitle": "Keshav Dev And Ors. vs The State Of Rajasthan on 19 May, 2005",
+          "id": "35562_c027",
+          "score": 0.05780000471504301
+        },
+        {
+          "tid": 1141096,
+          "caseTitle": "Banka Das, Rambalak Das, Birendra Kumar ... vs State Of Orissa on 15 September, 1992",
+          "id": "1141096_c034",
+          "score": 0.052964128219986015
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c026",
+          "score": 0.05006799403954255
+        },
+        {
+          "tid": 1712895,
+          "caseTitle": "State Of M.P. & Anr vs Ram Krishna Balothia & Anr on 6 February, 1995",
+          "id": "1712895_c002",
+          "score": 0.045536125886524816
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c125",
+          "score": 0.04543207933618892
+        },
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c169",
+          "score": 0.043502383919916114
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c055",
+          "score": 0.04210688758934372
+        }
+      ]
+    }
+  },
+  {
+    "id": "sf04",
+    "supporting": {
+      "items": [
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c010",
+          "score": 0.09841648395904952
+        },
+        {
+          "tid": 26003907,
+          "caseTitle": "Satpal Singh vs The State Of Punjab on 27 March, 2018",
+          "id": "26003907_c002",
+          "score": 0.08743139875253882
+        },
+        {
+          "tid": 1141096,
+          "caseTitle": "Banka Das, Rambalak Das, Birendra Kumar ... vs State Of Orissa on 15 September, 1992",
+          "id": "1141096_c036",
+          "score": 0.08312195952304234
+        },
+        {
+          "tid": 182988,
+          "caseTitle": "Narcotics Control Bureau vs Dilip Pralhad Namade on 18 March, 2004",
+          "id": "182988_c006",
+          "score": 0.0668177591661597
+        },
+        {
+          "tid": 18346623,
+          "caseTitle": "Union Of India vs K.A. Najeeb on 1 February, 2021",
+          "id": "18346623_c015",
+          "score": 0.05782189687273437
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c032",
+          "score": 0.040013920376691
+        },
+        {
+          "tid": 477313,
+          "caseTitle": "Central Inland Water ... vs Brojo Nath Ganguly & Anr on 6 April, 1986",
+          "id": "477313_c142",
+          "score": 0.03793141109654871
+        },
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c169",
+          "score": 0.037270344489220425
+        }
+      ]
+    }
+  },
+  {
+    "id": "sf05",
+    "supporting": {
+      "items": [
+        {
+          "tid": 1108032,
+          "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+          "id": "1108032_c079",
+          "score": 0.06487255181285032
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c101",
+          "score": 0.06320174839813601
+        },
+        {
+          "tid": 1766147,
+          "caseTitle": "Maneka Gandhi vs Union Of India on 25 January, 1978",
+          "id": "1766147_c259",
+          "score": 0.05565481436713588
+        },
+        {
+          "tid": 1813801,
+          "caseTitle": "Kartar Singh vs State Of Punjab on 11 March, 1994",
+          "id": "1813801_c257",
+          "score": 0.04648617511520737
+        },
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c175",
+          "score": 0.04502556267262149
+        },
+        {
+          "tid": 1780466,
+          "caseTitle": "Adri Dharan Das vs State Of West Bengal on 21 February, 2005",
+          "id": "1780466_c017",
+          "score": 0.03508799333541601
+        },
+        {
+          "tid": 276646,
+          "caseTitle": "State Of Maharashtra vs Mrs. Bharati Chandmal Varma @ Ayesha ... on 4 December, 2001",
+          "id": "276646_c001",
+          "score": 0.034819844789356985
+        },
+        {
+          "tid": 1879676,
+          "caseTitle": "S. Krishnan And Others vs The State Of Madras(And Other ... on 7 May, 1951",
+          "id": "1879676_c044",
+          "score": 0.034126894761958376
+        }
+      ]
+    }
+  },
+  {
+    "id": "sf06",
+    "supporting": {
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c161",
+          "score": 0.07874169189310035
+        },
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c175",
+          "score": 0.058320025164537354
+        },
+        {
+          "tid": 1342616,
+          "caseTitle": "Kalyan Chandra Sarkar vs Rajesh Ranjan Alias Pappu Yadav & Anr on 12 March, 2004",
+          "id": "1342616_c012",
+          "score": 0.051924183720441025
+        },
+        {
+          "tid": 1108032,
+          "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+          "id": "1108032_c069",
+          "score": 0.04573863636363636
+        },
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c021",
+          "score": 0.04188471708090957
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c074",
+          "score": 0.041240556192491985
+        },
+        {
+          "tid": 188505337,
+          "caseTitle": "Jai Prakash Singh vs State Of Bihar & Anr.Etc on 14 March, 2012",
+          "id": "188505337_c015",
+          "score": 0.04091590911618846
+        },
+        {
+          "tid": 1868823,
+          "caseTitle": "Balchand Jain vs State Of Madhya Pradesh on 5 November, 1976",
+          "id": "1868823_c016",
+          "score": 0.04038621955288621
+        }
+      ]
+    }
+  },
+  {
+    "id": "sf07",
+    "supporting": {
+      "items": [
+        {
+          "tid": 1766147,
+          "caseTitle": "Maneka Gandhi vs Union Of India on 25 January, 1978",
+          "id": "1766147_c362",
+          "score": 0.08470660387999096
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c164",
+          "score": 0.08243536559223011
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c036",
+          "score": 0.059940420802315965
+        },
+        {
+          "tid": 1920437,
+          "caseTitle": "Niranjan Singh & Anr vs Prabhakar Rajaram Kharote & Ors on 10 March, 1980",
+          "id": "1920437_c011",
+          "score": 0.049111655596067436
+        },
+        {
+          "tid": 1108032,
+          "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+          "id": "1108032_c068",
+          "score": 0.044030516431924877
+        },
+        {
+          "tid": 1515744,
+          "caseTitle": "Babu Singh And Ors vs The State Of U.P on 31 January, 1978",
+          "id": "1515744_c016",
+          "score": 0.02859901143033673
+        },
+        {
+          "tid": 862701,
+          "caseTitle": "Aslam Babalal Desai vs State Of Maharashtra on 15 September, 1992",
+          "id": "862701_c040",
+          "score": 0.027242781048500135
+        },
+        {
+          "tid": 940947,
+          "caseTitle": "Naresh Kumar Yadav vs Ravindra Kumar And Ors on 23 October, 2007",
+          "id": "940947_c013",
+          "score": 0.025354030501089322
+        }
+      ]
+    }
+  },
+  {
+    "id": "sf08",
+    "supporting": {
+      "items": [
+        {
+          "tid": 912700,
+          "caseTitle": "Usmanbhai Dawoodbhai Menon & Ors. Etc vs State Of Gujarat on 14 March, 1988",
+          "id": "912700_c038",
+          "score": 0.058843995510662175
+        },
+        {
+          "tid": 1712895,
+          "caseTitle": "State Of M.P. & Anr vs Ram Krishna Balothia & Anr on 6 February, 1995",
+          "id": "1712895_c005",
+          "score": 0.05448944537798091
+        },
+        {
+          "tid": 193411084,
+          "caseTitle": "State Of Bihar vs Rajballav Prasad @ Rajballav Pd. Yadav @ ... on 24 November, 2016",
+          "id": "193411084_c000",
+          "score": 0.05441741714092653
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c197",
+          "score": 0.053154270770701874
+        },
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c170",
+          "score": 0.050903012639693566
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c088",
+          "score": 0.04744627594627594
+        },
+        {
+          "tid": 1813801,
+          "caseTitle": "Kartar Singh vs State Of Punjab on 11 March, 1994",
+          "id": "1813801_c249",
+          "score": 0.0455522609340252
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c036",
+          "score": 0.042376258611552725
+        }
+      ]
+    }
+  },
+  {
+    "id": "sf09",
+    "supporting": {
+      "items": [
+        {
+          "tid": 193152,
+          "caseTitle": "Kashmira Singh vs The State Of Punjab on 2 September, 1977",
+          "id": "193152_c002",
+          "score": 0.09417311993750363
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c107",
+          "score": 0.05787494977635822
+        },
+        {
+          "tid": 35562,
+          "caseTitle": "Keshav Dev And Ors. vs The State Of Rajasthan on 19 May, 2005",
+          "id": "35562_c006",
+          "score": 0.054207111541710165
+        },
+        {
+          "tid": 1515744,
+          "caseTitle": "Babu Singh And Ors vs The State Of U.P on 31 January, 1978",
+          "id": "1515744_c022",
+          "score": 0.04551697609431038
+        },
+        {
+          "tid": 1563495,
+          "caseTitle": "Sanjay Chandra vs Cbi on 23 November, 2011",
+          "id": "1563495_c021",
+          "score": 0.04474890723652258
+        },
+        {
+          "tid": 1353689,
+          "caseTitle": "A.R. Antulay vs R.S. Nayak & Anr on 29 April, 1988",
+          "id": "1353689_c291",
+          "score": 0.04386702696038139
+        },
+        {
+          "tid": 51738625,
+          "caseTitle": "Sanjay Dutt vs State Of Maharashtra Tr.Cbi,Bombay on 21 March, 2013",
+          "id": "51738625_c173",
+          "score": 0.036740169114950705
+        },
+        {
+          "tid": 1813801,
+          "caseTitle": "Kartar Singh vs State Of Punjab on 11 March, 1994",
+          "id": "1813801_c210",
+          "score": 0.03653286756232934
+        }
+      ]
+    }
+  },
+  {
+    "id": "sf10",
+    "supporting": {
+      "items": [
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c048",
+          "score": 0.078325770039918
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c076",
+          "score": 0.07759838031924249
+        },
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c169",
+          "score": 0.07406584662008002
+        },
+        {
+          "tid": 534034,
+          "caseTitle": "Gurcharan Singh & Ors vs State (Delhi Administration) on 6 December, 1977",
+          "id": "534034_c026",
+          "score": 0.058897492677224154
+        },
+        {
+          "tid": 1868823,
+          "caseTitle": "Balchand Jain vs State Of Madhya Pradesh on 5 November, 1976",
+          "id": "1868823_c031",
+          "score": 0.05592621359968088
+        },
+        {
+          "tid": 862701,
+          "caseTitle": "Aslam Babalal Desai vs State Of Maharashtra on 15 September, 1992",
+          "id": "862701_c008",
+          "score": 0.045311154949784785
+        },
+        {
+          "tid": 234105,
+          "caseTitle": "Vaman Narain Ghiya vs State Of Rajasthan on 12 December, 2008",
+          "id": "234105_c015",
+          "score": 0.04287667578203161
+        },
+        {
+          "tid": 583257,
+          "caseTitle": "Narendra Lal Khan vs Emperor on 18 September, 1908",
+          "id": "583257_c000",
+          "score": 0.036776891974911775
+        }
+      ]
+    }
+  }
+]

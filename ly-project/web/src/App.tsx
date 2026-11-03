@@ -33,6 +33,13 @@ export default function App() {
               <Icon name="document" size={14} />
               FIR Assistant
             </Link>
+            <Link
+              to="/counter"
+              className="flex items-center gap-1.5 text-stone-600 transition-colors hover:text-maroon-700"
+            >
+              <Icon name="scales" size={14} />
+              Counter Engine
+            </Link>
             <span className="hidden text-stone-400 sm:inline">
               198 judgments &middot; 1912&ndash;2022
             </span>

@@ -1,0 +1,2861 @@
+[
+  {
+    "id": "sw01",
+    "group": "should_work",
+    "area": "anticipatory bail -- conditions, duration, restriction",
+    "query": "Anticipatory bail was granted to my client by the Sessions Court without any time limit. The prosecution now wants the High Court to restrict it to a fixed number of days and direct him to surrender and apply for regular bail after that period expires. Is there settled law against imposing a time limit on anticipatory bail like this?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "anticipatory_bail",
+        "section_438",
+        "time_limit"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 1207,
+    "tookMs": 1179,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c025",
+          "score": 0.09289474434006353
+        },
+        {
+          "tid": 1108032,
+          "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+          "id": "1108032_c068",
+          "score": 0.06283451119444146
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c077",
+          "score": 0.0542445960616786
+        },
+        {
+          "tid": 180463386,
+          "caseTitle": "Bhadresh Bipinbhai Sheth vs State Of Gujarat & Anr on 1 September, 2015",
+          "id": "180463386_c022",
+          "score": 0.04838978015448604
+        },
+        {
+          "tid": 1868823,
+          "caseTitle": "Balchand Jain vs State Of Madhya Pradesh on 5 November, 1976",
+          "id": "1868823_c031",
+          "score": 0.04737120983729365
+        },
+        {
+          "tid": 89063,
+          "caseTitle": "K.L. Verma vs State And Anr. on 13 October, 1996",
+          "id": "89063_c002",
+          "score": 0.025
+        },
+        {
+          "tid": 862701,
+          "caseTitle": "Aslam Babalal Desai vs State Of Maharashtra on 15 September, 1992",
+          "id": "862701_c010",
+          "score": 0.022399203583872575
+        },
+        {
+          "tid": 257280,
+          "caseTitle": "Bharat Chaudhary & Anr vs State Of Bihar & Anr on 8 October, 2003",
+          "id": "257280_c006",
+          "score": 0.022266204849084613
+        }
+      ],
+      "topScore": 0.09289474434006353,
+      "fifthScore": 0.04737120983729365
+    },
+    "opposing_attacks": {
+      "itemCount": 3,
+      "items": [
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "attack_1308768_1868823",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "attack_123660783_1108032",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "attack_123660783_1308768",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c004",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c025",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c109",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c122",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c108",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c022",
+          "score": null
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c029",
+          "score": null
+        },
+        {
+          "tid": 1650581,
+          "caseTitle": "Dolat Ram & Ors vs The State Of Haryana on 11 November, 1994",
+          "id": "1650581_c002",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sw02",
+    "group": "should_work",
+    "area": "undertrial delay / Article 21 speedy trial",
+    "query": "My client has been held as an undertrial prisoner for over three years and the trial has still not begun, though he has no serious criminal record. Can prolonged pre-trial detention by itself, without more, support a bail plea under Article 21's guarantee of a speedy trial?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "speedy_trial",
+        "article_21",
+        "delay_in_trial"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 1192,
+    "tookMs": 1184,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 1007347,
+          "caseTitle": "Hussainara Khatoon & Ors vs Home Secretary, State Of Bihar, Govt. Of ... on 12 February, 1979",
+          "id": "1007347_c019",
+          "score": 0.08632401863454112
+        },
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c128",
+          "score": 0.06602268825814588
+        },
+        {
+          "tid": 1563495,
+          "caseTitle": "Sanjay Chandra vs Cbi on 23 November, 2011",
+          "id": "1563495_c051",
+          "score": 0.05323458142980615
+        },
+        {
+          "tid": 18346623,
+          "caseTitle": "Union Of India vs K.A. Najeeb on 1 February, 2021",
+          "id": "18346623_c017",
+          "score": 0.051191000887664186
+        },
+        {
+          "tid": 1813801,
+          "caseTitle": "Kartar Singh vs State Of Punjab on 11 March, 1994",
+          "id": "1813801_c073",
+          "score": 0.04982544562254707
+        },
+        {
+          "tid": 1857950,
+          "caseTitle": "A.K. Gopalan vs The State Of Madras.Union Of India: ... on 19 May, 1950",
+          "id": "1857950_c235",
+          "score": 0.04829481449656553
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c195",
+          "score": 0.039320920043811616
+        },
+        {
+          "tid": 1353689,
+          "caseTitle": "A.R. Antulay vs R.S. Nayak & Anr on 29 April, 1988",
+          "id": "1353689_c291",
+          "score": 0.03718298130062836
+        }
+      ],
+      "topScore": 0.08632401863454112,
+      "fifthScore": 0.04982544562254707
+    },
+    "opposing_attacks": {
+      "itemCount": 1,
+      "items": [
+        {
+          "tid": 1766147,
+          "caseTitle": "Maneka Gandhi vs Union Of India on 25 January, 1978",
+          "id": "attack_1766147_1857950",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c108",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c025",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c124",
+          "score": null
+        },
+        {
+          "tid": 18346623,
+          "caseTitle": "Union Of India vs K.A. Najeeb on 1 February, 2021",
+          "id": "18346623_c006",
+          "score": null
+        },
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c015",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c004",
+          "score": null
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c029",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c024",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sw03",
+    "group": "should_work",
+    "area": "economic offences -- no further custodial need",
+    "query": "My client is an accused in a corporate/economic-offence case. The chargesheet has already been filed and all the relevant documents have been seized by the investigating agency, so there is nothing left for custodial interrogation to achieve. The prosecution argues bail should still be refused only because the offence involves a large sum of money. Should the scale of the alleged fraud, by itself, override the fact that no further custody is needed?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "economic_offence",
+        "scale_of_offence",
+        "bail_granting"
+      ],
+      "offenceCategory": "economic",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 1151,
+    "tookMs": 1136,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c154",
+          "score": 0.08402918073554728
+        },
+        {
+          "tid": 96230971,
+          "caseTitle": "Siddharth vs The State Of Uttar Pradesh on 16 August, 2021",
+          "id": "96230971_c008",
+          "score": 0.057897522066583995
+        },
+        {
+          "tid": 481284,
+          "caseTitle": "State Of U. P vs Deoman Upadhyaya on 6 May, 1960",
+          "id": "481284_c046",
+          "score": 0.05559407148674435
+        },
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c175",
+          "score": 0.05453709324915008
+        },
+        {
+          "tid": 1920437,
+          "caseTitle": "Niranjan Singh & Anr vs Prabhakar Rajaram Kharote & Ors on 10 March, 1980",
+          "id": "1920437_c011",
+          "score": 0.05095539549140278
+        },
+        {
+          "tid": 1563495,
+          "caseTitle": "Sanjay Chandra vs Cbi on 23 November, 2011",
+          "id": "1563495_c021",
+          "score": 0.043326118326118324
+        },
+        {
+          "tid": 1108032,
+          "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+          "id": "1108032_c012",
+          "score": 0.038196297194599396
+        },
+        {
+          "tid": 159846035,
+          "caseTitle": "State (Delhi Administration) vs Sanjay Gandhi on 5 May, 1978",
+          "id": "159846035_c011",
+          "score": 0.035600907029478455
+        }
+      ],
+      "topScore": 0.08402918073554728,
+      "fifthScore": 0.05095539549140278
+    },
+    "opposing_attacks": {
+      "itemCount": 1,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "attack_123660783_1108032",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c184",
+          "score": null
+        },
+        {
+          "tid": 1650581,
+          "caseTitle": "Dolat Ram & Ors vs The State Of Haryana on 11 November, 1994",
+          "id": "1650581_c002",
+          "score": null
+        },
+        {
+          "tid": 117627977,
+          "caseTitle": "National Investigation Agency vs Zahoor Ahmad Shah Watali on 2 April, 2019",
+          "id": "117627977_c097",
+          "score": null
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c081",
+          "score": null
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c029",
+          "score": null
+        },
+        {
+          "tid": 1342616,
+          "caseTitle": "Kalyan Chandra Sarkar vs Rajesh Ranjan Alias Pappu Yadav & Anr on 12 March, 2004",
+          "id": "1342616_c009",
+          "score": null
+        },
+        {
+          "tid": 18346623,
+          "caseTitle": "Union Of India vs K.A. Najeeb on 1 February, 2021",
+          "id": "18346623_c006",
+          "score": null
+        },
+        {
+          "tid": 182988,
+          "caseTitle": "Narcotics Control Bureau vs Dilip Pralhad Namade on 18 March, 2004",
+          "id": "182988_c004",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sw04",
+    "group": "should_work",
+    "area": "default/statutory bail, s.167(2) CrPC",
+    "query": "The police did not file the chargesheet within the 60-day period prescribed under Section 167(2) Cr.P.C. for an offence punishable with up to seven years' imprisonment, even though my client has remained in custody throughout. Is he entitled to default/statutory bail because the chargesheet was filed late?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "delay_in_trial",
+        "section_167",
+        "statutory_bail"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 1104,
+    "tookMs": 1100,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c055",
+          "score": 0.09459938897998826
+        },
+        {
+          "tid": 35562,
+          "caseTitle": "Keshav Dev And Ors. vs The State Of Rajasthan on 19 May, 2005",
+          "id": "35562_c028",
+          "score": 0.07595774821384578
+        },
+        {
+          "tid": 8215697,
+          "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+          "id": "8215697_c019",
+          "score": 0.05616918104480294
+        },
+        {
+          "tid": 41993725,
+          "caseTitle": "Hitendra Vishnu Thakur And Others Etc. ... vs State Of Maharashtra And Others on 12 July, 1994",
+          "id": "41993725_c031",
+          "score": 0.038035794614741984
+        },
+        {
+          "tid": 1747003,
+          "caseTitle": "Uday Mohanlal Acharya vs State Of Maharashtra on 29 March, 2001",
+          "id": "1747003_c007",
+          "score": 0.033631929217368815
+        },
+        {
+          "tid": 753092,
+          "caseTitle": "Sunil Kumar vs State Of Jharkhand And Ors. on 21 February, 2002",
+          "id": "753092_c001",
+          "score": 0.03296968731751341
+        },
+        {
+          "tid": 136480811,
+          "caseTitle": "Sayed Mohd. Ahmed Kazmi vs State, Gnctd & Ors on 19 October, 2012",
+          "id": "136480811_c010",
+          "score": 0.03143182854537164
+        },
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c066",
+          "score": 0.023284147827264113
+        }
+      ],
+      "topScore": 0.09459938897998826,
+      "fifthScore": 0.033631929217368815
+    },
+    "opposing_attacks": {
+      "itemCount": 2,
+      "items": [
+        {
+          "tid": 130360,
+          "caseTitle": "Bhupinder Singh & Ors vs Jarnail Singh & Anr on 13 July, 2006",
+          "id": "attack_130360_35562",
+          "score": null
+        },
+        {
+          "tid": 8215697,
+          "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+          "id": "attack_8215697_136480811",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c058",
+          "score": null
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c049",
+          "score": null
+        },
+        {
+          "tid": 8215697,
+          "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+          "id": "8215697_c002",
+          "score": null
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c057",
+          "score": null
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c050",
+          "score": null
+        },
+        {
+          "tid": 8215697,
+          "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+          "id": "8215697_c046",
+          "score": null
+        },
+        {
+          "tid": 1376808,
+          "caseTitle": "Mohamed Iqbal Madar Sheiri And Ors vs The State Of Maharashtra on 8 January, 1996",
+          "id": "1376808_c014",
+          "score": null
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c081",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sw05",
+    "group": "should_work",
+    "area": "anticipatory bail -- unlimited duration (Constitution Bench)",
+    "query": "The Sessions Court granted my client anticipatory bail but limited it to operate only until the chargesheet is filed, after which he would need to separately apply for regular bail. Is there Constitution Bench authority holding that anticipatory bail need not be time-bound and can continue to protect the accused through the trial absent special circumstances?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "anticipatory_bail",
+        "section_438",
+        "time_bound",
+        "article_21"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 1098,
+    "tookMs": 1096,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c092",
+          "score": 0.08393552964448486
+        },
+        {
+          "tid": 1108032,
+          "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+          "id": "1108032_c068",
+          "score": 0.0805132537341581
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c077",
+          "score": 0.0526958617222309
+        },
+        {
+          "tid": 257280,
+          "caseTitle": "Bharat Chaudhary & Anr vs State Of Bihar & Anr on 8 October, 2003",
+          "id": "257280_c002",
+          "score": 0.048537625504466095
+        },
+        {
+          "tid": 1868823,
+          "caseTitle": "Balchand Jain vs State Of Madhya Pradesh on 5 November, 1976",
+          "id": "1868823_c031",
+          "score": 0.0426218881494614
+        },
+        {
+          "tid": 180463386,
+          "caseTitle": "Bhadresh Bipinbhai Sheth vs State Of Gujarat & Anr on 1 September, 2015",
+          "id": "180463386_c022",
+          "score": 0.02786377708978328
+        },
+        {
+          "tid": 1650581,
+          "caseTitle": "Dolat Ram & Ors vs The State Of Haryana on 11 November, 1994",
+          "id": "1650581_c002",
+          "score": 0.01906318082788671
+        },
+        {
+          "tid": 1712895,
+          "caseTitle": "State Of M.P. & Anr vs Ram Krishna Balothia & Anr on 6 February, 1995",
+          "id": "1712895_c009",
+          "score": 0.016129032258064516
+        }
+      ],
+      "topScore": 0.08393552964448486,
+      "fifthScore": 0.0426218881494614
+    },
+    "opposing_attacks": {
+      "itemCount": 3,
+      "items": [
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "attack_1308768_1868823",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "attack_123660783_1108032",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "attack_123660783_1308768",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c004",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c025",
+          "score": null
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c029",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c108",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c024",
+          "score": null
+        },
+        {
+          "tid": 1650581,
+          "caseTitle": "Dolat Ram & Ors vs The State Of Haryana on 11 November, 1994",
+          "id": "1650581_c002",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c022",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c122",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sw06",
+    "group": "should_work",
+    "area": "bail reform -- offence categories, s.41A notice before arrest",
+    "query": "My client was arrested for an offence punishable with less than seven years' imprisonment, and the police did not first issue him a notice of appearance under Section 41A Cr.P.C. before arresting him. Is there authority classifying offences into categories to decide whether arrest and continued custody are even necessary, and holding an arrest like this, without prior notice, improper?",
+    "classification": {
+      "inScope": false,
+      "topics": [],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 867,
+    "tookMs": 864,
+    "supporting": {
+      "itemCount": 0,
+      "items": [],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "opposing_attacks": {
+      "itemCount": 0,
+      "items": []
+    },
+    "opposing_submissions": {
+      "itemCount": 0,
+      "items": [],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sw07",
+    "group": "should_work",
+    "area": "special-statute default bail (extended investigation period)",
+    "query": "My client is being prosecuted under a special statute that allows the investigation period to be extended up to 180 days, and that extended period has now lapsed without a chargesheet being filed. Is he entitled to be released on bail simply because the extended statutory period for completing the investigation has expired?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "investigation_period",
+        "chargesheet",
+        "bail",
+        "delay_in_trial"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 1899,
+    "tookMs": 1893,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 8215697,
+          "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+          "id": "8215697_c024",
+          "score": 0.09025748263948445
+        },
+        {
+          "tid": 41993725,
+          "caseTitle": "Hitendra Vishnu Thakur And Others Etc. ... vs State Of Maharashtra And Others on 12 July, 1994",
+          "id": "41993725_c060",
+          "score": 0.08119109401827211
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c021",
+          "score": 0.07386307923328218
+        },
+        {
+          "tid": 1655328,
+          "caseTitle": "Sanjay Dutt vs State Through C.B.I. Bombay on 9 September, 1994",
+          "id": "1655328_c068",
+          "score": 0.0647695441813089
+        },
+        {
+          "tid": 1133007,
+          "caseTitle": "Ateef Nasir Mulla vs State Of Maharashtra on 24 August, 2005",
+          "id": "1133007_c004",
+          "score": 0.06368722147968543
+        },
+        {
+          "tid": 136480811,
+          "caseTitle": "Sayed Mohd. Ahmed Kazmi vs State, Gnctd & Ors on 19 October, 2012",
+          "id": "136480811_c010",
+          "score": 0.05685539793040116
+        },
+        {
+          "tid": 862701,
+          "caseTitle": "Aslam Babalal Desai vs State Of Maharashtra on 15 September, 1992",
+          "id": "862701_c010",
+          "score": 0.03698273053111763
+        },
+        {
+          "tid": 35562,
+          "caseTitle": "Keshav Dev And Ors. vs The State Of Rajasthan on 19 May, 2005",
+          "id": "35562_c022",
+          "score": 0.03363895881087314
+        }
+      ],
+      "topScore": 0.09025748263948445,
+      "fifthScore": 0.06368722147968543
+    },
+    "opposing_attacks": {
+      "itemCount": 3,
+      "items": [
+        {
+          "tid": 130360,
+          "caseTitle": "Bhupinder Singh & Ors vs Jarnail Singh & Anr on 13 July, 2006",
+          "id": "attack_130360_35562",
+          "score": null
+        },
+        {
+          "tid": 8215697,
+          "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+          "id": "attack_8215697_136480811",
+          "score": null
+        },
+        {
+          "tid": 136480811,
+          "caseTitle": "Sayed Mohd. Ahmed Kazmi vs State, Gnctd & Ors on 19 October, 2012",
+          "id": "attack_136480811_1655328",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 8215697,
+          "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+          "id": "8215697_c024",
+          "score": null
+        },
+        {
+          "tid": 8215697,
+          "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+          "id": "8215697_c046",
+          "score": null
+        },
+        {
+          "tid": 1133007,
+          "caseTitle": "Ateef Nasir Mulla vs State Of Maharashtra on 24 August, 2005",
+          "id": "1133007_c005",
+          "score": null
+        },
+        {
+          "tid": 1133007,
+          "caseTitle": "Ateef Nasir Mulla vs State Of Maharashtra on 24 August, 2005",
+          "id": "1133007_c003",
+          "score": null
+        },
+        {
+          "tid": 8215697,
+          "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+          "id": "8215697_c002",
+          "score": null
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c081",
+          "score": null
+        },
+        {
+          "tid": 136480811,
+          "caseTitle": "Sayed Mohd. Ahmed Kazmi vs State, Gnctd & Ors on 19 October, 2012",
+          "id": "136480811_c006",
+          "score": null
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c058",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sw08",
+    "group": "should_work",
+    "area": "cancellation of bail -- grounds required",
+    "query": "Bail was granted to the accused by the Sessions Court, and the complainant is now seeking to have it cancelled solely on the ground that the bail order does not give very detailed reasons -- there is no allegation that the accused has misused his liberty since release. Can bail be cancelled merely for being sparsely reasoned, without any supervening circumstance?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "bail_cancellation",
+        "insufficient_reasoning",
+        "supervening_circumstance"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 1190,
+    "tookMs": 1187,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 1342616,
+          "caseTitle": "Kalyan Chandra Sarkar vs Rajesh Ranjan Alias Pappu Yadav & Anr on 12 March, 2004",
+          "id": "1342616_c017",
+          "score": 0.07386013063861308
+        },
+        {
+          "tid": 1012138,
+          "caseTitle": "Puran, Shekhar And Anr vs Rambilas & Anr., State Of Maharashtra & ... on 3 May, 2001",
+          "id": "1012138_c006",
+          "score": 0.07282090453529454
+        },
+        {
+          "tid": 862701,
+          "caseTitle": "Aslam Babalal Desai vs State Of Maharashtra on 15 September, 1992",
+          "id": "862701_c024",
+          "score": 0.06677501479393261
+        },
+        {
+          "tid": 193411084,
+          "caseTitle": "State Of Bihar vs Rajballav Prasad @ Rajballav Pd. Yadav @ ... on 24 November, 2016",
+          "id": "193411084_c012",
+          "score": 0.061953729621593984
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c191",
+          "score": 0.05208536262407325
+        },
+        {
+          "tid": 159846035,
+          "caseTitle": "State (Delhi Administration) vs Sanjay Gandhi on 5 May, 1978",
+          "id": "159846035_c010",
+          "score": 0.037353349799320784
+        },
+        {
+          "tid": 1920437,
+          "caseTitle": "Niranjan Singh & Anr vs Prabhakar Rajaram Kharote & Ors on 10 March, 1980",
+          "id": "1920437_c011",
+          "score": 0.03598404879193056
+        },
+        {
+          "tid": 182988,
+          "caseTitle": "Narcotics Control Bureau vs Dilip Pralhad Namade on 18 March, 2004",
+          "id": "182988_c004",
+          "score": 0.034776756706581265
+        }
+      ],
+      "topScore": 0.07386013063861308,
+      "fifthScore": 0.05208536262407325
+    },
+    "opposing_attacks": {
+      "itemCount": 2,
+      "items": [
+        {
+          "tid": 1521407,
+          "caseTitle": "Kalyan Chandra Sarkar vs Rajesh Ranjan @ Pappu Yadav & Anr on 18 January, 2005",
+          "id": "attack_1521407_1342616",
+          "score": null
+        },
+        {
+          "tid": 1342616,
+          "caseTitle": "Kalyan Chandra Sarkar vs Rajesh Ranjan Alias Pappu Yadav & Anr on 12 March, 2004",
+          "id": "attack_1342616_1012138",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 1650581,
+          "caseTitle": "Dolat Ram & Ors vs The State Of Haryana on 11 November, 1994",
+          "id": "1650581_c002",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c184",
+          "score": null
+        },
+        {
+          "tid": 159846035,
+          "caseTitle": "State (Delhi Administration) vs Sanjay Gandhi on 5 May, 1978",
+          "id": "159846035_c010",
+          "score": null
+        },
+        {
+          "tid": 1521407,
+          "caseTitle": "Kalyan Chandra Sarkar vs Rajesh Ranjan @ Pappu Yadav & Anr on 18 January, 2005",
+          "id": "1521407_c009",
+          "score": null
+        },
+        {
+          "tid": 182988,
+          "caseTitle": "Narcotics Control Bureau vs Dilip Pralhad Namade on 18 March, 2004",
+          "id": "182988_c004",
+          "score": null
+        },
+        {
+          "tid": 1342616,
+          "caseTitle": "Kalyan Chandra Sarkar vs Rajesh Ranjan Alias Pappu Yadav & Anr on 12 March, 2004",
+          "id": "1342616_c009",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c046",
+          "score": null
+        },
+        {
+          "tid": 1342616,
+          "caseTitle": "Kalyan Chandra Sarkar vs Rajesh Ranjan Alias Pappu Yadav & Anr on 12 March, 2004",
+          "id": "1342616_c006",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sw09",
+    "group": "should_work",
+    "area": "special-statute twin-condition bail rigour (TADA-type)",
+    "query": "The accused is charged under a special statute that requires the court to be satisfied there are reasonable grounds to believe he is not guilty and is not likely to commit another offence before bail can be granted, on top of the ordinary bail considerations. Is this twin-condition threshold constitutionally valid, and how has the Constitution Bench dealt with it?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "twin_condition",
+        "constitutional_validity",
+        "constitution_bench",
+        "special_statute",
+        "bail_conditions"
+      ],
+      "offenceCategory": "other_special",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 1666,
+    "tookMs": 1663,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c073",
+          "score": 0.07733622047085194
+        },
+        {
+          "tid": 534034,
+          "caseTitle": "Gurcharan Singh & Ors vs State (Delhi Administration) on 6 December, 1977",
+          "id": "534034_c017",
+          "score": 0.06548072986704777
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c076",
+          "score": 0.061026890374029794
+        },
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c014",
+          "score": 0.05790181575955354
+        },
+        {
+          "tid": 812586,
+          "caseTitle": "Jamini Mullick vs Emperor on 1 October, 1908",
+          "id": "812586_c002",
+          "score": 0.05320701853190704
+        },
+        {
+          "tid": 1563495,
+          "caseTitle": "Sanjay Chandra vs Cbi on 23 November, 2011",
+          "id": "1563495_c023",
+          "score": 0.04094045025417574
+        },
+        {
+          "tid": 1515744,
+          "caseTitle": "Babu Singh And Ors vs The State Of U.P on 31 January, 1978",
+          "id": "1515744_c015",
+          "score": 0.03590149769585253
+        },
+        {
+          "tid": 18346623,
+          "caseTitle": "Union Of India vs K.A. Najeeb on 1 February, 2021",
+          "id": "18346623_c019",
+          "score": 0.03543760979894593
+        }
+      ],
+      "topScore": 0.07733622047085194,
+      "fifthScore": 0.05320701853190704
+    },
+    "opposing_attacks": {
+      "itemCount": 1,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "attack_123660783_1308768",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c046",
+          "score": null
+        },
+        {
+          "tid": 117627977,
+          "caseTitle": "National Investigation Agency vs Zahoor Ahmad Shah Watali on 2 April, 2019",
+          "id": "117627977_c031",
+          "score": null
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c029",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c184",
+          "score": null
+        },
+        {
+          "tid": 481284,
+          "caseTitle": "State Of U. P vs Deoman Upadhyaya on 6 May, 1960",
+          "id": "481284_c028",
+          "score": null
+        },
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c015",
+          "score": null
+        },
+        {
+          "tid": 481284,
+          "caseTitle": "State Of U. P vs Deoman Upadhyaya on 6 May, 1960",
+          "id": "481284_c029",
+          "score": null
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c032",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sw10",
+    "group": "should_work",
+    "area": "indefeasible right to default bail (timing of chargesheet vs application)",
+    "query": "My client applied for statutory bail under Section 167(2) the day after the prescribed investigation period expired, but before the magistrate could pass orders on that application, the prosecution filed the chargesheet the very next day. Does he still have an indefeasible right to be released on default bail because his application was made before the chargesheet came in, even though the chargesheet arrived before the court acted?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "section_167_2",
+        "default_bail",
+        "chargesheet",
+        "investigation_period"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 1370,
+    "tookMs": 1366,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c074",
+          "score": 0.0894135255425578
+        },
+        {
+          "tid": 8215697,
+          "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+          "id": "8215697_c021",
+          "score": 0.08265024000269572
+        },
+        {
+          "tid": 41993725,
+          "caseTitle": "Hitendra Vishnu Thakur And Others Etc. ... vs State Of Maharashtra And Others on 12 July, 1994",
+          "id": "41993725_c031",
+          "score": 0.07426813155979822
+        },
+        {
+          "tid": 1747003,
+          "caseTitle": "Uday Mohanlal Acharya vs State Of Maharashtra on 29 March, 2001",
+          "id": "1747003_c006",
+          "score": 0.0645246844983456
+        },
+        {
+          "tid": 136480811,
+          "caseTitle": "Sayed Mohd. Ahmed Kazmi vs State, Gnctd & Ors on 19 October, 2012",
+          "id": "136480811_c007",
+          "score": 0.06132204479254918
+        },
+        {
+          "tid": 1376808,
+          "caseTitle": "Mohamed Iqbal Madar Sheiri And Ors vs The State Of Maharashtra on 8 January, 1996",
+          "id": "1376808_c014",
+          "score": 0.05497298159957283
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c184",
+          "score": 0.03328555373858505
+        },
+        {
+          "tid": 3764,
+          "caseTitle": "Union Of India vs Hassan Ali Khan And Anr on 30 September, 2011",
+          "id": "3764_c013",
+          "score": 0.02546333601933924
+        }
+      ],
+      "topScore": 0.0894135255425578,
+      "fifthScore": 0.06132204479254918
+    },
+    "opposing_attacks": {
+      "itemCount": 1,
+      "items": [
+        {
+          "tid": 8215697,
+          "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+          "id": "attack_8215697_136480811",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c049",
+          "score": null
+        },
+        {
+          "tid": 1376808,
+          "caseTitle": "Mohamed Iqbal Madar Sheiri And Ors vs The State Of Maharashtra on 8 January, 1996",
+          "id": "1376808_c014",
+          "score": null
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c035",
+          "score": null
+        },
+        {
+          "tid": 8215697,
+          "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+          "id": "8215697_c046",
+          "score": null
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c081",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c184",
+          "score": null
+        },
+        {
+          "tid": 1376808,
+          "caseTitle": "Mohamed Iqbal Madar Sheiri And Ors vs The State Of Maharashtra on 8 January, 1996",
+          "id": "1376808_c012",
+          "score": null
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c111",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sf01",
+    "group": "should_fail",
+    "area": "PMLA s.45 twin-condition bail standard",
+    "query": "My client has been arrested under the Prevention of Money Laundering Act. What is the standard for bail under Section 45 PMLA -- specifically the requirement that the court be satisfied there are reasonable grounds to believe he is not guilty and not likely to commit any offence while on bail?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "section_45",
+        "pmla",
+        "reasonable_ground",
+        "bail_standard"
+      ],
+      "offenceCategory": "pmla",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 899,
+    "tookMs": 897,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c076",
+          "score": 0.08117792082523222
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c074",
+          "score": 0.07373729746563426
+        },
+        {
+          "tid": 1067439,
+          "caseTitle": "Prahlad Singh Bhati vs N.C.T., Delhi & Anr on 23 March, 2001",
+          "id": "1067439_c003",
+          "score": 0.06212697871971591
+        },
+        {
+          "tid": 3764,
+          "caseTitle": "Union Of India vs Hassan Ali Khan And Anr on 30 September, 2011",
+          "id": "3764_c008",
+          "score": 0.061555133934166194
+        },
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c014",
+          "score": 0.05613358599212645
+        },
+        {
+          "tid": 912700,
+          "caseTitle": "Usmanbhai Dawoodbhai Menon & Ors. Etc vs State Of Gujarat on 14 March, 1988",
+          "id": "912700_c038",
+          "score": 0.04781039616675217
+        },
+        {
+          "tid": 812586,
+          "caseTitle": "Jamini Mullick vs Emperor on 1 October, 1908",
+          "id": "812586_c001",
+          "score": 0.04258174642714059
+        },
+        {
+          "tid": 41993725,
+          "caseTitle": "Hitendra Vishnu Thakur And Others Etc. ... vs State Of Maharashtra And Others on 12 July, 1994",
+          "id": "41993725_c034",
+          "score": 0.040178571428571425
+        }
+      ],
+      "topScore": 0.08117792082523222,
+      "fifthScore": 0.05613358599212645
+    },
+    "opposing_attacks": {
+      "itemCount": 1,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "attack_123660783_1308768",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c184",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c046",
+          "score": null
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c029",
+          "score": null
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c081",
+          "score": null
+        },
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c015",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c124",
+          "score": null
+        },
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c002",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c108",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sf02",
+    "group": "should_fail",
+    "area": "Juvenile Justice Act bail",
+    "query": "My client, a juvenile aged 16, has been apprehended in a criminal case. What is the standard for granting him bail under the Juvenile Justice Act, and can bail be refused to a child in conflict with law on the same grounds as an adult?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "juvenile_justice",
+        "bail_standard",
+        "child_in_conflict_with_law"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 1806,
+    "tookMs": 1802,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 234105,
+          "caseTitle": "Vaman Narain Ghiya vs State Of Rajasthan on 12 December, 2008",
+          "id": "234105_c014",
+          "score": 0.06013765091399456
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c101",
+          "score": 0.047424242424242424
+        },
+        {
+          "tid": 1067439,
+          "caseTitle": "Prahlad Singh Bhati vs N.C.T., Delhi & Anr on 23 March, 2001",
+          "id": "1067439_c004",
+          "score": 0.047169957774465976
+        },
+        {
+          "tid": 1563495,
+          "caseTitle": "Sanjay Chandra vs Cbi on 23 November, 2011",
+          "id": "1563495_c023",
+          "score": 0.04585014589207022
+        },
+        {
+          "tid": 1653828,
+          "caseTitle": "State Of Maharashtra vs Anand Chintaman Dighe on 16 January, 1990",
+          "id": "1653828_c007",
+          "score": 0.04288048552754435
+        },
+        {
+          "tid": 862701,
+          "caseTitle": "Aslam Babalal Desai vs State Of Maharashtra on 15 September, 1992",
+          "id": "862701_c026",
+          "score": 0.04155963445580932
+        },
+        {
+          "tid": 1868823,
+          "caseTitle": "Balchand Jain vs State Of Madhya Pradesh on 5 November, 1976",
+          "id": "1868823_c015",
+          "score": 0.04057061396944261
+        },
+        {
+          "tid": 181514,
+          "caseTitle": "Emperor vs Sourindra Mohan Chuckerbutty on 7 March, 1910",
+          "id": "181514_c003",
+          "score": 0.03895632327004876
+        }
+      ],
+      "topScore": 0.06013765091399456,
+      "fifthScore": 0.04288048552754435
+    },
+    "opposing_attacks": {
+      "itemCount": 2,
+      "items": [
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "attack_1308768_1868823",
+          "score": null
+        },
+        {
+          "tid": 1692860,
+          "caseTitle": "Nagendra Nath Chakrabarthi vs King-Emperor on 1 October, 1923",
+          "id": "attack_1692860_181514",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c108",
+          "score": null
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c029",
+          "score": null
+        },
+        {
+          "tid": 159846035,
+          "caseTitle": "State (Delhi Administration) vs Sanjay Gandhi on 5 May, 1978",
+          "id": "159846035_c010",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c184",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c109",
+          "score": null
+        },
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c015",
+          "score": null
+        },
+        {
+          "tid": 117627977,
+          "caseTitle": "National Investigation Agency vs Zahoor Ahmad Shah Watali on 2 April, 2019",
+          "id": "117627977_c031",
+          "score": null
+        },
+        {
+          "tid": 1376808,
+          "caseTitle": "Mohamed Iqbal Madar Sheiri And Ors vs The State Of Maharashtra on 8 January, 1996",
+          "id": "1376808_c012",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sf03",
+    "group": "should_fail",
+    "area": "matrimonial/498A-specific bail doctrine",
+    "query": "My client's wife has filed a complaint under Section 498A IPC and the Dowry Prohibition Act alleging cruelty. What special considerations apply to bail in matrimonial-cruelty cases like this, given the risk of the provision being misused to rope in the whole family?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "section_498a",
+        "dowry_prohibition_act",
+        "misuse_of_law",
+        "bail_considerations",
+        "cruelty"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 1093,
+    "tookMs": 1090,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 2982624,
+          "caseTitle": "Arnesh Kumar vs State Of Bihar & Anr on 2 July, 2014",
+          "id": "2982624_c000",
+          "score": 0.09483666342471207
+        },
+        {
+          "tid": 35562,
+          "caseTitle": "Keshav Dev And Ors. vs The State Of Rajasthan on 19 May, 2005",
+          "id": "35562_c027",
+          "score": 0.05431884467974755
+        },
+        {
+          "tid": 1141096,
+          "caseTitle": "Banka Das, Rambalak Das, Birendra Kumar ... vs State Of Orissa on 15 September, 1992",
+          "id": "1141096_c034",
+          "score": 0.04605576366955306
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c026",
+          "score": 0.04353738612134135
+        },
+        {
+          "tid": 544985,
+          "caseTitle": "Nirmal Jeet Kaur vs The State Of Madhya Pradesh And Anr on 1 September, 2004",
+          "id": "544985_c000",
+          "score": 0.04252836392055407
+        },
+        {
+          "tid": 1712895,
+          "caseTitle": "State Of M.P. & Anr vs Ram Krishna Balothia & Anr on 6 February, 1995",
+          "id": "1712895_c002",
+          "score": 0.03959663120567376
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c125",
+          "score": 0.03950615594451211
+        },
+        {
+          "tid": 257280,
+          "caseTitle": "Bharat Chaudhary & Anr vs State Of Bihar & Anr on 8 October, 2003",
+          "id": "257280_c000",
+          "score": 0.03902116402116402
+        }
+      ],
+      "topScore": 0.09483666342471207,
+      "fifthScore": 0.04252836392055407
+    },
+    "opposing_attacks": {
+      "itemCount": 1,
+      "items": [
+        {
+          "tid": 130360,
+          "caseTitle": "Bhupinder Singh & Ors vs Jarnail Singh & Anr on 13 July, 2006",
+          "id": "attack_130360_35562",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 1337799,
+          "caseTitle": "The State vs Captain Jagjit Singh on 14 September, 1961",
+          "id": "1337799_c003",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c022",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c124",
+          "score": null
+        },
+        {
+          "tid": 263099,
+          "caseTitle": "State Of Maharashtra & Anr vs Mohd. Sajid Husain Mohd. S. Husain Etc on 10 October, 2007",
+          "id": "263099_c003",
+          "score": null
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c029",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c109",
+          "score": null
+        },
+        {
+          "tid": 41993725,
+          "caseTitle": "Hitendra Vishnu Thakur And Others Etc. ... vs State Of Maharashtra And Others on 12 July, 1994",
+          "id": "41993725_c097",
+          "score": null
+        },
+        {
+          "tid": 1108032,
+          "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+          "id": "1108032_c011",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sf04",
+    "group": "should_fail",
+    "area": "NDPS commercial-quantity-specific bail principles",
+    "query": "My client has been arrested for possessing a commercial quantity of a narcotic substance under the NDPS Act. Beyond the general twin conditions under Section 37, are there specific principles that apply to bail when the quantity involved is 'commercial' rather than 'small' or 'intermediate'?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "section_37",
+        "commercial_quantity",
+        "ndps"
+      ],
+      "offenceCategory": "ndps",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 4925,
+    "tookMs": 4923,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 26003907,
+          "caseTitle": "Satpal Singh vs The State Of Punjab on 27 March, 2018",
+          "id": "26003907_c002",
+          "score": 0.0864605905455966
+        },
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c010",
+          "score": 0.08557955126873873
+        },
+        {
+          "tid": 1141096,
+          "caseTitle": "Banka Das, Rambalak Das, Birendra Kumar ... vs State Of Orissa on 15 September, 1992",
+          "id": "1141096_c036",
+          "score": 0.07227996480264552
+        },
+        {
+          "tid": 182988,
+          "caseTitle": "Narcotics Control Bureau vs Dilip Pralhad Namade on 18 March, 2004",
+          "id": "182988_c006",
+          "score": 0.0671267568135815
+        },
+        {
+          "tid": 18346623,
+          "caseTitle": "Union Of India vs K.A. Najeeb on 1 February, 2021",
+          "id": "18346623_c015",
+          "score": 0.05204254252153165
+        },
+        {
+          "tid": 372318,
+          "caseTitle": "Bipin Shantilal Panchal vs State Of Gujarat And Anr on 22 February, 2001",
+          "id": "372318_c001",
+          "score": 0.04187918060200669
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c032",
+          "score": 0.03479471337103565
+        },
+        {
+          "tid": 477313,
+          "caseTitle": "Central Inland Water ... vs Brojo Nath Ganguly & Anr on 6 April, 1986",
+          "id": "477313_c142",
+          "score": 0.03298383573612931
+        }
+      ],
+      "topScore": 0.0864605905455966,
+      "fifthScore": 0.05204254252153165
+    },
+    "opposing_attacks": {
+      "itemCount": 0,
+      "items": []
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c015",
+          "score": null
+        },
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c002",
+          "score": null
+        },
+        {
+          "tid": 182988,
+          "caseTitle": "Narcotics Control Bureau vs Dilip Pralhad Namade on 18 March, 2004",
+          "id": "182988_c003",
+          "score": null
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c029",
+          "score": null
+        },
+        {
+          "tid": 182988,
+          "caseTitle": "Narcotics Control Bureau vs Dilip Pralhad Namade on 18 March, 2004",
+          "id": "182988_c004",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c184",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c124",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c046",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 1,
+      "items": [
+        {
+          "tid": 26003907,
+          "caseTitle": "Satpal Singh vs The State Of Punjab on 27 March, 2018",
+          "id": "26003907_c001"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sf05",
+    "group": "should_fail",
+    "area": "bail for foreign nationals",
+    "query": "My client is a foreign national with no fixed address in India, arrested on a criminal charge. Do Indian courts apply different or additional bail conditions -- such as surrendering travel documents or furnishing local sureties -- specifically because the accused is a foreign national?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "flight_risk",
+        "foreign_national",
+        "travel_documents",
+        "surety"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 2242,
+    "tookMs": 2240,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 1108032,
+          "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+          "id": "1108032_c079",
+          "score": 0.05641091461986984
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c101",
+          "score": 0.05495804208533566
+        },
+        {
+          "tid": 1766147,
+          "caseTitle": "Maneka Gandhi vs Union Of India on 25 January, 1978",
+          "id": "1766147_c259",
+          "score": 0.04839549075403121
+        },
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c175",
+          "score": 0.04307751072456955
+        },
+        {
+          "tid": 1813801,
+          "caseTitle": "Kartar Singh vs State Of Punjab on 11 March, 1994",
+          "id": "1813801_c259",
+          "score": 0.04252654778601483
+        },
+        {
+          "tid": 1730508,
+          "caseTitle": "Union Of India vs Padam Narain Aggarwal Etc on 3 October, 2008",
+          "id": "1730508_c005",
+          "score": 0.03353208636227504
+        },
+        {
+          "tid": 276646,
+          "caseTitle": "State Of Maharashtra vs Mrs. Bharati Chandmal Varma @ Ayesha ... on 4 December, 2001",
+          "id": "276646_c001",
+          "score": 0.03264966740576497
+        },
+        {
+          "tid": 1879676,
+          "caseTitle": "S. Krishnan And Others vs The State Of Madras(And Other ... on 7 May, 1951",
+          "id": "1879676_c044",
+          "score": 0.030917796687417225
+        }
+      ],
+      "topScore": 0.05641091461986984,
+      "fifthScore": 0.04252654778601483
+    },
+    "opposing_attacks": {
+      "itemCount": 1,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "attack_123660783_1108032",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 1563495,
+          "caseTitle": "Sanjay Chandra vs Cbi on 23 November, 2011",
+          "id": "1563495_c012",
+          "score": null
+        },
+        {
+          "tid": 1730508,
+          "caseTitle": "Union Of India vs Padam Narain Aggarwal Etc on 3 October, 2008",
+          "id": "1730508_c005",
+          "score": null
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c081",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c184",
+          "score": null
+        },
+        {
+          "tid": 41993725,
+          "caseTitle": "Hitendra Vishnu Thakur And Others Etc. ... vs State Of Maharashtra And Others on 12 July, 1994",
+          "id": "41993725_c096",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c108",
+          "score": null
+        },
+        {
+          "tid": 1337799,
+          "caseTitle": "The State vs Captain Jagjit Singh on 14 September, 1961",
+          "id": "1337799_c003",
+          "score": null
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c029",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sf06",
+    "group": "should_fail",
+    "area": "interim / medical bail",
+    "query": "My client's counsel has applied for interim bail on medical grounds, citing a serious ongoing health condition that cannot be adequately treated in custody. What is the standard Indian courts apply when deciding whether to grant interim or medical bail?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "interim_bail",
+        "medical_bail",
+        "health_condition",
+        "bail_standard"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 8446,
+    "tookMs": 8442,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c161",
+          "score": 0.06847103642878291
+        },
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c175",
+          "score": 0.05410980449090205
+        },
+        {
+          "tid": 1342616,
+          "caseTitle": "Kalyan Chandra Sarkar vs Rajesh Ranjan Alias Pappu Yadav & Anr on 12 March, 2004",
+          "id": "1342616_c012",
+          "score": 0.049833738352222975
+        },
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c021",
+          "score": 0.04135468293302834
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c074",
+          "score": 0.040750213128729756
+        },
+        {
+          "tid": 1108032,
+          "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+          "id": "1108032_c069",
+          "score": 0.03977272727272728
+        },
+        {
+          "tid": 1563495,
+          "caseTitle": "Sanjay Chandra vs Cbi on 23 November, 2011",
+          "id": "1563495_c014",
+          "score": 0.037089646464646464
+        },
+        {
+          "tid": 188505337,
+          "caseTitle": "Jai Prakash Singh vs State Of Bihar & Anr.Etc on 14 March, 2012",
+          "id": "188505337_c015",
+          "score": 0.03557905140538127
+        }
+      ],
+      "topScore": 0.06847103642878291,
+      "fifthScore": 0.040750213128729756
+    },
+    "opposing_attacks": {
+      "itemCount": 2,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "attack_123660783_1108032",
+          "score": null
+        },
+        {
+          "tid": 1521407,
+          "caseTitle": "Kalyan Chandra Sarkar vs Rajesh Ranjan @ Pappu Yadav & Anr on 18 January, 2005",
+          "id": "attack_1521407_1342616",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c002",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c004",
+          "score": null
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c029",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c108",
+          "score": null
+        },
+        {
+          "tid": 182988,
+          "caseTitle": "Narcotics Control Bureau vs Dilip Pralhad Namade on 18 March, 2004",
+          "id": "182988_c004",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c122",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c121",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c109",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sf07",
+    "group": "should_fail",
+    "area": "bail condition -- passport surrender",
+    "query": "As a condition of bail, the court directed my client to surrender his passport and not leave the country without permission. Is there settled principle on when courts impose a passport-surrender condition as part of bail, and can it be challenged as disproportionate?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "passport_surrender",
+        "bail_conditions",
+        "disproportionate"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 4522,
+    "tookMs": 4519,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c184",
+          "score": 0.08031777001939133
+        },
+        {
+          "tid": 1766147,
+          "caseTitle": "Maneka Gandhi vs Union Of India on 25 January, 1978",
+          "id": "1766147_c362",
+          "score": 0.07365791641738345
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c036",
+          "score": 0.05212210504549214
+        },
+        {
+          "tid": 1920437,
+          "caseTitle": "Niranjan Singh & Anr vs Prabhakar Rajaram Kharote & Ors on 10 March, 1980",
+          "id": "1920437_c011",
+          "score": 0.04527649241363399
+        },
+        {
+          "tid": 1108032,
+          "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+          "id": "1108032_c068",
+          "score": 0.03828740559297816
+        },
+        {
+          "tid": 1515744,
+          "caseTitle": "Babu Singh And Ors vs The State Of U.P on 31 January, 1978",
+          "id": "1515744_c016",
+          "score": 0.024868705591597158
+        },
+        {
+          "tid": 940947,
+          "caseTitle": "Naresh Kumar Yadav vs Ravindra Kumar And Ors on 23 October, 2007",
+          "id": "940947_c013",
+          "score": 0.023965141612200435
+        },
+        {
+          "tid": 862701,
+          "caseTitle": "Aslam Babalal Desai vs State Of Maharashtra on 15 September, 1992",
+          "id": "862701_c040",
+          "score": 0.02368937482478273
+        }
+      ],
+      "topScore": 0.08031777001939133,
+      "fifthScore": 0.03828740559297816
+    },
+    "opposing_attacks": {
+      "itemCount": 3,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "attack_123660783_1108032",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "attack_123660783_1308768",
+          "score": null
+        },
+        {
+          "tid": 1108032,
+          "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+          "id": "attack_1108032_940947",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c105",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c184",
+          "score": null
+        },
+        {
+          "tid": 1229451,
+          "caseTitle": "R.Rathinam vs State By Dsp, District Crime Branch on 8 February, 2000",
+          "id": "1229451_c006",
+          "score": null
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c029",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c025",
+          "score": null
+        },
+        {
+          "tid": 193411084,
+          "caseTitle": "State Of Bihar vs Rajballav Prasad @ Rajballav Pd. Yadav @ ... on 24 November, 2016",
+          "id": "193411084_c008",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c108",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c046",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sf08",
+    "group": "should_fail",
+    "area": "POCSO-specific bail rigour",
+    "query": "My client is charged with an offence under the POCSO Act involving a child victim. Are there special, more stringent bail considerations that apply under POCSO compared to ordinary criminal offences?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "pocso",
+        "special_bail",
+        "child_victim"
+      ],
+      "offenceCategory": "other_special",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 4511,
+    "tookMs": 4509,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 193411084,
+          "caseTitle": "State Of Bihar vs Rajballav Prasad @ Rajballav Pd. Yadav @ ... on 24 November, 2016",
+          "id": "193411084_c000",
+          "score": 0.06402049075403121
+        },
+        {
+          "tid": 912700,
+          "caseTitle": "Usmanbhai Dawoodbhai Menon & Ors. Etc vs State Of Gujarat on 14 March, 1988",
+          "id": "912700_c038",
+          "score": 0.054719416386083054
+        },
+        {
+          "tid": 1712895,
+          "caseTitle": "State Of M.P. & Anr vs Ram Krishna Balothia & Anr on 6 February, 1995",
+          "id": "1712895_c005",
+          "score": 0.04738212641563557
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c197",
+          "score": 0.04622110501800164
+        },
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c170",
+          "score": 0.045554922743082656
+        },
+        {
+          "tid": 1813801,
+          "caseTitle": "Kartar Singh vs State Of Punjab on 11 March, 1994",
+          "id": "1813801_c249",
+          "score": 0.04132690882134915
+        },
+        {
+          "tid": 194334432,
+          "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+          "id": "194334432_c088",
+          "score": 0.04125763125763126
+        },
+        {
+          "tid": 117627977,
+          "caseTitle": "National Investigation Agency vs Zahoor Ahmad Shah Watali on 2 April, 2019",
+          "id": "117627977_c031",
+          "score": 0.039872074185799675
+        }
+      ],
+      "topScore": 0.06402049075403121,
+      "fifthScore": 0.045554922743082656
+    },
+    "opposing_attacks": {
+      "itemCount": 0,
+      "items": []
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 117627977,
+          "caseTitle": "National Investigation Agency vs Zahoor Ahmad Shah Watali on 2 April, 2019",
+          "id": "117627977_c031",
+          "score": null
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c029",
+          "score": null
+        },
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c015",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c105",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c046",
+          "score": null
+        },
+        {
+          "tid": 1521407,
+          "caseTitle": "Kalyan Chandra Sarkar vs Rajesh Ranjan @ Pappu Yadav & Anr on 18 January, 2005",
+          "id": "1521407_c013",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c184",
+          "score": null
+        },
+        {
+          "tid": 1337799,
+          "caseTitle": "The State vs Captain Jagjit Singh on 14 September, 1961",
+          "id": "1337799_c003",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sf09",
+    "group": "should_fail",
+    "area": "bail pending appeal / suspension of sentence, s.389 CrPC",
+    "query": "My client was convicted at trial and has filed an appeal against the conviction. Pending disposal of that appeal, what is the standard for suspending the sentence and releasing him on bail under Section 389 Cr.P.C.?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "section_389",
+        "suspension_of_sentence",
+        "appeal",
+        "bail"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 5440,
+    "tookMs": 5437,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 193152,
+          "caseTitle": "Kashmira Singh vs The State Of Punjab on 2 September, 1977",
+          "id": "193152_c003",
+          "score": 0.08978008088826764
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c107",
+          "score": 0.05057298735095855
+        },
+        {
+          "tid": 35562,
+          "caseTitle": "Keshav Dev And Ors. vs The State Of Rajasthan on 19 May, 2005",
+          "id": "35562_c006",
+          "score": 0.04902697790016385
+        },
+        {
+          "tid": 1515744,
+          "caseTitle": "Babu Singh And Ors vs The State Of U.P on 31 January, 1978",
+          "id": "1515744_c022",
+          "score": 0.04313602371335799
+        },
+        {
+          "tid": 1563495,
+          "caseTitle": "Sanjay Chandra vs Cbi on 23 November, 2011",
+          "id": "1563495_c021",
+          "score": 0.03891209324915007
+        },
+        {
+          "tid": 1353689,
+          "caseTitle": "A.R. Antulay vs R.S. Nayak & Anr on 29 April, 1988",
+          "id": "1353689_c291",
+          "score": 0.03814524083511425
+        },
+        {
+          "tid": 765136,
+          "caseTitle": "Suk Das & Anr vs Union Territory Of Arunachal Pradesh on 10 March, 1986",
+          "id": "765136_c010",
+          "score": 0.03732303732303732
+        },
+        {
+          "tid": 1813801,
+          "caseTitle": "Kartar Singh vs State Of Punjab on 11 March, 1994",
+          "id": "1813801_c209",
+          "score": 0.035479269778483626
+        }
+      ],
+      "topScore": 0.08978008088826764,
+      "fifthScore": 0.03891209324915007
+    },
+    "opposing_attacks": {
+      "itemCount": 2,
+      "items": [
+        {
+          "tid": 130360,
+          "caseTitle": "Bhupinder Singh & Ors vs Jarnail Singh & Anr on 13 July, 2006",
+          "id": "attack_130360_35562",
+          "score": null
+        },
+        {
+          "tid": 1141096,
+          "caseTitle": "Banka Das, Rambalak Das, Birendra Kumar ... vs State Of Orissa on 15 September, 1992",
+          "id": "attack_1141096_765136",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c109",
+          "score": null
+        },
+        {
+          "tid": 1780466,
+          "caseTitle": "Adri Dharan Das vs State Of West Bengal on 21 February, 2005",
+          "id": "1780466_c019",
+          "score": null
+        },
+        {
+          "tid": 1337799,
+          "caseTitle": "The State vs Captain Jagjit Singh on 14 September, 1961",
+          "id": "1337799_c003",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c004",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c184",
+          "score": null
+        },
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c015",
+          "score": null
+        },
+        {
+          "tid": 182988,
+          "caseTitle": "Narcotics Control Bureau vs Dilip Pralhad Namade on 18 March, 2004",
+          "id": "182988_c004",
+          "score": null
+        },
+        {
+          "tid": 41993725,
+          "caseTitle": "Hitendra Vishnu Thakur And Others Etc. ... vs State Of Maharashtra And Others on 12 July, 1994",
+          "id": "41993725_c080",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  },
+  {
+    "id": "sf10",
+    "group": "should_fail",
+    "area": "cheque-dishonour (NI Act s.138) bail",
+    "query": "My client has been arrested on a complaint under Section 138 of the Negotiable Instruments Act for a dishonoured cheque. Given that this is a bailable-adjacent, compoundable commercial offence, what bail considerations specifically apply in cheque-dishonour cases?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "section_138",
+        "cheque_dishonour",
+        "bail_considerations",
+        "compoundable"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "httpMs": 4042,
+    "tookMs": 4039,
+    "supporting": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c048",
+          "score": 0.07434391520120832
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c076",
+          "score": 0.06747685245151522
+        },
+        {
+          "tid": 7148380,
+          "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+          "id": "7148380_c169",
+          "score": 0.0644050840174609
+        },
+        {
+          "tid": 534034,
+          "caseTitle": "Gurcharan Singh & Ors vs State (Delhi Administration) on 6 December, 1977",
+          "id": "534034_c026",
+          "score": 0.05684269815667621
+        },
+        {
+          "tid": 1868823,
+          "caseTitle": "Balchand Jain vs State Of Madhya Pradesh on 5 November, 1976",
+          "id": "1868823_c031",
+          "score": 0.05054964865445396
+        },
+        {
+          "tid": 862701,
+          "caseTitle": "Aslam Babalal Desai vs State Of Maharashtra on 15 September, 1992",
+          "id": "862701_c008",
+          "score": 0.039401004304160686
+        },
+        {
+          "tid": 234105,
+          "caseTitle": "Vaman Narain Ghiya vs State Of Rajasthan on 12 December, 2008",
+          "id": "234105_c015",
+          "score": 0.03715344938749194
+        },
+        {
+          "tid": 583257,
+          "caseTitle": "Narendra Lal Khan vs Emperor on 18 September, 1908",
+          "id": "583257_c000",
+          "score": 0.036776891974911775
+        }
+      ],
+      "topScore": 0.07434391520120832,
+      "fifthScore": 0.05054964865445396
+    },
+    "opposing_attacks": {
+      "itemCount": 2,
+      "items": [
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "attack_1308768_1868823",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "attack_123660783_1308768",
+          "score": null
+        }
+      ]
+    },
+    "opposing_submissions": {
+      "itemCount": 8,
+      "items": [
+        {
+          "tid": 117627977,
+          "caseTitle": "National Investigation Agency vs Zahoor Ahmad Shah Watali on 2 April, 2019",
+          "id": "117627977_c031",
+          "score": null
+        },
+        {
+          "tid": 1650581,
+          "caseTitle": "Dolat Ram & Ors vs The State Of Haryana on 11 November, 1994",
+          "id": "1650581_c002",
+          "score": null
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c029",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c121",
+          "score": null
+        },
+        {
+          "tid": 123660783,
+          "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+          "id": "123660783_c184",
+          "score": null
+        },
+        {
+          "tid": 10854990,
+          "caseTitle": "Union Of India (Uoi) vs Thamisharasi And Ors. on 1 May, 1995",
+          "id": "10854990_c002",
+          "score": null
+        },
+        {
+          "tid": 1730508,
+          "caseTitle": "Union Of India vs Padam Narain Aggarwal Etc on 3 October, 2008",
+          "id": "1730508_c005",
+          "score": null
+        },
+        {
+          "tid": 1308768,
+          "caseTitle": "Gurbaksh Singh Sibbia Etc vs State Of Punjab on 9 April, 1980",
+          "id": "1308768_c032",
+          "score": null
+        }
+      ],
+      "topScore": null,
+      "fifthScore": null
+    },
+    "statutes": {
+      "itemCount": 0,
+      "items": []
+    }
+  }
+]

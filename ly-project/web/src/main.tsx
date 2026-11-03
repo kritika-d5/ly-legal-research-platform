@@ -5,6 +5,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import App from './App.tsx';
 import './index.css';
 import CasePage from './pages/CasePage.tsx';
+import CounterPage from './pages/CounterPage.tsx';
 import ExplorerPage from './pages/ExplorerPage.tsx';
 import SearchPage from './pages/SearchPage.tsx';
 import FirHomePage from './pages/fir/FirHomePage.tsx';
@@ -33,6 +34,7 @@ createRoot(document.getElementById('root')!).render(
             <Route path="/fir/case/:caseId/review" element={<FirReviewPage />} />
             <Route path="/fir/case/:caseId/confirm" element={<FirConfirmPage />} />
             <Route path="/fir/case/:caseId/output" element={<FirOutputPage />} />
+            <Route path="/counter" element={<CounterPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
         </Routes>

@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "sw02",
+    "generatedAt": "2026-11-02T15:06:42.298Z",
+    "group": "should_work",
+    "query": "My client has been held as an undertrial prisoner for over three years and the trial has still not begun, though he has no serious criminal record. Can prolonged pre-trial detention by itself, without more, support a bail plea under Article 21's guarantee of a speedy trial?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "speedy_trial",
+        "article_21",
+        "pre_trial_detention",
+        "delay_in_trial"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "roundsEmpty": {
+      "supporting": false,
+      "opposing": true,
+      "statutes": true
+    },
+    "answer": "## Your Position  \n**Premise 1:** The accused has been in pre‑trial detention for more than three years without the trial having commenced.  \n**Premise 2:** The accused has no serious criminal record.  \n**Premise 3:** A prolonged pre‑trial detention, by itself, can be relied upon to obtain bail under the guarantee of a speedy trial contained in Article 21 of the Constitution.  \n\n*Weakest premise:* Premise 3 – the proposition that delay alone, without any other factor, is sufficient to secure bail. Supreme Court judgments often balance delay against other considerations (nature of the offence, risk of tampering, etc.). Hence this premise is the most vulnerable to attack.\n\n---\n\n## Your Case  \n\n1. **Delay in trial is a denial of justice and violates Article 21.**  \n   * The Court has held that “delay in trial by itself constitutes denial of justice” and that “speedy trial is of the essence of criminal justice” [1].  \n   * The concept of a speedy trial is read into Article 21 as an essential part of the right to life and liberty [5].\n\n2. **Indefinite or prolonged detention without trial breaches Article 21 and warrants bail.**  \n   * When under‑trial prisoners are detained for an indefinite period, “Article 21 of the Constitution is violated” and “it is not in the interest of justice that accused should be in jail for an indefinite period” [3].  \n   * The Court has emphasized that liberty under Part III includes “access to justice and a speedy trial” [4].\n\n3. **Statutory provision (Section 436A, CrPC) mandates release after a certain period of detention, especially when delay is not attributable to the accused.**  \n   * Section 436A sets a maximum period of detention and makes release “mandatory” when the accused has been detained for half of the maximum period, “particularly when the reasons for delay are not attributable against the accused” [2].  \n   * The Court even suggested that “there is not even a need for a bail application in a case of this nature” under Section 436A [2].\n\n4. **Absence of a serious criminal record strengthens the case for bail.**  \n   * While not directly quoted, the Court’s emphasis on “no serious contention” as a factor for granting bail in serious offences (see discussion in [3]) indicates that a clean record is a favorable circumstance.\n\n---\n\n## The Other Side  \n\n- The retrieved material does **not** contain explicit submissions or judgments that argue *against* granting bail solely on the ground of delay.  \n- No passage presents a counter‑argument that delay alone is insufficient, nor does any passage record a court’s rejection of such a claim. Consequently, the corpus offers no substantive opposing viewpoint to Premise 3.\n\n---\n\n## Restrictive Statutes  \n\n- **Section 436A of the Code of Criminal Procedure** – provides a mandatory release after detention reaches half of the maximum period, especially where delay is not the accused’s fault [2].  \n- **Section 437(3) and Section 438(2) of the CrPC** – referenced in the context of anticipatory bail, indicating that bail conditions may be tailored but are not limited by a fixed time‑frame [7].\n\n---\n\n## What This Corpus Does Not Show  \n\n- There is no recorded rebuttal round or appellate decision that directly addresses whether *delay alone* is sufficient to secure bail.  \n- The corpus does not indicate any case where a court has *rejected* a bail application on the ground that the only ground was prolonged pre‑trial detention.  \n\n---\n\n## Sources  \n\n- **[1]** *Hussainara Khatoon & Ors v. Home Secretary, State of Bihar* (1979) p. 180 – delay as denial of justice.  \n- **[2]** *Satender Kumar Antil v. Central Bureau of Investigation* (2022) p. 53 – Section 436A, mandatory release, no need for bail application.  \n- **[3]** *Sanjay Chandra v. CBI* (2011) para 26 – indefinite detention violates Article 21; bail should be considered even for serious offences.  \n- **[4]** *Union of India v. K.A. Najeeb* (2021) paras 15‑16 – liberty includes speedy trial; prolonged incarceration examined.  \n- **[5]** *Kartar Singh v. State of Punjab* (1994) paras 86‑87 – speedy trial as part of Article 21; denial of a reasonably quick trial is unconstitutional.  \n- **[7]** *Sushila Aggarwal v. State (NCT of Delhi)* (2020) para 78 – guidance on anticipatory bail under Sections 437(3) & 438(2).  ",
+    "generationFailed": false,
+    "generationError": null,
+    "serverInvalidCitations": [],
+    "suppliedCount": 8,
+    "items": [
+      {
+        "n": 1,
+        "round": "supporting",
+        "chunkId": "1007347_c019",
+        "paraIds": [
+          "1007347_c019"
+        ],
+        "tid": 1007347,
+        "caseTitle": "Hussainara Khatoon & Ors vs Home Secretary, State Of Bihar, Govt. Of ... on 12 February, 1979",
+        "year": 1979,
+        "courtTier": "SC",
+        "locator": "p. 180",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "There is also one other infirmity of the legal and judicial system which is responsible for this gross denial of justice to the undertrial prisoners and that is the notorious delay in disposal of cases. It is a bad reflection on the legal and judicial system that the trial of an accused should not even commence for a long number of years. Even a delay of one year in the commencement of the trial is bad enough; how much worse could it be when the delay is as long as 3 or 5 or 7 or even 10 years. Speedy trial is of the essence of criminal justice and there can be no doubt that delay in trial by itself constitutes denial of justice. It is interesting to note that in the United States, speedy trial is one of the constitutionally guaranteed rights. The Sixth Amendment to the Constitution provides that \"In all criminal prosecutions, the accused shall enjoy the right to a speedy and public trial.\" So also Article 3 of the European Convention on Human Rights provides that:"
+      },
+      {
+        "n": 2,
+        "round": "supporting",
+        "chunkId": "7148380_c128",
+        "paraIds": [
+          "7148380_c128"
+        ],
+        "tid": 7148380,
+        "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+        "year": 2022,
+        "courtTier": "SC",
+        "locator": "p. 53",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "46.Section 436A of the Code has been inserted by Act 25 of 2005. This provision has got a laudable object behind it, particularly from the point of view of granting bail. This provision draws the maximum period for which an undertrial prisoner can be detained. This period has to be reckoned with the custody of the accused during the investigation, inquiry and trial. We have already explained that the word ‘trial’ will have to be given an expanded meaning particularly when an appeal or admission is pending. Thus, in a case where an appeal is pending for a longer time, to bring it under Section 436A, the period of incarceration in all forms will have to be reckoned, and so also for the revision.\n\n47.Under this provision, when a person has undergone detention for a period extending to one-half of the maximum period of imprisonment specified for that offense, he shall be released by the court on his personal bond with or without sureties. The word ‘shall’ clearly denotes the mandatory compliance of this provision. We do feel that there is not even a need for a bail application in a case of this nature particularly when the reasons for delay are not attributable against the accused. We are also conscious of the fact that while taking a decision the public prosecutor is to be heard, and the court, if it is of the view that there is a need for continued detention longer than one-half of the said period, has to do so. However, such an exercise of power is expected to be undertaken sparingly being an exception to the general rule. Once again, we have to reiterate that ‘bail is the rule and jail is an exception’ coupled with the principle governing the presumption of innocence. We have no doubt in our mind that this provision is a substantive one, facilitating liberty, being the core intendment of Article 21. The only caveat as furnished under the Explanation being the delay in the proceeding caused on account of the accused to be excluded. This court in Bhim Singh v. Union of India, (2015) 13 SCC 605, while dealing with the aforesaid provision, has directed that:"
+      },
+      {
+        "n": 3,
+        "round": "supporting",
+        "chunkId": "1563495_c051",
+        "paraIds": [
+          "1563495_c051"
+        ],
+        "tid": 1563495,
+        "caseTitle": "Sanjay Chandra vs Cbi on 23 November, 2011",
+        "year": 2011,
+        "courtTier": "SC",
+        "locator": "para 26",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "Both of them relate to ensure of the fair trial of the case. Though, this aspect is dealt by the High Court in its impugned order, in our view, the same is not convincing.\n\n26) When the undertrial prisoners are detained in jail custody to an indefinite period, Article 21 of the Constitution is violated. Every person, detained or arrested, is entitled to speedy trial, the question is : whether the same is possible in the present case. There are seventeen accused persons. Statement of the witnesses runs to several hundred pages and the documents on which reliance is placed by the prosecution, is voluminous. The trial may take considerable time and it looks to us that the appellants, who are in jail, have to remain in jail longer than the period of detention, had they been convicted. It is not in the interest of justice that accused should be in jail for an indefinite period. No doubt, the offence alleged against the appellants is a serious one in terms of alleged huge loss to the State exchequer, that, by itself, should not deter us from enlarging the appellants on bail when there is no serious contention of the respondent that the accused, if released on bail, would interfere with the trial or tamper with evidence. We do not see any good reason to detain the accused in custody, that too, after the completion of the investigation and filing of the charge-sheet.\n\nThis Court, in the case of State of Kerala Vs. Raneef (2011) 1 SCC 784, has stated :-"
+      },
+      {
+        "n": 4,
+        "round": "supporting",
+        "chunkId": "18346623_c017",
+        "paraIds": [
+          "18346623_c017"
+        ],
+        "tid": 18346623,
+        "caseTitle": "Union Of India vs K.A. Najeeb on 1 February, 2021",
+        "year": 2021,
+        "courtTier": "SC",
+        "locator": "paras 15-16",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "(2017) 2 SCC 731.\n\nPage | 9 witnesses still unexamined.\n\n15. The facts of the instant case are more egregious than these two above­cited instances. Not only has the respondent been in jail for much more than five years, but there are 276 witnesses left to be examined. Charges have been framed only on 27.11.2020. Still further, two opportunities were given to the appellant­NIA who has shown no inclination to screen its endless list of witnesses. It also deserves mention that of the thirteen co­accused who have been convicted, none have been given a sentence of more than eight years’ rigorous imprisonment. It can therefore be legitimately expected that if found guilty, the respondent too would receive a sentence within the same ballpark. Given that two­third of such incarceration is already complete, it appears that the respondent has already paid heavily for his acts of fleeing from justice.\n\n16. This Court has clarified in numerous judgments that the liberty guaranteed by Part III of the Constitution would cover within its protective ambit not only due procedure and fairness but also access to justice and a speedy trial. In Supreme Court Legal Aid Committee Representing Undertrial Prisoners v. Union of India12, it was held that undertrials cannot indefinitely be detained pending trial. Ideally, no person ought to suffer adverse consequences of his acts unless the same is established before a neutral arbiter. However, (1994) 6 SCC 731, ¶ 15.\n\nPage | 10 owing to the practicalities of real life where to secure an effective trial and to ameliorate the risk to society in case a potential criminal is left at large pending trial, Courts are tasked with deciding whether an individual ought to be released pending trial or not. Once it is obvious that a timely trial would not be possible and the accused has suffered incarceration for a significant period of time, Courts would ordinarily be obligated to enlarge them on bail."
+      },
+      {
+        "n": 5,
+        "round": "supporting",
+        "chunkId": "1813801_c073",
+        "paraIds": [
+          "1813801_c073"
+        ],
+        "tid": 1813801,
+        "caseTitle": "Kartar Singh vs State Of Punjab on 11 March, 1994",
+        "year": 1994,
+        "courtTier": "SC",
+        "locator": "paras 86-87",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "86. The concept of speedy trial is read into Article 21 as an essential part of the fundamental right to life and liberty guaranteed and preserved under our Constitution. The right to speedy trial begins with the actual restraint imposed by arrest and consequent incarceration and continues at all stages, namely, the stage of investigation, inquiry, trial, appeal and revision so that any possible prejudice that may result from impermissible and avoidable delay from the time of the commission of the offence till it consummates into a finality, can be averted. In this context, it may be noted that the constitutional guarantee of speedy trial is properly reflected in Section 309 of the Code of Criminal Procedure.\n\n87. This Court in Hussainara Khatoon (1) v. Home Secretary, State of Bihar22 while dealing with Article 21 of the Constitution of India has observed thus: (SCC p. 89, para 5) \"No procedure which does not ensure a reasonably quick trial can be regarded as 'reasonable, fair or just' and it would fall foul of Article 2 1. There can, therefore, be no doubt that speedy trial, and by speedy trial we mean reasonably expeditious trial, is an integral and essential part of th e fundamental right to life and liberty enshrined in Article 21. The question which would, however, arise is as to what would be the 22 (1980) 1 SCC 81: 1980 SCC (Cri) 23:"
+      },
+      {
+        "n": 6,
+        "round": "supporting",
+        "chunkId": "1857950_c235",
+        "paraIds": [
+          "1857950_c235"
+        ],
+        "tid": 1857950,
+        "caseTitle": "A.K. Gopalan vs The State Of Madras.Union Of India: ... on 19 May, 1950",
+        "year": 1950,
+        "courtTier": "SC",
+        "locator": "p. 227",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "It was contended that in substance the article laid down that no person will be deprived of life or liberty without having been given a fair trial or a fair hearing and that unless a law of preventive detention provided such a hearing that law would be in contravention of this article and thus void. Conceding for the sake of argument (but without expressing any opinion on it ) that this contention of the learned counsel is correct, the question arises whether there is anything in article 22 which negatives the application of article 21 as above construed to a law on preventive detention. In my opinion, sub-clause (5) of article 22 read with clauses (1) and (2) leads to the inference that the contention raised by the learned counsel is unsound. Clause (5), as already stated, provides that notice has to be given to a detenu of the grounds of his detention. It also provides a limited hearing inasmuch as it gives him an opportunity to establish his innocence. As, in my opinion, the consideration of a representation made by a detained person by an unbiassed authority is implicit in clause (5) it gives to the detained person all that he is entitled to under the principles of natural justice. The right to consult and to be represented by a counsel of his own choice has been denied in express terms to such a person by the Constitution. He is also denied an opportunity of appearing before a magistrate. When the Constitution has taken away certain rights that ordinarily will be possessed by a detained person and in substitution thereof certain other rights have been conferred on him even in the matter of procedure, the inference is clear that the intention was to deprive such a person of the right of an elaborate procedure usually pro-vided for in judicial proceedings. Clause (6) of article 22 very strongly supports this conclusion. There would have been no point in laying down such detailed rules of procedure in respect of a law of preventive detention if the intention was that such a law would be subject to the provisions of article 21 of the Constitution. In its ultimate analysis the argument of the learned counsel for the petitioner resolves itself to this: that the impugned statute does not provide for an impartial tribunal for a consideration of the representation of the detained person and to this extent it contravenes article 21 of the Constitution. "
+      },
+      {
+        "n": 7,
+        "round": "supporting",
+        "chunkId": "123660783_c195",
+        "paraIds": [
+          "123660783_c195"
+        ],
+        "tid": 123660783,
+        "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+        "year": 2020,
+        "courtTier": "SC",
+        "locator": "para 78",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "it should inure in favour of the accused without any restriction as to time. Usual or standard conditions under Section 437 (3) read with Section 438 (2) should be imposed; if there are peculiar features in regard to any crime or offence (such as seriousness or gravity etc.), it is open to the court to impose any appropriate condition (including fixed nature of relief, or its being tied to an event or time bound) etc. (2) The second question referred to this court is answered, by holding that the life of an anticipatory bail does not end generally at the time and stage when the accused is summoned by the court, or after framing charges, but can also continue till the end of the trial. However, if there are any special or peculiar features necessitating the court to limit the tenure of anticipatory bail, it is open for it to do so.\n\n78. Having regard to the above discussion, it is clarified that the court should keep the following points as guiding principles, in dealing with applications under Section 438, Cr. PC:"
+      },
+      {
+        "n": 8,
+        "round": "supporting",
+        "chunkId": "1353689_c291",
+        "paraIds": [
+          "1353689_c291"
+        ],
+        "tid": 1353689,
+        "caseTitle": "A.R. Antulay vs R.S. Nayak & Anr on 29 April, 1988",
+        "year": 1988,
+        "courtTier": "SC",
+        "locator": "p. 137",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "20. It was vehemently contended for the appellant that, by giving the impugned direction, this Court has deprived the appellant of his fundamental rights. He has been denied a right to equality, inasmuch as his case has been singled out for trial by a different, though higher, forum as compared to other public servants. His fundamental right under Article 21, it is said, has been violated, inasmuch as the direction has deprived him of a right of revision and first appeal to the High Court which he would have had from an order or sentence had he been tried by a Special Judge and it is doubtful whether he would have a right to appeal to this Court at all. It is pointed out that a right of first appeal against a conviction in a criminal case has been held, by this Court, to be a part of the fundamental right guaranteed under Article 21 of the Constitution. It is not necessary for me to consider these arguments in view of my conclusion that the High Court could not have been directed to try the petitioner's case. I would, however, like to say that, in my opinion, the arguments based on Articles 14 and 21 cannot be accepted, in case it is to be held for any reason that the transfer of the apellant's case to the High Court was valid and within the competence of this Court. I say this for the following reason: If the argument is to be accepted, it will be appreciated, it cannot be confined to cases of transfer to the High Court of cases under the 1952 Act but would also be equally valid to impugn the withdrawal of a criminal case tried in the normal course under the Cr.P.C. from a subordinate court trying it to the High Court by invoking the powers under section 407. To put it in other words, the argument, in substance, assails the validity of secion 407 of the 1973 Cr.P.C. In my opinion, this attack has to be repelled. The section cannot be challenged under Article 14 as it is based on a reasonable classification having relation to the objects sought to be achieved. Though, in general, the trial of cases will be by courts having the normal jurisdiction over them, the exigencies of the situation may require that they be dealt with by some other court for various reasons. Likewise, the nature of a case, the nature of issues involved and other circumstances may render it more expedient, effective, expeditious or desirable that the case should be tried by a superior court or the High Court itself. The power of transfer and withdrawal contained in s. 407 of the Cr.P.C. is one dictated by the requirements of justice and is, indeed, but an aspect of the supervisory powers of a superior court over courts subordinate to it: (see also sections 408 to 411 of the Cr.P.C.). A judicial discretion to transfer or withdraw is vested in the highest court of the State and is made exercisable only in the circumstances set out in the section. Such a power is not only necessary and desirable but indispensable in the cause of the administration of justice. The accused will continue to be tried by a court of equal or superior jurisdiction. Section 407(8) read with S. 474 of the Cr.P.C. and section 8(3) of the 1952 Act makes it clear that he will be tried in accordance with the procedure followed by the original Court or ordinarily by a Court of Session. The accused will, therefore, suffer no prejudice by reason of the application of s. 407. Even if there is a differential treatment which causes prejudice, it is based on logical and acceptable considerations with a view to promote the interest of justice. The transfer or withdrawal of a case to another court or the High Court, in such circumstances, can hardly be said to result in hostile discrimination against the accused in such a case."
+      }
+    ],
+    "rounds": [
+      {
+        "round": "supporting",
+        "items": [
+          {
+            "id": "1007347_c019",
+            "kind": "court_holding",
+            "text": "There is also one other infirmity of the legal and judicial system which is responsible for this gross denial of justice to the undertrial prisoners and that is the notorious delay in disposal of cases. It is a bad reflection on the legal and judicial system that the trial of an accused should not even commence for a long number of years. Even a delay of one year in the commencement of the trial is bad enough; how much worse could it be when the delay is as long as 3 or 5 or 7 or even 10 years. Speedy trial is of the essence of criminal justice and there can be no doubt that delay in trial by itself constitutes denial of justice. It is interesting to note that in the United States, speedy trial is one of the constitutionally guaranteed rights. The Sixth Amendment to the Constitution provides that \"In all criminal prosecutions, the accused shall enjoy the right to a speedy and public trial.\" So also Article 3 of the European Convention on Human Rights provides that:",
+            "speaker": "THE COURT",
+            "tid": 1007347,
+            "caseTitle": "Hussainara Khatoon & Ors vs Home Secretary, State Of Bihar, Govt. Of ... on 12 February, 1979",
+            "year": 1979,
+            "courtTier": "SC",
+            "locator": "p. 180",
+            "paraIds": [
+              "1007347_c019"
+            ]
+          },
+          {
+            "id": "7148380_c128",
+            "kind": "court_holding",
+            "text": "46.Section 436A of the Code has been inserted by Act 25 of 2005. This provision has got a laudable object behind it, particularly from the point of view of granting bail. This provision draws the maximum period for which an undertrial prisoner can be detained. This period has to be reckoned with the custody of the accused during the investigation, inquiry and trial. We have already explained that the word ‘trial’ will have to be given an expanded meaning particularly when an appeal or admission is pending. Thus, in a case where an appeal is pending for a longer time, to bring it under Section 436A, the period of incarceration in all forms will have to be reckoned, and so also for the revision.\n\n47.Under this provision, when a person has undergone detention for a period extending to one-half of the maximum period of imprisonment specified for that offense, he shall be released by the court on his personal bond with or without sureties. The word ‘shall’ clearly denotes the mandatory compliance of this provision. We do feel that there is not even a need for a bail application in a case of this nature particularly when the reasons for delay are not attributable against the accused. We are also conscious of the fact that while taking a decision the public prosecutor is to be heard, and the court, if it is of the view that there is a need for continued detention longer than one-half of the said period, has to do so. However, such an exercise of power is expected to be undertaken sparingly being an exception to the general rule. Once again, we have to reiterate that ‘bail is the rule and jail is an exception’ coupled with the principle governing the presumption of innocence. We have no doubt in our mind that this provision is a substantive one, facilitating liberty, being the core intendment of Article 21. The only caveat as furnished under the Explanation being the delay in the proceeding caused on account of the accused to be excluded. This court in Bhim Singh v. Union of India, (2015) 13 SCC 605, while dealing with the aforesaid provision, has directed that:",
+            "speaker": "THE COURT",
+            "tid": 7148380,
+            "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+            "year": 2022,
+            "courtTier": "SC",
+            "locator": "p. 53",
+            "paraIds": [
+              "7148380_c128"
+            ]
+          },
+          {
+            "id": "1563495_c051",
+            "kind": "court_holding",
+            "text": "Both of them relate to ensure of the fair trial of the case. Though, this aspect is dealt by the High Court in its impugned order, in our view, the same is not convincing.\n\n26) When the undertrial prisoners are detained in jail custody to an indefinite period, Article 21 of the Constitution is violated. Every person, detained or arrested, is entitled to speedy trial, the question is : whether the same is possible in the present case. There are seventeen accused persons. Statement of the witnesses runs to several hundred pages and the documents on which reliance is placed by the prosecution, is voluminous. The trial may take considerable time and it looks to us that the appellants, who are in jail, have to remain in jail longer than the period of detention, had they been convicted. It is not in the interest of justice that accused should be in jail for an indefinite period. No doubt, the offence alleged against the appellants is a serious one in terms of alleged huge loss to the State exchequer, that, by itself, should not deter us from enlarging the appellants on bail when there is no serious contention of the respondent that the accused, if released on bail, would interfere with the trial or tamper with evidence. We do not see any good reason to detain the accused in custody, that too, after the completion of the investigation and filing of the charge-sheet.\n\nThis Court, in the case of State of Kerala Vs. Raneef (2011) 1 SCC 784, has stated :-",
+            "speaker": "THE COURT",
+            "tid": 1563495,
+            "caseTitle": "Sanjay Chandra vs Cbi on 23 November, 2011",
+            "year": 2011,
+            "courtTier": "SC",
+            "locator": "para 26",
+            "paraIds": [
+              "1563495_c051"
+            ]
+          },
+          {
+            "id": "18346623_c017",
+            "kind": "court_holding",
+            "text": "(2017) 2 SCC 731.\n\nPage | 9 witnesses still unexamined.\n\n15. The facts of the instant case are more egregious than these two above­cited instances. Not only has the respondent been in jail for much more than five years, but there are 276 witnesses left to be examined. Charges have been framed only on 27.11.2020. Still further, two opportunities were given to the appellant­NIA who has shown no inclination to screen its endless list of witnesses. It also deserves mention that of the thirteen co­accused who have been convicted, none have been given a sentence of more than eight years’ rigorous imprisonment. It can therefore be legitimately expected that if found guilty, the respondent too would receive a sentence within the same ballpark. Given that two­third of such incarceration is already complete, it appears that the respondent has already paid heavily for his acts of fleeing from justice.\n\n16. This Court has clarified in numerous judgments that the liberty guaranteed by Part III of the Constitution would cover within its protective ambit not only due procedure and fairness but also access to justice and a speedy trial. In Supreme Court Legal Aid Committee Representing Undertrial Prisoners v. Union of India12, it was held that undertrials cannot indefinitely be detained pending trial. Ideally, no person ought to suffer adverse consequences of his acts unless the same is established before a neutral arbiter. However, (1994) 6 SCC 731, ¶ 15.\n\nPage | 10 owing to the practicalities of real life where to secure an effective trial and to ameliorate the risk to society in case a potential criminal is left at large pending trial, Courts are tasked with deciding whether an individual ought to be released pending trial or not. Once it is obvious that a timely trial would not be possible and the accused has suffered incarceration for a significant period of time, Courts would ordinarily be obligated to enlarge them on bail.",
+            "speaker": "THE COURT",
+            "tid": 18346623,
+            "caseTitle": "Union Of India vs K.A. Najeeb on 1 February, 2021",
+            "year": 2021,
+            "courtTier": "SC",
+            "locator": "paras 15-16",
+            "paraIds": [
+              "18346623_c017"
+            ]
+          },
+          {
+            "id": "1813801_c073",
+            "kind": "court_holding",
+            "text": "86. The concept of speedy trial is read into Article 21 as an essential part of the fundamental right to life and liberty guaranteed and preserved under our Constitution. The right to speedy trial begins with the actual restraint imposed by arrest and consequent incarceration and continues at all stages, namely, the stage of investigation, inquiry, trial, appeal and revision so that any possible prejudice that may result from impermissible and avoidable delay from the time of the commission of the offence till it consummates into a finality, can be averted. In this context, it may be noted that the constitutional guarantee of speedy trial is properly reflected in Section 309 of the Code of Criminal Procedure.\n\n87. This Court in Hussainara Khatoon (1) v. Home Secretary, State of Bihar22 while dealing with Article 21 of the Constitution of India has observed thus: (SCC p. 89, para 5) \"No procedure which does not ensure a reasonably quick trial can be regarded as 'reasonable, fair or just' and it would fall foul of Article 2 1. There can, therefore, be no doubt that speedy trial, and by speedy trial we mean reasonably expeditious trial, is an integral and essential part of th e fundamental right to life and liberty enshrined in Article 21. The question which would, however, arise is as to what would be the 22 (1980) 1 SCC 81: 1980 SCC (Cri) 23:",
+            "speaker": "THE COURT",
+            "tid": 1813801,
+            "caseTitle": "Kartar Singh vs State Of Punjab on 11 March, 1994",
+            "year": 1994,
+            "courtTier": "SC",
+            "locator": "paras 86-87",
+            "paraIds": [
+              "1813801_c073"
+            ]
+          },
+          {
+            "id": "1857950_c235",
+            "kind": "court_holding",
+            "text": "It was contended that in substance the article laid down that no person will be deprived of life or liberty without having been given a fair trial or a fair hearing and that unless a law of preventive detention provided such a hearing that law would be in contravention of this article and thus void. Conceding for the sake of argument (but without expressing any opinion on it ) that this contention of the learned counsel is correct, the question arises whether there is anything in article 22 which negatives the application of article 21 as above construed to a law on preventive detention. In my opinion, sub-clause (5) of article 22 read with clauses (1) and (2) leads to the inference that the contention raised by the learned counsel is unsound. Clause (5), as already stated, provides that notice has to be given to a detenu of the grounds of his detention. It also provides a limited hearing inasmuch as it gives him an opportunity to establish his innocence. As, in my opinion, the consideration of a representation made by a detained person by an unbiassed authority is implicit in clause (5) it gives to the detained person all that he is entitled to under the principles of natural justice. The right to consult and to be represented by a counsel of his own choice has been denied in express terms to such a person by the Constitution. He is also denied an opportunity of appearing before a magistrate. When the Constitution has taken away certain rights that ordinarily will be possessed by a detained person and in substitution thereof certain other rights have been conferred on him even in the matter of procedure, the inference is clear that the intention was to deprive such a person of the right of an elaborate procedure usually pro-vided for in judicial proceedings. Clause (6) of article 22 very strongly supports this conclusion. There would have been no point in laying down such detailed rules of procedure in respect of a law of preventive detention if the intention was that such a law would be subject to the provisions of article 21 of the Constitution. In its ultimate analysis the argument of the learned counsel for the petitioner resolves itself to this: that the impugned statute does not provide for an impartial tribunal for a consideration of the representation of the detained person and to this extent it contravenes article 21 of the Constitution. ",
+            "speaker": "THE COURT",
+            "tid": 1857950,
+            "caseTitle": "A.K. Gopalan vs The State Of Madras.Union Of India: ... on 19 May, 1950",
+            "year": 1950,
+            "courtTier": "SC",
+            "locator": "p. 227",
+            "paraIds": [
+              "1857950_c235"
+            ]
+          },
+          {
+            "id": "123660783_c195",
+            "kind": "court_holding",
+            "text": "it should inure in favour of the accused without any restriction as to time. Usual or standard conditions under Section 437 (3) read with Section 438 (2) should be imposed; if there are peculiar features in regard to any crime or offence (such as seriousness or gravity etc.), it is open to the court to impose any appropriate condition (including fixed nature of relief, or its being tied to an event or time bound) etc. (2) The second question referred to this court is answered, by holding that the life of an anticipatory bail does not end generally at the time and stage when the accused is summoned by the court, or after framing charges, but can also continue till the end of the trial. However, if there are any special or peculiar features necessitating the court to limit the tenure of anticipatory bail, it is open for it to do so.\n\n78. Having regard to the above discussion, it is clarified that the court should keep the following points as guiding principles, in dealing with applications under Section 438, Cr. PC:",
+            "speaker": "THE COURT",
+            "tid": 123660783,
+            "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+            "year": 2020,
+            "courtTier": "SC",
+            "locator": "para 78",
+            "paraIds": [
+              "123660783_c195"
+            ]
+          },
+          {
+            "id": "1353689_c291",
+            "kind": "court_holding",
+            "text": "20. It was vehemently contended for the appellant that, by giving the impugned direction, this Court has deprived the appellant of his fundamental rights. He has been denied a right to equality, inasmuch as his case has been singled out for trial by a different, though higher, forum as compared to other public servants. His fundamental right under Article 21, it is said, has been violated, inasmuch as the direction has deprived him of a right of revision and first appeal to the High Court which he would have had from an order or sentence had he been tried by a Special Judge and it is doubtful whether he would have a right to appeal to this Court at all. It is pointed out that a right of first appeal against a conviction in a criminal case has been held, by this Court, to be a part of the fundamental right guaranteed under Article 21 of the Constitution. It is not necessary for me to consider these arguments in view of my conclusion that the High Court could not have been directed to try the petitioner's case. I would, however, like to say that, in my opinion, the arguments based on Articles 14 and 21 cannot be accepted, in case it is to be held for any reason that the transfer of the apellant's case to the High Court was valid and within the competence of this Court. I say this for the following reason: If the argument is to be accepted, it will be appreciated, it cannot be confined to cases of transfer to the High Court of cases under the 1952 Act but would also be equally valid to impugn the withdrawal of a criminal case tried in the normal course under the Cr.P.C. from a subordinate court trying it to the High Court by invoking the powers under section 407. To put it in other words, the argument, in substance, assails the validity of secion 407 of the 1973 Cr.P.C. In my opinion, this attack has to be repelled. The section cannot be challenged under Article 14 as it is based on a reasonable classification having relation to the objects sought to be achieved. Though, in general, the trial of cases will be by courts having the normal jurisdiction over them, the exigencies of the situation may require that they be dealt with by some other court for various reasons. Likewise, the nature of a case, the nature of issues involved and other circumstances may render it more expedient, effective, expeditious or desirable that the case should be tried by a superior court or the High Court itself. The power of transfer and withdrawal contained in s. 407 of the Cr.P.C. is one dictated by the requirements of justice and is, indeed, but an aspect of the supervisory powers of a superior court over courts subordinate to it: (see also sections 408 to 411 of the Cr.P.C.). A judicial discretion to transfer or withdraw is vested in the highest court of the State and is made exercisable only in the circumstances set out in the section. Such a power is not only necessary and desirable but indispensable in the cause of the administration of justice. The accused will continue to be tried by a court of equal or superior jurisdiction. Section 407(8) read with S. 474 of the Cr.P.C. and section 8(3) of the 1952 Act makes it clear that he will be tried in accordance with the procedure followed by the original Court or ordinarily by a Court of Session. The accused will, therefore, suffer no prejudice by reason of the application of s. 407. Even if there is a differential treatment which causes prejudice, it is based on logical and acceptable considerations with a view to promote the interest of justice. The transfer or withdrawal of a case to another court or the High Court, in such circumstances, can hardly be said to result in hostile discrimination against the accused in such a case.",
+            "speaker": "THE COURT",
+            "tid": 1353689,
+            "caseTitle": "A.R. Antulay vs R.S. Nayak & Anr on 29 April, 1988",
+            "year": 1988,
+            "courtTier": "SC",
+            "locator": "p. 137",
+            "paraIds": [
+              "1353689_c291"
+            ]
+          }
+        ],
+        "empty": false
+      },
+      {
+        "round": "opposing",
+        "items": [],
+        "empty": true
+      },
+      {
+        "round": "statutes",
+        "items": [],
+        "empty": true
+      }
+    ],
+    "tookMs": 6680
+  },
+  {
+    "id": "sw03",
+    "generatedAt": "2026-11-02T15:08:02.793Z",
+    "group": "should_work",
+    "query": "My client is an accused in a corporate/economic-offence case. The chargesheet has already been filed and all the relevant documents have been seized by the investigating agency, so there is nothing left for custodial interrogation to achieve. The prosecution argues bail should still be refused only because the offence involves a large sum of money. Should the scale of the alleged fraud, by itself, override the fact that no further custody is needed?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "economic_offence",
+        "custody_necessity",
+        "scale_of_offence",
+        "bail_refusal"
+      ],
+      "offenceCategory": "economic",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "roundsEmpty": {
+      "supporting": false,
+      "opposing": true,
+      "statutes": true
+    },
+    "answer": "## Your Position\n**Premise 1:** The investigating agency has already seized all relevant documents and filed the charge‑sheet; therefore further custodial interrogation would serve no purpose.  \n**Premise 2:** The offence is an economic one involving a large sum of money.  \n**Premise 3:** The prosecution contends that the sheer scale of the alleged fraud should, by itself, justify refusing bail.  \n\n*Weakest premise:* Premise 3 – the proposition that the magnitude of the fraud, without any other concern, should override the lack of a custodial‑interrogation need. Several passages in the corpus stress that scale alone is not a decisive ground for denial of bail.\n\n## Your Case\n1. **Absence of a custodial‑interrogation requirement** – The court in *Satender Kumar Antil v. CBI* observed that when the investigating agency has completed its investigation and the charge‑sheet is already filed, the accused’s presence in custody “may not be necessary for further investigation” and bail should therefore not be denied on that basis alone【4】.  \n2. **Bail should not be denied merely because the offence is of “huge magnitude.”** – The same passage notes that while the court is “conscious of the fact that the accused are charged with economic offences of huge magnitude,” it still stresses the need to look at the facts of each case and not deny bail solely on that ground【4】.  \n3. **Seriousness of the charge is not a sole ground for refusal.** – *Sanjay Chandra v. CBI* states that “the seriousness of the charge” cannot by itself justify bail refusal; bail may be denied only in “the most extraordinary circumstances”【6】.  \n4. **The right to bail is not to be denied on community sentiment or the mere fact of an economic offence.** – *Satender Kumar Antil* also reminds that bail is a constitutional right and should not be denied merely because “the offences alleged… may jeopardise the economy of the country” without a concrete custodial‑interrogation need【4】.  \n\nThese authorities collectively support the view that, once the investigation is complete and no further custodial interrogation is required, the scale of the alleged fraud does not, by itself, outweigh the statutory and constitutional presumption in favour of bail.\n\n## The Other Side\n1. **Economic offences may require a different approach.** – *Sushila Aggarwal v. State (NCT of Delhi)* notes that “some decisions have also stressed that economic offences need a different approach and therefore, anticipatory bail should not be granted readily”【1】. This can be used to argue that the magnitude of the fraud justifies a more cautious bail stance.  \n2. **Potential for obstruction of investigation.** – The older judgment in *State of U.P. v. Deoman Upadhyaya* (1960) observes that an accused who is not in custody, especially if influential, may “retard and obstruct the progress of investigation”【3】. Although pre‑1950, it is persuasive authority that may be cited to suggest that large‑scale economic offenders could still pose a risk to the investigation.  \n3. **Bail under Section 439 requires the accused to be in custody.** – *Niranjan Singh & Anr v. Prabhakar Rajaram Kharote* emphasizes that “judicial jurisdiction arises only when persons are already in custody and seek the process of the court to be enlarged”【5】. If the accused is not presently in custody, this could be raised to question the applicability of bail under the ordinary provisions.  \n\nNo passage in the retrieved set provides a concrete rebuttal to the above points; the corpus merely records these opposing‑flavoured submissions.\n\n## Restrictive Statutes\n*No statutory text was supplied in the retrieved passages; therefore this section is omitted.*\n\n## What This Corpus Does Not Show\n- The corpus does **not** contain any recorded decision where a court explicitly ruled that the scale of an economic offence alone justified denial of bail after the charge‑sheet had been filed and investigation completed.  \n- Consequently, there is no demonstrated precedent showing whether the prosecution’s argument (that the large sum alone should override the lack of custodial‑interrogation need) has succeeded elsewhere.  \n\n## Sources\n- [1] *Sushila Aggarwal v. State (NCT of Delhi)*, 2020, para 54.  \n- [3] *State of U.P. v. Deoman Upadhyaya*, 1960, p. 32.  \n- [4] *Satender Kumar Antil v. CBI*, 2022, p. 78.  \n- [5] *Niranjan Singh & Anr v. Prabhakar Rajaram Kharote & Ors*, 1980, p. 18.  \n- [6] *Sanjay Chandra v. CBI*, 2011, para 15.  ",
+    "generationFailed": false,
+    "generationError": null,
+    "serverInvalidCitations": [],
+    "suppliedCount": 8,
+    "items": [
+      {
+        "n": 1,
+        "round": "supporting",
+        "chunkId": "123660783_c154",
+        "paraIds": [
+          "123660783_c154"
+        ],
+        "tid": 123660783,
+        "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+        "year": 2020,
+        "courtTier": "SC",
+        "locator": "para 54",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "268th Report, 2017.\n\n(3) Custodial interrogation of “accused is indispensably necessary for the investigating agency” to unearth materials in criminal conspiracies (Ref. to unearth all the links involved in the criminal conspiracies” (Bimal Krishna Kundu and Muraleedharan, [supra]) (4) Imposing time limits (till filing of FIR, or filing of charge-sheet etc) would enable the court- which is seized of the main case and monitors it, to consider the nature and gravity of the offence, having regard to the fresh materials unearthed and included as prosecution evidence. Therefore, it would be salutary and in public interest to require courts to impose time limits for the life of orders of anticipatory bail the event of filing of FIR or charge sheet, are essential ingredients to an order under Section 438. (Salauddin, K.L. Verma, and Adri Dharan Das). Some decisions have also stressed that economic offences need a different approach and therefore, anticipatory bail should not be granted readily.36\n\n54. A fuller consideration of the various decisions cited earlier, especially those which emphasized the need to limit the life of an order of anticipatory bail, are premised on the understanding that the grant of an unconditional order of bail would thwart investigation. In the first place, this premise is unfounded, given that Sibbia (supra) stated (in para 13, SCC reports) that such an order would be “contrary to the In P. Chidambaram v. Directorate of Enforcement, (2019) 9 SCC 24 it was held as follows:"
+      },
+      {
+        "n": 2,
+        "round": "supporting",
+        "chunkId": "96230971_c008",
+        "paraIds": [
+          "96230971_c008"
+        ],
+        "tid": 96230971,
+        "caseTitle": "Siddharth vs The State Of Uttar Pradesh on 16 August, 2021",
+        "year": 2021,
+        "courtTier": "SC",
+        "locator": "para 8",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "8. I must say at this stage that the refusal by criminal Courts either through the learned Magistrate or through their office staff to accept the charge-sheet without production of the accused persons is not justified by any provision of law. Therefore, it should be impressed upon all the Courts that they should accept the charge-sheet whenever it is produced by the police with any endorsement to be made on the charge-sheet by the staff or the Magistrate pertaining to any omission or requirement in the charge-sheet. But when the police submit the charge-sheet, it is the duty of the Court to accept it especially in view of the provisions of Section 468 of the Code which creates a limitation of taking cognizance of offence. Likewise, police authorities also should impress on all police officers that if charge-sheet is not accepted for any such reason, then attention of the Sessions Judge should be drawn to these facts and get suitable orders so that such difficulties would not arise henceforth.” We are in agreement with the aforesaid view of the High Courts and would like to give our imprimatur to the said judicial view. It has rightly been observed on consideration of Section 170 of the Cr.P.C. that it does not impose an obligation on the Officer-in-charge to arrest each and every accused at the time of filing of the chargesheet. We have, in fact, come across cases where the accused has cooperated with the investigation throughout and yet on the chargesheet being filed non-bailable warrants have been issued for his production premised on the requirement that there is an obligation to arrest the accused and produce him before the court. We are of the view that if the Investigating Officer does not believe that the accused will abscond or disobey summons he/she is not required to be produced in custody. The word “custody” appearing in Section 170 of the Cr.P.C. does not contemplate either police or judicial custody but it merely connotes the presentation of the accused by the Investigating Officer before the court while filing the chargesheet."
+      },
+      {
+        "n": 3,
+        "round": "supporting",
+        "chunkId": "481284_c046",
+        "paraIds": [
+          "481284_c046"
+        ],
+        "tid": 481284,
+        "caseTitle": "State Of U. P vs Deoman Upadhyaya on 6 May, 1960",
+        "year": 1960,
+        "courtTier": "SC",
+        "locator": "p. 32",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "whereas no such protection for accused not in custody is called for. Because of these differences between the two categories, the argument proceeds, the classification made by the legislature is justified and takes the present case out of the operation of Art. 14 the Constitution. I shall now analyse each of the alleged differences between the two categories of accused to ascertain whether they afford a reasonable and factual basis for the classification.\n\nRe. (a): Whether the accused is in custody or not in custody, the prosecution is not prevented from collecting the necessary evidence to bring home the guilt to the accused. Indeed, as it often happens, if the accused is not in custody and if he happens to be an influential person there is a greater likelihood of his retarding and obstructing the progress of investigation and the collection of evidence. Nor all the extra-judicial confessions are excluded during the trial after a person is put in custody. The extra-judicial confession made by an accused before he is arrested or after he is released on bail is certainly relevant evidence to the case. Even after a person is taken into custody by a police-officer, nothing prevents that person from making a confession to a third-party and the only limitation imposed by s. 26 of the Evidence Act is that he shall make it only in the presence of a Magistrate. The confession made before a Magistrate after compliance with all the formalities prescribed has certainly greater probative force than that made before outsiders. On the other hand, though extra. judicial confessions are relevant evidence, they are received by Courts with great caution. That apart, it is a pure surmise that the legislature should have thought that the confession of an accused in custody to a police-officer with a condition attached would be a substitute for an extra-judicial confession that he might have made if he was free. Broadly speaking, therefore, there is no justification for the suggestion that the prosecution is in a better position in the matter of establishing its case when the accused is out of custody than when he is in custody. Moreover, this circumstance has not been relied upon by the State in the High Court but is relied upon for the first time by learned counsel during his arguments. In my view, there is no practical difference at all in the matter of collecting evidence between the two categories of persons and that the alleged difference cannot reasonably sustain a classification."
+      },
+      {
+        "n": 4,
+        "round": "supporting",
+        "chunkId": "7148380_c175",
+        "paraIds": [
+          "7148380_c175"
+        ],
+        "tid": 7148380,
+        "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+        "year": 2022,
+        "courtTier": "SC",
+        "locator": "p. 78",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "The grant or denial is regulated, to a large extent, by the facts and circumstances of each particular case. But at the same time, right to bail is not to be denied merely because of the sentiments of the community against the accused. The primary purposes of bail in a criminal case are to relieve the accused of imprisonment, to relieve the State of the burden of keeping him, pending the trial, and at the same time, to keep the accused constructively in the custody of the court, whether before or after conviction, to assure that he will submit to the jurisdiction of the court and be in attendance thereon whenever his presence is required.\n\nxxx xxx xxx\n\n46. We are conscious of the fact that the accused are charged with economic offences of huge magnitude. We are also conscious of the fact that the offences alleged, if proved, may jeopardise the economy of the country. At the same time, we cannot lose sight of the fact that the investigating agency has already completed investigation and the charge-sheet is already filed before the Special Judge, CBI, New Delhi. Therefore, their presence in the custody may not be necessary for further investigation. We are of the view that the appellants are entitled to the grant of bail pending trial on stringent conditions in order to ally the apprehension expressed by CBI.” ROLE OF THE COURT\n\n67.The rate of conviction in criminal cases in India is abysmally low. It appears to us that this factor weighs on the mind of the Court while deciding the bail applications in a negative sense. Courts tend to think that the possibility of a conviction being nearer to rarity, bail applications will have to be decided strictly, contrary to legal principles. We cannot mix up consideration of a bail application, which is not punitive in nature with that of a possible adjudication by way of trial. On the contrary, an ultimate acquittal with continued custody would be a case of grave injustice."
+      },
+      {
+        "n": 5,
+        "round": "supporting",
+        "chunkId": "1920437_c011",
+        "paraIds": [
+          "1920437_c011"
+        ],
+        "tid": 1920437,
+        "caseTitle": "Niranjan Singh & Anr vs Prabhakar Rajaram Kharote & Ors on 10 March, 1980",
+        "year": 1980,
+        "courtTier": "SC",
+        "locator": "p. 18",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "(a) that any person accused of an offence, and in custody be released on bail, and if the offence is of the nature specified in sub-section (3) of section 437, may impose any condition which it considers necessary for the purposes mentioned in that sub-section,\n\n(b) that any condition imposed by a Magistrate when releasing any person on bail be set aside or modified.\n\nHere the respondents were accused of offences but were not in custody, argues the petitioner. So no bail, since this basic condition of being in jail is not fulfilled. This submission has been rightly rejected by the courts below. We agree that, in our view, an outlaw cannot ask for the benefit of law and he who flees justice cannot claim justice. But here the position is different. The accused were not absconding but had appeared and surrendered before the Sessions Judge. Judicial jurisdiction arises only when persons are already in custody and seek the process of the court to be enlarged. We agree that no person accused of an offence can move the court for bail under s. 439 Cr. P.C. unless he is in custody.\n\nWhen is a person in custody, within the meaning of s.439 Cr. P.C. ? When he is in duress either because he is held by the investigating agency or other police or allied authority or is under the control of the court having been remanded by judicial order, or having offered himself to the court's jurisdiction and submitted to its orders by physical presence. No lexical dexterity nor precedential profusion is needed to come to the realistic conclusion that he who is under the control of the court or is in the physical hold of an officer with coercive power is in custody for the purpose of s. 439. This word is of elastic semantics but its core meaning is that the law has taken control of the person. The equivocatory quibblings and hide-and-seek niceties sometimes heard in court that the police have taken a man into informal custody but not arrested him, have detained him for interrogation but not taken him into formal custody and other like terminological dubieties are unfair evasions of the straightforwardness of the law. We need not dilate on this shady facet here because we are satisfied that the accused did physically submit before the Sessions Judge and the jurisdiction to grant bail thus arose."
+      },
+      {
+        "n": 6,
+        "round": "supporting",
+        "chunkId": "1563495_c021",
+        "paraIds": [
+          "1563495_c021"
+        ],
+        "tid": 1563495,
+        "caseTitle": "Sanjay Chandra vs Cbi on 23 November, 2011",
+        "year": 2011,
+        "courtTier": "SC",
+        "locator": "para 15",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "In this country, it would be quite contrary to the concept of personal liberty enshrined in the Constitution that any person should be punished in respect of any matter, upon which, he has not been convicted or that in any circumstances, he should be deprived of his liberty upon only the belief that he will tamper with the witnesses if left at liberty, save in the most extraordinary circumstances. Apart from the question of prevention being the object of a refusal of bail, one must not lose sight of the fact that any imprisonment before conviction has a substantial punitive content and it would be improper for any Court to refuse bail as a mark of disapproval of former conduct whether the accused has been convicted for it or not or to refuse bail to an un-convicted person for the purpose of giving him a taste of imprisonment as a lesson.\n\n15) In the instant case, as we have already noticed that the \"pointing finger of accusation\" against the appellants is `the seriousness of the charge'. The offences alleged are economic offences which has resulted in loss to the State exchequer. Though, they contend that there is possibility of the appellants tampering witnesses, they have not placed any material in support of the allegation. In our view, seriousness of the charge is, no doubt, one of the relevant considerations while considering bail applications but that is not the only test or the factor : The other factor that also requires to be taken note of is the punishment that could be imposed after trial and conviction, both under the Indian Penal Code and Prevention of Corruption Act. Otherwise, if the former is the only test, we would not be balancing the Constitutional Rights but rather \"recalibration of the scales of justice.\" The provisions of Cr.P.C. confer discretionary jurisdiction on Criminal Courts to grant bail to accused pending trial or in appeal against convictions, since the jurisdiction is discretionary, it has to be exercised with great care and caution by balancing valuable right of liberty of an individual and the interest of the society in general. In our view, the reasoning adopted by the learned District Judge, which is affirmed by the High Court, in our opinion, a denial of the whole basis of our system of law and normal rule of bail system. It transcends respect for the requirement that a man shall be considered innocent until he is found guilty."
+      },
+      {
+        "n": 7,
+        "round": "supporting",
+        "chunkId": "1108032_c012",
+        "paraIds": [
+          "1108032_c012"
+        ],
+        "tid": 1108032,
+        "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+        "year": 2010,
+        "courtTier": "SC",
+        "locator": "paras 22-24",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "22. Mr. Bhushan contended that the personal liberty is the most important fundamental right guaranteed by the Constitution. He also submitted that it is the fundamental principle of criminal jurisprudence that every individual is presumed to be innocent till he or she is found guilty. He further submitted that on proper analysis of section 438 Cr.P.C. the legislative wisdom becomes quite evident that the legislature wanted to preserve and protect personal liberty and give impetus to the age-old principle that every person is presumed to be innocent till he is found guilty by the court.\n\n23. Mr. Bhushan also submitted that an order of anticipatory bail does not in any way, directly or indirectly, take away from the police their power and right to fully investigate into charges made against the appellant. He further submitted that when the case is under investigation, the usual anxiety of the investigating agency is to ensure that the alleged accused should fully cooperate with them and should be available as and when they require him. In the instant case, when the appellant has already joined the investigation and is fully cooperating with the investigating agency then it is difficult to comprehend why the respondent is insistent for custodial interrogation of the appellant? According to the appellant, in the instant case, the investigating agency should not have a slightest doubt that the appellant would not be available to the investigating agency for further investigation particularly when he has already joined investigation and is fully cooperating with the investigating agency.\n\n24. Mr. Bhushan also submitted that according to the General Clauses Act, 1897 the court which grants the bail also has the power to cancel it. The grant of bail is an interim order. The court can always review its decision according to the subsequent facts, circumstances and new material. Mr. Bhushan also submitted that the exercise of grant, refusal and cancellation of bail can be undertaken by the court either at the instance of the accused or a public prosecutor or a complainant on finding fresh material and new circumstances at any point of time. Even the appellant's reluctance in not fully cooperating with the investigation could be a ground for cancellation of bail."
+      },
+      {
+        "n": 8,
+        "round": "supporting",
+        "chunkId": "159846035_c011",
+        "paraIds": [
+          "159846035_c011"
+        ],
+        "tid": 159846035,
+        "caseTitle": "State (Delhi Administration) vs Sanjay Gandhi on 5 May, 1978",
+        "year": 1978,
+        "courtTier": "SC",
+        "locator": "para 13",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "13. Before we go to the facts of the case, it is necessary to consider what precisely is the nature of the burden which rests on the prosecution in an application for cancellation of bail. Is it necessary for the prosecution to prove by a mathematical certainty or even beyond a reasonable doubt that the witnesses have turned hostile because the are won over by the accused ? We think not. The issue of cancellation of bail can only arise in criminal cases, but that does not mean that every incidental matter in a criminal case must be proved beyond a reasonable doubt like the guilt of the accused. Whether an accused is absconding and therefore his property can be attached Under Section 83 of the Criminal Procedure Code, whether a search of person of premises was taken as required by the provisions of Section 100 of the Code, whether a confession is recorded in strict accordance with the requirements of Section 164 of the Code and whether a fact was discovered in consequence of information received from an accused as required by Section 27 of the Evidence Act are all matters which, fall peculiarly within the ordinary sweep of criminal trials. But though the guilt of the accused in cases which involve the assessment of these facts has to be established beyond a reasonable doubt, these various facts are not required to be proved by the same rigorous standard. Indeed, proof of facts by preponderance of probabilities as in a civil case is not foreign to criminal jurisprudence because, in cases where the statute raises a presumption of guilt as, for example, the Prevention of Corruption Act, the accused is entitled to rebut that presumption by proving his, defence by a balance of probabilities. He does not have to establish his case beyond a reasonable doubt. The same standard of proof as in a civil case applies to proof of incidental issues involved in a criminal trial like the cancellation of bail of an accused. The prosecution, therefore, can establish its case in an application for cancellation of bail by showing on a preponderance of probabilities that the accused has attempted to tamper or has tampered with its witnesses. Proving by the test of balance of probabilities that the accused has abused his liberty or that there is a reasonable apprehension that he will interfere with the course of justice is all that is necessary for the prosecution to do in order to succeed in an application for cancellation of bail."
+      }
+    ],
+    "rounds": [
+      {
+        "round": "supporting",
+        "items": [
+          {
+            "id": "123660783_c154",
+            "kind": "court_holding",
+            "text": "268th Report, 2017.\n\n(3) Custodial interrogation of “accused is indispensably necessary for the investigating agency” to unearth materials in criminal conspiracies (Ref. to unearth all the links involved in the criminal conspiracies” (Bimal Krishna Kundu and Muraleedharan, [supra]) (4) Imposing time limits (till filing of FIR, or filing of charge-sheet etc) would enable the court- which is seized of the main case and monitors it, to consider the nature and gravity of the offence, having regard to the fresh materials unearthed and included as prosecution evidence. Therefore, it would be salutary and in public interest to require courts to impose time limits for the life of orders of anticipatory bail the event of filing of FIR or charge sheet, are essential ingredients to an order under Section 438. (Salauddin, K.L. Verma, and Adri Dharan Das). Some decisions have also stressed that economic offences need a different approach and therefore, anticipatory bail should not be granted readily.36\n\n54. A fuller consideration of the various decisions cited earlier, especially those which emphasized the need to limit the life of an order of anticipatory bail, are premised on the understanding that the grant of an unconditional order of bail would thwart investigation. In the first place, this premise is unfounded, given that Sibbia (supra) stated (in para 13, SCC reports) that such an order would be “contrary to the In P. Chidambaram v. Directorate of Enforcement, (2019) 9 SCC 24 it was held as follows:",
+            "speaker": "THE COURT",
+            "tid": 123660783,
+            "caseTitle": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+            "year": 2020,
+            "courtTier": "SC",
+            "locator": "para 54",
+            "paraIds": [
+              "123660783_c154"
+            ]
+          },
+          {
+            "id": "96230971_c008",
+            "kind": "court_holding",
+            "text": "8. I must say at this stage that the refusal by criminal Courts either through the learned Magistrate or through their office staff to accept the charge-sheet without production of the accused persons is not justified by any provision of law. Therefore, it should be impressed upon all the Courts that they should accept the charge-sheet whenever it is produced by the police with any endorsement to be made on the charge-sheet by the staff or the Magistrate pertaining to any omission or requirement in the charge-sheet. But when the police submit the charge-sheet, it is the duty of the Court to accept it especially in view of the provisions of Section 468 of the Code which creates a limitation of taking cognizance of offence. Likewise, police authorities also should impress on all police officers that if charge-sheet is not accepted for any such reason, then attention of the Sessions Judge should be drawn to these facts and get suitable orders so that such difficulties would not arise henceforth.” We are in agreement with the aforesaid view of the High Courts and would like to give our imprimatur to the said judicial view. It has rightly been observed on consideration of Section 170 of the Cr.P.C. that it does not impose an obligation on the Officer-in-charge to arrest each and every accused at the time of filing of the chargesheet. We have, in fact, come across cases where the accused has cooperated with the investigation throughout and yet on the chargesheet being filed non-bailable warrants have been issued for his production premised on the requirement that there is an obligation to arrest the accused and produce him before the court. We are of the view that if the Investigating Officer does not believe that the accused will abscond or disobey summons he/she is not required to be produced in custody. The word “custody” appearing in Section 170 of the Cr.P.C. does not contemplate either police or judicial custody but it merely connotes the presentation of the accused by the Investigating Officer before the court while filing the chargesheet.",
+            "speaker": "THE COURT",
+            "tid": 96230971,
+            "caseTitle": "Siddharth vs The State Of Uttar Pradesh on 16 August, 2021",
+            "year": 2021,
+            "courtTier": "SC",
+            "locator": "para 8",
+            "paraIds": [
+              "96230971_c008"
+            ]
+          },
+          {
+            "id": "481284_c046",
+            "kind": "court_holding",
+            "text": "whereas no such protection for accused not in custody is called for. Because of these differences between the two categories, the argument proceeds, the classification made by the legislature is justified and takes the present case out of the operation of Art. 14 the Constitution. I shall now analyse each of the alleged differences between the two categories of accused to ascertain whether they afford a reasonable and factual basis for the classification.\n\nRe. (a): Whether the accused is in custody or not in custody, the prosecution is not prevented from collecting the necessary evidence to bring home the guilt to the accused. Indeed, as it often happens, if the accused is not in custody and if he happens to be an influential person there is a greater likelihood of his retarding and obstructing the progress of investigation and the collection of evidence. Nor all the extra-judicial confessions are excluded during the trial after a person is put in custody. The extra-judicial confession made by an accused before he is arrested or after he is released on bail is certainly relevant evidence to the case. Even after a person is taken into custody by a police-officer, nothing prevents that person from making a confession to a third-party and the only limitation imposed by s. 26 of the Evidence Act is that he shall make it only in the presence of a Magistrate. The confession made before a Magistrate after compliance with all the formalities prescribed has certainly greater probative force than that made before outsiders. On the other hand, though extra. judicial confessions are relevant evidence, they are received by Courts with great caution. That apart, it is a pure surmise that the legislature should have thought that the confession of an accused in custody to a police-officer with a condition attached would be a substitute for an extra-judicial confession that he might have made if he was free. Broadly speaking, therefore, there is no justification for the suggestion that the prosecution is in a better position in the matter of establishing its case when the accused is out of custody than when he is in custody. Moreover, this circumstance has not been relied upon by the State in the High Court but is relied upon for the first time by learned counsel during his arguments. In my view, there is no practical difference at all in the matter of collecting evidence between the two categories of persons and that the alleged difference cannot reasonably sustain a classification.",
+            "speaker": "THE COURT",
+            "tid": 481284,
+            "caseTitle": "State Of U. P vs Deoman Upadhyaya on 6 May, 1960",
+            "year": 1960,
+            "courtTier": "SC",
+            "locator": "p. 32",
+            "paraIds": [
+              "481284_c046"
+            ]
+          },
+          {
+            "id": "7148380_c175",
+            "kind": "court_holding",
+            "text": "The grant or denial is regulated, to a large extent, by the facts and circumstances of each particular case. But at the same time, right to bail is not to be denied merely because of the sentiments of the community against the accused. The primary purposes of bail in a criminal case are to relieve the accused of imprisonment, to relieve the State of the burden of keeping him, pending the trial, and at the same time, to keep the accused constructively in the custody of the court, whether before or after conviction, to assure that he will submit to the jurisdiction of the court and be in attendance thereon whenever his presence is required.\n\nxxx xxx xxx\n\n46. We are conscious of the fact that the accused are charged with economic offences of huge magnitude. We are also conscious of the fact that the offences alleged, if proved, may jeopardise the economy of the country. At the same time, we cannot lose sight of the fact that the investigating agency has already completed investigation and the charge-sheet is already filed before the Special Judge, CBI, New Delhi. Therefore, their presence in the custody may not be necessary for further investigation. We are of the view that the appellants are entitled to the grant of bail pending trial on stringent conditions in order to ally the apprehension expressed by CBI.” ROLE OF THE COURT\n\n67.The rate of conviction in criminal cases in India is abysmally low. It appears to us that this factor weighs on the mind of the Court while deciding the bail applications in a negative sense. Courts tend to think that the possibility of a conviction being nearer to rarity, bail applications will have to be decided strictly, contrary to legal principles. We cannot mix up consideration of a bail application, which is not punitive in nature with that of a possible adjudication by way of trial. On the contrary, an ultimate acquittal with continued custody would be a case of grave injustice.",
+            "speaker": "THE COURT",
+            "tid": 7148380,
+            "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+            "year": 2022,
+            "courtTier": "SC",
+            "locator": "p. 78",
+            "paraIds": [
+              "7148380_c175"
+            ]
+          },
+          {
+            "id": "1920437_c011",
+            "kind": "court_holding",
+            "text": "(a) that any person accused of an offence, and in custody be released on bail, and if the offence is of the nature specified in sub-section (3) of section 437, may impose any condition which it considers necessary for the purposes mentioned in that sub-section,\n\n(b) that any condition imposed by a Magistrate when releasing any person on bail be set aside or modified.\n\nHere the respondents were accused of offences but were not in custody, argues the petitioner. So no bail, since this basic condition of being in jail is not fulfilled. This submission has been rightly rejected by the courts below. We agree that, in our view, an outlaw cannot ask for the benefit of law and he who flees justice cannot claim justice. But here the position is different. The accused were not absconding but had appeared and surrendered before the Sessions Judge. Judicial jurisdiction arises only when persons are already in custody and seek the process of the court to be enlarged. We agree that no person accused of an offence can move the court for bail under s. 439 Cr. P.C. unless he is in custody.\n\nWhen is a person in custody, within the meaning of s.439 Cr. P.C. ? When he is in duress either because he is held by the investigating agency or other police or allied authority or is under the control of the court having been remanded by judicial order, or having offered himself to the court's jurisdiction and submitted to its orders by physical presence. No lexical dexterity nor precedential profusion is needed to come to the realistic conclusion that he who is under the control of the court or is in the physical hold of an officer with coercive power is in custody for the purpose of s. 439. This word is of elastic semantics but its core meaning is that the law has taken control of the person. The equivocatory quibblings and hide-and-seek niceties sometimes heard in court that the police have taken a man into informal custody but not arrested him, have detained him for interrogation but not taken him into formal custody and other like terminological dubieties are unfair evasions of the straightforwardness of the law. We need not dilate on this shady facet here because we are satisfied that the accused did physically submit before the Sessions Judge and the jurisdiction to grant bail thus arose.",
+            "speaker": "THE COURT",
+            "tid": 1920437,
+            "caseTitle": "Niranjan Singh & Anr vs Prabhakar Rajaram Kharote & Ors on 10 March, 1980",
+            "year": 1980,
+            "courtTier": "SC",
+            "locator": "p. 18",
+            "paraIds": [
+              "1920437_c011"
+            ]
+          },
+          {
+            "id": "1563495_c021",
+            "kind": "court_holding",
+            "text": "In this country, it would be quite contrary to the concept of personal liberty enshrined in the Constitution that any person should be punished in respect of any matter, upon which, he has not been convicted or that in any circumstances, he should be deprived of his liberty upon only the belief that he will tamper with the witnesses if left at liberty, save in the most extraordinary circumstances. Apart from the question of prevention being the object of a refusal of bail, one must not lose sight of the fact that any imprisonment before conviction has a substantial punitive content and it would be improper for any Court to refuse bail as a mark of disapproval of former conduct whether the accused has been convicted for it or not or to refuse bail to an un-convicted person for the purpose of giving him a taste of imprisonment as a lesson.\n\n15) In the instant case, as we have already noticed that the \"pointing finger of accusation\" against the appellants is `the seriousness of the charge'. The offences alleged are economic offences which has resulted in loss to the State exchequer. Though, they contend that there is possibility of the appellants tampering witnesses, they have not placed any material in support of the allegation. In our view, seriousness of the charge is, no doubt, one of the relevant considerations while considering bail applications but that is not the only test or the factor : The other factor that also requires to be taken note of is the punishment that could be imposed after trial and conviction, both under the Indian Penal Code and Prevention of Corruption Act. Otherwise, if the former is the only test, we would not be balancing the Constitutional Rights but rather \"recalibration of the scales of justice.\" The provisions of Cr.P.C. confer discretionary jurisdiction on Criminal Courts to grant bail to accused pending trial or in appeal against convictions, since the jurisdiction is discretionary, it has to be exercised with great care and caution by balancing valuable right of liberty of an individual and the interest of the society in general. In our view, the reasoning adopted by the learned District Judge, which is affirmed by the High Court, in our opinion, a denial of the whole basis of our system of law and normal rule of bail system. It transcends respect for the requirement that a man shall be considered innocent until he is found guilty.",
+            "speaker": "THE COURT",
+            "tid": 1563495,
+            "caseTitle": "Sanjay Chandra vs Cbi on 23 November, 2011",
+            "year": 2011,
+            "courtTier": "SC",
+            "locator": "para 15",
+            "paraIds": [
+              "1563495_c021"
+            ]
+          },
+          {
+            "id": "1108032_c012",
+            "kind": "court_holding",
+            "text": "22. Mr. Bhushan contended that the personal liberty is the most important fundamental right guaranteed by the Constitution. He also submitted that it is the fundamental principle of criminal jurisprudence that every individual is presumed to be innocent till he or she is found guilty. He further submitted that on proper analysis of section 438 Cr.P.C. the legislative wisdom becomes quite evident that the legislature wanted to preserve and protect personal liberty and give impetus to the age-old principle that every person is presumed to be innocent till he is found guilty by the court.\n\n23. Mr. Bhushan also submitted that an order of anticipatory bail does not in any way, directly or indirectly, take away from the police their power and right to fully investigate into charges made against the appellant. He further submitted that when the case is under investigation, the usual anxiety of the investigating agency is to ensure that the alleged accused should fully cooperate with them and should be available as and when they require him. In the instant case, when the appellant has already joined the investigation and is fully cooperating with the investigating agency then it is difficult to comprehend why the respondent is insistent for custodial interrogation of the appellant? According to the appellant, in the instant case, the investigating agency should not have a slightest doubt that the appellant would not be available to the investigating agency for further investigation particularly when he has already joined investigation and is fully cooperating with the investigating agency.\n\n24. Mr. Bhushan also submitted that according to the General Clauses Act, 1897 the court which grants the bail also has the power to cancel it. The grant of bail is an interim order. The court can always review its decision according to the subsequent facts, circumstances and new material. Mr. Bhushan also submitted that the exercise of grant, refusal and cancellation of bail can be undertaken by the court either at the instance of the accused or a public prosecutor or a complainant on finding fresh material and new circumstances at any point of time. Even the appellant's reluctance in not fully cooperating with the investigation could be a ground for cancellation of bail.",
+            "speaker": "THE COURT",
+            "tid": 1108032,
+            "caseTitle": "Siddharam Satlingappa Mhetre vs State Of Maharashtra And Ors on 2 December, 2010",
+            "year": 2010,
+            "courtTier": "SC",
+            "locator": "paras 22-24",
+            "paraIds": [
+              "1108032_c012"
+            ]
+          },
+          {
+            "id": "159846035_c011",
+            "kind": "court_holding",
+            "text": "13. Before we go to the facts of the case, it is necessary to consider what precisely is the nature of the burden which rests on the prosecution in an application for cancellation of bail. Is it necessary for the prosecution to prove by a mathematical certainty or even beyond a reasonable doubt that the witnesses have turned hostile because the are won over by the accused ? We think not. The issue of cancellation of bail can only arise in criminal cases, but that does not mean that every incidental matter in a criminal case must be proved beyond a reasonable doubt like the guilt of the accused. Whether an accused is absconding and therefore his property can be attached Under Section 83 of the Criminal Procedure Code, whether a search of person of premises was taken as required by the provisions of Section 100 of the Code, whether a confession is recorded in strict accordance with the requirements of Section 164 of the Code and whether a fact was discovered in consequence of information received from an accused as required by Section 27 of the Evidence Act are all matters which, fall peculiarly within the ordinary sweep of criminal trials. But though the guilt of the accused in cases which involve the assessment of these facts has to be established beyond a reasonable doubt, these various facts are not required to be proved by the same rigorous standard. Indeed, proof of facts by preponderance of probabilities as in a civil case is not foreign to criminal jurisprudence because, in cases where the statute raises a presumption of guilt as, for example, the Prevention of Corruption Act, the accused is entitled to rebut that presumption by proving his, defence by a balance of probabilities. He does not have to establish his case beyond a reasonable doubt. The same standard of proof as in a civil case applies to proof of incidental issues involved in a criminal trial like the cancellation of bail of an accused. The prosecution, therefore, can establish its case in an application for cancellation of bail by showing on a preponderance of probabilities that the accused has attempted to tamper or has tampered with its witnesses. Proving by the test of balance of probabilities that the accused has abused his liberty or that there is a reasonable apprehension that he will interfere with the course of justice is all that is necessary for the prosecution to do in order to succeed in an application for cancellation of bail.",
+            "speaker": "THE COURT",
+            "tid": 159846035,
+            "caseTitle": "State (Delhi Administration) vs Sanjay Gandhi on 5 May, 1978",
+            "year": 1978,
+            "courtTier": "SC",
+            "locator": "para 13",
+            "paraIds": [
+              "159846035_c011"
+            ]
+          }
+        ],
+        "empty": false
+      },
+      {
+        "round": "opposing",
+        "items": [],
+        "empty": true
+      },
+      {
+        "round": "statutes",
+        "items": [],
+        "empty": true
+      }
+    ],
+    "tookMs": 10469
+  },
+  {
+    "id": "sw04",
+    "generatedAt": "2026-11-02T15:09:44.379Z",
+    "group": "should_work",
+    "query": "The police did not file the chargesheet within the 60-day period prescribed under Section 167(2) Cr.P.C. for an offence punishable with up to seven years' imprisonment, even though my client has remained in custody throughout. Is he entitled to default/statutory bail because the chargesheet was filed late?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "delay_in_trial",
+        "section_167",
+        "statutory_bail"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "roundsEmpty": {
+      "supporting": false,
+      "opposing": false,
+      "statutes": true
+    },
+    "answer": "**## Your Position**  \n1. **Premise A** – The offence carries a maximum punishment of up to seven years; therefore the investigation falls under the “other offences” category of the proviso to Section 167(2) Cr.P.C. and the charge‑sheet must be filed within **60 days**.  \n2. **Premise B** – Because the investigating agency failed to file the charge‑sheet within that 60‑day period, the accused has an **indefeasible right to default bail** under the proviso to Section 167(2).  \n3. **Premise C** – The amendment of the PC Act (or any later amendment that raises the maximum punishment to ten years) does **not** alter the applicable period for this offence, which remains 60 days.  \n\n*Weakest premise*: **Premise C** – the question of whether a later amendment that raises the maximum punishment to ten years converts the offence into the “≥10 years” class and thereby extends the period to 90 days is the most contested point in the retrieved material.\n\n---\n\n**## Your Case**  \n\n- The proviso to Section 167(2) expressly provides a **60‑day** period for investigations of offences “other than” those punishable with death, life imprisonment or a term of **not less than ten years** [3]¶2.  \n- Upon expiry of that period, “an indefeasible right accrues in favour of the accused for being released on bail on account of default by the investigating agency” [3]¶3‑4.  \n- The Supreme Court has repeatedly affirmed that after the statutory period lapses, the magistrate **must release the accused on bail if he is prepared to furnish bail**; the right is “valuable” and can be exercised only on furnishing bail [5].  \n- The right to invoke default bail arises **independently of any later filing of a charge‑sheet**; the accused need only apply for bail during the interregnum [4]¶20 (recognising the need for an application but confirming the right once the period has expired).  \n\nThese authorities collectively support the view that, for an offence whose maximum punishment is **up to seven years**, the 60‑day limit applies and the accused is entitled to default bail when the charge‑sheet is not filed within that time.\n\n---\n\n**## The Other Side**  \n\n- **Argument that the period should be 90 days**: Counsel for the State in *Rakesh Kumar Paul v. State of Assam* contended that, because the Lokpal and Lokayuktas Act, 2013 amended Section 13(2) of the PC Act to raise the maximum punishment to **ten years**, the applicable period becomes **90 days** [1].  \n- **High‑court precedent treating a 7‑year minimum as “≥10 years”**: In *Keshav Dev And Ors. v. State of Rajasthan*, the court held that an offence punishable with a minimum of seven years (Section 304B IPC) attracted the **90‑day** period, denying bail under Section 167(2) [a] [2].  \n- **Questioning the 60‑day rule for offences with a 7‑year minimum**: *Sunil Kumar v. State of Jharkhand* raised the issue whether, for offences like Section 304B IPC (minimum 7 years, possible life), the charge‑sheet must be filed within **60 days** and whether default bail accrues [6]¶3‑5.  \n- **Submission that magistrates may extend custody**: In *U.O.I. Thr. Cbi v. Nirala Yadav* the respondent’s application for default bail after the 90‑day period was dismissed, and the magistrate’s extension of custody was upheld [8].  \n- **Side‑not‑determined submissions**: Several recorded submissions (e.g., [9], [10], [11], [12]) argue both that the default‑bail right persists despite later filing of a charge‑sheet and that it may be lost if the accused voluntarily relinquishes it. Because the system cannot ascertain which party made each submission or the outcome, they are presented only as **neutral submissions**.\n\n---\n\n**## What This Corpus Does Not Show**  \n\n- No passage records a **rebuttal** or the **final judicial determination** on whether the amendment raising the maximum punishment to ten years actually converts a 7‑year‑maximum offence into the “≥10 years” class for the purpose of Section 167(2).  \n- Consequently, the corpus does not indicate whether the argument in *Rakesh Kumar Paul* (that the period should be 90 days) has succeeded in any precedent.  \n\n---\n\n**## Sources**  \n\n- [1] *Rakesh Kumar Paul v. State of Assam*, 16 Aug 2017, p. 36 – State’s contention that amendment to PC Act makes period 90 days.  \n- [2] *Keshav Dev And Ors. v. State of Rajasthan*, 19 May 2005, para 38 – High‑court holding that a 7‑year‑minimum offence attracted 90‑day period, bail denied.  \n- [3] *U.O.I. Thr. Cbi v. Nirala Yadav*, 30 Jun 2014, paras 2‑4 – Text of proviso, indefeasible right after 60/90 days.  \n- [4] *Hitendra Vishnu Thakur And Others v. State of Maharashtra*, 12 Jul 1994, para 20 – Need for application but right exists after period expires.  \n- [5] *Uday Mohanlal Acharya v. State of Maharashtra*, 29 Mar 2001 – Supreme Court affirmation of default‑bail right after statutory period.  \n- [6] *Sunil Kumar v. State of Jharkhand*, 21 Feb 2002, paras 3‑5 – Question of 60‑day period for offences with minimum 7 years.  \n- [8] *U.O.I. Thr. Cbi v. Nirala Yadav*, 30 Jun 2014 – Extension of custody and dismissal of default‑bail application.  \n- [9] *Rakesh Kumar Paul v. State of Assam*, 16 Aug 2017, p. 38 – Submission that default of 60 days triggers bail.  \n- [10] *Rakesh Kumar Paul v. State of Assam*, 16 Aug 2017, paras 46‑47 – Submission on preservation of indefeasible right after charge‑sheet filed.  \n- [11] *U.O.I. Thr. Cbi v. Nirala Yadav*, 30 Jun 2014 – Submission on failure to grant bail after 90‑day lapse.  \n- [12] *Rakesh Kumar Paul v. State of Assam*, 16 Aug 2017, p. 37 – Submission reiterating default‑bail argument.  ",
+    "generationFailed": false,
+    "generationError": null,
+    "serverInvalidCitations": [],
+    "suppliedCount": 12,
+    "items": [
+      {
+        "n": 1,
+        "round": "supporting",
+        "chunkId": "194334432_c055",
+        "paraIds": [
+          "194334432_c055"
+        ],
+        "tid": 194334432,
+        "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+        "year": 2017,
+        "courtTier": "SC",
+        "locator": "p. 36",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "The counsel for the accused argued that since the maximum punishment u/s 13(2) of the PC Act 1988 was seven years, the charge sheet was to be filed within sixty days, i.e. upto 04.01.2017, but since chargesheet was not filed, the accused is entitled to bail under Section 167(2) of the Code. It was also argued that assuming the PC Act was amended by the Lokpal and Lokayuktas Act, 2013 the punishment under Section 13(2) as amended will extend to 10 years and in that case also the chargesheet had to be filed within 60 days. He placed reliance on the judgment of the decision of this court in the case of Rajeev Chaudhary vs. State (NCT) of Delhi26.\n\n5. Counsel for the State contested the bail application before the High Court by stating that upon the amendment of Section 13(2) of the PC Act 1988 by the Lokpal and Lokayuktas Act, 2013 which came into effect from 16.1.2014, the maximum punishment imposable is ten years imprisonment and thus the time period for filing charge sheet is ninety days. It was also contested on merits. The High Court vide impugned order dated 11.1.2017 rejected the bail application by holding that in the present case, since the offence under Section 13(2) of the PC Act (as amended by the Lokpal and Lokayuktas Act, 2013) is punishable with imprisonment which may extend to 10 years imprisonment, the provisions of Section 167(2)(a)(i) of the Code would be applicable and the accused is not entitled to his bail due to the default of the prosecution in not filing the chargesheet within a period of sixty days under Section 167(2)(a)(ii) of the Code. The High Court did not consider it a fit case to grant bail on the merits either.\n\n6. Thereafter, on 24.01.2017, the police filed charge sheet in (2001) 5 SCC 34 FIR No. 936 of 2017 for the offences under Sections 7, 13(1)(a)(b)"
+      },
+      {
+        "n": 2,
+        "round": "supporting",
+        "chunkId": "35562_c028",
+        "paraIds": [
+          "35562_c028"
+        ],
+        "tid": 35562,
+        "caseTitle": "Keshav Dev And Ors. vs The State Of Rajasthan on 19 May, 2005",
+        "year": 2005,
+        "courtTier": "HC",
+        "locator": "para 38",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "38. In view of the above discussion, it is clear that the offence under Section 304B IPC is punishable for imprisonment for a term which shall not be less than seven years but which may extend to imprisonment for life, therefore, provisions of Clause (i) of proviso (a) to Section 167(2) Cr.P.C. would be attracted and there is no dispute that in the present case, charge-sheet has been filed within a period of 90 days, therefore, the petitioners are not entitled for bail under Section 439 read with Section 167(2) Cr.P.C. Accordingly, the bail application of the petitioners is dismissed."
+      },
+      {
+        "n": 3,
+        "round": "supporting",
+        "chunkId": "8215697_c019",
+        "paraIds": [
+          "8215697_c019"
+        ],
+        "tid": 8215697,
+        "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+        "year": 2014,
+        "courtTier": "SC",
+        "locator": "paras 2-5",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "2. Under the proviso to the aforesaid sub-section (2) of Section 167, the Magistrate may authorise detention of the accused otherwise than in the custody of police for a total period not exceeding 90 days where the investigation relates to offence punishable with death, imprisonment for life or imprisonment for a term of not less than 10 years, and 60 days where the investigation relates to any other offence.\n\n3. On the expiry of the said period of 90 days or 60 days, as the case may be, an indefeasible right accrues in favour of the accused for being released on bail on account of default by the investigating agency in the completion of the investigation within the period prescribed and the accused is entitled to be released on bail, if he is prepared to and furnishes the bail as directed by the Magistrate.\n\n4. When an application for bail is filed by an accused for enforcement of his indefeasible right alleged to have been accrued in his favour on account of default on the part of the investigating agency in completion of the investigation within the specified period, the Magistrate/court must dispose of it forthwith, on being satisfied that in fact the accused has been in custody for the period of 90 days or 60 days, as specified and no charge-sheet has been filed by the investigating agency. Such prompt action on the part of the Magistrate/court will not enable the prosecution to frustrate the object of the Act and the legislative mandate of an accused being released on bail on account of the default on the part of the investigating agency in completing the investigation within the period stipulated.\n\n5. If the accused is unable to furnish the bail as directed by the Magistrate, then on a conjoint reading of Explanation I and the proviso to sub-section (2) of Section 167, the continued custody of the accused even beyond the specified period in para (a) will not be unauthorised, and therefore, if during that period the investigation is complete and the charge-sheet is filed then the so-called indefeasible right of the accused would stand extinguished."
+      },
+      {
+        "n": 4,
+        "round": "supporting",
+        "chunkId": "41993725_c031",
+        "paraIds": [
+          "41993725_c031"
+        ],
+        "tid": 41993725,
+        "caseTitle": "Hitendra Vishnu Thakur And Others Etc. ... vs State Of Maharashtra And Others on 12 July, 1994",
+        "year": 1994,
+        "courtTier": "SC",
+        "locator": "para 20",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "20. Thus, we find that once the period for filing the charge-sheet has expired and either no extension under Clause (bb) has been granted by the Designated Court or the period of extension has also expired, the accused person would be entitled to move an application for being admitted to bail under Sub-section (4) of Section 20 TADA read with Section 167 of the Code and the Designated Court shall release him on bail, if the accused seeks to be so released and furnishes the requisite bail. We are not impressed with the argument of the learned Counsel for the appellant that on the expiry of the period during which investigation is required to be completed under Section 20(4) TADA read with Section 167 of the Code, the Court must release the accused on bail on its own motion even without any application from an accused person, on his offering to furnish bail. In our opinion an accused is required to make an application if he wishes to be released on bail on account of the 'default' of the investigating/prosecuting agency and once such an application is made, the Court should issue a notice to the public prosecutor, who may either show that the prosecution has obtained the order for extension for completion of investigation from the court under Clause (bb) or that the challan has been filed in the Designated Court before the expiry of the prescribed period or even that the prescribed period has actually not expired and, thus resist the grant of bail on the alleged ground of 'default'. The issuance of notice would avoid the possibility of an accused obtaining an order of bail under the 'default' clause by either deliberately or inadvertently concealing certain facts and would avoid multiplicity of proceedings. It would, therefore, serve the ends of justice if both sides are heard on a petition for grant of bail on account of the prosecution's 'default'. Similarly, when a report is submitted by the public prosecutor to the Designated Court for grant of extension under Clause (bb), its notice should be issued to the accused before granting such an extension so that an accused may have an opportunity to oppose the extension on all legitimate and legal grounds available to him. "
+      },
+      {
+        "n": 5,
+        "round": "supporting",
+        "chunkId": "1747003_c007",
+        "paraIds": [
+          "1747003_c007"
+        ],
+        "tid": 1747003,
+        "caseTitle": "Uday Mohanlal Acharya vs State Of Maharashtra on 29 March, 2001",
+        "year": 2001,
+        "courtTier": "SC",
+        "locator": null,
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "[Emphasis added] It is settled by series of judgments of this Court in the last 25 years that framers of the Code conceived and desired that after expiry of the period prescribed in proviso to Section 167(2) of the Code, an accused has to be released on bail if no challan is filed because after the expiry of the statutory period prescribed therein, there is no power in Magistrate to remand for further custody, but the same proviso prescribes in clause (a)(ii) that `the accused person shall be released on bail if he is prepared to and does furnish bail. To be released on bail because of the default of submission of challan within the statutory period is a valuable right of the accused, but the framers of the Code have prescribed a condition in that very proviso referred to above that this right to be released on bail can be exercised only on furnishing of bail. Clause (a)(ii) of proviso to Section 167(2) of the Code not only says that the accused `is prepared to, but also says that the `accused does furnish bail and Explanation I to Section 167(2) of the Code clearly mandates that notwithstanding the expiry of the period specified in paragraph (a), the accused shall be detained in custody so long as he does not furnish bail\". Just to test the scheme of the said provision, can it be conceived that if the accused is prepared to furnish bail but does not furnish the same, even in that eventuality the court concerned shall direct his release from custody only on the ground that the statutory period of filing the challan has expired? Therefore, in my view, for release from custody both the conditions aforesaid, read with the Explanation referred to above, must be fulfilled."
+      },
+      {
+        "n": 6,
+        "round": "supporting",
+        "chunkId": "753092_c001",
+        "paraIds": [
+          "753092_c001"
+        ],
+        "tid": 753092,
+        "caseTitle": "Sunil Kumar vs State Of Jharkhand And Ors. on 21 February, 2002",
+        "year": 2002,
+        "courtTier": "HC",
+        "locator": "paras 3-5",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "3. The main ground for rejection was that the petitioner was an accused under Section 304-B, I.P.C. in which the prescribed punishment is imprisonment of not less than 7 years, but which may extend to imprisonment for life and consequently the learned Court below felt that the case of the petitioner fell under the purview of Section 167(2)(a)(i), Cr. P.C. and not under Section 167(2)(a)(ii), Cr. P.C. and in arriving at the said decision, learned Court below has relied on the decision reported in 1999 Cr. L.J. 2645.\n\n4. The main question that has arisen for consideration in this writ application is \"whether, in cases of offences under Section 304B, I.P.C., where minimum punishment prescribed is not less than 7 years, the charge-sheet has to be submitted within a period of 60 days by the Investigating Agency from the date of surrender/ arrest and whether the accused becomes entitled to statutory bail in the event of failure in submission of the charge-sheet within that period\".\n\n5. It is, in this connection, worthwhile to quote Section 167(2)(a)(i), Cr. P.C.:"
+      },
+      {
+        "n": null,
+        "round": "supporting",
+        "chunkId": "136480811_c010",
+        "paraIds": [
+          "136480811_c010"
+        ],
+        "tid": 136480811,
+        "caseTitle": "Sayed Mohd. Ahmed Kazmi vs State, Gnctd & Ors on 19 October, 2012",
+        "year": 2012,
+        "courtTier": "SC",
+        "locator": "paras 17-18",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "17. By virtue of the aforesaid modification to the provisions of Section 167(2) Cr.P.C., the period of 90 days stipulated for completion of investigation and filing of charge-sheet, was modified by virtue of the amended proviso, which indicated that if the investigation could not be completed within 90 days and if the Court was satisfied with the report of the Public Prosecutor indicating the progress of the investigation and the specific reasons for detention of the accused beyond the period of 90 days, extend the said period upto 180 days. In other words, the custody of an accused could be directed initially for a period of 90 days and, thereafter, for a further period of 90 days, in all a total of 180 days, for the purpose of filing charge-sheet. In the event the charge-sheet was not filed even within the extended period of 180 days, the conditions directing that the accused persons shall be released on bail if he is prepared to do and does furnish bail, would become operative.\n\n18. Mr. Pracha submitted that in the instant case on 17th July, 2012, when the Appellant’s initial custody was held to be illegal, the right of the Appellant to grant of statutory bail under clause (a)(ii) of Sub-section (2) of Section 167 became operative and the Appellant became entitled to grant of statutory bail and the mere fact that on a subsequent application for extension of the period of custody, such custody was extended, was immaterial and was of no consequence, as had been contended in the High Court on behalf of the prosecution."
+      },
+      {
+        "n": null,
+        "round": "supporting",
+        "chunkId": "7148380_c066",
+        "paraIds": [
+          "7148380_c066"
+        ],
+        "tid": 7148380,
+        "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+        "year": 2022,
+        "courtTier": "SC",
+        "locator": "p. 31",
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": false,
+        "text": "17.7. Therefore, as mentioned supra, Section 167(2) is integrally linked to the constitutional commitment under Article 21 promising protection of life and personal liberty against unlawful and arbitrary detention, and must be interpreted in a manner which serves this purpose. In this regard we find it useful to refer to the decision of the three-Judge Bench of this Court in Rakesh Kumar Paul v. State of Assam [Rakesh Kumar Paul v. State of Assam, (2017) 15 SCC 67 : (2018) 1 SCC (Cri) 401] , which laid down certain seminal principles as to the interpretation of Section 167(2) CrPC though the questions of law involved were somewhat different from the present case. The questions before the three-Judge Bench in Rakesh Kumar Paul [Rakesh Kumar Paul v. State of Assam, (2017) 15 SCC 67 : (2018) 1 SCC (Cri) 401] were whether, firstly, the 90-day remand extension under Section 167(2)(a)(i) would be applicable in respect of offences where the maximum period of imprisonment was 10 years, though the minimum period was less than 10 years. Secondly, whether the application for bail filed by the accused could be construed as an application for default bail, even though the expiry of the statutory period under Section 167(2) had not been specifically pleaded as a ground for bail. The majority opinion held that the 90-day limit is only available in respect of offences where a minimum ten year' imprisonment period is stipulated, and that the oral arguments for default bail made by the counsel for the accused before the High Court would suffice in lieu of a written application. This was based on the reasoning that the court should not be too technical in matters of personal liberty. Madan B. Lokur, J. in his majority opinion, pertinently observed as follows: (SCC pp. 95-96 & 99, paras 29, 32 & 41) “29. Notwithstanding this, the basic legislative intent of completing investigations within twenty-four hours and also within an otherwise time-bound period remains unchanged, even though that period has been extended over the years. This is an indication that in addition to giving adequate time to complete investigations, the legislature has also and always put a premium on personal liberty and has always felt that it would be unfair to an accused to remain in custody for a prolonged or indefinite period. It is for this reason and also to hold the investigating agency accountable that time-limits have been laid down by the legislature. … xxx xxx xxx"
+      },
+      {
+        "n": 7,
+        "round": "opposing",
+        "chunkId": "attack_130360_35562",
+        "paraIds": [
+          "130360_p_12"
+        ],
+        "tid": 130360,
+        "caseTitle": "Bhupinder Singh & Ors vs Jarnail Singh & Anr on 13 July, 2006",
+        "year": 2006,
+        "courtTier": "SC",
+        "locator": null,
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": true,
+        "text": "A bare reading of Section 304(B) IPC shows that whoever commits \"dowry death\" in terms of Section 304(B) IPC shall be punished with an imprisonment for a term which shall not be less than 7 years but which may extend to imprisonment for life. In other words, the minimum sentence is 7 years but in a given case sentence of imprisonment for life can be awarded. Put differently, sentence of imprisonment for life can be awarded in respect of an offence punishable under Section 304(B) IPC. Proviso to sub-section (2) of Section 167 consists of three parts. The first part relates to power of Magistrate to authorise detention of the accused person. This part consists of two sub-parts. In positive terms it prescribes that no Magistrate shall authorize detention of the accused in custody, under this paragraph [meaning sub-section (2)(a)] for a total period exceeding (i) 90 days where the investigation relates to an offence punishable under death, imprisonment for life or imprisonment for a terms of not less than 10 years (ii) 60 days where the investigation relates to any other offences. The period of 90 days is applicable to cases where the investigation relates to the three categories of offences which are punishable with (i) death, (ii) imprisonment for life; or (iii) imprisonment for a term of not less than ten years. The question is whether Section 304(B) is an offence \"punishable\" with imprisonment for life. Strong reliance was placed by Mr. D.K. Garg, learned counsel appearing for the appellant on the decision in Rajeev Chaudhary v. State (N.C.T.) of Delhi (AIR 2001 SC 2369). A reference is also made to the decisions of the Jharkhand, Delhi and Karnataka High Court where the ratio in Rajiv Chaudhary's case (supra) has been made applicable to cases involving offence punishable under Section 304(B) IPC. The Jharkhand High Court's decision is Sunil Kumar v. State of Jharkhand and Ors. (2003 (2) RCR (Criminal) 135). Contrary view appears to have been taken by the Rajasthan and the Himachal Pradesh High Courts in Keshav Dev and Ors. v. State of Rajasthan (2005 Cr.LJ 3306), and State of Himachal Pradesh v. Lal Singh (2003 Cr.LJ 1668). The Punjab and Haryana High Court appears to have taken somewhat different view in two different cases. In Kuldeep Singh v. State of Punjab RCR (Criminal) 599 it was held that the period is 90 days, as has been held in the case at hand. But a different view (though in relation to some other offences) was taken in Abdul Hamid and Another (Crl. Misc. No. 40599 M of 2005 disposed of on 21st September, 2005). A bare reading of Rajiv Chaudhary's case (supra) shows that the same related to an offence punishable under Section 386 IPC and the sentence in respect of the said offence is not less than 10 years. This court held that the expression \"not less than\" means that the imprisonment should be 10 years or more to attract 90 days period. In that context it was said that for the purpose of clause (i) of proviso (a) of Section 167(2) Cr.PC the imprisonment should be for a clear period of 10 years or more. The position is different in respect of the offence punishable under Section 304(B) IPC. In case of Section 304(B) the range varies between 7 years and imprisonment for life. What should be the adequate punishment in a given case has to be decided by the Court on the basis of the facts and circumstances involved in the particular case. The stage of imposing a sentence comes only after recording the order of conviction of the accused person. The significant word in the proviso is \"punishable\". The word \"punishable\" as used in statutes which declare that certain offences are punishable in a certain way means liable to be punished in the way designated. It is ordinarily defined as deserving of or capable or liable to punishment, capable of being punished by law or right, may be punished or liable to be punished, and not must be punished."
+      },
+      {
+        "n": 8,
+        "round": "opposing",
+        "chunkId": "attack_8215697_136480811",
+        "paraIds": [
+          "8215697_p_28"
+        ],
+        "tid": 8215697,
+        "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+        "year": 2014,
+        "courtTier": "SC",
+        "locator": null,
+        "kind": "court_holding",
+        "speaker": "THE COURT",
+        "viaGraph": true,
+        "text": "We may presently refer to a recent three-Judge Bench decision in Sayed Mohd. Ahmad Kazmi v. State (Government of NCT of Delhi) and others[19]. In the said case, the accused had filed an application for grant of bail on 2.6.2012 since his ninety days’ period of custody was to expire on 3.6.2012 and further custody was sought for by the prosecution. The learned Magistrate, by his order dated 2.6.2012, extended the period of investigation and the custody of the appellant by another ninety days. The said order was assailed by the appellant in a revision which came for consideration before the learned Additional Sessions Judge, who, on 8.6.2012, held that it was only the Sessions Court and not the Chief Metropolitan Magistrate which had the competence to extend the judicial custody of the accused and to entertain cases of such nature. On 22.6.2012, the accused-appellant was produced before the learned Chief Judicial Magistrate for extension of his custody. On 17.7.2012 an application was filed under Section 167(2) CrPC seeking default bail as no charge-sheet had been filed within ninety days period of the appellant’s custody. The said application was dismissed by the learned Magistrate. Thereafter, the matter was referred by the learned Chief Metropolitan Magistrate to the learned District and Sessions Judge, who directed that judicial custody of the accused-appellant be extended. The aforesaid order of the learned Sessions Judge was assailed before the High Court under Section 482 CrPC and the High Court stayed the operation of the order passed by the learned Additional Sessions Judge dated 28.6.2012 and, therefore, the application for grant of statutory bail could not be taken up by the learned Additional Sessions Judge till the High Court vacated the order of stay on 13.7.2012. As has been stated earlier, the accused moved an application for grant of bail under Section 167(4) and the same was listed for consideration on 17.7.2012. In the meantime, revision petition came before the learned Additional and Sessions Judge, who allowed the application and opined that the custody of the accused was illegal. In view of the order passed by the learned Additional Sessions Judge declaring the custody of the accused to be illegal, on the same day an application under Section 167(2) CrPC was filed before the learned Chief Metropolitan Magistrate, but he, instead of hearing the application on the sad date, notified the hearing for 18.7.2012. On the adjourned date, i.e., 18.7.2012 the State filed a fresh application seeking further extension of appellant’s custody and the investigation period. The learned Chief Metropolitan Magistrate directed a copy of the said application to be served on the counsel for the accused and notified the matter for hearing on 20.7.2012. On that day he took up the matter for extension of custody and, instead of considering the application, extended the time of interrogation and custody of the appellant for ninety days with retrospective effect from 2.6.2012. The aforesaid order was challenged before the learned Sessions Judge who adjourned the matter to 12.10.2012 and on 31.7.2013 the prosecution filed the charge-sheet. When the matter travelled to this Court, a question arose with regard to getting the benefit of the default bail. Be it stated, the Court was considering the provisions contained in Section 43-D of Unlawful Activities (Prevention) Act, 1967 and Section 167(2) CrPC. In that context, it observed thus: -"
+      },
+      {
+        "n": 9,
+        "round": "opposing",
+        "chunkId": "194334432_c058",
+        "paraIds": [
+          "194334432_p_106"
+        ],
+        "tid": 194334432,
+        "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+        "year": 2017,
+        "courtTier": "SC",
+        "locator": "p. 38",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "8. The primary argument advanced by the learned counsel for the appellant is that the default of the Investigating Agency in not filing the chargesheet within sixty days entitles the accused to be released as per the provision of Section 167(2) of the Code. It is contended that the maximum punishment for the offences for which the chargesheet has been filed against the accused is seven years. The PC Act was amended by the Lokpal and Lokayuktas Act, 2013 primarily by enhancing the punishments for certain offences, to be investigated and prosecuted by Lok Pal or Lokayukta. Learned Counsel submits that such amendment of the PC Act 1988 by the Lokpal and Lokayuktas Act 2013 was not permissible in respect of offences tried by ordinary Special Courts. Further it was argued that, assuming that the Act stood amended and the punishment for the offence under Section 13(2) of the PC Act was amended and the maximum punishment stood extended to ten years, the Investigating agency was still required to file the charge sheet within sixty days and in default of which the accused would be entitled to bail under Section 167(2) of the Code. He placed reliance on a decision of this Court in the case of Rajeev Chaudhary vs. State (NCT) of Delhi (supra) wherein the court held that for the offence under Section 386 IPC which is punishable with imprisonment upto ten years, the chargesheet was required to be filed within sixty days."
+      },
+      {
+        "n": 10,
+        "round": "opposing",
+        "chunkId": "194334432_c049",
+        "paraIds": [
+          "194334432_p_88",
+          "194334432_p_90"
+        ],
+        "tid": 194334432,
+        "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+        "year": 2017,
+        "courtTier": "SC",
+        "locator": "paras 46-47",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "46. It was submitted that as of today, a charge sheet having been filed against the petitioner, he is not entitled to ‘default bail’ but must apply for regular bail – the ‘default bail’ chapter being now closed. We cannot agree for the simple reason that we are concerned with the interregnum between 4th January, 2017 and 24th January, 2017 when no charge sheet had been filed, during which period he had availed of his indefeasible right of ‘default bail’. It would have been another matter altogether if the petitioner had not applied for ‘default bail’ for whatever reason during this interregnum. There could be a situation (however rare) where an accused is not prepared to be bailed out perhaps for his personal security since he or she might be facing some threat outside the correction home or for any other reason. But then in such an event, the accused voluntarily gives up the indefeasible right for default bail and having forfeited that right the accused cannot, after the charge sheet or challan has been filed, claim a resuscitation of the indefeasible right. But that is not the case insofar as the petitioner is concerned, since he did not give up his indefeasible right for ‘default bail’ during the interregnum between 4th January, 2017 and 24th January, 2017 as is evident from the decision of the High Court rendered on 11th January, 2017. On the contrary, he had availed of his right to ‘default bail’ which could not have been defeated on 11th January, 2017 and which we are today compelled to acknowledge and enforce.\n\n47. Consequently, we are of opinion that the petitioner had satisfied all the requirements of obtaining ‘default bail’ which is that on 11 th January, 2017 he had put in more than 60 days in custody pending investigations into an alleged offence not punishable with imprisonment for a minimum period of 10 years, no charge sheet had been filed against him and he was prepared to furnish bail for his release, as such, he ought to have been released by the High Court on reasonable terms and conditions of bail."
+      },
+      {
+        "n": 11,
+        "round": "opposing",
+        "chunkId": "8215697_c002",
+        "paraIds": [
+          "8215697_p_5",
+          "8215697_p_6",
+          "8215697_p_7"
+        ],
+        "tid": 8215697,
+        "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+        "year": 2014,
+        "courtTier": "SC",
+        "locator": null,
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "In course of investigation, the respondent was arrested and was sent to the judicial custody on 5.12.2006. As the charge-sheet was not filed after lapse of the statutory period of ninety days, on 14.3.2007 the respondent filed an application under Section 167(2) CrPC for release on bail on the foundation that in the absence of challan on record he was entitled to be admitted to bail after completion of ninety days from his date of arrest. On 15.3.2007, an application was filed by the CBI under Section 49(2)(b) of POTA seeking extension of time for a period of thirty days, but on that day no order was passed on that application and the learned Special Judge asked the defence to file a reply in rejoinder to the application for extension but did not pass any order on the application for grant of bail.\n\nAs the factual matrix would unfurl, charge-sheet was filed on 26.3.2007. On 3.4.2007 the learned Special Judge extended the time for filing the charge-sheet till the date of such filing, i.e., 26.3.2007 and rejected the application of the respondent. Being unsuccessful in getting admitted to bail, the accused-respondent approached the High Court in Criminal Misc. No. 44042 of 2007 and the learned single Judge who dealt with the application, after referring to the decision in Hitendra Vishnu Thakur v. State of Maharahstra[1] and placing reliance on the dictum in Uday Mohanlal Acharya v. State of Maharahstra[2], came to hold that the right had already accrued to the respondent on 14.3.2007 when he had moved the application for grant of bail and, accordingly, admitted him to bail on certain conditions.\n\nWe have heard Mr. P.K. Dey, learned counsel for the appellant and Ms. Prerna Singh, learned counsel for the respondent."
+      },
+      {
+        "n": 12,
+        "round": "opposing",
+        "chunkId": "194334432_c057",
+        "paraIds": [
+          "194334432_p_105",
+          "194334432_p_106"
+        ],
+        "tid": 194334432,
+        "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+        "year": 2017,
+        "courtTier": "SC",
+        "locator": "p. 37",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "7. Heard Shri Abhishek Manu Singhvi, senior counsel for the appellant and Shri Mukul Rohtagi, senior counsel for the State of Assam.\n\n8. The primary argument advanced by the learned counsel for the appellant is that the default of the Investigating Agency in not filing the chargesheet within sixty days entitles the accused to be released as per the provision of Section 167(2) of the Code. It is contended that the maximum punishment for the offences for which the chargesheet has been filed against the accused is seven years. The PC Act was amended by the Lokpal and Lokayuktas Act, 2013 primarily by enhancing the punishments for certain offences, to be investigated and prosecuted by Lok Pal or Lokayukta. Learned Counsel submits that such amendment of the PC Act 1988 by the Lokpal and Lokayuktas Act 2013 was not permissible in respect of offences tried by ordinary Special Courts. Further it was argued that, assuming that the Act stood amended and the punishment for the offence under Section 13(2) of the PC Act was amended and the maximum punishment stood extended to ten years, the Investigating agency was still required to file the charge sheet within sixty days and in default of which the accused would be entitled to bail under Section 167(2) of the Code. He placed reliance on a decision of this Court in the case of Rajeev Chaudhary vs. State (NCT) of Delhi (supra) wherein the court held that for the offence under Section 386 IPC which is punishable with imprisonment upto ten years, the chargesheet was required to be filed within sixty days."
+      },
+      {
+        "n": null,
+        "round": "opposing",
+        "chunkId": "194334432_c050",
+        "paraIds": [
+          "194334432_p_90",
+          "194334432_p_92",
+          "194334432_p_93",
+          "194334432_p_94",
+          "194334432_p_96"
+        ],
+        "tid": 194334432,
+        "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+        "year": 2017,
+        "courtTier": "SC",
+        "locator": "paras 47-51",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "47. Consequently, we are of opinion that the petitioner had satisfied all the requirements of obtaining ‘default bail’ which is that on 11 th January, 2017 he had put in more than 60 days in custody pending investigations into an alleged offence not punishable with imprisonment for a minimum period of 10 years, no charge sheet had been filed against him and he was prepared to furnish bail for his release, as such, he ought to have been released by the High Court on reasonable terms and conditions of bail.\n\n48. It may be mentioned that learned counsel for the petitioner had contended that the extended period of 90 days for filing a charge sheet would not apply to the petitioner since he is not covered by the provisions of the Lokpal and Lokayuktas Act, 2013 and therefore the maximum sentence that could be awarded to him would be 7 years under the Prevention of Corruption Act, 1988. This argument of desperation is recorded only to be summarily rejected. Even if the petitioner is not within the purview of the Lokpal and Lokayuktas Act, 2013 he is certainly not outside the purview of the PC Act and can be prosecuted and punished for a violation of Section 13(1) thereof. There is absolutely no cogent reason for excluding the petitioner from the rigours of the PC Act as amended by the Lokpal and Lokayuktas Act, 2013. Conclusion\n\n49. The petitioner is held entitled to the grant of ‘default bail’ on the facts and in the circumstances of this case. The Trial Judge should release the petitioner on ‘default bail’ on such terms and conditions as may be reasonable. However, we make it clear that this does not prohibit or otherwise prevent the arrest or re-arrest of the petitioner on cogent grounds in respect of the subject charge and upon arrest or re-arrest, the petitioner is entitled to petition for grant of regular bail which application should be considered on its own merit. We also make it clear that this will not impact on the arrest of the petitioner in any other case.\n\n50. We allow the petition and set aside the judgment and order of the High Court.\n\n51. The companion petition, being S.L.P. (Crl.) No. 2176 of 2017 is rendered infructuous and is dismissed as such."
+      },
+      {
+        "n": null,
+        "round": "opposing",
+        "chunkId": "8215697_c046",
+        "paraIds": [
+          "8215697_p_36",
+          "8215697_p_37"
+        ],
+        "tid": 8215697,
+        "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+        "year": 2014,
+        "courtTier": "SC",
+        "locator": null,
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "Coming to the facts of the instant case, we find that prior to the date of expiry of 90 days which is the initial period for filing the charge-sheet, the prosecution neither had filed the charge-sheet nor had it filed an application for extension. Had an application for extension been filed, then the matter would have been totally different. After the accused respondent filed the application, the prosecution submitted an application seeking extension of time for filing of the charge-sheet. Mr. P.K. Dey, learned counsel for the appellant would submit that the same is permissible in view of the decision in Bipin Shantilal Panchal (supra) but on a studied scrutiny of the same we find the said decision only dealt with whether extension could be sought from time to time till the completion of period as provided in the Statute i.e., 180 days. It did not address the issue what could be the effect of not filing an application for extension prior to expiry of the period because in the factual matrix it was not necessary to do so. In the instant case, the day the accused filed the application for benefit of the default provision as engrafted under proviso to sub- Section (2) of Section 167 CrPC the Court required the accused to file a rejoinder affidavit by the time the initial period provided under the statute had expired. There was no question of any contest as if the application for extension had been filed prior to the expiry of time. The adjournment by the learned Magistrate was misconceived. He was obliged on that day to deal with the application filed by the accused as required under Section 167(2) CrPC. We have no hesitation in saying that such procrastination frustrates the legislative mandate. A Court cannot act to extinguish the right of an accused if the law so confers on him. Law has to prevail. The prosecution cannot avail such subterfuges to frustrate or destroy the legal right of the accused. Such an act is not permissible. If we permit ourselves to say so, the prosecution exhibited sheer negligence in not filing the application within the time which it was entitled to do so in law but made all adroit attempts to redeem the cause by its conduct.\n\nIn view of our aforesaid premised reasons we do not find any error in the order of the High Court in overturning the order refusing bail and extending the benefit to the respondent and, accordingly, the appeal fails and is hereby dismissed."
+      },
+      {
+        "n": null,
+        "round": "opposing",
+        "chunkId": "1376808_c014",
+        "paraIds": [
+          "1376808_p_22",
+          "1376808_p_23",
+          "1376808_p_24"
+        ],
+        "tid": 1376808,
+        "caseTitle": "Mohamed Iqbal Madar Sheiri And Ors vs The State Of Maharashtra on 8 January, 1996",
+        "year": 1996,
+        "courtTier": "SC",
+        "locator": null,
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "As such now it is not open to the appellants to claim bail under proviso\n\n(a) to Section 167(2) of the Code, Admittedly charge-sheet has been submitted against the appellants, and they are in custody on the basis of orders of remand passed under other provisions of the Code and at this stage proviso (a) to Section 167(2) shall not be applicable.\n\nDuring hearing of the appeal, it was pointed out by the counsel appearing on behalf of the appellants that some courts in order to defeat the right of the accused to be released on bail under proviso (a) to Section 167(2) after expiry of the statutory period for completion of the investigation, keep the applications for bail pending for some days so that in the meantime, charge-sheets are submitted. Any such act on the part of any court cannot be approved. If an accused charged with any kind of offence, becomes entitled to be released on bail under proviso (a) lo Section 167(2) that statutory right should not be defeated by keeping the applications pending till she charge-sheets are submitted, so that the right which had accrued is extinguished and defeated. So far the present case is concerned, we are informed by the counsel for the appellants that a petition for grant of bail on merit had been filed which was rejected on 22.3.1993, But admittedly no petition for grant of bail after the expiry of the, statutory period for the submission of the charge-sheet had been filed. There is no statement that any application for grant of bail had been filed on behalf of the appellants under proviso (a) to Section 167(2) after the expiry of the statutory period which application was kept pending till 30th August 1993. Now the appellants have forfeited their right to be released on bail under proviso (a) to section 167(2) as they are in custody on basis of orders for remand passed under other provisions of the Code. In such a situation, we are left with no option, but to dismiss these appeals. However, we directed that the trial of the appellants be expedited."
+      },
+      {
+        "n": null,
+        "round": "opposing",
+        "chunkId": "194334432_c081",
+        "paraIds": [
+          "194334432_p_125",
+          "194334432_p_126"
+        ],
+        "tid": 194334432,
+        "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+        "year": 2017,
+        "courtTier": "SC",
+        "locator": "p. 53",
+        "kind": "argument",
+        "speaker": "COUNSEL",
+        "viaGraph": false,
+        "text": "But it is an admitted position that no application for bail on the said ground was made on behalf of the appellants. Unless applications had been made on behalf of the appellants, there was no question of their being released on ground of default in completion of the investigation within the statutory period. It is now settled that this right cannot be exercised after the charge-sheet has been submitted and cognizance has been taken, because in that event the remand of the accused concerned including one who is alleged to have committed an offence under TADA, is not under Section 167(2) but under other provisions of the Code.” [Emphasis supplied]\n\n25. In the case of Hitendra Vishnu Thakur and Others etc. etc. vs. State of Maharashtra and Others34, it was held in para 30 that:"
+      }
+    ],
+    "rounds": [
+      {
+        "round": "supporting",
+        "items": [
+          {
+            "id": "194334432_c055",
+            "kind": "court_holding",
+            "text": "The counsel for the accused argued that since the maximum punishment u/s 13(2) of the PC Act 1988 was seven years, the charge sheet was to be filed within sixty days, i.e. upto 04.01.2017, but since chargesheet was not filed, the accused is entitled to bail under Section 167(2) of the Code. It was also argued that assuming the PC Act was amended by the Lokpal and Lokayuktas Act, 2013 the punishment under Section 13(2) as amended will extend to 10 years and in that case also the chargesheet had to be filed within 60 days. He placed reliance on the judgment of the decision of this court in the case of Rajeev Chaudhary vs. State (NCT) of Delhi26.\n\n5. Counsel for the State contested the bail application before the High Court by stating that upon the amendment of Section 13(2) of the PC Act 1988 by the Lokpal and Lokayuktas Act, 2013 which came into effect from 16.1.2014, the maximum punishment imposable is ten years imprisonment and thus the time period for filing charge sheet is ninety days. It was also contested on merits. The High Court vide impugned order dated 11.1.2017 rejected the bail application by holding that in the present case, since the offence under Section 13(2) of the PC Act (as amended by the Lokpal and Lokayuktas Act, 2013) is punishable with imprisonment which may extend to 10 years imprisonment, the provisions of Section 167(2)(a)(i) of the Code would be applicable and the accused is not entitled to his bail due to the default of the prosecution in not filing the chargesheet within a period of sixty days under Section 167(2)(a)(ii) of the Code. The High Court did not consider it a fit case to grant bail on the merits either.\n\n6. Thereafter, on 24.01.2017, the police filed charge sheet in (2001) 5 SCC 34 FIR No. 936 of 2017 for the offences under Sections 7, 13(1)(a)(b)",
+            "speaker": "THE COURT",
+            "tid": 194334432,
+            "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+            "year": 2017,
+            "courtTier": "SC",
+            "locator": "p. 36",
+            "paraIds": [
+              "194334432_c055"
+            ]
+          },
+          {
+            "id": "35562_c028",
+            "kind": "court_holding",
+            "text": "38. In view of the above discussion, it is clear that the offence under Section 304B IPC is punishable for imprisonment for a term which shall not be less than seven years but which may extend to imprisonment for life, therefore, provisions of Clause (i) of proviso (a) to Section 167(2) Cr.P.C. would be attracted and there is no dispute that in the present case, charge-sheet has been filed within a period of 90 days, therefore, the petitioners are not entitled for bail under Section 439 read with Section 167(2) Cr.P.C. Accordingly, the bail application of the petitioners is dismissed.",
+            "speaker": "THE COURT",
+            "tid": 35562,
+            "caseTitle": "Keshav Dev And Ors. vs The State Of Rajasthan on 19 May, 2005",
+            "year": 2005,
+            "courtTier": "HC",
+            "locator": "para 38",
+            "paraIds": [
+              "35562_c028"
+            ]
+          },
+          {
+            "id": "8215697_c019",
+            "kind": "court_holding",
+            "text": "2. Under the proviso to the aforesaid sub-section (2) of Section 167, the Magistrate may authorise detention of the accused otherwise than in the custody of police for a total period not exceeding 90 days where the investigation relates to offence punishable with death, imprisonment for life or imprisonment for a term of not less than 10 years, and 60 days where the investigation relates to any other offence.\n\n3. On the expiry of the said period of 90 days or 60 days, as the case may be, an indefeasible right accrues in favour of the accused for being released on bail on account of default by the investigating agency in the completion of the investigation within the period prescribed and the accused is entitled to be released on bail, if he is prepared to and furnishes the bail as directed by the Magistrate.\n\n4. When an application for bail is filed by an accused for enforcement of his indefeasible right alleged to have been accrued in his favour on account of default on the part of the investigating agency in completion of the investigation within the specified period, the Magistrate/court must dispose of it forthwith, on being satisfied that in fact the accused has been in custody for the period of 90 days or 60 days, as specified and no charge-sheet has been filed by the investigating agency. Such prompt action on the part of the Magistrate/court will not enable the prosecution to frustrate the object of the Act and the legislative mandate of an accused being released on bail on account of the default on the part of the investigating agency in completing the investigation within the period stipulated.\n\n5. If the accused is unable to furnish the bail as directed by the Magistrate, then on a conjoint reading of Explanation I and the proviso to sub-section (2) of Section 167, the continued custody of the accused even beyond the specified period in para (a) will not be unauthorised, and therefore, if during that period the investigation is complete and the charge-sheet is filed then the so-called indefeasible right of the accused would stand extinguished.",
+            "speaker": "THE COURT",
+            "tid": 8215697,
+            "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+            "year": 2014,
+            "courtTier": "SC",
+            "locator": "paras 2-5",
+            "paraIds": [
+              "8215697_c019"
+            ]
+          },
+          {
+            "id": "41993725_c031",
+            "kind": "court_holding",
+            "text": "20. Thus, we find that once the period for filing the charge-sheet has expired and either no extension under Clause (bb) has been granted by the Designated Court or the period of extension has also expired, the accused person would be entitled to move an application for being admitted to bail under Sub-section (4) of Section 20 TADA read with Section 167 of the Code and the Designated Court shall release him on bail, if the accused seeks to be so released and furnishes the requisite bail. We are not impressed with the argument of the learned Counsel for the appellant that on the expiry of the period during which investigation is required to be completed under Section 20(4) TADA read with Section 167 of the Code, the Court must release the accused on bail on its own motion even without any application from an accused person, on his offering to furnish bail. In our opinion an accused is required to make an application if he wishes to be released on bail on account of the 'default' of the investigating/prosecuting agency and once such an application is made, the Court should issue a notice to the public prosecutor, who may either show that the prosecution has obtained the order for extension for completion of investigation from the court under Clause (bb) or that the challan has been filed in the Designated Court before the expiry of the prescribed period or even that the prescribed period has actually not expired and, thus resist the grant of bail on the alleged ground of 'default'. The issuance of notice would avoid the possibility of an accused obtaining an order of bail under the 'default' clause by either deliberately or inadvertently concealing certain facts and would avoid multiplicity of proceedings. It would, therefore, serve the ends of justice if both sides are heard on a petition for grant of bail on account of the prosecution's 'default'. Similarly, when a report is submitted by the public prosecutor to the Designated Court for grant of extension under Clause (bb), its notice should be issued to the accused before granting such an extension so that an accused may have an opportunity to oppose the extension on all legitimate and legal grounds available to him. ",
+            "speaker": "THE COURT",
+            "tid": 41993725,
+            "caseTitle": "Hitendra Vishnu Thakur And Others Etc. ... vs State Of Maharashtra And Others on 12 July, 1994",
+            "year": 1994,
+            "courtTier": "SC",
+            "locator": "para 20",
+            "paraIds": [
+              "41993725_c031"
+            ]
+          },
+          {
+            "id": "1747003_c007",
+            "kind": "court_holding",
+            "text": "[Emphasis added] It is settled by series of judgments of this Court in the last 25 years that framers of the Code conceived and desired that after expiry of the period prescribed in proviso to Section 167(2) of the Code, an accused has to be released on bail if no challan is filed because after the expiry of the statutory period prescribed therein, there is no power in Magistrate to remand for further custody, but the same proviso prescribes in clause (a)(ii) that `the accused person shall be released on bail if he is prepared to and does furnish bail. To be released on bail because of the default of submission of challan within the statutory period is a valuable right of the accused, but the framers of the Code have prescribed a condition in that very proviso referred to above that this right to be released on bail can be exercised only on furnishing of bail. Clause (a)(ii) of proviso to Section 167(2) of the Code not only says that the accused `is prepared to, but also says that the `accused does furnish bail and Explanation I to Section 167(2) of the Code clearly mandates that notwithstanding the expiry of the period specified in paragraph (a), the accused shall be detained in custody so long as he does not furnish bail\". Just to test the scheme of the said provision, can it be conceived that if the accused is prepared to furnish bail but does not furnish the same, even in that eventuality the court concerned shall direct his release from custody only on the ground that the statutory period of filing the challan has expired? Therefore, in my view, for release from custody both the conditions aforesaid, read with the Explanation referred to above, must be fulfilled.",
+            "speaker": "THE COURT",
+            "tid": 1747003,
+            "caseTitle": "Uday Mohanlal Acharya vs State Of Maharashtra on 29 March, 2001",
+            "year": 2001,
+            "courtTier": "SC",
+            "locator": null,
+            "paraIds": [
+              "1747003_c007"
+            ]
+          },
+          {
+            "id": "753092_c001",
+            "kind": "court_holding",
+            "text": "3. The main ground for rejection was that the petitioner was an accused under Section 304-B, I.P.C. in which the prescribed punishment is imprisonment of not less than 7 years, but which may extend to imprisonment for life and consequently the learned Court below felt that the case of the petitioner fell under the purview of Section 167(2)(a)(i), Cr. P.C. and not under Section 167(2)(a)(ii), Cr. P.C. and in arriving at the said decision, learned Court below has relied on the decision reported in 1999 Cr. L.J. 2645.\n\n4. The main question that has arisen for consideration in this writ application is \"whether, in cases of offences under Section 304B, I.P.C., where minimum punishment prescribed is not less than 7 years, the charge-sheet has to be submitted within a period of 60 days by the Investigating Agency from the date of surrender/ arrest and whether the accused becomes entitled to statutory bail in the event of failure in submission of the charge-sheet within that period\".\n\n5. It is, in this connection, worthwhile to quote Section 167(2)(a)(i), Cr. P.C.:",
+            "speaker": "THE COURT",
+            "tid": 753092,
+            "caseTitle": "Sunil Kumar vs State Of Jharkhand And Ors. on 21 February, 2002",
+            "year": 2002,
+            "courtTier": "HC",
+            "locator": "paras 3-5",
+            "paraIds": [
+              "753092_c001"
+            ]
+          },
+          {
+            "id": "136480811_c010",
+            "kind": "court_holding",
+            "text": "17. By virtue of the aforesaid modification to the provisions of Section 167(2) Cr.P.C., the period of 90 days stipulated for completion of investigation and filing of charge-sheet, was modified by virtue of the amended proviso, which indicated that if the investigation could not be completed within 90 days and if the Court was satisfied with the report of the Public Prosecutor indicating the progress of the investigation and the specific reasons for detention of the accused beyond the period of 90 days, extend the said period upto 180 days. In other words, the custody of an accused could be directed initially for a period of 90 days and, thereafter, for a further period of 90 days, in all a total of 180 days, for the purpose of filing charge-sheet. In the event the charge-sheet was not filed even within the extended period of 180 days, the conditions directing that the accused persons shall be released on bail if he is prepared to do and does furnish bail, would become operative.\n\n18. Mr. Pracha submitted that in the instant case on 17th July, 2012, when the Appellant’s initial custody was held to be illegal, the right of the Appellant to grant of statutory bail under clause (a)(ii) of Sub-section (2) of Section 167 became operative and the Appellant became entitled to grant of statutory bail and the mere fact that on a subsequent application for extension of the period of custody, such custody was extended, was immaterial and was of no consequence, as had been contended in the High Court on behalf of the prosecution.",
+            "speaker": "THE COURT",
+            "tid": 136480811,
+            "caseTitle": "Sayed Mohd. Ahmed Kazmi vs State, Gnctd & Ors on 19 October, 2012",
+            "year": 2012,
+            "courtTier": "SC",
+            "locator": "paras 17-18",
+            "paraIds": [
+              "136480811_c010"
+            ]
+          },
+          {
+            "id": "7148380_c066",
+            "kind": "court_holding",
+            "text": "17.7. Therefore, as mentioned supra, Section 167(2) is integrally linked to the constitutional commitment under Article 21 promising protection of life and personal liberty against unlawful and arbitrary detention, and must be interpreted in a manner which serves this purpose. In this regard we find it useful to refer to the decision of the three-Judge Bench of this Court in Rakesh Kumar Paul v. State of Assam [Rakesh Kumar Paul v. State of Assam, (2017) 15 SCC 67 : (2018) 1 SCC (Cri) 401] , which laid down certain seminal principles as to the interpretation of Section 167(2) CrPC though the questions of law involved were somewhat different from the present case. The questions before the three-Judge Bench in Rakesh Kumar Paul [Rakesh Kumar Paul v. State of Assam, (2017) 15 SCC 67 : (2018) 1 SCC (Cri) 401] were whether, firstly, the 90-day remand extension under Section 167(2)(a)(i) would be applicable in respect of offences where the maximum period of imprisonment was 10 years, though the minimum period was less than 10 years. Secondly, whether the application for bail filed by the accused could be construed as an application for default bail, even though the expiry of the statutory period under Section 167(2) had not been specifically pleaded as a ground for bail. The majority opinion held that the 90-day limit is only available in respect of offences where a minimum ten year' imprisonment period is stipulated, and that the oral arguments for default bail made by the counsel for the accused before the High Court would suffice in lieu of a written application. This was based on the reasoning that the court should not be too technical in matters of personal liberty. Madan B. Lokur, J. in his majority opinion, pertinently observed as follows: (SCC pp. 95-96 & 99, paras 29, 32 & 41) “29. Notwithstanding this, the basic legislative intent of completing investigations within twenty-four hours and also within an otherwise time-bound period remains unchanged, even though that period has been extended over the years. This is an indication that in addition to giving adequate time to complete investigations, the legislature has also and always put a premium on personal liberty and has always felt that it would be unfair to an accused to remain in custody for a prolonged or indefinite period. It is for this reason and also to hold the investigating agency accountable that time-limits have been laid down by the legislature. … xxx xxx xxx",
+            "speaker": "THE COURT",
+            "tid": 7148380,
+            "caseTitle": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+            "year": 2022,
+            "courtTier": "SC",
+            "locator": "p. 31",
+            "paraIds": [
+              "7148380_c066"
+            ]
+          }
+        ],
+        "empty": false
+      },
+      {
+        "round": "opposing",
+        "items": [
+          {
+            "id": "attack_130360_35562",
+            "kind": "court_holding",
+            "text": "A bare reading of Section 304(B) IPC shows that whoever commits \"dowry death\" in terms of Section 304(B) IPC shall be punished with an imprisonment for a term which shall not be less than 7 years but which may extend to imprisonment for life. In other words, the minimum sentence is 7 years but in a given case sentence of imprisonment for life can be awarded. Put differently, sentence of imprisonment for life can be awarded in respect of an offence punishable under Section 304(B) IPC. Proviso to sub-section (2) of Section 167 consists of three parts. The first part relates to power of Magistrate to authorise detention of the accused person. This part consists of two sub-parts. In positive terms it prescribes that no Magistrate shall authorize detention of the accused in custody, under this paragraph [meaning sub-section (2)(a)] for a total period exceeding (i) 90 days where the investigation relates to an offence punishable under death, imprisonment for life or imprisonment for a terms of not less than 10 years (ii) 60 days where the investigation relates to any other offences. The period of 90 days is applicable to cases where the investigation relates to the three categories of offences which are punishable with (i) death, (ii) imprisonment for life; or (iii) imprisonment for a term of not less than ten years. The question is whether Section 304(B) is an offence \"punishable\" with imprisonment for life. Strong reliance was placed by Mr. D.K. Garg, learned counsel appearing for the appellant on the decision in Rajeev Chaudhary v. State (N.C.T.) of Delhi (AIR 2001 SC 2369). A reference is also made to the decisions of the Jharkhand, Delhi and Karnataka High Court where the ratio in Rajiv Chaudhary's case (supra) has been made applicable to cases involving offence punishable under Section 304(B) IPC. The Jharkhand High Court's decision is Sunil Kumar v. State of Jharkhand and Ors. (2003 (2) RCR (Criminal) 135). Contrary view appears to have been taken by the Rajasthan and the Himachal Pradesh High Courts in Keshav Dev and Ors. v. State of Rajasthan (2005 Cr.LJ 3306), and State of Himachal Pradesh v. Lal Singh (2003 Cr.LJ 1668). The Punjab and Haryana High Court appears to have taken somewhat different view in two different cases. In Kuldeep Singh v. State of Punjab RCR (Criminal) 599 it was held that the period is 90 days, as has been held in the case at hand. But a different view (though in relation to some other offences) was taken in Abdul Hamid and Another (Crl. Misc. No. 40599 M of 2005 disposed of on 21st September, 2005). A bare reading of Rajiv Chaudhary's case (supra) shows that the same related to an offence punishable under Section 386 IPC and the sentence in respect of the said offence is not less than 10 years. This court held that the expression \"not less than\" means that the imprisonment should be 10 years or more to attract 90 days period. In that context it was said that for the purpose of clause (i) of proviso (a) of Section 167(2) Cr.PC the imprisonment should be for a clear period of 10 years or more. The position is different in respect of the offence punishable under Section 304(B) IPC. In case of Section 304(B) the range varies between 7 years and imprisonment for life. What should be the adequate punishment in a given case has to be decided by the Court on the basis of the facts and circumstances involved in the particular case. The stage of imposing a sentence comes only after recording the order of conviction of the accused person. The significant word in the proviso is \"punishable\". The word \"punishable\" as used in statutes which declare that certain offences are punishable in a certain way means liable to be punished in the way designated. It is ordinarily defined as deserving of or capable or liable to punishment, capable of being punished by law or right, may be punished or liable to be punished, and not must be punished.",
+            "speaker": "THE COURT",
+            "tid": 130360,
+            "caseTitle": "Bhupinder Singh & Ors vs Jarnail Singh & Anr on 13 July, 2006",
+            "year": 2006,
+            "courtTier": "SC",
+            "locator": null,
+            "paraIds": [
+              "130360_p_12"
+            ],
+            "viaGraph": true,
+            "becauseOf": [
+              {
+                "tid": 35562,
+                "title": "Keshav Dev And Ors. vs The State Of Rajasthan on 19 May, 2005",
+                "polarity": "neg"
+              }
+            ]
+          },
+          {
+            "id": "attack_8215697_136480811",
+            "kind": "court_holding",
+            "text": "We may presently refer to a recent three-Judge Bench decision in Sayed Mohd. Ahmad Kazmi v. State (Government of NCT of Delhi) and others[19]. In the said case, the accused had filed an application for grant of bail on 2.6.2012 since his ninety days’ period of custody was to expire on 3.6.2012 and further custody was sought for by the prosecution. The learned Magistrate, by his order dated 2.6.2012, extended the period of investigation and the custody of the appellant by another ninety days. The said order was assailed by the appellant in a revision which came for consideration before the learned Additional Sessions Judge, who, on 8.6.2012, held that it was only the Sessions Court and not the Chief Metropolitan Magistrate which had the competence to extend the judicial custody of the accused and to entertain cases of such nature. On 22.6.2012, the accused-appellant was produced before the learned Chief Judicial Magistrate for extension of his custody. On 17.7.2012 an application was filed under Section 167(2) CrPC seeking default bail as no charge-sheet had been filed within ninety days period of the appellant’s custody. The said application was dismissed by the learned Magistrate. Thereafter, the matter was referred by the learned Chief Metropolitan Magistrate to the learned District and Sessions Judge, who directed that judicial custody of the accused-appellant be extended. The aforesaid order of the learned Sessions Judge was assailed before the High Court under Section 482 CrPC and the High Court stayed the operation of the order passed by the learned Additional Sessions Judge dated 28.6.2012 and, therefore, the application for grant of statutory bail could not be taken up by the learned Additional Sessions Judge till the High Court vacated the order of stay on 13.7.2012. As has been stated earlier, the accused moved an application for grant of bail under Section 167(4) and the same was listed for consideration on 17.7.2012. In the meantime, revision petition came before the learned Additional and Sessions Judge, who allowed the application and opined that the custody of the accused was illegal. In view of the order passed by the learned Additional Sessions Judge declaring the custody of the accused to be illegal, on the same day an application under Section 167(2) CrPC was filed before the learned Chief Metropolitan Magistrate, but he, instead of hearing the application on the sad date, notified the hearing for 18.7.2012. On the adjourned date, i.e., 18.7.2012 the State filed a fresh application seeking further extension of appellant’s custody and the investigation period. The learned Chief Metropolitan Magistrate directed a copy of the said application to be served on the counsel for the accused and notified the matter for hearing on 20.7.2012. On that day he took up the matter for extension of custody and, instead of considering the application, extended the time of interrogation and custody of the appellant for ninety days with retrospective effect from 2.6.2012. The aforesaid order was challenged before the learned Sessions Judge who adjourned the matter to 12.10.2012 and on 31.7.2013 the prosecution filed the charge-sheet. When the matter travelled to this Court, a question arose with regard to getting the benefit of the default bail. Be it stated, the Court was considering the provisions contained in Section 43-D of Unlawful Activities (Prevention) Act, 1967 and Section 167(2) CrPC. In that context, it observed thus: -",
+            "speaker": "THE COURT",
+            "tid": 8215697,
+            "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+            "year": 2014,
+            "courtTier": "SC",
+            "locator": null,
+            "paraIds": [
+              "8215697_p_28"
+            ],
+            "viaGraph": true,
+            "becauseOf": [
+              {
+                "tid": 136480811,
+                "title": "Sayed Mohd. Ahmed Kazmi vs State, Gnctd & Ors on 19 October, 2012",
+                "polarity": "neg"
+              }
+            ]
+          },
+          {
+            "id": "194334432_c058",
+            "kind": "argument",
+            "text": "8. The primary argument advanced by the learned counsel for the appellant is that the default of the Investigating Agency in not filing the chargesheet within sixty days entitles the accused to be released as per the provision of Section 167(2) of the Code. It is contended that the maximum punishment for the offences for which the chargesheet has been filed against the accused is seven years. The PC Act was amended by the Lokpal and Lokayuktas Act, 2013 primarily by enhancing the punishments for certain offences, to be investigated and prosecuted by Lok Pal or Lokayukta. Learned Counsel submits that such amendment of the PC Act 1988 by the Lokpal and Lokayuktas Act 2013 was not permissible in respect of offences tried by ordinary Special Courts. Further it was argued that, assuming that the Act stood amended and the punishment for the offence under Section 13(2) of the PC Act was amended and the maximum punishment stood extended to ten years, the Investigating agency was still required to file the charge sheet within sixty days and in default of which the accused would be entitled to bail under Section 167(2) of the Code. He placed reliance on a decision of this Court in the case of Rajeev Chaudhary vs. State (NCT) of Delhi (supra) wherein the court held that for the offence under Section 386 IPC which is punishable with imprisonment upto ten years, the chargesheet was required to be filed within sixty days.",
+            "speaker": "COUNSEL",
+            "stanceUndetermined": true,
+            "tid": 194334432,
+            "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+            "year": 2017,
+            "courtTier": "SC",
+            "locator": "p. 38",
+            "paraIds": [
+              "194334432_p_106"
+            ]
+          },
+          {
+            "id": "194334432_c049",
+            "kind": "argument",
+            "text": "46. It was submitted that as of today, a charge sheet having been filed against the petitioner, he is not entitled to ‘default bail’ but must apply for regular bail – the ‘default bail’ chapter being now closed. We cannot agree for the simple reason that we are concerned with the interregnum between 4th January, 2017 and 24th January, 2017 when no charge sheet had been filed, during which period he had availed of his indefeasible right of ‘default bail’. It would have been another matter altogether if the petitioner had not applied for ‘default bail’ for whatever reason during this interregnum. There could be a situation (however rare) where an accused is not prepared to be bailed out perhaps for his personal security since he or she might be facing some threat outside the correction home or for any other reason. But then in such an event, the accused voluntarily gives up the indefeasible right for default bail and having forfeited that right the accused cannot, after the charge sheet or challan has been filed, claim a resuscitation of the indefeasible right. But that is not the case insofar as the petitioner is concerned, since he did not give up his indefeasible right for ‘default bail’ during the interregnum between 4th January, 2017 and 24th January, 2017 as is evident from the decision of the High Court rendered on 11th January, 2017. On the contrary, he had availed of his right to ‘default bail’ which could not have been defeated on 11th January, 2017 and which we are today compelled to acknowledge and enforce.\n\n47. Consequently, we are of opinion that the petitioner had satisfied all the requirements of obtaining ‘default bail’ which is that on 11 th January, 2017 he had put in more than 60 days in custody pending investigations into an alleged offence not punishable with imprisonment for a minimum period of 10 years, no charge sheet had been filed against him and he was prepared to furnish bail for his release, as such, he ought to have been released by the High Court on reasonable terms and conditions of bail.",
+            "speaker": "COUNSEL",
+            "stanceUndetermined": true,
+            "tid": 194334432,
+            "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+            "year": 2017,
+            "courtTier": "SC",
+            "locator": "paras 46-47",
+            "paraIds": [
+              "194334432_p_88",
+              "194334432_p_90"
+            ]
+          },
+          {
+            "id": "8215697_c002",
+            "kind": "argument",
+            "text": "In course of investigation, the respondent was arrested and was sent to the judicial custody on 5.12.2006. As the charge-sheet was not filed after lapse of the statutory period of ninety days, on 14.3.2007 the respondent filed an application under Section 167(2) CrPC for release on bail on the foundation that in the absence of challan on record he was entitled to be admitted to bail after completion of ninety days from his date of arrest. On 15.3.2007, an application was filed by the CBI under Section 49(2)(b) of POTA seeking extension of time for a period of thirty days, but on that day no order was passed on that application and the learned Special Judge asked the defence to file a reply in rejoinder to the application for extension but did not pass any order on the application for grant of bail.\n\nAs the factual matrix would unfurl, charge-sheet was filed on 26.3.2007. On 3.4.2007 the learned Special Judge extended the time for filing the charge-sheet till the date of such filing, i.e., 26.3.2007 and rejected the application of the respondent. Being unsuccessful in getting admitted to bail, the accused-respondent approached the High Court in Criminal Misc. No. 44042 of 2007 and the learned single Judge who dealt with the application, after referring to the decision in Hitendra Vishnu Thakur v. State of Maharahstra[1] and placing reliance on the dictum in Uday Mohanlal Acharya v. State of Maharahstra[2], came to hold that the right had already accrued to the respondent on 14.3.2007 when he had moved the application for grant of bail and, accordingly, admitted him to bail on certain conditions.\n\nWe have heard Mr. P.K. Dey, learned counsel for the appellant and Ms. Prerna Singh, learned counsel for the respondent.",
+            "speaker": "COUNSEL",
+            "stanceUndetermined": true,
+            "tid": 8215697,
+            "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+            "year": 2014,
+            "courtTier": "SC",
+            "locator": null,
+            "paraIds": [
+              "8215697_p_5",
+              "8215697_p_6",
+              "8215697_p_7"
+            ]
+          },
+          {
+            "id": "194334432_c057",
+            "kind": "argument",
+            "text": "7. Heard Shri Abhishek Manu Singhvi, senior counsel for the appellant and Shri Mukul Rohtagi, senior counsel for the State of Assam.\n\n8. The primary argument advanced by the learned counsel for the appellant is that the default of the Investigating Agency in not filing the chargesheet within sixty days entitles the accused to be released as per the provision of Section 167(2) of the Code. It is contended that the maximum punishment for the offences for which the chargesheet has been filed against the accused is seven years. The PC Act was amended by the Lokpal and Lokayuktas Act, 2013 primarily by enhancing the punishments for certain offences, to be investigated and prosecuted by Lok Pal or Lokayukta. Learned Counsel submits that such amendment of the PC Act 1988 by the Lokpal and Lokayuktas Act 2013 was not permissible in respect of offences tried by ordinary Special Courts. Further it was argued that, assuming that the Act stood amended and the punishment for the offence under Section 13(2) of the PC Act was amended and the maximum punishment stood extended to ten years, the Investigating agency was still required to file the charge sheet within sixty days and in default of which the accused would be entitled to bail under Section 167(2) of the Code. He placed reliance on a decision of this Court in the case of Rajeev Chaudhary vs. State (NCT) of Delhi (supra) wherein the court held that for the offence under Section 386 IPC which is punishable with imprisonment upto ten years, the chargesheet was required to be filed within sixty days.",
+            "speaker": "COUNSEL",
+            "stanceUndetermined": true,
+            "tid": 194334432,
+            "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+            "year": 2017,
+            "courtTier": "SC",
+            "locator": "p. 37",
+            "paraIds": [
+              "194334432_p_105",
+              "194334432_p_106"
+            ]
+          },
+          {
+            "id": "194334432_c050",
+            "kind": "argument",
+            "text": "47. Consequently, we are of opinion that the petitioner had satisfied all the requirements of obtaining ‘default bail’ which is that on 11 th January, 2017 he had put in more than 60 days in custody pending investigations into an alleged offence not punishable with imprisonment for a minimum period of 10 years, no charge sheet had been filed against him and he was prepared to furnish bail for his release, as such, he ought to have been released by the High Court on reasonable terms and conditions of bail.\n\n48. It may be mentioned that learned counsel for the petitioner had contended that the extended period of 90 days for filing a charge sheet would not apply to the petitioner since he is not covered by the provisions of the Lokpal and Lokayuktas Act, 2013 and therefore the maximum sentence that could be awarded to him would be 7 years under the Prevention of Corruption Act, 1988. This argument of desperation is recorded only to be summarily rejected. Even if the petitioner is not within the purview of the Lokpal and Lokayuktas Act, 2013 he is certainly not outside the purview of the PC Act and can be prosecuted and punished for a violation of Section 13(1) thereof. There is absolutely no cogent reason for excluding the petitioner from the rigours of the PC Act as amended by the Lokpal and Lokayuktas Act, 2013. Conclusion\n\n49. The petitioner is held entitled to the grant of ‘default bail’ on the facts and in the circumstances of this case. The Trial Judge should release the petitioner on ‘default bail’ on such terms and conditions as may be reasonable. However, we make it clear that this does not prohibit or otherwise prevent the arrest or re-arrest of the petitioner on cogent grounds in respect of the subject charge and upon arrest or re-arrest, the petitioner is entitled to petition for grant of regular bail which application should be considered on its own merit. We also make it clear that this will not impact on the arrest of the petitioner in any other case.\n\n50. We allow the petition and set aside the judgment and order of the High Court.\n\n51. The companion petition, being S.L.P. (Crl.) No. 2176 of 2017 is rendered infructuous and is dismissed as such.",
+            "speaker": "COUNSEL",
+            "stanceUndetermined": true,
+            "tid": 194334432,
+            "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+            "year": 2017,
+            "courtTier": "SC",
+            "locator": "paras 47-51",
+            "paraIds": [
+              "194334432_p_90",
+              "194334432_p_92",
+              "194334432_p_93",
+              "194334432_p_94",
+              "194334432_p_96"
+            ]
+          },
+          {
+            "id": "8215697_c046",
+            "kind": "argument",
+            "text": "Coming to the facts of the instant case, we find that prior to the date of expiry of 90 days which is the initial period for filing the charge-sheet, the prosecution neither had filed the charge-sheet nor had it filed an application for extension. Had an application for extension been filed, then the matter would have been totally different. After the accused respondent filed the application, the prosecution submitted an application seeking extension of time for filing of the charge-sheet. Mr. P.K. Dey, learned counsel for the appellant would submit that the same is permissible in view of the decision in Bipin Shantilal Panchal (supra) but on a studied scrutiny of the same we find the said decision only dealt with whether extension could be sought from time to time till the completion of period as provided in the Statute i.e., 180 days. It did not address the issue what could be the effect of not filing an application for extension prior to expiry of the period because in the factual matrix it was not necessary to do so. In the instant case, the day the accused filed the application for benefit of the default provision as engrafted under proviso to sub- Section (2) of Section 167 CrPC the Court required the accused to file a rejoinder affidavit by the time the initial period provided under the statute had expired. There was no question of any contest as if the application for extension had been filed prior to the expiry of time. The adjournment by the learned Magistrate was misconceived. He was obliged on that day to deal with the application filed by the accused as required under Section 167(2) CrPC. We have no hesitation in saying that such procrastination frustrates the legislative mandate. A Court cannot act to extinguish the right of an accused if the law so confers on him. Law has to prevail. The prosecution cannot avail such subterfuges to frustrate or destroy the legal right of the accused. Such an act is not permissible. If we permit ourselves to say so, the prosecution exhibited sheer negligence in not filing the application within the time which it was entitled to do so in law but made all adroit attempts to redeem the cause by its conduct.\n\nIn view of our aforesaid premised reasons we do not find any error in the order of the High Court in overturning the order refusing bail and extending the benefit to the respondent and, accordingly, the appeal fails and is hereby dismissed.",
+            "speaker": "COUNSEL",
+            "stanceUndetermined": true,
+            "tid": 8215697,
+            "caseTitle": "U.O.I. Thr. Cbi vs Nirala Yadav@Raja Ram Yadav@Deepak ... on 30 June, 2014",
+            "year": 2014,
+            "courtTier": "SC",
+            "locator": null,
+            "paraIds": [
+              "8215697_p_36",
+              "8215697_p_37"
+            ]
+          },
+          {
+            "id": "1376808_c014",
+            "kind": "argument",
+            "text": "As such now it is not open to the appellants to claim bail under proviso\n\n(a) to Section 167(2) of the Code, Admittedly charge-sheet has been submitted against the appellants, and they are in custody on the basis of orders of remand passed under other provisions of the Code and at this stage proviso (a) to Section 167(2) shall not be applicable.\n\nDuring hearing of the appeal, it was pointed out by the counsel appearing on behalf of the appellants that some courts in order to defeat the right of the accused to be released on bail under proviso (a) to Section 167(2) after expiry of the statutory period for completion of the investigation, keep the applications for bail pending for some days so that in the meantime, charge-sheets are submitted. Any such act on the part of any court cannot be approved. If an accused charged with any kind of offence, becomes entitled to be released on bail under proviso (a) lo Section 167(2) that statutory right should not be defeated by keeping the applications pending till she charge-sheets are submitted, so that the right which had accrued is extinguished and defeated. So far the present case is concerned, we are informed by the counsel for the appellants that a petition for grant of bail on merit had been filed which was rejected on 22.3.1993, But admittedly no petition for grant of bail after the expiry of the, statutory period for the submission of the charge-sheet had been filed. There is no statement that any application for grant of bail had been filed on behalf of the appellants under proviso (a) to Section 167(2) after the expiry of the statutory period which application was kept pending till 30th August 1993. Now the appellants have forfeited their right to be released on bail under proviso (a) to section 167(2) as they are in custody on basis of orders for remand passed under other provisions of the Code. In such a situation, we are left with no option, but to dismiss these appeals. However, we directed that the trial of the appellants be expedited.",
+            "speaker": "COUNSEL",
+            "stanceUndetermined": true,
+            "tid": 1376808,
+            "caseTitle": "Mohamed Iqbal Madar Sheiri And Ors vs The State Of Maharashtra on 8 January, 1996",
+            "year": 1996,
+            "courtTier": "SC",
+            "locator": null,
+            "paraIds": [
+              "1376808_p_22",
+              "1376808_p_23",
+              "1376808_p_24"
+            ]
+          },
+          {
+            "id": "194334432_c081",
+            "kind": "argument",
+            "text": "But it is an admitted position that no application for bail on the said ground was made on behalf of the appellants. Unless applications had been made on behalf of the appellants, there was no question of their being released on ground of default in completion of the investigation within the statutory period. It is now settled that this right cannot be exercised after the charge-sheet has been submitted and cognizance has been taken, because in that event the remand of the accused concerned including one who is alleged to have committed an offence under TADA, is not under Section 167(2) but under other provisions of the Code.” [Emphasis supplied]\n\n25. In the case of Hitendra Vishnu Thakur and Others etc. etc. vs. State of Maharashtra and Others34, it was held in para 30 that:",
+            "speaker": "COUNSEL",
+            "stanceUndetermined": true,
+            "tid": 194334432,
+            "caseTitle": "Rakesh Kumar Paul vs State Of Assam on 16 August, 2017",
+            "year": 2017,
+            "courtTier": "SC",
+            "locator": "p. 53",
+            "paraIds": [
+              "194334432_p_125",
+              "194334432_p_126"
+            ]
+          }
+        ],
+        "empty": false
+      },
+      {
+        "round": "statutes",
+        "items": [],
+        "empty": true
+      }
+    ],
+    "tookMs": 31562
+  },
+  {
+    "id": "sw05",
+    "generatedAt": "2026-11-02T15:10:58.307Z",
+    "group": "should_work",
+    "query": "The Sessions Court granted my client anticipatory bail but limited it to operate only until the chargesheet is filed, after which he would need to separately apply for regular bail. Is there Constitution Bench authority holding that anticipatory bail need not be time-bound and can continue to protect the accused through the trial absent special circumstances?",
+    "classification": {
+      "inScope": true,
+      "topics": [
+        "anticipatory_bail",
+        "section_438",
+        "time_bound",
+        "constitutional_bench"
+      ],
+      "offenceCategory": "ordinary",
+      "offenceInferred": true,
+      "classificationFailed": false
+    },
+    "roundsEmpty": {
+      "supporting": true,
+      "opposing": true,
+      "statutes": true
+    },
+    "answer": "No supporting law, opposing material, or statutes were retrieved for this position. The corpus may simply have nothing on this specific point — that is an honest, expected outcome, not an error.",
+    "generationFailed": false,
+    "generationError": null,
+    "serverInvalidCitations": [],
+    "suppliedCount": 0,
+    "items": [],
+    "rounds": [
+      {
+        "round": "supporting",
+        "items": [],
+        "empty": true
+      },
+      {
+        "round": "opposing",
+        "items": [],
+        "empty": true
+      },
+      {
+        "round": "statutes",
+        "items": [],
+        "empty": true
+      }
+    ],
+    "tookMs": 3899
+  }
+]
