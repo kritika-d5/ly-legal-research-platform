@@ -97,9 +97,9 @@ class ConversationManager:
         self.questions = QuestionEngine(llm, self.settings.llm_question_wording, self.settings.max_repeat_per_field)
 
     # ------------------------------------------------------------------ create
-    def create_case(self, language: str = "en") -> tuple[CaseState, str]:
+    def create_case(self, language: str = "en", owner_id: Optional[str] = None) -> tuple[CaseState, str]:
         state = CaseState(language=language)
-        self.repo.create_case(state)
+        self.repo.create_case(state, owner_id)
         self.repo.add_message(state.case_id, "assistant", INTRO_MESSAGE, 0)
         log.info("case created case_id=%s", state.case_id)
         return state, INTRO_MESSAGE

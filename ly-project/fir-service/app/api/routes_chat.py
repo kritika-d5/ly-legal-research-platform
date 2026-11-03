@@ -10,7 +10,7 @@ import logging
 
 from fastapi import APIRouter, Depends, HTTPException
 
-from app.api.deps import get_manager
+from app.api.deps import Caller, get_caller, get_manager, require_access
 from app.conversation.manager import ConversationManager
 from app.models.messages import MessageRequest
 from app.models.responses import MessageResponse
@@ -22,7 +22,9 @@ router = APIRouter(prefix="/cases", tags=["chat"])
 
 
 @router.post("/{case_id}/messages", response_model=MessageResponse, summary="Send a message in the conversation")
-async def post_message(case_id: str, body: MessageRequest, manager: ConversationManager = Depends(get_manager)):
+async def post_message(case_id: str, body: MessageRequest, manager: ConversationManager = Depends(get_manager),
+                       caller: Caller = Depends(get_caller)):
+    require_access(manager, case_id, caller)
     request_id = new_request_id()
     log.info("request_id=%s case_id=%s message_chars=%d", request_id, case_id, len(body.message))
     try:

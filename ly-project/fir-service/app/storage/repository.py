@@ -9,12 +9,16 @@ and needs no installation - Python ships with the `sqlite3` module.
 
 SCHEMA (three tables)
 ---------------------
-cases        one row per case: id, timestamps, status
+cases        one row per case: id, timestamps, status, owner_id
 messages     every user/assistant message, in order (the transcript)
 case_states  the full CaseState as a JSON document, one row per case
 
 Storing the CaseState as JSON keeps the schema flexible while Part 1 evolves.
 Queries that need structure use the `cases` table.
+
+`owner_id` is the account id from the LY app (a MongoDB ObjectId string). It
+lives on `cases`, not inside the CaseState, because it is about who may see the
+case, not about the incident - Part 2 should never receive it.
 
 SWAPPING TO POSTGRESQL LATER
 ----------------------------
@@ -41,9 +45,19 @@ class CaseNotFoundError(Exception):
 
 class Repository(abc.ABC):
     @abc.abstractmethod
-    def create_case(self, state: CaseState) -> None: ...
+    def create_case(self, state: CaseState, owner_id: Optional[str] = None) -> None: ...
 
     @abc.abstractmethod
+    def get_owner(self, case_id: str) -> Optional[str]: ...
+
+    @abc.abstractmethod
+    def get_owner(self, case_id: str) -> Optional[str]:
+        with self._lock:
+            row = self._conn.execute("SELECT owner_id FROM cases WHERE case_id=?", (case_id,)).fetchone()
+        if row is None:
+            raise CaseNotFoundError(case_id)
+        return row["owner_id"]
+
     def get_state(self, case_id: str) -> CaseState: ...
 
     @abc.abstractmethod
@@ -56,7 +70,7 @@ class Repository(abc.ABC):
     def get_messages(self, case_id: str) -> List[dict]: ...
 
     @abc.abstractmethod
-    def list_cases(self, limit: int = 50) -> List[dict]: ...
+    def list_cases(self, limit: int = 50, owner_id: Optional[str] = None) -> List[dict]: ...
 
 
 _SCHEMA = """
@@ -64,7 +78,8 @@ CREATE TABLE IF NOT EXISTS cases (
     case_id     TEXT PRIMARY KEY,
     created_at  TEXT NOT NULL,
     updated_at  TEXT NOT NULL,
-    status      TEXT NOT NULL
+    status      TEXT NOT NULL,
+    owner_id    TEXT                    -- NULL for cases created in standalone mode
 );
 CREATE TABLE IF NOT EXISTS messages (
     id          INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -94,21 +109,38 @@ class SQLiteRepository(Repository):
         self._lock = threading.RLock()
         with self._lock:
             self._conn.executescript(_SCHEMA)
+            self._migrate()
             self._conn.commit()
+
+    def _migrate(self) -> None:
+        """Bring a database file created before a column existed up to date.
+        CREATE TABLE IF NOT EXISTS never alters an existing table, so an old
+        fir_chatbot.db would otherwise be missing owner_id."""
+        columns = {row["name"] for row in self._conn.execute("PRAGMA table_info(cases)")}
+        if "owner_id" not in columns:
+            self._conn.execute("ALTER TABLE cases ADD COLUMN owner_id TEXT")
+        self._conn.execute("CREATE INDEX IF NOT EXISTS idx_cases_owner ON cases(owner_id, updated_at)")
 
     @staticmethod
     def _now() -> str:
         return datetime.now(timezone.utc).isoformat()
 
-    def create_case(self, state: CaseState) -> None:
+    def create_case(self, state: CaseState, owner_id: Optional[str] = None) -> None:
         with self._lock:
             self._conn.execute(
-                "INSERT INTO cases(case_id, created_at, updated_at, status) VALUES (?,?,?,?)",
-                (state.case_id, state.created_at, state.updated_at, state.status.value))
+                "INSERT INTO cases(case_id, created_at, updated_at, status, owner_id) VALUES (?,?,?,?,?)",
+                (state.case_id, state.created_at, state.updated_at, state.status.value, owner_id))
             self._conn.execute(
                 "INSERT INTO case_states(case_id, state_json, updated_at) VALUES (?,?,?)",
                 (state.case_id, state.to_json(indent=0), state.updated_at))
             self._conn.commit()
+
+    def get_owner(self, case_id: str) -> Optional[str]:
+        with self._lock:
+            row = self._conn.execute("SELECT owner_id FROM cases WHERE case_id=?", (case_id,)).fetchone()
+        if row is None:
+            raise CaseNotFoundError(case_id)
+        return row["owner_id"]
 
     def get_state(self, case_id: str) -> CaseState:
         with self._lock:
@@ -142,11 +174,15 @@ class SQLiteRepository(Repository):
                 "SELECT role, content, turn, created_at FROM messages WHERE case_id=? ORDER BY id", (case_id,)).fetchall()
         return [dict(r) for r in rows]
 
-    def list_cases(self, limit: int = 50) -> List[dict]:
+    def list_cases(self, limit: int = 50, owner_id: Optional[str] = None) -> List[dict]:
+        """Newest first. With owner_id, only that user's cases."""
+        columns = "SELECT case_id, created_at, updated_at, status FROM cases"
         with self._lock:
-            rows = self._conn.execute(
-                "SELECT case_id, created_at, updated_at, status FROM cases ORDER BY updated_at DESC LIMIT ?",
-                (limit,)).fetchall()
+            if owner_id is None:
+                rows = self._conn.execute(f"{columns} ORDER BY updated_at DESC LIMIT ?", (limit,)).fetchall()
+            else:
+                rows = self._conn.execute(f"{columns} WHERE owner_id=? ORDER BY updated_at DESC LIMIT ?",
+                                          (owner_id, limit)).fetchall()
         return [dict(r) for r in rows]
 
 

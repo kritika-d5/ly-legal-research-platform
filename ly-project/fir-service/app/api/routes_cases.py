@@ -14,7 +14,7 @@ import logging
 
 from fastapi import APIRouter, Depends, HTTPException
 
-from app.api.deps import get_manager
+from app.api.deps import Caller, get_caller, get_manager, require_access
 from app.conversation.manager import DISCLAIMER, ConversationManager
 from app.llm.base import LLMError
 from app.models.messages import ChatMessage, ConfirmRequest, CreateCaseRequest
@@ -29,7 +29,9 @@ log = logging.getLogger(__name__)
 router = APIRouter(prefix="/cases", tags=["cases"])
 
 
-def _load(manager: ConversationManager, case_id: str):
+def _load(manager: ConversationManager, case_id: str, caller: Caller):
+    """The case's state, or 404 if it does not exist or belongs to someone else."""
+    require_access(manager, case_id, caller)
     try:
         return manager.repo.get_state(case_id)
     except CaseNotFoundError:
@@ -37,21 +39,25 @@ def _load(manager: ConversationManager, case_id: str):
 
 
 @router.post("", response_model=CaseCreatedResponse, status_code=201, summary="Start a new case")
-def create_case(body: CreateCaseRequest | None = None, manager: ConversationManager = Depends(get_manager)):
+def create_case(body: CreateCaseRequest | None = None, manager: ConversationManager = Depends(get_manager),
+        caller: Caller = Depends(get_caller)):
     language = body.language if body else "en"
-    state, intro = manager.create_case(language)
+    state, intro = manager.create_case(language, owner_id=caller.user_id)
     return CaseCreatedResponse(case_id=state.case_id, assistant_message=intro,
                                status=state.status.value, disclaimer=DISCLAIMER)
 
 
 @router.get("", response_model=list[CaseListItem], summary="List recent cases")
-def list_cases(limit: int = 50, manager: ConversationManager = Depends(get_manager)):
-    return [CaseListItem(**row) for row in manager.repo.list_cases(limit)]
+def list_cases(limit: int = 50, manager: ConversationManager = Depends(get_manager),
+        caller: Caller = Depends(get_caller)):
+    # In proxied mode this is "my cases"; in standalone mode, every case.
+    return [CaseListItem(**row) for row in manager.repo.list_cases(limit, owner_id=caller.user_id)]
 
 
 @router.get("/{case_id}", response_model=CaseDetailResponse, summary="Case overview + transcript")
-def get_case(case_id: str, manager: ConversationManager = Depends(get_manager)):
-    state = _load(manager, case_id)
+def get_case(case_id: str, manager: ConversationManager = Depends(get_manager),
+        caller: Caller = Depends(get_caller)):
+    state = _load(manager, case_id, caller)
     report = check_completeness(state, manager.settings.max_repeat_per_field)
     messages = [ChatMessage(**m) for m in manager.repo.get_messages(case_id)]
     return CaseDetailResponse(case_id=state.case_id, status=state.status.value, created_at=state.created_at,
@@ -60,25 +66,29 @@ def get_case(case_id: str, manager: ConversationManager = Depends(get_manager)):
 
 
 @router.get("/{case_id}/state", response_model=CaseStateResponse, summary="The full CaseState JSON (Part 2 input)")
-def get_state(case_id: str, manager: ConversationManager = Depends(get_manager)):
-    return CaseStateResponse(case_state=_load(manager, case_id))
+def get_state(case_id: str, manager: ConversationManager = Depends(get_manager),
+        caller: Caller = Depends(get_caller)):
+    return CaseStateResponse(case_state=_load(manager, case_id, caller))
 
 
 @router.get("/{case_id}/messages", response_model=list[ChatMessage], summary="Transcript only")
-def get_messages(case_id: str, manager: ConversationManager = Depends(get_manager)):
-    _load(manager, case_id)
+def get_messages(case_id: str, manager: ConversationManager = Depends(get_manager),
+        caller: Caller = Depends(get_caller)):
+    _load(manager, case_id, caller)
     return [ChatMessage(**m) for m in manager.repo.get_messages(case_id)]
 
 
 @router.get("/{case_id}/completeness", response_model=CompletenessReport, summary="What is still missing")
-def get_completeness(case_id: str, manager: ConversationManager = Depends(get_manager)):
-    state = _load(manager, case_id)
+def get_completeness(case_id: str, manager: ConversationManager = Depends(get_manager),
+        caller: Caller = Depends(get_caller)):
+    state = _load(manager, case_id, caller)
     return check_completeness(state, manager.settings.max_repeat_per_field)
 
 
 @router.get("/{case_id}/summary", response_model=SummaryResponse, summary="Human-readable review summary")
-async def get_summary(case_id: str, manager: ConversationManager = Depends(get_manager)):
-    _load(manager, case_id)
+async def get_summary(case_id: str, manager: ConversationManager = Depends(get_manager),
+        caller: Caller = Depends(get_caller)):
+    _load(manager, case_id, caller)
     try:
         state, summary = await manager.get_summary(case_id)
     except LLMError as exc:  # summary polish already falls back, but be defensive
@@ -89,8 +99,9 @@ async def get_summary(case_id: str, manager: ConversationManager = Depends(get_m
 
 
 @router.post("/{case_id}/confirm", response_model=ConfirmResponse, summary="Confirm (or reopen) the case")
-async def confirm_case(case_id: str, body: ConfirmRequest, manager: ConversationManager = Depends(get_manager)):
-    _load(manager, case_id)
+async def confirm_case(case_id: str, body: ConfirmRequest, manager: ConversationManager = Depends(get_manager),
+        caller: Caller = Depends(get_caller)):
+    _load(manager, case_id, caller)
     try:
         state, message = await manager.confirm(case_id, body.confirmed, body.note)
     except LLMError as exc:

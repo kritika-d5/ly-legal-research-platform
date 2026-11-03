@@ -30,7 +30,21 @@ export type IconName =
   | 'chevronRight'
   | 'external'
   | 'alert'
-  | 'scales';
+  | 'scales'
+  | 'user'
+  | 'logout'
+  | 'shield'
+  | 'check'
+  | 'close'
+  | 'lock'
+  | 'bookmark'
+  | 'bookmarkFilled'
+  | 'folder'
+  | 'plus'
+  | 'trash'
+  | 'pencil'
+  | 'scale'
+  | 'phone';
 
 const PATHS: Record<IconName, React.ReactNode> = {
   search: (
@@ -129,6 +143,60 @@ const PATHS: Record<IconName, React.ReactNode> = {
       <path d="M4 7h6M14 7h6" />
       <path d="M4 7 1.5 12.5a2.5 2.5 0 0 0 5 0z" />
       <path d="M20 7l-2.5 5.5a2.5 2.5 0 0 0 5 0z" />
+    </>
+  ),
+  user: (
+    <>
+      <circle cx="12" cy="8" r="4" />
+      <path d="M4.5 21a7.5 7.5 0 0 1 15 0" />
+    </>
+  ),
+  logout: (
+    <>
+      <path d="M9.5 20H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3.5" />
+      <path d="M15 16.5 19.5 12 15 7.5M19.5 12H9" />
+    </>
+  ),
+  // Verification: the badge a checked lawyer or judge account carries.
+  shield: (
+    <>
+      <path d="M12 2.5 19.5 5.5v6c0 4.6-3.2 8.3-7.5 10-4.3-1.7-7.5-5.4-7.5-10v-6z" />
+      <path d="m8.8 12 2.3 2.3 4.2-4.6" />
+    </>
+  ),
+  check: <path d="m5 12.5 4.5 4.5L19 7.5" />,
+  close: <path d="M6 6l12 12M18 6 6 18" />,
+  lock: (
+    <>
+      <rect x="4.5" y="10.5" width="15" height="10.5" rx="2" />
+      <path d="M8 10.5V7.5a4 4 0 0 1 8 0v3" />
+    </>
+  ),
+  bookmark: <path d="M6.5 3.5h11v17L12 16.5l-5.5 4z" />,
+  // The one filled glyph: "saved" has to read at a glance in a list of results.
+  bookmarkFilled: <path d="M6.5 3.5h11v17L12 16.5l-5.5 4z" fill="currentColor" />,
+  folder: <path d="M3.5 6.5a2 2 0 0 1 2-2h4l2 2.5h7a2 2 0 0 1 2 2v8.5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z" />,
+  plus: <path d="M12 5v14M5 12h14" />,
+  trash: (
+    <>
+      <path d="M4.5 7h15M9.5 7V4.5h5V7" />
+      <path d="M6.5 7l1 13h9l1-13M10 11v5.5M14 11v5.5" />
+    </>
+  ),
+  // Scales of justice: the "your rights" section.
+  scale: (
+    <>
+      <path d="M12 3.5v17M7 20.5h10M5 6.5h14" />
+      <path d="M5 6.5 2.5 12.5a2.5 2.5 0 0 0 5 0zM19 6.5l-2.5 6a2.5 2.5 0 0 0 5 0z" />
+    </>
+  ),
+  phone: (
+    <path d="M5 3.5h3.5l1.5 4.5-2.3 1.6a12 12 0 0 0 6.7 6.7l1.6-2.3 4.5 1.5V19a1.5 1.5 0 0 1-1.5 1.5A16.5 16.5 0 0 1 3.5 5 1.5 1.5 0 0 1 5 3.5z" />
+  ),
+  pencil: (
+    <>
+      <path d="M15.5 4.5 19.5 8.5 8.5 19.5H4.5v-4z" />
+      <path d="m13 7 4 4" />
     </>
   ),
 };

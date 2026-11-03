@@ -26,6 +26,7 @@ The two systems are integrated into one user-facing application while remaining 
 * [Using the Application](#using-the-application)
 * [FIR Assistant Flow](#fir-assistant-flow)
 * [Legal Research Flow](#legal-research-flow)
+* [User Accounts](#user-accounts)
 * [API Routing](#api-routing)
 * [Data and Privacy Isolation](#data-and-privacy-isolation)
 * [Troubleshooting](#troubleshooting)
@@ -459,6 +460,37 @@ The FIR proxy must point to:
 FIR_BACKEND_URL=http://localhost:8000
 ```
 
+User accounts also need a `JWT_SECRET`, a long random string that signs login
+cookies. Generate one and paste it after `JWT_SECRET=`:
+
+```bash
+node -e "console.log(require('crypto').randomBytes(48).toString('hex'))"
+```
+
+The server refuses to start without it. Each teammate can use their own; it only
+matters that it stays secret. Changing it logs every user out.
+
+The FIR Assistant also needs a **shared secret** so the FIR backend only
+accepts requests that came through this server's login check. Generate one value
+and put it in **both** files:
+
+```bash
+python3 -c "import secrets; print(secrets.token_hex(32))"
+```
+
+```env
+# ly-project/server/.env
+FIR_SHARED_SECRET=<the value>
+
+# fir_chatbot/.env
+PROXY_SHARED_SECRET=<the same value>
+```
+
+If `FIR_SHARED_SECRET` is missing, the FIR Assistant shows "not configured".
+If `PROXY_SHARED_SECRET` is left empty, the FIR backend runs in *standalone
+mode* (its own UI at http://localhost:8000, no login, every case visible),
+which is only meant for Part 1 development and the tests.
+
 The actual MongoDB URI and API credentials must be supplied locally.
 
 Do not put those credentials into Git.
@@ -741,6 +773,146 @@ Citation Graph
 ```
 
 The existing Legal Research backend continues to handle these operations independently.
+
+---
+
+# User Accounts
+
+Anyone can search and read judgments without an account. Signing up adds a
+profile, and lawyers and judges can have their credentials verified.
+
+## Roles
+
+| Role | Sign-up asks for | Status after sign-up |
+|---|---|---|
+| Citizen | name, email, password | Active |
+| Law student / Researcher | + institution, programme | Active |
+| Lawyer | + Bar Council enrolment no., state of enrolment | **Pending** until an admin approves |
+| Judge | + court, designation | **Pending** until an admin approves |
+| Admin | created from the command line only | Active |
+
+A pending lawyer or judge can use everything a citizen can. If a verified
+lawyer or judge edits their enrolment number or court details, the account goes
+back to pending.
+
+## Creating the first admin
+
+Admins cannot sign up through the website, otherwise anyone could approve
+themselves. From `ly-project/server`:
+
+```bash
+npm run create-admin -- --email you@example.com --name "Your Name"
+```
+
+You are asked for a password at a hidden prompt. If the email already has an
+account, that account is promoted to admin and keeps its password. Admins
+approve or reject lawyers and judges at `/admin`.
+
+## What an account gives you
+
+* **Saved judgments**: a bookmark on every search result and case page. Each
+  saved judgment can carry a private note and sit in any number of folders
+  (for example one per client matter). See them at `/saved`.
+* **My FIRs**: the FIR Assistant requires login, and each user sees only the
+  FIRs they started.
+* **Profile**: details, verification status, password change, and a workspace
+  summary with counts.
+
+## Citizen features
+
+* **Know your bail rights** (`/rights`, public): a plain-language guide covering
+  bailable and non-bailable offences, anticipatory bail, default bail, rights on
+  arrest, limits on undertrial detention, and how courts decide. Each topic cites
+  the BNSS section and the former CrPC section, and links to the landmark
+  judgments in the library. The content lives in
+  `ly-project/web/src/content/bailRights.ts` so it can be reviewed without
+  touching page code.
+* **Free legal help**: NALSA helpline 15100, the online legal-aid application,
+  and the directory of state authorities, named after the state in the user's
+  profile. Shown on the guide, the FIR Assistant, and after an FIR is confirmed.
+* **What may happen next**: after an FIR is confirmed, hand-picked judgments on
+  how courts approach bail for that type of accusation. It reads only the fixed
+  incident categories and the weapon flag, never names, places or free text, and
+  nothing is sent to the server.
+
+## Precedent check (everyone)
+
+Every case page warns when later judgments in the library disagreed with the
+judgment, wholly or in part, and names them. Saved judgments carry the same
+warning on the Saved page.
+
+## Lawyers' desk
+
+For verified lawyers (and admins). Open it from the account menu.
+
+* **Matters** (`/lawyer/matters`): a matter is one of your folders with client,
+  court, case number, stage, next hearing date and the issue it turns on.
+  Upcoming hearings come first, with a countdown; each matter shows how many of
+  its authorities were later disagreed with.
+* **Bail argument builder** (`/lawyer/brief`): for a matter, each authority
+  with the paragraphs most relevant to the issue (the court's own words only,
+  with their para / page numbers), the precedent check and your note. Tick the
+  paragraphs you rely on and copy a formatted list of authorities. Nothing in
+  it is machine-written: the paragraphs are retrieved text and the propositions
+  are your notes.
+
+## Judges' research desk
+
+For verified judges (and admins). Open it from the account menu, or from the
+**Treatment** and **Compare with…** buttons on any case page.
+
+* **Compare two judgments** (`/judge/compare`): two judgments and a legal
+  question. The comparison is written only from labelled extracts of the two
+  judgments (`[A1]`, `[B2]`…), shown below it; each label is clickable. Any
+  quotation not found in those extracts is flagged. The model is instructed never
+  to suggest an outcome, and a question like "should I grant bail?" also gets a
+  fixed notice from the server before the model answers.
+* **Treatment timeline** (`/judge/treatment/:tid`): every later judgment in
+  the library that cites a case, in date order, marked relied on / disagreed /
+  mixed, with a warning when any disagreed.
+* **Research memo** (`/judge/memo`): turns one of your folders (saved judgments
+  plus your notes) into a printable memorandum with treatment counts. Nothing
+  in it is machine-written. Use **Print or save as PDF**.
+
+## Where account data lives
+
+Accounts, saved judgments and folders are stored in a separate MongoDB
+database, `legalplatform_app` (collections `users`, `saved_cases`, `folders`),
+on the same Atlas cluster as `bail_rag`. The research data in `bail_rag` is
+never written to. Passwords are stored only as bcrypt hashes. The session is an
+httpOnly cookie that page JavaScript cannot read.
+
+FIRs stay in the FIR backend's SQLite file. Its `cases` table has an `owner_id`
+column holding the account id. The Express proxy sends that id
+(`X-User-Id`) together with the shared secret (`X-Proxy-Secret`); the browser
+cannot set either header. Someone else's FIR returns 404, so case ids cannot be
+probed. Old database files gain the column automatically; FIRs created before
+this have no owner and are not shown to anyone in the app.
+
+## Endpoints
+
+| Method | Path | Who |
+|---|---|---|
+| POST | `/api/auth/signup` | anyone (rate-limited) |
+| POST | `/api/auth/login` | anyone (rate-limited) |
+| POST | `/api/auth/logout` | anyone |
+| GET | `/api/auth/me` | anyone (`{ user: null }` when logged out) |
+| GET / PATCH | `/api/me/profile` | logged in |
+| POST | `/api/me/password` | logged in; logs out other devices |
+| GET | `/api/admin/users?status=pending` | admin |
+| POST | `/api/admin/users/:id/verify` | admin |
+| GET | `/api/me/saved?folder=all\|unfiled\|<id>&q=` | logged in |
+| GET | `/api/me/saved/ids` | logged in |
+| GET / PUT / DELETE | `/api/me/saved/:tid` | logged in (PUT saves, or updates note / folders) |
+| GET / POST | `/api/me/folders` | logged in |
+| PATCH / DELETE | `/api/me/folders/:id` | logged in (deleting keeps the judgments saved) |
+| any | `/api/fir/*` | logged in; forwarded with the user's id |
+| GET | `/api/lawyer/matters` | verified lawyer or admin |
+| PUT | `/api/lawyer/matters/:folderId` | verified lawyer or admin (own folders only) |
+| GET | `/api/lawyer/brief/:folderId?issue=` | verified lawyer or admin (own folders only) |
+| GET | `/api/judge/treatment/:tid` | verified judge or admin |
+| POST | `/api/judge/compare` | verified judge or admin (SSE stream) |
+| GET | `/api/judge/memo/:folderId` | verified judge or admin (own folders only) |
 
 ---
 

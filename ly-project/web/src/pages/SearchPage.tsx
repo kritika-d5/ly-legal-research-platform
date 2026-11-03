@@ -13,6 +13,7 @@ import { ContentBadge, TierBadge } from '../components/Badges';
 import CaseFileMark from '../components/CaseFileMark';
 import HighlightedText from '../components/HighlightedText';
 import Icon from '../components/Icon';
+import SaveButton from '../components/SaveButton';
 import { useDocumentTitle } from '../useDocumentTitle';
 
 const EXAMPLES = [
@@ -182,7 +183,10 @@ export default function SearchPage() {
                   >
                     {r.title}
                   </Link>
-                  <TierBadge tier={r.courtTier} />
+                  <div className="flex shrink-0 items-center gap-1.5">
+                    <TierBadge tier={r.courtTier} />
+                    <SaveButton tid={r.tid} compact />
+                  </div>
                 </div>
 
                 <div className="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-stone-500">

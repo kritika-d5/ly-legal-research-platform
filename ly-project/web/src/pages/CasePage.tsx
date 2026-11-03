@@ -2,12 +2,16 @@ import { useQuery } from '@tanstack/react-query';
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { getCachedBailAnalysis, getCase, OUTCOME_LABEL, type Citation } from '../api';
+import { canUseJudgeTools } from '../api/judge';
+import { useAuth } from '../auth';
 import { KanoonSourceNote } from '../components/Attribution';
 import BailAnalysisPanel from '../components/BailAnalysisPanel';
 import { PolarityBadge, TierBadge } from '../components/Badges';
 import ChatPanel from '../components/ChatPanel';
 import EgoGraph from '../components/EgoGraph';
 import PdfViewer from '../components/PdfViewer';
+import PrecedentCheck from '../components/PrecedentCheck';
+import SaveButton from '../components/SaveButton';
 import SummaryPanel from '../components/SummaryPanel';
 import Icon, { type IconName } from '../components/Icon';
 import TextViewer from '../components/TextViewer';
@@ -31,6 +35,7 @@ export default function CasePage() {
     queryKey: ['bail', tid],
     queryFn: () => getCachedBailAnalysis(tid),
   });
+  const { user } = useAuth();
 
   useDocumentTitle(data ? shortCaseTitle(data.title) : null);
 
@@ -96,7 +101,28 @@ export default function CasePage() {
             {data.author && <span>{data.author}</span>}
           </div>
         </div>
+        <div className="flex flex-wrap items-center gap-2">
+          {canUseJudgeTools(user) && (
+            <>
+              <Link
+                to={`/judge/treatment/${tid}`}
+                className="inline-flex items-center gap-1.5 rounded-md border border-stone-300 bg-white px-3 py-1.5 text-xs font-medium text-stone-700 transition-colors hover:border-stone-400"
+              >
+                <Icon name="network" size={14} /> Treatment
+              </Link>
+              <Link
+                to={`/judge/compare?a=${tid}`}
+                className="inline-flex items-center gap-1.5 rounded-md border border-stone-300 bg-white px-3 py-1.5 text-xs font-medium text-stone-700 transition-colors hover:border-stone-400"
+              >
+                <Icon name="scale" size={14} /> Compare with…
+              </Link>
+            </>
+          )}
+          <SaveButton tid={tid} />
+        </div>
       </div>
+
+      <PrecedentCheck citedBy={data.citations.citedBy} />
 
       {data.courtTier !== 'SC' && (
         <p

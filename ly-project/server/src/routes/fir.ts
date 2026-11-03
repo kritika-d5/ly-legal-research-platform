@@ -13,10 +13,19 @@
  *
  * Failure isolation: if the FIR backend is down or returns an error, the
  * proxy returns a clear JSON error. The LY server never crashes.
+ *
+ * Ownership: the FIR Assistant needs a login. After `requireAuth`, the proxy
+ * tells the FIR backend who the user is (X-User-Id) and proves the request came
+ * from here (X-Proxy-Secret, shared via .env). The backend then shows each user
+ * only their own cases. The browser cannot set either header: the proxy builds
+ * the outgoing headers itself and forwards nothing else from the client.
  */
 import { Router } from 'express';
+import { env } from '../config.js';
+import { requireAuth } from '../lib/auth.js';
 
 export const firProxyRouter = Router();
+firProxyRouter.use(requireAuth);
 
 const FIR_BASE_URL = process.env.FIR_BACKEND_URL || 'http://localhost:8000';
 const FIR_TIMEOUT_MS = 120_000; // 2 minutes — LLM calls can be slow
@@ -29,6 +38,15 @@ const FIR_TIMEOUT_MS = 120_000; // 2 minutes — LLM calls can be slow
  * (Express 5 removed the bare '*' wildcard pattern.)
  */
 firProxyRouter.use(async (req, res) => {
+  if (!env.firSharedSecret) {
+    // Without it the backend would either refuse us or (in standalone mode)
+    // show every user every FIR. Fail loudly instead.
+    return res.status(503).json({
+      error: 'FIR Assistant is not configured',
+      detail: 'Set FIR_SHARED_SECRET in ly-project/server/.env and the same value as PROXY_SHARED_SECRET in fir_chatbot/.env, then restart both servers.',
+    });
+  }
+
   // Rebuild the path after /api/fir
   const firPath = req.path.replace(/^\//, ''); // remove leading slash
   const targetUrl = `${FIR_BASE_URL}/${firPath}`;
@@ -42,6 +60,8 @@ firProxyRouter.use(async (req, res) => {
     'Content-Type': req.headers['content-type'] || 'application/json',
     'Accept': 'application/json',
     'X-Proxied-By': 'LY',
+    'X-Proxy-Secret': env.firSharedSecret,
+    'X-User-Id': String(req.user!._id),
   };
 
   // Forward the request body for POST/PUT/PATCH

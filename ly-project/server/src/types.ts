@@ -271,3 +271,95 @@ export interface CounterResponseBody {
   invalidCitations: number[];
   tookMs: number;
 }
+
+/* ------------------------------------------------------------------------ */
+/* Accounts. Unlike everything above, these live in `legalplatform_app` —    */
+/* this application's own database — and this application does write them.  */
+/* ------------------------------------------------------------------------ */
+
+/** `admin` is never self-selected: it is granted by scripts/createAdmin.ts. */
+export type Role = 'citizen' | 'student' | 'lawyer' | 'judge' | 'admin';
+
+/** Lawyers and judges claim a professional identity, so an admin checks it
+ *  before those accounts get anything a citizen account does not. */
+export type VerificationStatus = 'not_required' | 'pending' | 'verified' | 'rejected';
+
+/** Role-specific fields. Which ones are present depends on `role`. */
+export interface RoleDetails {
+  // lawyer
+  barCouncilId?: string;
+  barCouncilState?: string;
+  // judge
+  courtName?: string;
+  designation?: string;
+  // student / researcher
+  institution?: string;
+  programme?: string;
+}
+
+export interface UserDoc {
+  _id?: import('mongodb').ObjectId;
+  email: string;            // stored lower-cased; unique index
+  name: string;
+  passwordHash: string;     // bcrypt — the password itself is never stored
+  role: Role;
+  details: RoleDetails;
+  city?: string;
+  state?: string;
+  verification: {
+    status: VerificationStatus;
+    reviewedBy?: import('mongodb').ObjectId;
+    reviewedAt?: Date;
+    note?: string;
+  };
+  /** Bumped on password change so every existing session cookie stops working. */
+  tokenVersion: number;
+  createdAt: Date;
+  updatedAt: Date;
+  lastLoginAt?: Date;
+}
+
+/** A user's named group of saved judgments — for a lawyer, typically one
+ *  client matter ("Sharma bail application"). */
+/** A lawyer's client matter. Set only by verified lawyers, on their own folders. */
+export interface MatterDetails {
+  client?: string;
+  court?: string;
+  caseNumber?: string;
+  /** e.g. "Anticipatory bail application", "Regular bail", "Cancellation" */
+  stage?: string;
+  /** ISO date (YYYY-MM-DD) of the next hearing. */
+  nextHearing?: string;
+  /** The legal question the matter turns on — drives the brief's passages. */
+  issue?: string;
+}
+
+export interface FolderDoc {
+  _id?: import('mongodb').ObjectId;
+  userId: import('mongodb').ObjectId;
+  name: string;
+  description?: string;
+  matter?: MatterDetails;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+/**
+ * One judgment a user has saved. Title, year and court are copied from
+ * `bail_rag.nodes` at save time so the Saved page is one query, not a join
+ * across databases. A judgment can sit in several folders (the same precedent
+ * is often relevant to more than one matter), or in none.
+ */
+export interface SavedCaseDoc {
+  _id?: import('mongodb').ObjectId;
+  userId: import('mongodb').ObjectId;
+  tid: number;
+  title: string;
+  year: number | null;
+  court: string;
+  courtTier: CourtTier;
+  note: string;
+  folderIds: import('mongodb').ObjectId[];
+  createdAt: Date;
+  updatedAt: Date;
+}

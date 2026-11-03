@@ -127,3 +127,10 @@ body {
   max-width: 100%;
   height: auto !important;
 }
+
+/* Printing (the research memo): white page, no app chrome. */
+@media print {
+  body {
+    background: white;
+  }
+}

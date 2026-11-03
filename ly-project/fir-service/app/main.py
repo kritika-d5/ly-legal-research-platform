@@ -49,8 +49,9 @@ app = FastAPI(
     version="1.0.0",
     description=(
         "Part 1 of an AI-assisted FIR chatbot: conversational intake that produces a structured, "
-        "legally neutral CaseState for downstream legal analysis (Part 2). Academic prototype - "
-        "no authentication; do not expose publicly with real data."
+        "legally neutral CaseState for downstream legal analysis (Part 2). Academic prototype. "
+        "With PROXY_SHARED_SECRET set, only the LY app may call it and each user sees only their own "
+        "cases; without it (standalone mode) there is no login - do not expose publicly with real data."
     ),
     lifespan=lifespan,
 )

@@ -79,6 +79,15 @@ class Settings(BaseSettings):
     cors_origins: str = "http://localhost:8000,http://127.0.0.1:8000"
     app_name: str = "FIR Intake Assistant (Academic Prototype)"
 
+    # --- Access control ---
+    # Shared with the LY Express server, which sends it on every proxied request
+    # together with the logged-in user's id (X-Proxy-Secret / X-User-Id).
+    # Set  -> "proxied mode": requests without the right secret are refused and
+    #         every case is visible only to the user who created it.
+    # Empty -> "standalone mode" (the bundled UI at :8000 and the tests): no
+    #         login, every case visible, exactly as in Part 1.
+    proxy_shared_secret: str = ""
+
     # Conversation safety limits
     max_follow_up_questions: int = 25
     max_repeat_per_field: int = 2

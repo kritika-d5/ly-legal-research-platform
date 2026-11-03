@@ -2,7 +2,9 @@ import { useQuery } from '@tanstack/react-query';
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { accusedLabel, getFirCaseState } from '../../api/fir';
+import FirRelatedJudgments from '../../components/FirRelatedJudgments';
 import Icon from '../../components/Icon';
+import LegalAidCard from '../../components/LegalAidCard';
 import { useDocumentTitle } from '../../useDocumentTitle';
 
 /**
@@ -234,6 +236,11 @@ export default function FirOutputPage() {
           </OutputSection>
         </div>
       )}
+
+      <FirRelatedJudgments state={state} />
+      <div className="mt-6">
+        <LegalAidCard compact />
+      </div>
 
       {/* Disclaimer */}
       <div className="mt-8 rounded-lg border border-gold-200 bg-gold-50 p-4">

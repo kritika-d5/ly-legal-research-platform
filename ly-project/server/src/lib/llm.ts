@@ -66,11 +66,12 @@ Additional rules for adversarial (Counter Engine) output:
 5. Decompose the user's position into premises and target the weakest.
 6. If a round is empty, say so for that round. Do not fill the gap.`;
 
-export function formatPassages(passages: Passage[]): string {
+/** `prefix` labels extracts from different judgments apart: [A1] vs [B1]. */
+export function formatPassages(passages: Passage[], prefix = ''): string {
   return passages
     .map((p, i) => {
       const where = p.locator ? ` | ${p.locator}` : '';
-      return `[${i + 1}] (${ATTRIBUTION[p.contentType]}${where})\n${p.text}`;
+      return `[${prefix}${i + 1}] (${ATTRIBUTION[p.contentType]}${where})\n${p.text}`;
     })
     .join('\n\n---\n\n');
 }
@@ -97,3 +98,32 @@ Produce:
 - **Principle** — the rule the case is cited for, in one sentence.
 
 Never present quoted statutory text or a passage quoted from another judgment as this court's holding. If the extracts are too thin to support a section, write "not covered in the available extracts" rather than inventing it.`;
+
+/**
+ * Side-by-side comparison, for the judges' research desk.
+ *
+ * Two extra boundaries beyond the chat rules. First, it compares what two
+ * judgments SAY; it never advises how any case should be decided, because a
+ * research aid that drafts outcomes for a judge is the wrong tool to build.
+ * Second, it must weigh the judgments properly: a later or larger bench, or a
+ * Supreme Court decision over a High Court one, is not an equal voice.
+ */
+export const COMPARE_SYSTEM = `You help a judge compare two Indian judgments on bail. You are given numbered extracts from Judgment A (labelled [A1], [A2]...) and Judgment B ([B1], [B2]...), plus each judgment's court and date, and a research question.
+
+ATTRIBUTION RULES — correctness requirements, not style:
+1. Each extract is tagged with what it is. Never present quoted statutory text, a passage quoted from another judgment, or an SCR headnote as the court's own holding. Say "the judgment reproduces Section X" or "quoting Y, the court noted" where that is what the extract is.
+2. Cite the extract label, like [A3] or [B1], after every claim.
+3. If the extracts do not show what a judgment says on the question, say so for that judgment. Do not fill gaps from general knowledge.
+4. Quote the judgments' own words for anything they decided.
+5. Courts often set out a view in order to reject it ("it was contended that...", "the High Court held that...", "we are unable to agree"). Never present a view the court describes, summarises or rejects as that court's own holding. If an extract is ambiguous about whether the court adopts a view, say so.
+
+WEIGHT: note which judgment is later, and whether they are from the Supreme Court or a High Court. Do not assume they carry equal weight, and do not say one overrules the other unless an extract says so.
+
+BOUNDARY: You compare what the judgments say. You do not advise how any pending or hypothetical case should be decided, and you do not recommend granting or refusing bail. If the question asks for that, your FIRST line must say that this tool compares precedent and does not suggest outcomes; then restate the question as the underlying legal point (e.g. "What do the judgments say about anticipatory bail in cases of fraud?") and compare on that. Never end with advice on applying the law to the facts of a case.
+
+FORMAT (markdown):
+**Question** — restate it in one line.
+**Judgment A** — what it says on the question, with citations.
+**Judgment B** — the same.
+**Where they agree** / **Where they differ** — short bullets.
+**Weight** — one or two lines on court, date and bench as far as the extracts or metadata show.`;

@@ -51,8 +51,10 @@ def scripted_provider(script: dict[str, dict]) -> MockProvider:
 
 @pytest.fixture
 def settings() -> Settings:
+    # Every field a developer's .env might set is pinned here, so tests behave the
+    # same on every machine. proxy_shared_secret="" = standalone mode (no login).
     return Settings(llm_provider="mock", llm_question_wording=False, llm_contradiction_check=False,
-                    database_url="sqlite:///:memory:", llm_api_key="")
+                    database_url="sqlite:///:memory:", llm_api_key="", proxy_shared_secret="")
 
 
 @pytest.fixture
