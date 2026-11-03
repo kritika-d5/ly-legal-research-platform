@@ -49,21 +49,31 @@ if not exist "%FIR%\.env" (
 echo   Found server\.env and fir-service\.env.
 
 echo.
-echo === Installing anything missing (first run only) ===
+echo === Checking secrets ===
+rem Generates JWT_SECRET and the FIR shared secret when they are missing
+rem (a new checkout, or a .env from before user accounts). Never replaces one.
+node "%ROOT%\scripts\setup-env.mjs" "%ROOT%" || (echo   Could not set up the secrets - is Node.js installed? & pause & exit /b 1)
+
+echo.
+echo === Installing dependencies ===
+rem Runs every time, not only on the first run: after a git pull, new packages
+rem must be installed even though node_modules already exists. When nothing
+rem has changed this takes a few seconds.
 if not exist "%FIR%\.venv\Scripts\python.exe" (
   echo   Creating Python 3.11 environment for the FIR service...
   py -3.11 -m venv "%FIR%\.venv" || (echo   Could not create the venv - is Python 3.11 installed? & pause & exit /b 1)
   "%FIR%\.venv\Scripts\python.exe" -m pip install --upgrade pip
-  "%FIR%\.venv\Scripts\python.exe" -m pip install -r "%FIR%\requirements.txt" || (echo   pip install failed. & pause & exit /b 1)
 )
-if not exist "%SERVER%\node_modules" (
-  echo   npm install in server...
-  pushd "%SERVER%" & call npm install & popd
-)
-if not exist "%WEB%\node_modules" (
-  echo   npm install in web...
-  pushd "%WEB%" & call npm install & popd
-)
+echo   pip install in fir-service...
+"%FIR%\.venv\Scripts\python.exe" -m pip install -q -r "%FIR%\requirements.txt" || (echo   pip install failed. & pause & exit /b 1)
+echo   npm install in server...
+pushd "%SERVER%"
+call npm install --no-audit --no-fund --loglevel=error || (popd & echo   npm install failed in server. & pause & exit /b 1)
+popd
+echo   npm install in web...
+pushd "%WEB%"
+call npm install --no-audit --no-fund --loglevel=error || (popd & echo   npm install failed in web. & pause & exit /b 1)
+popd
 echo   Dependencies ready.
 
 echo.

@@ -460,6 +460,10 @@ The FIR proxy must point to:
 FIR_BACKEND_URL=http://localhost:8000
 ```
 
+> **`start-all.bat` does the next two steps for you:** it generates any missing
+> `JWT_SECRET` and FIR shared secret (`ly-project/scripts/setup-env.mjs`, which
+> you can also run yourself with `node ly-project/scripts/setup-env.mjs`).
+
 User accounts also need a `JWT_SECRET`, a long random string that signs login
 cookies. Generate one and paste it after `JWT_SECRET=`:
 
@@ -482,7 +486,7 @@ python3 -c "import secrets; print(secrets.token_hex(32))"
 # ly-project/server/.env
 FIR_SHARED_SECRET=<the value>
 
-# fir_chatbot/.env
+# ly-project/fir-service/.env
 PROXY_SHARED_SECRET=<the same value>
 ```
 

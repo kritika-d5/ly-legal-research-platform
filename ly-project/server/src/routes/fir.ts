@@ -43,7 +43,7 @@ firProxyRouter.use(async (req, res) => {
     // show every user every FIR. Fail loudly instead.
     return res.status(503).json({
       error: 'FIR Assistant is not configured',
-      detail: 'Set FIR_SHARED_SECRET in ly-project/server/.env and the same value as PROXY_SHARED_SECRET in fir_chatbot/.env, then restart both servers.',
+      detail: 'Set FIR_SHARED_SECRET in ly-project/server/.env and the same value as PROXY_SHARED_SECRET in ly-project/fir-service/.env (start-all.bat does this for you), then restart both servers.',
     });
   }
 
