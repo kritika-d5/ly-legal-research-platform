@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import { streamChat, type ChatTurn, type Passage } from '../api';
 import { ContentBadge } from './Badges';
 import Icon from './Icon';
+import Markdown from './Markdown';
 
 interface Message extends ChatTurn {
   passages?: Passage[];
@@ -119,9 +120,14 @@ export default function ChatPanel({ tid, title }: { tid: number; title: string }
                   </ol>
                 </details>
               )}
-              <div className="prose-sm max-w-none whitespace-pre-wrap text-[15px] text-stone-800">
-                {m.content || <span className="text-stone-400">Thinking&hellip;</span>}
-              </div>
+              {m.content ? (
+                <Markdown
+                  text={m.content}
+                  className="rounded-lg border border-stone-200 bg-white px-4 py-3.5 text-[15px] text-stone-800"
+                />
+              ) : (
+                <p className="text-sm text-stone-400">Thinking&hellip;</p>
+              )}
             </div>
           ),
         )}
