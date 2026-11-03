@@ -38,6 +38,15 @@ export default function App() {
               <span className="hidden sm:inline">Citation explorer</span>
             </Link>
             <Link
+              to="/sections"
+              title="IPC ⇄ BNS and CrPC ⇄ BNSS"
+              aria-label="IPC to BNS section lookup"
+              className="flex items-center gap-1.5 text-stone-600 transition-colors hover:text-maroon-700"
+            >
+              <Icon name="cites" size={14} />
+              <span className="hidden whitespace-nowrap sm:inline">IPC ⇄ BNS</span>
+            </Link>
+            <Link
               to="/rights"
               title="Know your bail rights"
               aria-label="Know your bail rights"

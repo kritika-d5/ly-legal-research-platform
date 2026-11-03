@@ -7,10 +7,13 @@
  * become a case file without a second copy of anything.
  */
 import { Router } from 'express';
+import rateLimit from 'express-rate-limit';
 import { ObjectId } from 'mongodb';
 import { z } from 'zod';
 import { folders, nodes, savedCases } from '../config.js';
 import { requireVerified } from '../lib/auth.js';
+import { AnalysisUnavailableError, analyseCase, BAIL_SOUGHT, MAX_FACTS_CHARS } from '../lib/caseAnalysis.js';
+import { isSample, SAMPLE_FACTS, saveSampleIfClean, savedSample } from '../lib/sampleCase.js';
 import { retrieveInCase } from '../lib/caseContext.js';
 import { disagreeingJudgments, treatmentCounts } from '../lib/treatment.js';
 import type { MatterDetails, NodeDoc } from '../types.js';
@@ -165,6 +168,82 @@ lawyerRouter.get('/brief/:folderId', async (req, res, next) => {
 
     res.json({ matter: publicFolder(folder, items.length), issue, authorities, preparedBy: req.user!.name });
   } catch (err) {
+    next(err);
+  }
+});
+
+/** Each analysis is several Groq calls; this keeps one user from spending the
+ *  whole free-tier quota. Keyed by account, since the route is login-only. */
+const analysisLimiter = rateLimit({
+  windowMs: 10 * 60 * 1000,
+  limit: 8,
+  standardHeaders: 'draft-7',
+  legacyHeaders: false,
+  keyGenerator: (req) => String(req.user!._id),
+  message: { error: 'Too many analyses in a short time. Please wait a few minutes and try again.' },
+});
+
+const analysisSchema = z.object({
+  facts: z
+    .string()
+    .trim()
+    .min(80, 'Describe the facts in a little more detail (at least a few sentences).')
+    // Longer documents are accepted and trimmed by analyseCase; this only stops abuse.
+    .max(MAX_FACTS_CHARS * 4, 'That document is too long. Paste the relevant part of it instead.'),
+  bailSought: z.enum(BAIL_SOUGHT).optional(),
+  offenceCategory: z.enum(['ordinary', 'economic', 'ndps', 'pmla', 'uapa', 'other_special']).optional(),
+  /** skip the saved result of the sample case and run it live */
+  fresh: z.boolean().optional(),
+});
+
+/** GET /api/lawyer/analysis/sample  the sample case's facts, and whether a saved result exists. */
+lawyerRouter.get('/analysis/sample', async (_req, res, next) => {
+  try {
+    res.json({ facts: SAMPLE_FACTS, saved: (await savedSample()) !== null });
+  } catch (err) {
+    next(err);
+  }
+});
+
+/**
+ * POST /api/lawyer/analysis
+ *
+ * Bail case analysis from the client's facts: issues and sections, a check
+ * against the bail factors, missing facts and weaknesses, similar judgments
+ * from the corpus, and arguments for bail with the other side's answers
+ * (the Counter Engine run on the accused's position). See lib/caseAnalysis.ts.
+ * Nothing is stored: the facts are confidential client material. The one
+ * exception is the built-in sample case (lib/sampleCase.ts), whose invented
+ * facts and result are saved so a demonstration does not depend on the quota.
+ */
+lawyerRouter.post('/analysis', analysisLimiter, async (req, res, next) => {
+  try {
+    const parsed = analysisSchema.safeParse(req.body);
+    if (!parsed.success) return res.status(400).json({ error: parsed.error.issues[0].message });
+    const { facts, fresh, ...given } = parsed.data;
+    const sample = isSample(facts, given);
+    if (sample && !fresh) {
+      const saved = await savedSample();
+      if (saved) return res.json({ ...saved, truncated: false, savedExample: true });
+    }
+    const result = await analyseCase(facts, given);
+    if (sample) await saveSampleIfClean(result);
+    res.json({ ...result, truncated: facts.length > MAX_FACTS_CHARS, savedExample: false });
+  } catch (err) {
+    if (err instanceof AnalysisUnavailableError) return res.status(503).json({ error: err.message });
+    // Groq's free tier caps tokens per minute and per day; reaching here means
+    // the fallback models (lib/llm.ts) were rate-limited too.
+    if ((err as { status?: number }).status === 429) {
+      return res.status(429).json({
+        error: 'The AI service’s usage limit has been reached for now (Groq free tier). Please try again in a few minutes.',
+      });
+    }
+    // Any other model failure (bad JSON twice, a Groq outage): say so plainly
+    // rather than passing the provider's raw error text to the page.
+    if ((err as { status?: number }).status || err instanceof SyntaxError || err instanceof z.ZodError) {
+      console.error('[lawyer/analysis]', err);
+      return res.status(502).json({ error: 'The AI service could not analyse these facts this time. Please try again.' });
+    }
     next(err);
   }
 });

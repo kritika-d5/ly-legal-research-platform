@@ -169,6 +169,21 @@ export default function SearchPage() {
           <p className="mt-8 text-xs text-stone-500">
             {data.count} cases &middot; {data.tookMs} ms
           </p>
+          {!!data.equivalents?.length && (
+            <p className="mt-2 rounded-md bg-gold-50 px-3 py-2 text-xs text-gold-800">
+              These judgments predate the BNS / BNSS, so this search also looked for{' '}
+              {data.equivalents.map((e, i) => (
+                <span key={i}>
+                  {i > 0 && ', '}
+                  <strong className="font-semibold">{e.to}</strong> (now {e.from})
+                </span>
+              ))}
+              .{' '}
+              <Link to="/sections" className="underline underline-offset-2">
+                IPC ⇄ BNS lookup
+              </Link>
+            </p>
+          )}
           <ol className="mt-3 space-y-4">
             {data.results.map((r) => (
               <li

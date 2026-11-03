@@ -9,6 +9,7 @@ import CasePage from './pages/CasePage.tsx';
 import CounterPage from './pages/CounterPage.tsx';
 import ExplorerPage from './pages/ExplorerPage.tsx';
 import RightsPage from './pages/RightsPage.tsx';
+import SectionsPage from './pages/SectionsPage';
 import SavedPage from './pages/SavedPage.tsx';
 import SearchPage from './pages/SearchPage.tsx';
 import FirHomePage from './pages/fir/FirHomePage.tsx';
@@ -24,6 +25,7 @@ import ComparePage from './pages/judge/ComparePage.tsx';
 import MemoPage from './pages/judge/MemoPage.tsx';
 import TreatmentPage from './pages/judge/TreatmentPage.tsx';
 import BriefPage from './pages/lawyer/BriefPage.tsx';
+import AnalysisPage from './pages/lawyer/AnalysisPage';
 import MattersPage from './pages/lawyer/MattersPage.tsx';
 import RequireVerified from './components/RequireVerified.tsx';
 
@@ -53,6 +55,7 @@ createRoot(document.getElementById('root')!).render(
               <Route path="/case/:tid" element={<CasePage />} />
               <Route path="/explore" element={<ExplorerPage />} />
               <Route path="/rights" element={<RightsPage />} />
+              <Route path="/sections" element={<SectionsPage />} />
               <Route
                 path="/fir"
                 element={
@@ -147,6 +150,14 @@ createRoot(document.getElementById('root')!).render(
                 element={
                   <RequireVerified role="lawyer">
                     <BriefPage />
+                  </RequireVerified>
+                }
+              />
+              <Route
+                path="/lawyer/analysis"
+                element={
+                  <RequireVerified role="lawyer">
+                    <AnalysisPage />
                   </RequireVerified>
                 }
               />

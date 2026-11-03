@@ -12,6 +12,7 @@ import EgoGraph from '../components/EgoGraph';
 import PdfViewer from '../components/PdfViewer';
 import PrecedentCheck from '../components/PrecedentCheck';
 import SaveButton from '../components/SaveButton';
+import SectionsPanel from '../components/SectionsPanel';
 import SummaryPanel from '../components/SummaryPanel';
 import Icon, { type IconName } from '../components/Icon';
 import TextViewer from '../components/TextViewer';
@@ -179,6 +180,8 @@ export default function CasePage() {
             hint="Later cases in this corpus that cite it"
             items={data.citations.citedBy}
           />
+
+          <SectionsPanel tid={tid} />
 
           <div>
             <h2

@@ -2,6 +2,7 @@ import { Router } from 'express';
 import { z } from 'zod';
 import { explainPassages, MAX_EXPLAINED } from '../lib/explain.js';
 import { searchCases, searchPassages } from '../lib/search.js';
+import { expandQuery } from '../lib/sectionMap.js';
 
 export const searchRouter = Router();
 
@@ -42,8 +43,17 @@ searchRouter.get('/search', async (req, res, next) => {
       return res.status(400).json({ error: parsed.error.issues[0].message });
     }
     const t0 = Date.now();
-    const results = await searchCases(parsed.data.q, parseOptions(parsed.data));
-    res.json({ query: parsed.data.q, tookMs: Date.now() - t0, count: results.length, results });
+    // The corpus predates the BNS: a query naming BNS / BNSS sections also
+    // searches for the IPC / CrPC sections they replaced (lib/sectionMap.ts).
+    const expanded = expandQuery(parsed.data.q);
+    const results = await searchCases(expanded?.query ?? parsed.data.q, parseOptions(parsed.data));
+    res.json({
+      query: parsed.data.q,
+      tookMs: Date.now() - t0,
+      count: results.length,
+      results,
+      equivalents: expanded?.added ?? [],
+    });
   } catch (err) {
     next(err);
   }

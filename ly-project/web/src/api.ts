@@ -69,6 +69,8 @@ export interface SearchResponse {
   tookMs: number;
   count: number;
   results: CaseResult[];
+  /** BNS / BNSS sections in the query, and the IPC / CrPC sections also searched for them */
+  equivalents?: { from: string; to: string }[];
 }
 
 export interface Citation {

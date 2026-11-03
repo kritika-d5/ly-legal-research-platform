@@ -13,6 +13,7 @@ import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import express from 'express';
 import { chunks, client, env, nodes } from './config.js';
+import { modelStatus } from './lib/llm.js';
 import { loadUser } from './lib/auth.js';
 import { warmUp } from './lib/embed.js';
 import { ensureUserIndexes } from './lib/users.js';
@@ -28,6 +29,7 @@ import { judgeRouter } from './routes/judge.js';
 import { lawyerRouter } from './routes/lawyer.js';
 import { profileRouter } from './routes/profile.js';
 import { searchRouter } from './routes/search.js';
+import { sectionsRouter } from './routes/sections.js';
 import { ensureWorkspaceIndexes, workspaceRouter } from './routes/workspace.js';
 
 const app = express();
@@ -44,7 +46,7 @@ app.get('/api/health', async (_req, res) => {
     chunks.countDocuments({}),
     chunks.countDocuments({ embedding: { $type: 'array' } }),
   ]);
-  res.json({ ok: true, nodes: nodeCount, chunks: chunkCount, embedded, model: env.groqModel });
+  res.json({ ok: true, nodes: nodeCount, chunks: chunkCount, embedded, ...modelStatus() });
 });
 
 app.use('/api/auth', authRouter);
@@ -55,6 +57,7 @@ app.use('/api/judge', judgeRouter);
 app.use('/api/lawyer', lawyerRouter);
 app.use('/api', searchRouter);
 app.use('/api', casesRouter);
+app.use('/api', sectionsRouter);
 app.use('/api', chatRouter);
 app.use('/api', bailRouter);
 app.use('/api', graphRouter);

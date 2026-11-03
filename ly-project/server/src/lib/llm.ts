@@ -23,11 +23,84 @@ import type { ContentType, Passage } from '../types.js';
 
 let client: Groq | null = null;
 
+/**
+ * Model fallback, for the free tier. Each Groq model has its own daily token
+ * quota, and the main model's runs out under heavy use (a demo, an eval run).
+ * When a call on the main model is rate-limited, it is retried on the
+ * fallback models in order, and the main model is skipped until Groq's
+ * retry-after has passed, so later calls do not each waste a request on it.
+ *
+ * The fallback is a smaller model: it answers, but less carefully. Callers
+ * that show AI output can call `fallbackUses()` before and after their work
+ * to tell the user when the backup model was used.
+ */
+let primaryBlockedUntil = 0;
+let fallbackCount = 0;
+
+/** How many calls have been served by a fallback model since start-up. */
+export const fallbackUses = () => fallbackCount;
+
+export function modelStatus() {
+  const blocked = primaryBlockedUntil > Date.now();
+  return {
+    model: env.groqModel,
+    fallbackModels: env.groqFallbackModels,
+    usingFallback: blocked,
+    primaryAvailableAt: blocked ? new Date(primaryBlockedUntil).toISOString() : null,
+  };
+}
+
+const isRateLimit = (err: unknown) => (err as { status?: number }).status === 429;
+
+function retryAfterMs(err: unknown): number {
+  const headers = (err as { headers?: Record<string, string> }).headers;
+  const seconds = Number(headers?.['retry-after']);
+  return Number.isFinite(seconds) && seconds > 0 ? seconds * 1000 : 60_000;
+}
+
+type Create = Groq['chat']['completions']['create'];
+
+function withFallback(create: Create): Create {
+  return (async (body: Parameters<Create>[0], options?: Parameters<Create>[1]) => {
+    const fallbacks = env.groqFallbackModels.filter((m) => m !== body.model);
+    if (body.model !== env.groqModel || !fallbacks.length) return create(body, options);
+
+    let lastError: unknown;
+    if (primaryBlockedUntil <= Date.now()) {
+      try {
+        return await create(body, options);
+      } catch (err) {
+        if (!isRateLimit(err)) throw err;
+        primaryBlockedUntil = Date.now() + retryAfterMs(err);
+        console.warn(`[llm] ${body.model} rate-limited; using ${fallbacks.join(', ')} until ${new Date(primaryBlockedUntil).toISOString()}`);
+        lastError = err;
+      }
+    }
+    for (const model of fallbacks) {
+      try {
+        // A smaller reasoning model can spend Groq's default output cap on
+        // reasoning alone; keep it brief unless the caller chose otherwise.
+        const reply = await create({ reasoning_effort: 'low', ...body, model } as typeof body, options);
+        fallbackCount++;
+        return reply;
+      } catch (err) {
+        if (!isRateLimit(err)) throw err;
+        lastError = err;
+      }
+    }
+    throw lastError;
+  }) as Create;
+}
+
 export function groq(): Groq {
   if (!env.groqApiKey) {
     throw new Error('GROQ_API_KEY is not set in server/.env');
   }
-  if (!client) client = new Groq({ apiKey: env.groqApiKey });
+  if (!client) {
+    client = new Groq({ apiKey: env.groqApiKey });
+    const completions = client.chat.completions;
+    completions.create = withFallback(completions.create.bind(completions));
+  }
   return client;
 }
 

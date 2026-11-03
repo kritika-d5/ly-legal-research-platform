@@ -51,6 +51,12 @@ export const env = {
   mongoUri: MONGO_URI,
   groqApiKey: GROQ_API_KEY ?? '',
   groqModel: process.env.GROQ_MODEL || 'openai/gpt-oss-120b',
+  /** Tried in order when GROQ_MODEL hits a rate limit (Groq free tier: each
+   *  model has its own daily quota). Comma-separated; empty disables it. */
+  groqFallbackModels: (process.env.GROQ_FALLBACK_MODELS ?? 'openai/gpt-oss-20b')
+    .split(',')
+    .map((m) => m.trim())
+    .filter(Boolean),
   port: Number(PORT ?? 8080),
   jwtSecret: JWT_SECRET,
   /** Only send the session cookie over HTTPS once deployed; dev is plain http. */

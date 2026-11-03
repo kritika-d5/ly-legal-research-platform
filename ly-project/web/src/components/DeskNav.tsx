@@ -15,6 +15,7 @@ const DESKS: Record<'judge' | 'lawyer', { title: string; tools: { to: string; la
     tools: [
       { to: '/lawyer/matters', label: 'Matters', icon: 'folder' },
       { to: '/lawyer/brief', label: 'Argument builder', icon: 'gavel' },
+      { to: '/lawyer/analysis', label: 'Case analysis', icon: 'scales' },
     ],
   },
 };
