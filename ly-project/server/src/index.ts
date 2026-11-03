@@ -10,6 +10,7 @@ import express from 'express';
 import { chunks, client, env, nodes } from './config.js';
 import { warmUp } from './lib/embed.js';
 import { casesRouter } from './routes/cases.js';
+import { bailRouter } from './routes/bail.js';
 import { chatRouter } from './routes/chat.js';
 import { firProxyRouter } from './routes/fir.js';
 import { graphRouter } from './routes/graph.js';
@@ -31,6 +32,7 @@ app.get('/api/health', async (_req, res) => {
 app.use('/api', searchRouter);
 app.use('/api', casesRouter);
 app.use('/api', chatRouter);
+app.use('/api', bailRouter);
 app.use('/api', graphRouter);
 app.use('/api/fir', firProxyRouter);
 

@@ -28,7 +28,6 @@ export default function FirConversationPage() {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [warning, setWarning] = useState<string | null>(null);
-  const [nextAction, setNextAction] = useState<string | null>(null);
   const endRef = useRef<HTMLDivElement>(null);
 
   // Load existing case data
@@ -85,7 +84,6 @@ export default function FirConversationPage() {
       if (data.warning) {
         setWarning(data.warning);
       }
-      setNextAction(data.next_action);
 
       // If the case is complete or awaiting confirmation, redirect
       if (data.next_action === 'complete') {

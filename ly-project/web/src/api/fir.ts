@@ -329,6 +329,34 @@ export interface ConfirmResponse {
 }
 
 // ---------------------------------------------------------------------------
+// Fact helpers — the API sends plain JSON, so the Pydantic methods
+// (Fact.has_value, Fact.display, Accused.label in app/models/case_state.py)
+// do not exist on these objects. These mirror them; keep the two in step.
+// ---------------------------------------------------------------------------
+
+export function factHasValue(fact: Fact): boolean {
+  return fact.value !== null || (fact.approximate && !!fact.description);
+}
+
+/** Fact.display(). `markApproximate: false` leaves the "(approx.)" suffix to the caller. */
+export function factDisplay(fact: Fact, { markApproximate = true } = {}): string {
+  const approx = markApproximate ? ' (approx.)' : '';
+  if (fact.value !== null) return String(fact.value) + (fact.approximate ? approx : '');
+  if (fact.approximate && fact.description) return fact.description + approx;
+  if (fact.status === 'unknown') return 'not known to complainant';
+  if (fact.status === 'declined') return 'declined to share';
+  return 'not provided';
+}
+
+/** Accused.label(), e.g. 'Rahul' or "unidentified person (tall man in red shirt)". */
+export function accusedLabel(a: Accused): string {
+  if (a.name.value) return a.name.value;
+  if (a.alias.value) return `person known as '${a.alias.value}'`;
+  if (a.description.value) return `unidentified person (${a.description.value})`;
+  return 'unidentified person';
+}
+
+// ---------------------------------------------------------------------------
 // API client
 // ---------------------------------------------------------------------------
 

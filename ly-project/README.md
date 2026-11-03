@@ -119,6 +119,8 @@ everything pre-1950 — fall back to the Text tab automatically.
 | `GET /api/cases/:tid/pdf` | proxies the official SCR PDF |
 | `GET /api/cases/:tid/text` | chunks in document order, labelled |
 | `POST /api/cases/:tid/summary` | Issue / Held / Principle |
+| `POST /api/cases/:tid/bail-analysis` | bail outcome, reasons, factors, conditions and a structured summary, each pinned to passages. `?refresh=1` re-runs |
+| `GET /api/cases/:tid/bail-analysis` | the cached analysis, or 404. Never calls the model |
 | `POST /api/cases/:tid/chat` | case-scoped Q&A, streamed over SSE |
 | `GET /api/graph` | the whole citation graph — 200 nodes, 336 edges |
 | `GET /api/graph/ego/:tid?depth=1\|2` | one case's citation neighbourhood |
@@ -151,6 +153,39 @@ would just reward long judgments for being long.
 largest judgment has 428 chunks and the median has 18, so it is a few hundred
 dot products. The Atlas index keeps doing only the cross-corpus job it was
 built for.
+
+### Bail outcome & judgment analysis
+
+The case page's **Bail outcome** tab answers what a reader of a bail judgment
+wants first: was bail granted or rejected, why, and on what factors. It shows
+the outcome as a banner (and as a badge in the case header once known), a
+Background / Issue / Decision / Principle summary, the court's reasons, the
+factors it weighed (gravity, flight risk, tampering, custody period, delay,
+parity, Article 21…) marked as favouring or weighing against the accused, any
+conditions imposed, and the paragraphs each of those rests on.
+
+`server/src/lib/bailAnalysis.ts` picks the context deliberately: the closing
+passages (where the operative order is made, flagged as such to the model),
+then the SCR headnote, then the best matches for three probes (outcome /
+reasons / custody & liberty), within a 4k-token budget, put back in document
+order. Outcomes: granted, rejected, partly granted, cancelled, remanded,
+directions (guideline judgments such as Antil), not a bail decision, unclear.
+
+The model returns JSON citing passage numbers, and the server checks it:
+
+- citations to passages the model was never shown are dropped;
+- an outcome with no citation gets the closing passage whose wording makes the
+  order ("bail applications are dismissed…"), and the UI says it was located
+  that way;
+- an outcome resting only on a mid-judgment passage is marked medium confidence
+  with a warning — Antil's "The appeal is dismissed accordingly." at p. 53 is a
+  quoted order of another court, labelled `court_text` by the chunker;
+- an outcome resting only on quoted material is marked low confidence.
+
+Results are cached in memory per case; nothing is written to Mongo. Checked
+against Sanjay Chandra (granted), Siddharam Mhetre (anticipatory, granted),
+Kalyan Chandra Sarkar and State of Bihar v. Rajballav (cancelled), Sharad Kumar
+(HC, rejected), Antil (directions) and A.K. Gopalan (not a bail decision).
 
 ---
 

@@ -164,6 +164,112 @@ export async function getSummary(tid: number) {
   return res.json() as Promise<{ tid: number; title: string; summary: string; passages: Passage[] }>;
 }
 
+export type BailOutcome =
+  | 'granted'
+  | 'rejected'
+  | 'partly_granted'
+  | 'cancelled'
+  | 'remanded'
+  | 'directions'
+  | 'not_a_bail_decision'
+  | 'unclear';
+
+export interface BailAnalysis {
+  outcome: BailOutcome;
+  bailType: string;
+  confidence: 'high' | 'medium' | 'low';
+  outcomeStatement: string;
+  /** 1-based indices into `passages` — every claim points at its source */
+  outcomeEvidence: number[];
+  reasons: { reason: string; evidence: number[] }[];
+  factors: {
+    factor: string;
+    label: string;
+    weighed: 'for_accused' | 'against_accused' | 'neutral';
+    explanation: string;
+    evidence: number[];
+  }[];
+  conditions: string[];
+  summary: { background: string; issue: string; decision: string; principle: string };
+  evidenceWarning: string | null;
+  /** the supporting passage was found by its wording, not cited by the model */
+  outcomeEvidenceMatched: boolean;
+}
+
+export interface BailAnalysisResponse {
+  tid: number;
+  title: string;
+  analysis: BailAnalysis;
+  /** `closing`: one of the judgment's last passages, where the order is made */
+  passages: (Passage & { seq: number; closing: boolean })[];
+  model: string;
+  generatedAt: string;
+}
+
+/** The server's cached analysis, or null. Never triggers a model call. */
+export async function getCachedBailAnalysis(tid: number) {
+  const res = await fetch(`/api/cases/${tid}/bail-analysis`);
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error(`bail analysis failed (${res.status})`);
+  return res.json() as Promise<BailAnalysisResponse>;
+}
+
+export async function analyseBail(tid: number, refresh = false) {
+  const res = await fetch(`/api/cases/${tid}/bail-analysis${refresh ? '?refresh=1' : ''}`, {
+    method: 'POST',
+  });
+  if (!res.ok) {
+    const body = await res.json().catch(() => ({}));
+    throw new Error(body.error ?? `bail analysis failed (${res.status})`);
+  }
+  return res.json() as Promise<BailAnalysisResponse>;
+}
+
+/** How each outcome is shown. Granted/rejected borrow the sage/vermilion
+ *  convention the citation badges already use for approval/disapproval. */
+export const OUTCOME_LABEL: Record<BailOutcome, { short: string; tone: string; banner: string }> = {
+  granted: {
+    short: 'Bail granted',
+    tone: 'bg-sage-50 text-sage-700 border-sage-200',
+    banner: 'border-sage-200 bg-sage-50 text-sage-700',
+  },
+  rejected: {
+    short: 'Bail rejected',
+    tone: 'bg-vermilion-50 text-vermilion-700 border-vermilion-200',
+    banner: 'border-vermilion-200 bg-vermilion-50 text-vermilion-700',
+  },
+  partly_granted: {
+    short: 'Partly granted',
+    tone: 'bg-gold-50 text-gold-700 border-gold-200',
+    banner: 'border-gold-200 bg-gold-50 text-gold-700',
+  },
+  cancelled: {
+    short: 'Bail cancelled',
+    tone: 'bg-vermilion-50 text-vermilion-700 border-vermilion-200',
+    banner: 'border-vermilion-200 bg-vermilion-50 text-vermilion-700',
+  },
+  remanded: {
+    short: 'Remanded',
+    tone: 'bg-navy-50 text-navy-600 border-navy-200',
+    banner: 'border-navy-200 bg-navy-50 text-navy-600',
+  },
+  directions: {
+    short: 'Bail directions issued',
+    tone: 'bg-navy-50 text-navy-600 border-navy-200',
+    banner: 'border-navy-200 bg-navy-50 text-navy-600',
+  },
+  not_a_bail_decision: {
+    short: 'Not a bail decision',
+    tone: 'bg-stone-100 text-stone-600 border-stone-300',
+    banner: 'border-stone-300 bg-stone-100 text-stone-700',
+  },
+  unclear: {
+    short: 'Outcome unclear',
+    tone: 'bg-stone-100 text-stone-600 border-stone-300',
+    banner: 'border-stone-300 bg-stone-100 text-stone-700',
+  },
+};
+
 export interface ChatTurn {
   role: 'user' | 'assistant';
   content: string;

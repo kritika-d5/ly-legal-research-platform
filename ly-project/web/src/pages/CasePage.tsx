@@ -1,8 +1,9 @@
 import { useQuery } from '@tanstack/react-query';
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { getCase, type Citation } from '../api';
+import { getCachedBailAnalysis, getCase, OUTCOME_LABEL, type Citation } from '../api';
 import { KanoonSourceNote } from '../components/Attribution';
+import BailAnalysisPanel from '../components/BailAnalysisPanel';
 import { PolarityBadge, TierBadge } from '../components/Badges';
 import ChatPanel from '../components/ChatPanel';
 import EgoGraph from '../components/EgoGraph';
@@ -12,7 +13,7 @@ import Icon, { type IconName } from '../components/Icon';
 import TextViewer from '../components/TextViewer';
 import { shortCaseTitle, useDocumentTitle } from '../useDocumentTitle';
 
-type Tab = 'document' | 'text' | 'citations' | 'summary' | 'chat';
+type Tab = 'document' | 'text' | 'bail' | 'citations' | 'summary' | 'chat';
 
 export default function CasePage() {
   const { tid: tidParam } = useParams();
@@ -22,6 +23,13 @@ export default function CasePage() {
     queryFn: () => getCase(tid),
   });
   const [tab, setTab] = useState<Tab>('document');
+  // Shares its cache with BailAnalysisPanel, so the header badge appears the
+  // moment an analysis exists — on load if the server has one, or right after
+  // the user runs it.
+  const { data: bail } = useQuery({
+    queryKey: ['bail', tid],
+    queryFn: () => getCachedBailAnalysis(tid),
+  });
 
   useDocumentTitle(data ? shortCaseTitle(data.title) : null);
 
@@ -45,6 +53,7 @@ export default function CasePage() {
       ? ([['document', 'Official PDF', 'document']] as [Tab, string, IconName][])
       : []),
     ['text', 'Text', 'text'],
+    ['bail', 'Bail outcome', 'gavel'],
     ['citations', 'Citation graph', 'network'],
     ['summary', 'Summary', 'summary'],
     ['chat', 'Ask this case', 'chat'],
@@ -68,6 +77,17 @@ export default function CasePage() {
           </h1>
           <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-stone-500">
             <TierBadge tier={data.courtTier} />
+            {bail && (
+              <button
+                onClick={() => setTab('bail')}
+                title="See the reasons and supporting paragraphs"
+                className={`inline-flex items-center gap-1 rounded border px-1.5 py-0.5 text-[11px]
+                            font-medium ${OUTCOME_LABEL[bail.analysis.outcome].tone}`}
+              >
+                <Icon name="gavel" size={11} strokeWidth={1.8} />
+                {OUTCOME_LABEL[bail.analysis.outcome].short}
+              </button>
+            )}
             <span>{data.court}</span>
             {data.publishdate && <span>{data.publishdate}</span>}
             {data.neutralCitation && <span>{data.neutralCitation}</span>}
@@ -109,6 +129,7 @@ export default function CasePage() {
 
           {effectiveTab === 'document' && data.pdfUrl && <PdfViewer url={data.pdfUrl} />}
           {effectiveTab === 'text' && <TextViewer tid={tid} />}
+          {effectiveTab === 'bail' && <BailAnalysisPanel tid={tid} />}
           {effectiveTab === 'citations' && <EgoGraph tid={tid} />}
           {effectiveTab === 'summary' && <SummaryPanel tid={tid} />}
           {effectiveTab === 'chat' && <ChatPanel tid={tid} title={data.title} />}

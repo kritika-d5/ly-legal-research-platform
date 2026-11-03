@@ -32,7 +32,7 @@ export function groq(): Groq {
 }
 
 /** How each content_type must be described to the user. */
-const ATTRIBUTION: Record<ContentType, string> = {
+export const ATTRIBUTION: Record<ContentType, string> = {
   court_text: "the court's own words in this judgment",
   quoted_case: 'text QUOTED FROM ANOTHER JUDGMENT (not this court speaking)',
   quoted_statute: 'the bare text of a STATUTORY PROVISION reproduced in the judgment',

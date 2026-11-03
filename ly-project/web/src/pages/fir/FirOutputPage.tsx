@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { getFirCaseState, type CaseState } from '../../api/fir';
+import { accusedLabel, getFirCaseState } from '../../api/fir';
 import Icon from '../../components/Icon';
 import { useDocumentTitle } from '../../useDocumentTitle';
 
@@ -140,7 +140,7 @@ export default function FirOutputPage() {
             {state.accused.map((a) => (
               <OutputRow
                 key={a.accused_id}
-                label={`Accused: ${a.label()}`}
+                label={`Accused: ${accusedLabel(a)}`}
                 value={a.description.value || a.alias.value || 'No description'}
               />
             ))}

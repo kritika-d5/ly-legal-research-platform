@@ -48,6 +48,7 @@ The main LY application provides the legal research experience, including:
 * Case exploration
 * Legal chat
 * Citation graph
+* Bail outcome & judgment analysis (granted / rejected, reasons, factors, supporting paragraphs)
 * Retrieval/RAG functionality
 * MongoDB-backed legal research functionality
 * Embedding-based retrieval
@@ -189,50 +190,59 @@ Updated-ly-project/
 │   │   │   │   ├── chat.ts
 │   │   │   │   ├── search.ts
 │   │   │   │   ├── graph.ts
-│   │   │   │   └── fir.ts
+│   │   │   │   ├── bail.ts          ← bail outcome & judgment analysis
+│   │   │   │   └── fir.ts           ← proxy to fir-service
 │   │   │   │
 │   │   │   ├── lib/
+│   │   │   │   └── bailAnalysis.ts
 │   │   │   └── index.ts
 │   │   │
 │   │   ├── package.json
 │   │   └── .env.example
 │   │
-│   └── web/
-│       ├── src/
+│   ├── web/
+│   │   ├── src/
+│   │   │   ├── api/
+│   │   │   │   └── fir.ts
+│   │   │   │
+│   │   │   ├── components/
+│   │   │   │   └── BailAnalysisPanel.tsx
+│   │   │   │
+│   │   │   ├── pages/
+│   │   │   │   └── fir/
+│   │   │   │       ├── FirHomePage.tsx
+│   │   │   │       ├── FirConversationPage.tsx
+│   │   │   │       ├── FirReviewPage.tsx
+│   │   │   │       ├── FirConfirmPage.tsx
+│   │   │   │       └── FirOutputPage.tsx
+│   │   │   │
+│   │   │   └── ...
+│   │   │
+│   │   └── package.json
+│   │
+│   └── fir-service/            ← FIR Assistant backend (FastAPI)
+│       ├── app/
 │       │   ├── api/
-│       │   │   └── fir.ts
-│       │   │
-│       │   ├── pages/
-│       │   │   └── fir/
-│       │   │       ├── FirHomePage.tsx
-│       │   │       ├── FirConversationPage.tsx
-│       │   │       ├── FirReviewPage.tsx
-│       │   │       ├── FirConfirmPage.tsx
-│       │   │       └── FirOutputPage.tsx
-│       │   │
-│       │   └── ...
+│       │   ├── conversation/
+│       │   ├── extraction/
+│       │   ├── llm/
+│       │   ├── models/
+│       │   ├── storage/
+│       │   ├── utils/
+│       │   └── validation/
 │       │
-│       └── package.json
-│
-└── fir_chatbot/
-    │
-    ├── app/
-    │   ├── api/
-    │   ├── conversation/
-    │   ├── extraction/
-    │   ├── llm/
-    │   ├── models/
-    │   ├── storage/
-    │   ├── utils/
-    │   └── validation/
-    │
-    ├── tests/
-    ├── docs/
-    ├── frontend/
-    ├── data/
-    ├── requirements.txt
-    └── .env.example
+│       ├── tests/
+│       ├── docs/
+│       ├── frontend/           ← legacy standalone UI; the React pages replace it
+│       ├── data/
+│       ├── requirements.txt
+│       └── .env.example
 ```
+
+All three services live under `ly-project/` as siblings: `server` and `web`
+are the Node/React app, `fir-service` is the Python backend the server proxies
+to. It is still its own process (it is Python, the server is Node), but it is
+part of the same project rather than a second project beside it.
 
 ---
 
@@ -308,8 +318,10 @@ The expected structure is:
 
 ```text
 Updated-ly-project/
-├── ly-project/
-└── fir_chatbot/
+└── ly-project/
+    ├── server/
+    ├── web/
+    └── fir-service/
 ```
 
 ---
@@ -323,7 +335,7 @@ There are two independent backend environments.
 Located at:
 
 ```text
-fir_chatbot/.env
+ly-project/fir-service/.env
 ```
 
 ## LY server environment
@@ -354,7 +366,7 @@ Never put real API keys into:
 Enter the FIR directory:
 
 ```powershell
-cd fir_chatbot
+cd ly-project\fir-service
 ```
 
 Create the environment file from the example:
@@ -372,7 +384,7 @@ notepad .env
 Configure the required variables using the variable names already provided in:
 
 ```text
-fir_chatbot/.env.example
+ly-project/fir-service/.env.example
 ```
 
 The important LLM configuration follows this pattern:
@@ -402,13 +414,13 @@ The FIR project supports the provider configuration implemented by its LLM facto
 Use the provider and model settings documented in:
 
 ```text
-fir_chatbot/.env.example
+ly-project/fir-service/.env.example
 ```
 
 and:
 
 ```text
-fir_chatbot/docs/SETUP.md
+ly-project/fir-service/docs/SETUP.md
 ```
 
 ---
@@ -418,7 +430,7 @@ fir_chatbot/docs/SETUP.md
 Enter the server directory:
 
 ```powershell
-cd ..\ly-project\server
+cd ..\server
 ```
 
 Create the environment file:
@@ -460,7 +472,7 @@ Do not put those credentials into Git.
 From:
 
 ```text
-Updated-ly-project/fir_chatbot
+Updated-ly-project/ly-project/fir-service
 ```
 
 create a virtual environment:
@@ -532,7 +544,7 @@ Start them in the following order.
 Navigate to:
 
 ```powershell
-cd C:\path\to\Updated-ly-project\fir_chatbot
+cd C:\path\to\Updated-ly-project\ly-project\fir-service
 ```
 
 Activate the Python environment:
@@ -814,7 +826,7 @@ LLM_PROVIDER is 'groq' but LLM_API_KEY is empty
 Check:
 
 ```text
-fir_chatbot/.env
+ly-project/fir-service/.env
 ```
 
 Make sure the relevant variables are configured.
@@ -991,13 +1003,13 @@ localhost:8000
 The FIR backend has a Python test suite under:
 
 ```text
-fir_chatbot/tests/
+ly-project/fir-service/tests/
 ```
 
 Run:
 
 ```powershell
-cd fir_chatbot
+cd ly-project\fir-service
 .\.venv\Scripts\Activate.ps1
 pytest
 ```
@@ -1043,7 +1055,7 @@ package.json
 The following files must remain local:
 
 ```text
-fir_chatbot/.env
+ly-project/fir-service/.env
 ly-project/server/.env
 ```
 
